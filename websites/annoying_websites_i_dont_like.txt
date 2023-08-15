@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 12August2023v3
+! Version: 15August2023v4
 ! Expires: 14 days
 ! Homepage: https://github.com/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -10,3 +10,6 @@ tesla.com
 foxnews.com
 breitbart.com
 foxweather.com
+grubhub.com
+ubereats.com
+doordash.com
