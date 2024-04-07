@@ -1,6 +1,6 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 15August2023v4
-! Expires: 14 days
+! Version: 6April2024v1
+! Expires: 7 days
 ! Homepage: https://github.com/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
 
@@ -13,3 +13,8 @@ foxweather.com
 grubhub.com
 ubereats.com
 doordash.com
+papaginos.com
+retailmenot.com
+twitter.com
+x.com
+xai.com
