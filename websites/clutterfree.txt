@@ -18,6 +18,12 @@ panel.dreamhost.com###tracking_nav_add_workspace
 panel.dreamhost.com###tracking_nav_add_seotoolkit
 panel.dreamhost.com###tracking_nav_add_wordpress
 panel.dreamhost.com###tracking_nav_add_dreamshield
+panel.dreamhost.com###tracking_nav_referrals
+||d3909a8zmoqtxs.cloudfront.net/img/xyz-promo-background.24e6ecd.png$image
+panel.dreamhost.com##.m-bottom-3.flex.xyz-promo-section
+panel.dreamhost.com##.t-decoration-none.tld-sale-post.l-block.p-3
+panel.dreamhost.com##.tld-column
+panel.dreamhost.com##.m-bottom-3.p-3.bg-c-w100.panel-section.addon-section
 
 ! Arcamax Comics in Gmail
 mail.google.com##.m_4827611407109577927comic-content.m_4827611407109577927inner-content > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > [href]
