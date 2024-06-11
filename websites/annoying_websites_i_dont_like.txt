@@ -1,20 +1,36 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 6April2024v1
+! Version: 11June2024v1
 ! Expires: 7 days
 ! Homepage: https://github.com/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
 
-spacex.com
-starlink.com
-tesla.com
-foxnews.com
-breitbart.com
-foxweather.com
+! Probably fine but I just don't like to see
 grubhub.com
 ubereats.com
 doordash.com
 papaginos.com
 retailmenot.com
+
+! Sites that contribute to evil
+foxweather.com
+xai.com
+spacex.com
+starlink.com
+tesla.com
+
+! Hate Sites
 twitter.com
 x.com
-xai.com
+thegatewaypundit.com
+breitbart.com
+dailywire.com
+foxnews.com
+foxbusiness.com
+thehill.com
+dailymail.com
+dailymail.co.uk
+telegraph.co.uk
+conservatives.com
+conservative.ca
+reformparty.uk
+gbnews.com
