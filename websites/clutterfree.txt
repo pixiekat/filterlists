@@ -1,0 +1,25 @@
+! Title: Pixiekat's Guide to a Clutter-Free Internet
+! Version: 11June2024v1
+! Expires: 7 days
+! Homepage: https://github.com/pixiekat/filterlists
+! Description: Just cleanin' up the clutter and taking out the trash from places that shove things I have no need for in their websites.
+
+! Jun 11, 2024 https://panel.dreamhost.com Cleans up unnecessary items from the Dreamhost Control Panel
+panel.dreamhost.com###tracking_nav_ai
+panel.dreamhost.com###tracking_nav_proservices
+panel.dreamhost.com##.hirePro
+panel.dreamhost.com##.m-bottom-3.bg-c-w100.panel-section.pro-service-section
+panel.dreamhost.com##.panel-section.community-section
+panel.dreamhost.com##.p-y-3.bg-c-w100.flex-column.flex.panel-section.email-workspace-wrapper
+panel.dreamhost.com##.p-y-3.bg-c-w100.flex-column.flex.panel-section.dreamshield-wrapper
+panel.dreamhost.com##.p-y-3.bg-c-w100.flex-column.flex.panel-section.seotoolkit-wrapper
+panel.dreamhost.com###tracking_nav_wordpress_install
+panel.dreamhost.com###tracking_nav_add_workspace
+panel.dreamhost.com###tracking_nav_add_seotoolkit
+panel.dreamhost.com###tracking_nav_add_wordpress
+panel.dreamhost.com###tracking_nav_add_dreamshield
+
+! Arcamax Comics in Gmail
+mail.google.com##.m_4827611407109577927comic-content.m_4827611407109577927inner-content > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > [href]
+mail.google.com##.m_803351242008969594comic-content.m_803351242008969594inner-content > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > [href]
+mail.google.com##a[href*="sli.arcamax.com/click"]
