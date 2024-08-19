@@ -1,13 +1,13 @@
 ! Title: Twitter Link Identifier
-! Version: 19August2024v1
+! Version: 19August2024v2
 ! Expires: 10 days
 ! Description: A script that identifies Twitter links. I used DandelionSprout's Rickroll Link Identifier as an inspiration.
 
 !#if !env_mv3
 !#if !ext_ubol
 !#if !adguard_ext_android_cb
-*##a[href*="twitter.com"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
-*##a[href*="x.com"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="twitter.com"]::before:style(content: "(Warning: Twitter) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="x.com"]::before:style(content: "(Warning: Twitter) " !important; color: #E6000D !important; visibility: visible)
 
 ||twitter.com^
 ||x.com^
