@@ -11,6 +11,11 @@ doordash.com
 papaginos.com
 retailmenot.com
 
+! Twitter is garbage, get rid of it
+||platform.twitter.com/embed/Tweet.html$subdocument
+##.twitter-tweet
+##.twitter-tweet.twitter-tweet-rendered
+
 ! Sites that contribute to evil
 foxweather.com
 xai.com
