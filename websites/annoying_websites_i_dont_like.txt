@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 14September2024v2
+! Version: 14September2024v3
 ! Expires: 7 days
 ! Homepage: https://github.com/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -15,6 +15,9 @@ retailmenot.com
 ||platform.twitter.com/embed/Tweet.html$subdocument
 ##.twitter-tweet
 ##.twitter-tweet.twitter-tweet-rendered
+
+! Also get rid of shitty Truth Social embeds
+##.truthsocial-embed
 
 ! Sites that contribute to evil
 foxweather.com
