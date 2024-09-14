@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 14September2024v1
+! Version: 14September2024v2
 ! Expires: 7 days
 ! Homepage: https://github.com/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -29,11 +29,11 @@ vance.senate.gov
 www.congress.gov/member/j-vance/V000137
 wikipedia.org/wiki/JD_Vance
 facebook.com/senatorvance
-youtube.com##a[href^="/@RSBN" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
-youtube.com##a[href^="/@foxnews" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
-youtube.com##a[href^="/@dailywireplus" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
-youtube.com##a[href^="/channel/UCAql2DyGU2un1Ei2nMYsqOA" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
-youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/@RSBN" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/@foxnews" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/@dailywireplus" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/channel/UCAql2DyGU2un1Ei2nMYsqOA" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 rsbnetwork.com
 
 ! Hate Sites
