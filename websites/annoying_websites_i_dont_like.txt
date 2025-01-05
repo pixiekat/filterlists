@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 14September2024v5
+! Version: 5January2025v1
 ! Expires: 7 days
 ! Homepage: https://github.com/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -8,7 +8,6 @@
 grubhub.com
 ubereats.com
 doordash.com
-papaginos.com
 retailmenot.com
 
 ! Twitter is garbage, get rid of it
@@ -23,6 +22,7 @@ retailmenot.com
 foxweather.com
 xai.com
 spacex.com
+*.substack.com
 starlink.com
 tesla.com
 kennedy24.com
@@ -51,6 +51,7 @@ foxnews.com
 foxbusiness.com
 thehill.com
 dailymail.com
+greenwald.locals.com
 dailymail.co.uk
 telegraph.co.uk
 conservatives.com
@@ -58,11 +59,21 @@ conservative.ca
 gop.com
 rnc.org
 donaldjtrump.com
+trumpvancetransition.com
+tulsigabbard.com
+nfarage.com
+wesstreeting.org
+keirstarmer.com
+kemibadenoch.org.uk
 trump.com
 heritage.org
 reformparty.uk
+reformparty.org
 gbnews.com
 
+! preparing for that fucking guy
+whitehouse.gov
+
 ! Trashy tabloids 
-!mediaite.com
-!newsnationnow.com
+mediaite.com
+newsnationnow.com
