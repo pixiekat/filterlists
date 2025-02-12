@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 5January2025v1
+! Version: 12February2025v1
 ! Expires: 7 days
 ! Homepage: https://github.com/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -70,6 +70,9 @@ heritage.org
 reformparty.uk
 reformparty.org
 gbnews.com
+doge.gov
+dei.gov
+waste.gov
 
 ! preparing for that fucking guy
 whitehouse.gov
