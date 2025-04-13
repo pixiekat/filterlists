@@ -1,14 +1,14 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 25March2025v1
+! Version: 13April2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
 
 ! Probably fine but I just don't like to see
-grubhub.com
-ubereats.com
-doordash.com
-retailmenot.com
+||grubhub.com^
+||ubereats.com^
+||doordash.com^
+||retailmenot.com^
 
 ! Twitter is garbage, get rid of it
 ||platform.twitter.com/embed/Tweet.html$subdocument
