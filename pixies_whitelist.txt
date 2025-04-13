@@ -1,0 +1,24 @@
+! Title: 💞 Pixie's Whitelist (ABP)
+! Version: 13April2025v1
+! Expires: 12 hours
+! Description: The OK websites for me!
+! Homepage: codeberg.org/pixiekat/filterlists
+
+! Allow anything from my personal sites
+@@||spacecadetgrrl.me^$important
+@@||pixiekat.net^$important
+
+! CNN.com live streaming
+@@||turnip.cdn.turner.com^$important
+
+! Political sites
+@@||democraticunderground.com^$important
+
+! Hasan merch
+@@||ideologie.shop^$important
+
+! Spam TLDs that are OK
+@@||hashtags.fyi^$important
+@@||joinfediverse.wiki^$important
+@@||limetorrents.lol^$important
+@@||palemoon.start.me^$important
