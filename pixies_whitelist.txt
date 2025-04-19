@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 13April2025v1
+! Version: 18April2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -16,6 +16,9 @@
 
 ! Hasan merch
 @@||ideologie.shop^$important
+
+! VPNs
+@@||expressvpn.com^$important
 
 ! Spam TLDs that are OK
 @@||hashtags.fyi^$important
