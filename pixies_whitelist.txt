@@ -8,8 +8,46 @@
 @@||spacecadetgrrl.me^$important
 @@||pixiekat.net^$important
 
+! ITV Fixing
+@@||tom.itv.com^$important
+@@||itvpnp.live.ott.irdeto.com^$important
+
+! STV Fixing
+@@||stv.hb.omtrdc.net^$important
+@@||stv.d3.sc.omtrdc.net^$important
+@@||stv.sc.omtrdc.net^$important
+@@||stv.hb.omtrdc.net^$important
+@@||stvandroid.2cnt.net^$important
+
+! BBC iPlayer
+@@||r.bbci.co.uk^$important
+
+! Google
+@@||embeddedassistant.googleapis.com^$important
+@@||speechs3proto2-pa.googleapis.com^$important
+@@||clients3.google.com^$important
+@@||device-provisioning.googleapis.com^$important
+@@||marketingplatform.google.com^$client='192.168.8.122'
+@@||360suite.google.com^$client='192.168.8.122'
+
+! Deckblue
+@@||deck.blue^$important
+
+! Pushbullet
+@@||update.pushbullet.com^$important
+
+! Mozilla
+@@||incoming.telemetry.mozilla.org^$important
+
+! WBRU Fixing
+@@||wbru.com^$important
+@@||mercure.radio.co^$important
+
 ! CNN.com live streaming
 @@||turnip.cdn.turner.com^$important
+
+! Youtube
+@@||s.youtube.com^$important
 
 ! Political sites
 @@||democraticunderground.com^$important
@@ -25,4 +63,3 @@
 @@||joinfediverse.wiki^$important
 @@||limetorrents.lol^$important
 @@||palemoon.start.me^$important
-@@||botlibre.biz^$important
