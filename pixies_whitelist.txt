@@ -63,3 +63,4 @@
 @@||joinfediverse.wiki^$important
 @@||limetorrents.lol^$important
 @@||palemoon.start.me^$important
+@@||alex.party^$important
