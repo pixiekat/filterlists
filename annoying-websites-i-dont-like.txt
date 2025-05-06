@@ -77,3 +77,4 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||dei.gov^
 ||waste.gov^
 ||whitehouse.gov^
+||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*
