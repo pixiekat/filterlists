@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 08May2025v1
+! Version: 12May2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -61,6 +61,7 @@
 ! Spam TLDs that are OK
 @@||hashtags.fyi^$important
 @@||joinfediverse.wiki^$important
+@@||peertube.wtf^$important
 @@||limetorrents.lol^$important
 @@||palemoon.start.me^$important
 @@||alex.party^$important
