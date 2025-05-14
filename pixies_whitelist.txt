@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 12May2025v1
+! Version: 14May2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -66,3 +66,10 @@
 @@||palemoon.start.me^$important
 @@||alex.party^$important
 @@||stream.new^$important
+
+! Trackers that are ok
+@@||isk.richardsw.club^$important
+@@||tracker.imgoingto.icu^$important
+@@||tracker.coppersurfer.tk^$important
+@@||aegir.sexy^$important
+@@||moonburrow.club^$important
