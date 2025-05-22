@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Guide to a Clutter-Free Internet
-! Version: 25March2025v1
+! Version: 22May2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Just cleanin' up the clutter and taking out the trash from places that shove things I have no need for in their websites.
@@ -29,3 +29,17 @@ panel.dreamhost.com##.m-bottom-3.p-3.bg-c-w100.panel-section.addon-section
 mail.google.com##.m_4827611407109577927comic-content.m_4827611407109577927inner-content > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > [href]
 mail.google.com##.m_803351242008969594comic-content.m_803351242008969594inner-content > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > [href]
 mail.google.com##a[href*="sli.arcamax.com/click"]
+
+! Mediaite
+www.mediaite.com##.u-lazy-parent.o-slice.c-youtube-home-section.o-fcc-full\@desktop
+www.mediaite.com##.c-sidebar-tips.o-sidebar-tips.promo-sidebar.promo
+www.mediaite.com##.c-footer-network__item.c-footer-network-bottleraiders
+www.mediaite.com##li.c-header-nav-bar__item.primary:nth-of-type(3)
+www.mediaite.com##.c-menu-social-items.o-social-items
+www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(8)
+www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(7)
+www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(6)
+www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(5)
+www.mediaite.com##li.c-menu-nav-list__item.primary:nth-of-type(3)
+www.mediaite.com##.c-header-account-wrap
+www.mediaite.com##.c-youtube-container
