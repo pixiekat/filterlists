@@ -63,6 +63,7 @@
 @@||expressvpn.com^$important
 
 ! Spam TLDs that are OK
+@@||rvncd.cfd^$important
 @@||hashtags.fyi^$important
 @@||joinfediverse.wiki^$important
 @@||peertube.wtf^$important
