@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 05May2025v1
+! Version: 16June2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -25,8 +25,8 @@
 ||substack.com^
 ||starlink.com^
 ||tesla.com^
-||kennedy24.com^
-||rfkhumanrights.org^
+||kennedy24.com^$document,domain=~its-a-fascist-domain.*
+||rfkhumanrights.org^$document,domain=~its-a-fascist-domain.*
 ||rfkcos.lausd.org^
 ||vance.senate.gov^
 ||www.congress.gov/member/j-vance/V000137^
@@ -38,7 +38,7 @@ youtube.com##a[href^="/@dailywireplus" i]:upward(ytd-channel-renderer, ytd-unive
 youtube.com##a[href^="/channel/UCAql2DyGU2un1Ei2nMYsqOA" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 ||rsbnetwork.com^
-||kennedy-center.org^
+||kennedy-center.org^$document,domain=~its-a-fascist-domain.*
 
 ! Hate Sites
 ||twitter.com^
@@ -57,24 +57,25 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||telegraph.co.uk^
 ||conservatives.com^
 ||conservative.ca^
-||gop.com^
-||rnc.org^
-||donaldjtrump.com^
-||trumpvancetransition.com^
-||tulsigabbard.com^
+||gop.com^$document,domain=~its-a-fascist-domain.*
+||rnc.org^$document,domain=~its-a-fascist-domain.*
+||donaldjtrump.com^$document,domain=~its-a-fascist-domain.*
+||trumpvancetransition.com^$document,domain=~its-a-fascist-domain.*
+||tulsigabbard.com^$document,domain=~its-a-fascist-domain.*
 ||canadafreepress.com^
 ||rebelnews.com^
-||nfarage.com^
-||wesstreeting.org^
-||keirstarmer.com^
-||kemibadenoch.org.uk^
-||trump.com^
+||nfarage.com^$document,domain=~its-a-fascist-domain.*
+||wesstreeting.org^$document,domain=~its-a-fascist-domain.*
+||keirstarmer.com^$document,domain=~its-a-fascist-domain.*
+||kemibadenoch.org.uk^$document,domain=~its-a-fascist-domain.*
+||trump.com^$document,domain=~its-a-fascist-domain.*
 ||heritage.org^
-||reformparty.uk^
-||reformparty.org^
+||reformparty.uk^$document,domain=~its-a-fascist-domain.*
+||reformparty.org^$document,domain=~its-a-fascist-domain.*
 ||gbnews.com^
-||doge.gov^
-||dei.gov^
-||waste.gov^
-||whitehouse.gov^
+||doge.gov^$document,domain=~its-a-fascist-domain.*
+||dei.gov^$document,domain=~its-a-fascist-domain.*
+||waste.gov^$document,domain=~its-a-fascist-domain.*
+||ai.gov^$document,domain=~its-a-fascist-domain.*
+||whitehouse.gov^$document,domain=~its-a-fascist-domain.*
 ||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*
