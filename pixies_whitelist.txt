@@ -8,6 +8,9 @@
 @@||spacecadetgrrl.me^$important
 @@||pixiekat.net^$important
 
+! Ok Substacks
+@@||contrarian.substack.com^$important
+
 ! ITV Fixing
 @@||tom.itv.com^$important
 @@||itvpnp.live.ott.irdeto.com^$important
