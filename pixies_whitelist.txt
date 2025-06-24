@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 23June2025v1
+! Version: 24June2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -7,9 +7,6 @@
 ! Allow anything from my personal sites
 @@||spacecadetgrrl.me^$important
 @@||pixiekat.net^$important
-
-! Ok Substacks
-@@||contrarian.substack.com^$important
 
 ! ITV Fixing
 @@||tom.itv.com^$important
