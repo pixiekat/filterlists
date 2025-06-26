@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 24June2025v1
+! Version: 26June2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -21,6 +21,8 @@
 
 ! Sites that contribute to evil
 ||foxweather.com^
+||nytimes.com^
+||washingtonpost.com^
 ||xai.com^
 ||spacex.com^
 ||substack.com^
