@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 24June2025v1
+! Version: 30June2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -30,6 +30,11 @@
 @@||marketingplatform.google.com^$client='192.168.8.122'
 @@||360suite.google.com^$client='192.168.8.122'
 
+! Disqus
+@@||disqus.com^$important
+@@||a.disquscdn.com^$important
+@@||c.disquscdn.com^$important
+
 ! Deckblue
 @@||deck.blue^$important
 
@@ -45,6 +50,9 @@
 
 ! CNN.com live streaming
 @@||turnip.cdn.turner.com^$important
+
+! Ok Substacks
+@@||contrarian.substack.com^$important
 
 ! Youtube
 @@||s.youtube.com^$important
@@ -70,7 +78,7 @@
 @@||limetorrents.lol^$important
 @@||palemoon.start.me^$important
 @@||alex.party^$important
-@@||stream.new^$important
+@@||x1337x.cc^$important
 
 ! Trackers that are ok
 @@||isk.richardsw.club^$important
