@@ -78,6 +78,7 @@
 @@||limetorrents.lol^$important
 @@||palemoon.start.me^$important
 @@||alex.party^$important
+@@||literallyjustadog.shop^$important
 @@||x1337x.cc^$important
 
 ! Trackers that are ok
