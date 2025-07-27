@@ -1,0 +1,87 @@
+! Title: 💞 Pixie's Whitelist (uBO)
+! Version: 26July2025v2
+! Expires: 12 hours
+! Description: The OK websites for me!
+! Homepage: codeberg.org/pixiekat/filterlists
+
+! Allow anything from my personal sites
+@@||spacecadetgrrl.me^
+@@||pixiekat.net^
+
+! ITV Fixing
+@@||tom.itv.com^
+@@||itvpnp.live.ott.irdeto.com^
+
+! STV Fixing
+@@||stv.hb.omtrdc.net^
+@@||stv.d3.sc.omtrdc.net^
+@@||stv.sc.omtrdc.net^
+@@||stv.hb.omtrdc.net^
+@@||stvandroid.2cnt.net^
+
+! BBC iPlayer
+@@||r.bbci.co.uk^
+
+! Google
+@@||embeddedassistant.googleapis.com^
+@@||speechs3proto2-pa.googleapis.com^
+@@||device-provisioning.googleapis.com^
+
+! Disqus
+@@||disqus.com^
+@@||a.disquscdn.com^
+@@||c.disquscdn.com^
+
+! Deckblue
+@@||deck.blue^
+
+! Pushbullet
+@@||update.pushbullet.com^
+
+! Mozilla
+@@||incoming.telemetry.mozilla.org^
+
+! WBRU Fixing
+@@||wbru.com^
+@@||mercure.radio.co^
+
+! CNN.com live streaming
+@@||turnip.cdn.turner.com^
+
+! Ok Substacks
+@@||contrarian.substack.com^
+
+! Youtube
+@@||s.youtube.com^
+
+! Political sites
+@@||democraticunderground.com^
+
+! Hasan merch
+@@||ideologie.shop^
+
+! Streaming
+@@||stream.new^
+@@||lcprd1.samsungcloudsolution.net^
+
+! VPNs
+@@||expressvpn.com^
+
+! Spam TLDs that are OK
+@@||rvncd.cfd^
+@@||hashtags.fyi^
+@@||joinfediverse.wiki^
+@@||peertube.wtf^
+@@||limetorrents.lol^
+@@||palemoon.start.me^
+@@||alex.party^
+@@||literallyjustadog.shop^
+@@||x1337x.cc^
+@@||ai-sucks-actually.fyi^$important
+
+! Trackers that are ok
+@@||isk.richardsw.club^$important
+@@||tracker.imgoingto.icu^$important
+@@||tracker.coppersurfer.tk^$important
+@@||moonburrow.club^$important
+@@||tracker1.myporn.club^$important
