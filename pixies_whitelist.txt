@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 1August2025v2
+! Version: 1August2025v3
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -82,7 +82,7 @@
 @@||x1337x.cc^$document
 @@||ai-sucks-actually.fyi^$document
 @@||integraldata.cc^$document
-@@||www.integraldata.cc^$document
+@@||www.integraldata.cc^$important
 
 ! Trackers that are ok
 @@||isk.richardsw.club^$document
