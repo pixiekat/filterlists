@@ -81,6 +81,8 @@
 @@||literallyjustadog.shop^$document
 @@||x1337x.cc^$document
 @@||ai-sucks-actually.fyi^$document
+@@||integraldata.cc^$document
+@@||www.integraldata.cc^$document
 
 ! Trackers that are ok
 @@||isk.richardsw.club^$document
