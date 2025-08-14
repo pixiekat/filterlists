@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (uBO)
-! Version: 14August2025v1
+! Version: 14August2025v2
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -80,13 +80,13 @@
 @@||alex.party^
 @@||literallyjustadog.shop^
 @@||x1337x.cc^
-@@||ai-sucks-actually.fyi^$important
+@@||ai-sucks-actually.fyi^
 @@||integraldata.cc^
 @@||www.integraldata.cc^
 
 ! Trackers that are ok
-@@||isk.richardsw.club^$important
-@@||tracker.imgoingto.icu^$important
-@@||tracker.coppersurfer.tk^$important
-@@||moonburrow.club^$important
-@@||tracker1.myporn.club^$important
+@@||isk.richardsw.club^
+@@||tracker.imgoingto.icu^
+@@||tracker.coppersurfer.tk^
+@@||moonburrow.club^
+@@||tracker1.myporn.club^
