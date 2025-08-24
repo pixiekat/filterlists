@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 24August2025v1
+! Version: 24August2025v2
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -77,6 +77,7 @@
 @@||sourceforge.net/projects/qbittorrent/files/latest/download$important
 @@||sourceforge.net/projects/qbittorrent/files/qbittorrent$important
 @@||*.dl.sourceforge.net/project/qbittorrent/$important
+@@||downloads.sourceforge.net/project/qbittorrent$important
 
 ! Trackers that are ok
 @@||isk.richardsw.club^$important
