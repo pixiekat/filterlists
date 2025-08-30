@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 24August2025v2
+! Version: 30August2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -52,6 +52,7 @@
 
 ! News sites that are OK
 @@||www.404media.co^$important
+@@||www.erininthemorning.com$important
 
 ! Spam TLDs that are OK
 @@||rvncd.cfd^$important
@@ -72,12 +73,15 @@
 @@||static.cargo.site^$important
 @@||freedomtobuy.games^$important
 @@||neat.tube^$important
+@@||neocities.org^$important
 
 ! Sourceforge overrides
 @@||sourceforge.net/projects/qbittorrent/files/latest/download$important
 @@||sourceforge.net/projects/qbittorrent/files/qbittorrent$important
 @@||*.dl.sourceforge.net/project/qbittorrent/$important
 @@||downloads.sourceforge.net/project/qbittorrent$important
+@@||downloads.sourceforge.net^$important
+@@||dl.sourceforge.net^$important
 
 ! Trackers that are ok
 @@||isk.richardsw.club^$important
