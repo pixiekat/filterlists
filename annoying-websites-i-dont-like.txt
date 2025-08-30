@@ -1,14 +1,14 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 30August2025v1
+! Version: 30August2025v2
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
 
 ! Probably fine but I just don't like to see
-||grubhub.com^
-||ubereats.com^
-||doordash.com^
-||retailmenot.com^
+||grubhub.com^$important
+||ubereats.com^$important
+||doordash.com^$important
+||retailmenot.com^$important
 ||mediaite.com^$important
 ||dominos.com^$important
 ||qdoba.com^$important
@@ -26,22 +26,22 @@
 ##.truthsocial-embed
 
 ! Sites that contribute to evil
-||foxweather.com^
-||www.realamericanfreestyle.com^
-||nytimes.com^
-||washingtonpost.com^
-||xai.com^
-||spacex.com^
-||substack.com^
-||starlink.com^
-||tesla.com^
-||kennedy24.com^$document,domain=~its-a-fascist-domain.*
-||rfkhumanrights.org^$document,domain=~its-a-fascist-domain.*
-||rfkcos.lausd.org^
-||vance.senate.gov^
-||www.congress.gov/member/j-vance/V000137^
-||wikipedia.org/wiki/JD_Vance^
-||facebook.com/senatorvance^
+||foxweather.com^$important
+||www.realamericanfreestyle.com^$important
+||nytimes.com^$important
+||washingtonpost.com^$document,domain=~its-a-fascist-domain.*
+||xai.com^$important
+||spacex.com^$important
+||substack.com^$document,domain=~its-a-nazi-domain.*
+||starlink.com^$important
+||tesla.com^$important
+||kennedy24.com^$important
+||rfkhumanrights.org^$important
+||rfkcos.lausd.org^$important
+||vance.senate.gov^$important
+||www.congress.gov/member/j-vance/V000137^$important
+||wikipedia.org/wiki/JD_Vance^$important
+||facebook.com/senatorvance^$important
 youtube.com##a[href^="/@RSBN" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 youtube.com##a[href^="/@foxnews" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 youtube.com##a[href^="/@dailywireplus" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
@@ -52,44 +52,44 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||americabydesign.gov^$important
 
 ! Terf sites
-||mumsnet.com^$document,domain=~its-a-fascist-domain.*
+||mumsnet.com^$important
 
 ! Hate Sites
-||twitter.com^
-||x.com^
-||thegatewaypundit.com^
-||breitbart.com^
-||dailywire.com^
-||infowars.com^
-||rumble.com^
-||foxnews.com^
-||foxbusiness.com^
-||thehill.com^
-||dailymail.com^
-||greenwald.locals.com^
-||dailymail.co.uk^
-||telegraph.co.uk^
-||conservatives.com^
-||conservative.ca^
-||gop.com^$document,domain=~its-a-fascist-domain.*
-||rnc.org^$document,domain=~its-a-fascist-domain.*
-||donaldjtrump.com^$document,domain=~its-a-fascist-domain.*
-||trumpvancetransition.com^$document,domain=~its-a-fascist-domain.*
-||tulsigabbard.com^$document,domain=~its-a-fascist-domain.*
-||canadafreepress.com^
-||rebelnews.com^
-||nfarage.com^$document,domain=~its-a-fascist-domain.*
-||wesstreeting.org^$document,domain=~its-a-fascist-domain.*
-||keirstarmer.com^$document,domain=~its-a-fascist-domain.*
-||kemibadenoch.org.uk^$document,domain=~its-a-fascist-domain.*
-||trump.com^$document,domain=~its-a-fascist-domain.*
-||heritage.org^
-||reformparty.uk^$document,domain=~its-a-fascist-domain.*
-||reformparty.org^$document,domain=~its-a-fascist-domain.*
-||gbnews.com^
-||doge.gov^$document,domain=~its-a-fascist-domain.*
-||dei.gov^$document,domain=~its-a-fascist-domain.*
-||waste.gov^$document,domain=~its-a-fascist-domain.*
-||ai.gov^$document,domain=~its-a-fascist-domain.*
-||whitehouse.gov^$document,domain=~its-a-fascist-domain.*
+||twitter.com^$important
+||x.com^$important
+||thegatewaypundit.com^$important
+||breitbart.com^$important
+||dailywire.com^$important
+||infowars.com^$important
+||rumble.com^$important
+||foxnews.com^$important
+||foxbusiness.com^$important
+||thehill.com^$important
+||dailymail.com^$important
+||greenwald.locals.com^$important
+||dailymail.co.uk^$important
+||telegraph.co.uk^$important
+||conservatives.com^$important
+||conservative.ca^$important
+||gop.com^$important
+||rnc.org^$important
+||donaldjtrump.com^$important
+||trumpvancetransition.com^$important
+||tulsigabbard.com^$important
+||canadafreepress.com^$important
+||rebelnews.com^$important
+||nfarage.com^$important
+||wesstreeting.org^$important
+||keirstarmer.com^$important
+||kemibadenoch.org.uk^$important
+||trump.com^$important
+||heritage.org^$important
+||reformparty.uk^$important
+||reformparty.org^$important
+||gbnews.com^$important
+||doge.gov^$important
+||dei.gov^$important
+||waste.gov^$important
+||ai.gov^$important
+||whitehouse.gov^$important
 ||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*
