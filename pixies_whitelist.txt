@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 30August2025v1
+! Version: 2September2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -29,6 +29,7 @@
 @@||device-provisioning.googleapis.com^$important
 @@||marketingplatform.google.com^$client='192.168.8.122'
 @@||360suite.google.com^$client='192.168.8.122'
+@@||s.youtube.com^$important
 
 ! Deckblue
 @@||deck.blue^$important
