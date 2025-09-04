@@ -1,3 +1,9 @@
+---
+name: Pixie's Hate Sites
+description: Blocks hate sites from existence 
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_ublacklist.txt
+---
+
 *://*.x.com/*
 *://*.tesla.com/*
 *://*.spacex.com/*

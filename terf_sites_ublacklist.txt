@@ -1,3 +1,9 @@
+---
+name: Pixie's Terf Sites
+description: Anything I deem to be terf apologia
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/terf_sites_ublacklist.txt
+---
+
 *://*.mumsnet.com/*
 *://*.jkrowling.com/*
 *://*.wbstudiotour.co.uk/*

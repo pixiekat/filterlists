@@ -1,3 +1,9 @@
+---
+name: Pixie's Spam Sites
+description: Anything I deem to be spammy and junky
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/spam_sites_ublacklist.txt
+---
+
 *://*.mediaite.com/*
 *://*.sportskeeda.com/*
 *://*.drupalize.me/*
