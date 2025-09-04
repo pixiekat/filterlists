@@ -51,6 +51,11 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||kennedy-center.org^$important
 ||americabydesign.gov^$important
 
+! Fascist news
+||www.cbsnews.com^$important
+||www.cbs.com/shows/video/JSfaBN2wbRxf2KJXbJwRBdZREI4a33Ig/$important
+||www.youtube.com/c/CBSNews$important
+
 ! Terf sites
 ||mumsnet.com^$important
 
@@ -62,6 +67,7 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||dailywire.com^$important
 ||infowars.com^$important
 ||rumble.com^$important
+||www.thefp.com^$important
 ||foxnews.com^$important
 ||foxbusiness.com^$important
 ||thehill.com^$important
