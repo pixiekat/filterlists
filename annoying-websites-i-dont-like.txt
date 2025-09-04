@@ -58,6 +58,14 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 
 ! Terf sites
 ||mumsnet.com^$important
+||jkrowling.com^$important
+||www.wbstudiotour.co.uk^$important
+||www.harrypotter.com^$important
+||www.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/$important
+||reddit.com/r/harrypotter^$document,domain=~its-a-terf-apologia-subreddit.*
+||reddit.com/r/harry_potter^$document,domain=~its-a-terf-apologia-subreddit.*
+||reddit.com/r/harrypotterbooks^$document,domain=~its-a-terf-apologia-subreddit.*
+||reddit.com/r/HarryPotteronHBO^$document,domain=~its-a-terf-apologia-subreddit.*
 
 ! Hate Sites
 ||twitter.com^$important
