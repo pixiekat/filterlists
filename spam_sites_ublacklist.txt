@@ -1,0 +1,3 @@
+*://*.mediaite.com/*
+*://*.sportskeeda.com/*
+*://*.drupalize.me/*

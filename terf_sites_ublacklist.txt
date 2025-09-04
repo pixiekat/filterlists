@@ -1,0 +1,9 @@
+*://*.mumsnet.com/*
+*://*.jkrowling.com/*
+*://*.wbstudiotour.co.uk/*
+*://*.harrypotter.com/*
+*://*.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/*
+*://*.reddit.com/r/harrypotter/*
+*://*.reddit.com/r/harry_potter/*
+*://*.reddit.com/r/harrypotterbooks/*
+*://*.reddit.com/r/HarryPotteronHBO/*
