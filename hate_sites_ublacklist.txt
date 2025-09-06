@@ -20,6 +20,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.whitehouse.gov/*
 *://*.doge.gov/*
 *://*.state.gov/*
+*://*.war.gov/*
 *://*.kennedy-center.org/*
 *://*.americabydesign.gov/*
 *://*.gop.com/*
