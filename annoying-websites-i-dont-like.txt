@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 6September2025v1
+! Version: 17September2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -24,6 +24,9 @@
 
 ! Also get rid of shitty Truth Social embeds
 ##.truthsocial-embed
+
+! Garbage AI filled new sites
+||www.businessinsider.com^$important
 
 ! Sites that contribute to evil
 ||foxweather.com^$important

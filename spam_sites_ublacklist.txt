@@ -7,3 +7,4 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/spam_sites_u
 *://*.mediaite.com/*
 *://*.sportskeeda.com/*
 *://*.drupalize.me/*
+*://*.businessinsider.com/*
