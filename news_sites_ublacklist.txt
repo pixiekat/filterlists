@@ -1,0 +1,14 @@
+---
+name: Pixie's News Blackout
+description: Get rid of news sites in search
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/news_sites_ublacklist.txt
+---
+
+*://*.abcnews.com/*
+*://*.cbsnews.com/*
+*://*.nbcnews.com/*
+*://*.cnn.com/*
+*://*.msnbc.com/*
+*://*.foxnews.com/*
+*://*.mediaite.com/*
+*://*.businessinsider.com/*
