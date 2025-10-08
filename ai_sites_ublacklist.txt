@@ -8,4 +8,6 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ai_sites_ubl
 *://*.dev.to/*
 *://*.topbusinesssoftware.com/*
 *://*.github.com/promontorycoder/*
+*://*.github.com/necarlson97/codex-ai-sublime/*
+*://*.packagecontrol.io/packages/AssistantAI/*
 *://*.devset.ai/*

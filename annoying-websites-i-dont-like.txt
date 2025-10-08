@@ -27,13 +27,18 @@
 
 ! Garbage AI filled new sites
 ||www.businessinsider.com^$important
+||quizard.io^$important
 
 ! AI sites in general
 ||pieces.app^$important
 ||github.com/pieces-app^$important
 ||dev.to^$important
 ||github.com/promontorycoder$important
+||github.com/necarlson97/codex-ai-sublime$important
 ||devset.ai^$important
+
+! Spammy sites
+||geekpedia.com^$important
 
 ! Sites that contribute to evil
 ||foxweather.com^$important

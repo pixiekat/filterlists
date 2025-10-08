@@ -8,3 +8,5 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/spam_sites_u
 *://*.sportskeeda.com/*
 *://*.drupalize.me/*
 *://*.businessinsider.com/*
+*://*.quizard.io/*
+*://*.geekpedia.com/*
