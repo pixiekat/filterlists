@@ -28,6 +28,13 @@
 ! Garbage AI filled new sites
 ||www.businessinsider.com^$important
 
+! AI sites in general
+||pieces.app^$important
+||github.com/pieces-app^$important
+||dev.to^$important
+||github.com/promontorycoder$important
+||devset.ai^$important
+
 ! Sites that contribute to evil
 ||foxweather.com^$important
 ||www.realamericanfreestyle.com^$important

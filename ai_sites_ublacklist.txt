@@ -1,0 +1,11 @@
+---
+name: Pixie's AI Slop Sites
+description: Gets rid of AI slop
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ai_sites_ublacklist.txt
+---
+
+*://*.pieces.app/*
+*://*.dev.to/*
+*://*.topbusinesssoftware.com/*
+*://*.github.com/promontorycoder/*
+*://*.devset.ai/*
