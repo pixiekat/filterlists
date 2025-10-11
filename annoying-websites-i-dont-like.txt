@@ -122,4 +122,5 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||ai.gov^$important
 ||war.gov^$important
 ||whitehouse.gov^$important
+||trumprx.gov^$important
 ||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*

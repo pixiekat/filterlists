@@ -56,3 +56,10 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.dailymail.com/*
 *://*.greenwald.locals.com/*
 *://*.telegraph.co.uk/*
+*://*.whitehouse.gov/*
+*://*.trumprx.gov/*
+*://*.doge.gov/*
+*://*.dei.gov/*
+*://*.waste.gov/*
+*://*.ai.gov/*
+*://*.war.gov/*
