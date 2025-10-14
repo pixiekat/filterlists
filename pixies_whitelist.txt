@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (ABP)
-! Version: 12September2025v1
+! Version: 14October2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -39,6 +39,11 @@
 
 ! Youtube
 @@||s.youtube.com^$important
+@@||s.youtube.com$important
+
+! Nintendo
+@@||receive-lp1.er.srv.nintendo.net^$important
+@@||receive-lp1.dg.srv.nintendo.net^$important
 
 ! Hasan merch
 @@||ideologie.shop^$important
@@ -75,6 +80,9 @@
 @@||freedomtobuy.games^$important
 @@||neat.tube^$important
 @@||neocities.org^$important
+@@||www.librepunk.club^$important
+@@||lgbtqia.space^$important
+@@||miau.pub^$important
 
 ! Sourceforge overrides
 @@||sourceforge.net/projects/qbittorrent/files/latest/download$important

@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (uBO)
-! Version: 14August2025v2
+! Version: 14October2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -53,6 +53,11 @@
 
 ! Youtube
 @@||s.youtube.com^
+@@||s.youtube.com$important
+
+! Nintendo
+@@||receive-lp1.er.srv.nintendo.net^
+@@||receive-lp1.dg.srv.nintendo.net^
 
 ! Political sites
 @@||democraticunderground.com^
@@ -83,6 +88,16 @@
 @@||ai-sucks-actually.fyi^
 @@||integraldata.cc^
 @@||www.integraldata.cc^
+@@||pghrt.diy^$important
+@@||subdomain.cargo.site^
+@@||freight.cargo.site^
+@@||static.cargo.site^
+@@||freedomtobuy.games^
+@@||neat.tube^
+@@||neocities.org^
+@@||www.librepunk.club^
+@@||lgbtqia.space^
+@@||miau.pub^
 
 ! Trackers that are ok
 @@||isk.richardsw.club^
