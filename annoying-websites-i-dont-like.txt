@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 13October2025v1
+! Version: 24October2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -125,3 +125,5 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||whitehouse.gov^$important
 ||trumprx.gov^$important
 ||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*
+||thewashingtonreporter.com$important
+||washingtonreporter.news$important

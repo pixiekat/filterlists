@@ -63,3 +63,5 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.waste.gov/*
 *://*.ai.gov/*
 *://*.war.gov/*
+*://*.thewashingtonreporter.com/*
+*://washingtonreporter.news/*

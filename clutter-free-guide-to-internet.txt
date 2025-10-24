@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Guide to a Clutter-Free Internet
-! Version: 22May2025v1
+! Version: 24October2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Just cleanin' up the clutter and taking out the trash from places that shove things I have no need for in their websites.
@@ -30,6 +30,20 @@ mail.google.com##.m_4827611407109577927comic-content.m_4827611407109577927inner-
 mail.google.com##.m_803351242008969594comic-content.m_803351242008969594inner-content > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > [href]
 mail.google.com##a[href*="sli.arcamax.com/click"]
 
+! Bluesky
+||ip.bsky.app/config$replace=/(?<="countryCode":").+?(?=")/US/
+||ip.bsky.app/config$replace=/(?<="regionCode":").+?(?=")/WA/
+||ip.bsky.app/config$replace=/(?<="ageRestrictedGeos":)\[.*?]/[]/
+||ip.bsky.app/config$replace=/(?<="ageBlockedGeos":)\[.*?]/[]/
+
+
+! DuckDuckGo
+duckduckgo.com##li.sideMenu_hasBadge__sgC0X:nth-of-type(1)
+duckduckgo.com##li.sideMenu_hasBadge__sgC0X:nth-of-type(2)
+duckduckgo.com##.minimal-homepage_belowTheFoldWrapper__I_rnZ
+duckduckgo.com##.center_andText__ejUnC.center_intrinsic__mk_Ab.center_root__Uf1xM.minimal-homepage_exploreFeatureScroller__TL5Vx.homepage-cta-section_scrollCta__HuSCL
+duckduckgo.com##.button_size-xs__Pzg8L.button_ghost__4prhT.button_button__qrSvw.header_aiChatButton___qF_q
+
 ! Mediaite
 www.mediaite.com##.u-lazy-parent.o-slice.c-youtube-home-section.o-fcc-full\@desktop
 www.mediaite.com##.c-sidebar-tips.o-sidebar-tips.promo-sidebar.promo
@@ -43,3 +57,6 @@ www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(5)
 www.mediaite.com##li.c-menu-nav-list__item.primary:nth-of-type(3)
 www.mediaite.com##.c-header-account-wrap
 www.mediaite.com##.c-youtube-container
+
+! Reddit
+old.reddit.com##.timeout-infobar.with-icon.md-container-small.reddit-infobar
