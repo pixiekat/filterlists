@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Guide to a Clutter-Free Internet
-! Version: 24October2025v1
+! Version: 28October2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Just cleanin' up the clutter and taking out the trash from places that shove things I have no need for in their websites.
@@ -60,3 +60,6 @@ www.mediaite.com##.c-youtube-container
 
 ! Reddit
 old.reddit.com##.timeout-infobar.with-icon.md-container-small.reddit-infobar
+
+! RYD Return Youtube Dislikes
+www.youtube.com##.ryd-premium-teaser
