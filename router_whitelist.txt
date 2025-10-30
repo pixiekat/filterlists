@@ -1,0 +1,7 @@
+! Title: Pixiekat's Router Blocklist Whitelist
+! Version: 29October2025v1
+! Expires: 7 days
+! Homepage: https://codeberg.org/pixiekat/filterlists
+! Description: Anything I need whitelisted directly in Adguard on my Router
+
+@@||s.amazon-adsystem.com^$important
