@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 28October2025v1
+! Version: 29October2025v2
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -36,6 +36,7 @@
 ||github.com/promontorycoder$important
 ||github.com/necarlson97/codex-ai-sublime$important
 ||devset.ai^$important
+||character.ai^$important
 
 ! Spammy sites
 ||geekpedia.com^$important
@@ -44,8 +45,6 @@
 ! Sites that contribute to evil
 ||foxweather.com^$important
 ||www.realamericanfreestyle.com^$important
-||nytimes.com^$important
-||washingtonpost.com^$document,domain=~its-a-fascist-domain.*
 ||xai.com^$important
 ||spacex.com^$important
 ||substack.com^$document,domain=~its-a-nazi-domain.*
@@ -54,10 +53,6 @@
 ||kennedy24.com^$important
 ||rfkhumanrights.org^$important
 ||rfkcos.lausd.org^$important
-||vance.senate.gov^$important
-||www.congress.gov/member/j-vance/V000137^$important
-||wikipedia.org/wiki/JD_Vance^$important
-||facebook.com/senatorvance^$important
 youtube.com##a[href^="/@RSBN" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 youtube.com##a[href^="/@foxnews" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 youtube.com##a[href^="/@dailywireplus" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
@@ -67,8 +62,13 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||kennedy-center.org^$important
 ||americabydesign.gov^$important
 ||grokipedia.com^$important
+||binance.us^$important
 
 ! Fascist news
+||foxbusiness.com^$important
+||foxnews.com^$important
+||nytimes.com^$important
+||washingtonpost.com^$document,domain=~its-a-fascist-domain.*
 ||www.cbsnews.com^$important
 ||www.cbs.com/shows/video/JSfaBN2wbRxf2KJXbJwRBdZREI4a33Ig/$important
 ||www.youtube.com/c/CBSNews$important
@@ -93,8 +93,6 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||infowars.com^$important
 ||rumble.com^$important
 ||www.thefp.com^$important
-||foxnews.com^$important
-||foxbusiness.com^$important
 ||thehill.com^$important
 ||dailymail.com^$important
 ||greenwald.locals.com^$important

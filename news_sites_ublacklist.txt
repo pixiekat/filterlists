@@ -12,3 +12,4 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/news_sites_u
 *://*.foxnews.com/*
 *://*.mediaite.com/*
 *://*.businessinsider.com/*
+*://*.binance.us/*
