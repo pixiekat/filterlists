@@ -58,6 +58,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.telegraph.co.uk/*
 *://*.whitehouse.gov/*
 *://*.trumprx.gov/*
+*://*.trumpmobile.com/*
 *://*.doge.gov/*
 *://*.dei.gov/*
 *://*.waste.gov/*
