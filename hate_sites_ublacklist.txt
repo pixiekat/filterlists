@@ -67,4 +67,5 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.war.gov/*
 *://*.thewashingtonreporter.com/*
 *://washingtonreporter.news/*
+*://*.grok.com
 *://*.grokipedia.com/*
