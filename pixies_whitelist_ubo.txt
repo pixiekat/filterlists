@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist (uBO)
-! Version: 14October2025v1
+! Version: 14November2025v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -105,3 +105,6 @@
 @@||tracker.coppersurfer.tk^
 @@||moonburrow.club^
 @@||tracker1.myporn.club^
+
+! Fixes some sites blocked elsewhere that I personally view
+@@||www.neowin.net^
