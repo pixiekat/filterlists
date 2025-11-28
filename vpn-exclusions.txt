@@ -20,7 +20,6 @@ adpizzapub.com
 afd-a-acdc-direct.office.com
 africancancerstars.org
 alicantobidmc.org
-alicantopfizermdiyfbsvfd.ssh.devcloud.acquia-sites.com
 alicantotrials.org
 amazon.com
 android.googleapis.com
@@ -145,6 +144,7 @@ phreesia.net
 playerservices.streamtheworld.com
 pornhub.com
 pphosted.com
+progressivedirect.homesite.com
 publicmediasignin.org
 qcc.edu
 qdoba.com
@@ -154,6 +154,7 @@ reddit.com
 redditstatic.com
 reliantmedicalgroup.org
 reliantparking.com
+repo.jellyfin.org
 repositories.intel.com
 repository.mullvad.net
 res.public.onecdn.static.microsoft
@@ -170,8 +171,10 @@ siriusxm.com
 siriusxmpreferences.com
 smtp.dreamhost.com
 smtp.gmail.com
+smtp.mail.us-east-1.awsapps.com
 spacecadetgrrl.me
 springserve.com
+ssh.devcloud.acquia-sites.com
 static.cargo.site
 static.parastorage.com
 status-wix-com-33b70160-f427-47a7-81e0-7a097ed63415.saas.atlassian.com
@@ -219,7 +222,6 @@ windscribe.dev
 windscribe.net
 wix.com
 www-cdn.marvel.com
-www.amazon.com.lan
 www.cvs.com
 www.myworkday.com
 www.pornhub.com
