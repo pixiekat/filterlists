@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 7November2025v1
+! Version: 20November2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -59,12 +59,9 @@ youtube.com##a[href^="/@dailywireplus" i]:upward(ytd-channel-renderer, ytd-unive
 youtube.com##a[href^="/channel/UCAql2DyGU2un1Ei2nMYsqOA" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 ||rsbnetwork.com^$important
-||kennedy-center.org^$important
-||americabydesign.gov^$important
 ||grok.com^$important
 ||grokipedia.com^$important
 ||binance.us^$important
-||trumpmobile.com^$important
 
 ! Fascist news
 ||foxbusiness.com^$important
@@ -102,8 +99,8 @@ youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer
 ||telegraph.co.uk^$important
 ||conservatives.com^$important
 ||conservative.ca^$important
-||gop.com^$important
-||rnc.org^$important
+
+
 ||donaldjtrump.com^$important
 ||trumpvancetransition.com^$important
 ||tulsigabbard.com^$important

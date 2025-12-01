@@ -1,0 +1,14 @@
+! Title: Pixiekat's Blocklist for Government Misinformation
+! Version: 20November2025v1
+! Expires: 7 days
+! Homepage: https://codeberg.org/pixiekat/filterlists
+! Description: Official websites by fascists dedicated to misinformation.
+
+! US sites
+||ai.gov^
+||americabydesign.gov^
+||cdc.gov^
+||gop.com^
+||kennedy-center.org^
+||rnc.org^
+||trumpmobile.com^

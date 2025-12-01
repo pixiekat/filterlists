@@ -1,0 +1,13 @@
+---
+name: Pixiekat's Blocklist for Government Misinformation
+description: Official websites by fascists dedicated to misinformation.
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/misinformation-sites-ublacklist.txt
+---
+
+*://*.ai.gov/*
+*://*.americabydesign.gov/*
+*://*.cdc.gov/*
+*://*.gop.com/*
+*://*.kennedy-center.org/*
+*://*.rnc.org/*
+*://*.trumpmobile.com/*
