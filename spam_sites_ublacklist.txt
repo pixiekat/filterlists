@@ -4,6 +4,10 @@ description: Anything I deem to be spammy and junky
 homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/spam_sites_ublacklist.txt
 ---
 
+*://*.4chan.org/*
+*://*.dev.to/*
+*://*.deepwiki.com/*
+*://*.gitmemories.com/*
 *://*.mediaite.com/*
 *://*.sportskeeda.com/*
 *://*.drupalize.me/*
@@ -11,3 +15,4 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/spam_sites_u
 *://*.quizard.io/*
 *://*.geekpedia.com/*
 *://*.esspots.com/*
+*://*.jewornotjew.com/*
