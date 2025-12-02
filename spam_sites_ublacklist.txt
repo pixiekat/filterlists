@@ -4,6 +4,7 @@ description: Anything I deem to be spammy and junky
 homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/spam_sites_ublacklist.txt
 ---
 
+*://*.1sixty8.ai/*
 *://*.4chan.org/*
 *://*.dev.to/*
 *://*.deepwiki.com/*
