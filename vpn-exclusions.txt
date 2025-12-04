@@ -44,6 +44,7 @@ chewy.com
 clearsky.app
 cloudflare.com
 cloudflare.net
+codeberg.org
 csp.microsoft.com
 cvs.com
 cwtv.com
@@ -55,6 +56,7 @@ dfci.zoom.us
 diabetesdefa.org
 discomax.com
 display.ravm.tv
+dl.flathub.org
 dominos.com
 download.nlm.nih.gov
 downloads.1password.com
@@ -73,9 +75,11 @@ f-droid.org
 fi.google.com
 fi.telephony.goog
 filterlists.com
+flathub.org
 fontawesome.com
 freight.cargo.site
 funcoland.spacecadetgrrl.me
+fwupd.org
 github.com
 googleapis.com
 googlevideo.com
@@ -118,6 +122,7 @@ moes.com
 moviesanywhere.com
 mullvad.net
 mysynchrony.com
+myworkdaycdn.com
 nasc.nintendowifi.net
 nepm.org
 nih.gov
@@ -221,6 +226,7 @@ windscribe.com
 windscribe.dev
 windscribe.net
 wix.com
+ws.audioscrobbler.com
 www-cdn.marvel.com
 www.cvs.com
 www.myworkday.com
