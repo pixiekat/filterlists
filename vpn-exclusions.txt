@@ -229,7 +229,9 @@ wix.com
 ws.audioscrobbler.com
 www-cdn.marvel.com
 www.cvs.com
+www.integraldata.cc
 www.myworkday.com
+www.nerdfonts.com
 www.pornhub.com
 www.qdoba.com.cdn.cloudflare.net
 xhamster.com
