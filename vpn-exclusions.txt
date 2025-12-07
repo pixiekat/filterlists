@@ -77,6 +77,7 @@ fi.telephony.goog
 filterlists.com
 flathub.org
 fontawesome.com
+forthem.com
 freight.cargo.site
 funcoland.spacecadetgrrl.me
 fwupd.org
@@ -227,6 +228,7 @@ windscribe.dev
 windscribe.net
 wix.com
 ws.audioscrobbler.com
+www.autostraddle.com
 www-cdn.marvel.com
 www.cvs.com
 www.integraldata.cc
