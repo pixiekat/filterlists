@@ -176,6 +176,7 @@ secure-dcr.imrworldwide.com
 secureinternetbank.com
 sentry-next.wixpress.com
 sharepoint.com
+signal.org
 siriusxm.com
 siriusxmpreferences.com
 smtp.dreamhost.com
