@@ -48,6 +48,7 @@ clearsky.app
 cloudflare.com
 cloudflare.net
 codeberg.org
+copilot.microsoft.com
 csp.microsoft.com
 cvs.com
 cwtv.com
@@ -84,6 +85,7 @@ forthem.com
 freight.cargo.site
 funcoland.spacecadetgrrl.me
 fwupd.org
+gemini.google.com
 github.com
 gitlab.com
 googleapis.com
