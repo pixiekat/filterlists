@@ -85,6 +85,7 @@ freight.cargo.site
 funcoland.spacecadetgrrl.me
 fwupd.org
 github.com
+gitlab.com
 googleapis.com
 googlevideo.com
 gorettis.com
@@ -233,8 +234,8 @@ windscribe.dev
 windscribe.net
 wix.com
 ws.audioscrobbler.com
-www.autostraddle.com
 www-cdn.marvel.com
+www.autostraddle.com
 www.cvs.com
 www.integraldata.cc
 www.myworkday.com
