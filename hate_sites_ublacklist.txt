@@ -48,6 +48,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.thehill.com/*
 *://*.thewashingtonreporter.com/*
 *://*.trump.com/*
+*://*.trumpcard.gov/*
 *://*.trumpmobile.com/*
 *://*.trumprx.com/*
 *://*.trumpvancetransition.com/*
