@@ -1,130 +1,129 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 14December2025v1
+! Version: 20December2025v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
 
 ! Probably fine but I just don't like to see
-||grubhub.com^$important
-||ubereats.com^$important
-||doordash.com^$important
-||retailmenot.com^$important
-||mediaite.com^$important
-||dominos.com^$important
-||qdoba.com^$important
-||www.qdoba.com.cdn.cloudflare.net^$important
-||moes.com^$important
 ||adpizzapub.com^$important
+||dominos.com^$important
+||doordash.com^$important
 ||granburyrs.com^$important
+||grubhub.com^$important
+||mediaite.com^$important
+||moes.com^$important
+||qdoba.com^$important
+||retailmenot.com^$important
+||ubereats.com^$important
+||www.qdoba.com.cdn.cloudflare.net^$important
 
 ! Twitter is garbage, get rid of it
-||platform.twitter.com/embed/Tweet.html$subdocument
 ##.twitter-tweet
 ##.twitter-tweet.twitter-tweet-rendered
+||platform.twitter.com/embed/Tweet.html$subdocument
 
 ! Also get rid of shitty Truth Social embeds
 ##.truthsocial-embed
 
 ! Garbage AI filled new sites
-||www.businessinsider.com^$important
 ||quizard.io^$important
+||www.businessinsider.com^$important
 
 ! AI sites in general
 ||1sixty8.ai^
-||pieces.app^$important
-||github.com/pieces-app^$important
-||dev.to^$important
-||github.com/promontorycoder$important
-||github.com/necarlson97/codex-ai-sublime$important
-||devset.ai^$important
 ||character.ai^$important
+||dev.to^$important
+||devset.ai^$important
+||github.com/necarlson97/codex-ai-sublime$important
+||github.com/pieces-app^$important
+||github.com/promontorycoder$important
+||pieces.app^$important
 
 ! Spammy sites
-||geekpedia.com^$important
 ||esspots.com^$important
+||geekpedia.com^$important
 
 ! Sites that contribute to evil
-||foxweather.com^$important
-||www.realamericanfreestyle.com^$important
-||xai.com^$important
-||spacex.com^$important
-||substack.com^$document,domain=~its-a-nazi-domain.*
-||starlink.com^$important
-||tesla.com^$important
-||kennedy24.com^$important
-||rfkhumanrights.org^$important
-||rfkcos.lausd.org^$important
-youtube.com##a[href^="/@RSBN" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
-youtube.com##a[href^="/@foxnews" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 youtube.com##a[href^="/@dailywireplus" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
-youtube.com##a[href^="/channel/UCAql2DyGU2un1Ei2nMYsqOA" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
 youtube.com##a[href^="/@DonaldJTrumpforPresident" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
-||rsbnetwork.com^$important
+youtube.com##a[href^="/@foxnews" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/@RSBN" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/channel/UCAql2DyGU2un1Ei2nMYsqOA" i]:upward(ytd-channel-renderer, ytd-universal-watch-card-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+||binance.us^$important
+||foxweather.com^$important
 ||grok.com^$important
 ||grokipedia.com^$important
-||binance.us^$important
+||justice.gov^$important
+||kennedy24.com^$important
+||rfkcos.lausd.org^$important
+||rfkhumanrights.org^$important
+||rsbnetwork.com^$important
+||spacex.com^$important
+||starlink.com^$important
+||substack.com^$document,domain=~its-a-nazi-domain.*
+||tesla.com^$important
+||www.realamericanfreestyle.com^$important
+||xai.com^$important
 
 ! Fascist news
 ||foxbusiness.com^$important
 ||foxnews.com^$important
 ||nytimes.com^$important
 ||washingtonpost.com^$document,domain=~its-a-fascist-domain.*
-||www.cbsnews.com^$important
 ||www.cbs.com/shows/video/JSfaBN2wbRxf2KJXbJwRBdZREI4a33Ig/$important
+||www.cbsnews.com^$important
 ||www.youtube.com/c/CBSNews$important
 
 ! Terf sites
-||mumsnet.com^$important
 ||jkrowling.com^$important
-||www.wbstudiotour.co.uk^$important
-||www.harrypotter.com^$important
-||www.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/$important
-||reddit.com/r/harrypotter^$document,domain=~its-a-terf-apologia-subreddit.*
+||mumsnet.com^$important
 ||reddit.com/r/harry_potter^$document,domain=~its-a-terf-apologia-subreddit.*
+||reddit.com/r/harrypotter^$document,domain=~its-a-terf-apologia-subreddit.*
 ||reddit.com/r/harrypotterbooks^$document,domain=~its-a-terf-apologia-subreddit.*
 ||reddit.com/r/HarryPotteronHBO^$document,domain=~its-a-terf-apologia-subreddit.*
+||www.harrypotter.com^$important
+||www.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/$important
+||www.wbstudiotour.co.uk^$important
 
 ! Hate Sites
-||twitter.com^$important
-||x.com^$important
-||thegatewaypundit.com^$important
+||ai.gov^$important
 ||breitbart.com^$important
-||dailywire.com^$important
-||infowars.com^$important
-||rumble.com^$important
-||www.thefp.com^$important
-||thehill.com^$important
-||dailymail.com^$important
-||greenwald.locals.com^$important
-||dailymail.co.uk^$important
-||telegraph.co.uk^$important
-||conservatives.com^$important
-||conservative.ca^$important
-
-
-||donaldjtrump.com^$important
-||trumpvancetransition.com^$important
-||tulsigabbard.com^$important
 ||canadafreepress.com^$important
-||rebelnews.com^$important
-||nfarage.com^$important
-||wesstreeting.org^$important
+||conservative.ca^$important
+||conservatives.com^$important
+||dailymail.co.uk^$important
+||dailymail.com^$important
+||dailywire.com^$important
+||dei.gov^$important
+||doge.gov^$important
+||donaldjtrump.com^$important
+||gbnews.com^$important
+||greenwald.locals.com^$important
+||heritage.org^$important
+||infowars.com^$important
 ||keirstarmer.com^$important
 ||kemibadenoch.org.uk^$important
-||trump.com^$important
-||heritage.org^$important
-||reformparty.uk^$important
-||reformparty.org^$important
-||gbnews.com^$important
-||doge.gov^$important
-||dei.gov^$important
-||waste.gov^$important
-||ai.gov^$important
-||war.gov^$important
-||whitehouse.gov^$important
-||trumprx.gov^$important
-||trumprx.com^$important
-||trumpcard.gov^$important
+||nfarage.com^$important
+||rebelnews.com^$important
 ||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*
+||reformparty.org^$important
+||reformparty.uk^$important
+||rumble.com^$important
+||telegraph.co.uk^$important
+||thegatewaypundit.com^$important
+||thehill.com^$important
 ||thewashingtonreporter.com$important
+||trump.com^$important
+||trumpcard.gov^$important
+||trumprx.com^$important
+||trumprx.gov^$important
+||trumpvancetransition.com^$important
+||tulsigabbard.com^$important
+||twitter.com^$important
+||war.gov^$important
 ||washingtonreporter.news$important
+||waste.gov^$important
+||wesstreeting.org^$important
+||whitehouse.gov^$important
+||www.thefp.com^$important
+||x.com^$important
