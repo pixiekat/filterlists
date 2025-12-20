@@ -93,6 +93,7 @@ gitlab.com
 googleapis.com
 googlevideo.com
 gorettis.com
+gp-mc.net
 granburyrs.com
 guardianproject.info
 gvt1.com
