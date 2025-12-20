@@ -27,6 +27,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.grokipedia.com/*
 *://*.heritage.org/*
 *://*.infowars.com/*
+*://*.justice.gov/*
 *://*.keirstarmer.com/*
 *://*.kemibadenoch.org.uk/*
 *://*.kennedy-center.org/*
@@ -44,6 +45,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.t.co/*
 *://*.telegraph.co.uk/*
 *://*.tesla.com/*
+*://*.thefp.com/*
 *://*.thegatewaypundit.com/*
 *://*.thehill.com/*
 *://*.thewashingtonreporter.com/*
@@ -60,7 +62,6 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.waste.gov/*
 *://*.wesstreeting.org/*
 *://*.whitehouse.gov/*
-*://*.www.thefp.com/*
 *://*.x.com/*
 *://washingtonreporter.news/*
 *://www.youtube.com/c/CBSNews*
