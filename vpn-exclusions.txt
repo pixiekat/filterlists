@@ -43,6 +43,7 @@ c3ctc.org
 cdn-gl.imrworldwide.com
 cdn-wgbh-live1.streamguys1.com
 cdn.bullwhip.cloud
+cdn1d-static-shared.phncdn.com.sds.rncdn7.com
 chewy.com
 clearsky.app
 cloudflare.com
@@ -68,6 +69,7 @@ downloads.vivaldi.com
 dreamhost.com
 drupal.org
 e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com
+ea.ypncdn.com.sds.rncdn7.com
 ec2-18-175-91-46.eu-west-2.compute.amazonaws.com
 ec2-3-227-209-244.compute-1.amazonaws.com
 ec2-35-170-165-158.compute-1.amazonaws.com
@@ -252,4 +254,5 @@ xhcdn.com
 xumo.com
 xvideos-cdn.com
 xvideos.com
+youporn.com
 youtube.com
