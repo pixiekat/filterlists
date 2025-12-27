@@ -17,3 +17,5 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/spam_sites_u
 *://*.geekpedia.com/*
 *://*.esspots.com/*
 *://*.jewornotjew.com/*
+*://access.redhat.com/solutions/*
+*://access.redhat.com/search/knowledgebase
