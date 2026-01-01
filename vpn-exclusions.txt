@@ -43,6 +43,7 @@ bilh.org
 britbox.com
 c3ctc.org
 cdn-gl.imrworldwide.com
+cdn-uw2-prod.tsv2.amagi.tv
 cdn-wgbh-live1.streamguys1.com
 cdn.bullwhip.cloud
 cdn1d-static-shared.phncdn.com.sds.rncdn7.com
