@@ -24,8 +24,6 @@ africancancerstars.org
 alicantobidmc.org
 alicantotrials.org
 amazon.com
-amg01312-nexstarmediagro-cwforever-nondrmhlstsv2-cw-8j5o5.amagi.tv
-amg01438-ewscripps-amg01438c41-cw-us-2385.playouts.now.amagi.tv
 android.googleapis.com
 api.stripe.com
 archive.is
@@ -43,10 +41,10 @@ bilh.org
 britbox.com
 c3ctc.org
 cdn-gl.imrworldwide.com
-cdn-uw2-prod.tsv2.amagi.tv
 cdn-wgbh-live1.streamguys1.com
 cdn.bullwhip.cloud
 cdn1d-static-shared.phncdn.com.sds.rncdn7.com
+chaturbate.com
 chewy.com
 clearsky.app
 cloudflare.com
@@ -115,6 +113,7 @@ last.fm
 lastfm.cbsi.map.fastly.net
 lastfm.freetls.fastly.net
 lemmy.blackeco.com
+lesbian8.com
 lgbtqia.space
 lgbtqiaspace.b-cdn.net
 lifestance.com
@@ -161,6 +160,7 @@ pfizerclinicalinformatics.net
 phncdn.com
 phreesia.net
 playerservices.streamtheworld.com
+playvids.com
 pornhub.com
 pphosted.com
 progressivedirect.homesite.com
@@ -193,6 +193,7 @@ smtp.dreamhost.com
 smtp.gmail.com
 smtp.mail.us-east-1.awsapps.com
 spacecadetgrrl.me
+spankbang.com
 springserve.com
 ssh.devcloud.acquia-sites.com
 static.cargo.site
@@ -216,6 +217,7 @@ telegram.com
 tenor.com
 thetvapp.to
 ticketmaster.com
+tnaflix.com
 tnaflix.com
 totallyacdn.com
 transaction.hostedpayments.com
