@@ -34,6 +34,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.megynkelly.com/*
 *://*.nfarage.com/*
 *://*.rebelnews.com/*
+*://*.realfood.gov/*
 *://*.reformparty.org/*
 *://*.reformparty.uk/*
 *://*.rnc.org/*

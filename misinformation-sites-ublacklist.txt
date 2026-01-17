@@ -9,6 +9,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/misinformati
 *://*.cdc.gov/*
 *://*.gop.com/*
 *://*.kennedy-center.org/*
+*://*.realfood.gov/*
 *://*.rnc.org/*
 *://*.trumpmobile.com/*
 *://*.trumpcard.gov/*
