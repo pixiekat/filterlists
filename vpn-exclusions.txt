@@ -87,7 +87,6 @@ flathub.org
 fontawesome.com
 forthem.com
 freight.cargo.site
-funcoland.spacecadetgrrl.me
 fwupd.org
 gemini.google.com
 github.com
@@ -152,6 +151,7 @@ packages.linuxmint.com
 paloaltonetworks.com
 pangoly.com
 papaginos.com
+papajohns.com
 partners.org
 patientportal.advancedmd.com
 pbs.org
@@ -194,7 +194,6 @@ siriusxmpreferences.com
 smtp.dreamhost.com
 smtp.gmail.com
 smtp.mail.us-east-1.awsapps.com
-spacecadetgrrl.me
 spankbang.com
 springserve.com
 ssh.devcloud.acquia-sites.com
@@ -218,6 +217,7 @@ tech.lgbt
 telegram.com
 tenor.com
 thetvapp.to
+theverge.com
 ticketmaster.com
 tnaflix.com
 tnaflix.com
@@ -233,6 +233,9 @@ vca.com
 vcaantech.com
 vcahospitals.com
 verizon.com
+verizon.net
+verizonfios.net
+verizonwireless.com
 visible.com
 wbru.com
 wbur.org
