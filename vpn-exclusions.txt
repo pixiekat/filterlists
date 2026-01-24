@@ -5,6 +5,7 @@
 18.175.91.46
 193.36.118.217
 35.170.165.158
+46.62.229.197
 54.146.59.156
 82.29.100.97
 82.29.97.2
@@ -34,11 +35,13 @@ archive.today
 archive.ubuntu.com
 bankofamerica.com
 barclaysus.com
+barnesandnoble.com
 bettystoybox.com
 bidmc.org
 bigy.com
 bilh.org
 britbox.com
+build-planner-14.emergent.host
 c3ctc.org
 cdn-gl.imrworldwide.com
 cdn-wgbh-live1.streamguys1.com
@@ -101,9 +104,11 @@ gvt1.com
 harvard.edu
 harvard.zoom.us
 hbomax.com
+hetzner.com
 hulu.com
 imap.dreamhost.com
 imap.mail.us-east-1.awsapps.com
+infosagehealth.org
 instantmessaging-pa-jms-us.googleapis.com
 instantmessaging-pa.googleapis.com
 integraldata.cc
@@ -117,6 +122,7 @@ lesbian8.com
 lgbtqia.space
 lgbtqiaspace.b-cdn.net
 lifestance.com
+linuxmint.com
 list-manage.com
 login.live.com
 login.microsoftonline.com
@@ -124,6 +130,7 @@ madcapnetwork.org
 mail.dreamhost.com
 mailchimp.com
 marvel.com
+maxmind.com
 mcusercontent.com
 mercure.radio.co
 messages.google.com
@@ -160,9 +167,11 @@ peacocktv.com
 petsmart.com
 pfizerclinicalinformatics.net
 phncdn.com
+photos.google.com
 phreesia.net
 playerservices.streamtheworld.com
 playvids.com
+polandspring.com
 pornhub.com
 pphosted.com
 progressivedirect.homesite.com
@@ -220,7 +229,6 @@ thetvapp.to
 theverge.com
 ticketmaster.com
 tnaflix.com
-tnaflix.com
 totallyacdn.com
 transaction.hostedpayments.com
 transaction.hostedpayments.com.cdn.cloudflare.net
@@ -236,7 +244,9 @@ verizon.com
 verizon.net
 verizonfios.net
 verizonwireless.com
+video.google.com
 visible.com
+water.com
 wbru.com
 wbur.org
 weareher.com
