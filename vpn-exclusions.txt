@@ -250,7 +250,6 @@ visible.com
 water.com
 wbru.com
 wbur.org
-wcvb.com
 weareher.com
 wgbh.org
 whdh.com
@@ -264,6 +263,7 @@ wix.com
 ws.audioscrobbler.com
 www-cdn.marvel.com
 www.autostraddle.com
+www.boston25news.com
 www.cvs.com
 www.integraldata.cc
 www.myworkday.com
@@ -271,6 +271,7 @@ www.nbcboston.com
 www.nerdfonts.com
 www.pornhub.com
 www.qdoba.com.cdn.cloudflare.net
+www.wcvb.com
 www.youporn.com
 xhamster.com
 xhcdn.com
