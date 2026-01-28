@@ -13,3 +13,4 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/misinformati
 *://*.rnc.org/*
 *://*.trumpmobile.com/*
 *://*.trumpcard.gov/*
+*://*.trumpaccounts.gov/*

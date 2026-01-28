@@ -54,6 +54,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.trumpcard.gov/*
 *://*.trumpmobile.com/*
 *://*.trumprx.com/*
+*://*.trumpaccounts.gov/*
 *://*.trumpvancetransition.com/*
 *://*.truthsocial.com/*
 *://*.tulsigabbard.com/*

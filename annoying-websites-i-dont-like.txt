@@ -1,5 +1,5 @@
 ! Title: Pixiekat's List of Annoying Sites to Eradicate From The Internet
-! Version: 17January2026v1
+! Version: 28January2026v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Honestly I just hate these sites and would love to avada kadava them from the internet. *shrug*
@@ -118,6 +118,7 @@ youtube.com##a[href^="/channel/UCAql2DyGU2un1Ei2nMYsqOA" i]:upward(ytd-channel-r
 ||trumpcard.gov^$important
 ||trumprx.com^$important
 ||trumprx.gov^$important
+||trumpaccounts.gov^$important
 ||trumpvancetransition.com^$important
 ||tulsigabbard.com^$important
 ||twitter.com^$important
