@@ -65,5 +65,6 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/hate_sites_u
 *://*.wesstreeting.org/*
 *://*.whitehouse.gov/*
 *://*.x.com/*
+*://*.wabcradio.com/*
 *://washingtonreporter.news/*
 *://www.youtube.com/c/CBSNews*

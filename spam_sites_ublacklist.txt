@@ -23,5 +23,8 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/spam_sites_u
 *://*.instagram.com/*
 *://*.threads.com/*
 *://*.threads.net/*
+*://*.hindustantimes.com/*
+*://*.yahoo.com/news/*
+*://*.usatoday.com/*
 *://access.redhat.com/solutions/*
 *://access.redhat.com/search/knowledgebase
