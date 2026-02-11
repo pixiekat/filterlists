@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Router Blocklist Whitelist
-! Version: 11February2026v1
+! Version: 11February2026v2
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Anything I need whitelisted directly in Adguard on my Router
@@ -8,3 +8,6 @@
 
 ! referral for autostraddle
 @@||ctrk.klclick1.com^$important
+
+! 1password
+@@||telemetry.1passwordservices.com^$important
