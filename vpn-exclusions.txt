@@ -57,6 +57,7 @@ clearsky.app
 cloudflare.com
 cloudflare.net
 codeberg.org
+codium.b-cdn.net
 copilot.microsoft.com
 csp.microsoft.com
 cvs.com
@@ -76,6 +77,7 @@ dominos.com
 doordash.com
 download.nlm.nih.gov
 download.opensuse.org
+download.vscodium.com
 downloads.1password.com
 downloads.vivaldi.com
 dreamhost.com
@@ -110,7 +112,6 @@ googleapis.com
 googleusercontent.com
 googlevideo.com
 gorettis.com
-gp-mc.net
 gp-mc.net
 granburyrs.com
 guardianproject.info
@@ -178,6 +179,7 @@ outlook.office.com
 outlook.office365.com
 packages.linuxmint.com
 packages.linuxmint.com.lan
+packages.microsoft.com
 packages.mozilla.org.lan
 paloaltonetworks.com
 pangoly.com
@@ -254,6 +256,7 @@ stripe.com
 sublimetext.com
 syncbak.com
 target.com
+teams.cloud.microsoft
 teams.microsoft.com
 tech.lgbt
 telegram.com
@@ -307,12 +310,10 @@ www.integraldata.cc
 www.myworkday.com
 www.nbcboston.com
 www.nerdfonts.com
-www.pornhub.com
 www.qdoba.com.cdn.cloudflare.net
 www.sectigo.com
 www.tvchannellists.com
 www.wcvb.com
-www.youporn.com
 xhamster.com
 xhcdn.com
 xumo.com
