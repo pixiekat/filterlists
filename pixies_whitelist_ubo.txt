@@ -1,110 +1,149 @@
-! Title: 💞 Pixie's Whitelist (uBO)
-! Version: 14November2025v1
+! Title: 💞 Pixie's Whitelist
+! Version: 20February2026v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
 
-! Allow anything from my personal sites
-@@||spacecadetgrrl.me^
-@@||pixiekat.net^
+! Google
+@@||device-provisioning.googleapis.com^$document
+@@||embeddedassistant.googleapis.com^$document
+@@||speechs3proto2-pa.googleapis.com^$document
+@@||s.youtube.com^$document
+
+! Google Apps
+@@||analytics.google.com^$document
+@@||calendar.google.com^$document
+@@||docs.google.com^$document
+@@||drive.google.com^$document
+@@||google.com/search*^$document
+@@||groups.google.com^$document
+@@||history.google.com^$document
+@@||keep.google.com^$document
+@@||mail.google.com^$document
+@@||myaccount.google.com^$document
+@@||myactivity.google.com^$document
+@@||photos.google.com^$document
+@@||translate.google.com^$document
+@@||www.google.com/maps*^$document
+@@||*youtube.com/*&disableadblock=1^$document
+
+! Radio
+@@||www.siriusxm.com^$document
+@@||www.wbur.org^$document
+@@||www.wgbh.org^$document
+
+! Allow anything from my personal site
+@@||integraldata.cc^$document,all
+@@||pixiekat.net^$document,all
+@@||netkitten.net^$document,all
+@@||spacecadetgrrl.me^$document,all
+
+! Allow my favourite blogs and sites
+@@||autostraddle.com^$document
+@@||forthem.com^$document
+@@||gocomics.com^$document
+@@||mst3k.fandom.com^$document
+
+! Email
+@@||app.tuta.com^$document
 
 ! ITV Fixing
-@@||tom.itv.com^
-@@||itvpnp.live.ott.irdeto.com^
+@@||tom.itv.com^$document
+@@||itvpnp.live.ott.irdeto.com^$document
 
 ! STV Fixing
-@@||stv.hb.omtrdc.net^
-@@||stv.d3.sc.omtrdc.net^
-@@||stv.sc.omtrdc.net^
-@@||stv.hb.omtrdc.net^
-@@||stvandroid.2cnt.net^
+@@||stv.hb.omtrdc.net^$document
+@@||stv.d3.sc.omtrdc.net^$document
+@@||stv.sc.omtrdc.net^$document
+@@||stv.hb.omtrdc.net^$document
+@@||stvandroid.2cnt.net^$document
 
 ! BBC iPlayer
-@@||r.bbci.co.uk^
-
-! Google
-@@||embeddedassistant.googleapis.com^
-@@||speechs3proto2-pa.googleapis.com^
-@@||device-provisioning.googleapis.com^
+@@||r.bbci.co.uk^$document
 
 ! Disqus
-@@||disqus.com^
-@@||a.disquscdn.com^
-@@||c.disquscdn.com^
+@@||disqus.com^$document
+@@||a.disquscdn.com^$document
+@@||c.disquscdn.com^$document
+
+! Fixes bill paying
+@@||accounts-tax.intuit.com^$document
+@@||login.nationalgrid.com^$document
+@@||myaccount.nationalgrid.com^$document
 
 ! Deckblue
-@@||deck.blue^
-
-! Pushbullet
-@@||update.pushbullet.com^
-
-! Mozilla
-@@||incoming.telemetry.mozilla.org^
+@@||deck.blue^$document
 
 ! WBRU Fixing
-@@||wbru.com^
-@@||mercure.radio.co^
+@@||wbru.com^$document
+@@||mercure.radio.co^$document
 
 ! CNN.com live streaming
-@@||turnip.cdn.turner.com^
+@@||turnip.cdn.turner.com^$document
 
 ! Ok Substacks
-@@||contrarian.substack.com^
-
-! Youtube
-@@||s.youtube.com^
-@@||s.youtube.com$important
-
-! Nintendo
-@@||receive-lp1.er.srv.nintendo.net^
-@@||receive-lp1.dg.srv.nintendo.net^
-
-! Political sites
-@@||democraticunderground.com^
+@@||contrarian.substack.com^$document
 
 ! Hasan merch
-@@||ideologie.shop^
+@@||ideologie.shop^$document
 
 ! Streaming
-@@||stream.new^
-@@||lcprd1.samsungcloudsolution.net^
-
-! VPNs
-@@||expressvpn.com^
+@@||lcprd1.samsungcloudsolution.net^$document
+@@||player.stv.tv^$document
+@@||pocketcasts.com^$document
+@@||www.itv.com^$document
 
 ! News sites that are OK
-@@||www.404media.co^
+@@||www.404media.co^$document
 
 ! Spam TLDs that are OK
-@@||rvncd.cfd^
-@@||hashtags.fyi^
-@@||joinfediverse.wiki^
-@@||peertube.wtf^
-@@||limetorrents.lol^
-@@||palemoon.start.me^
-@@||alex.party^
-@@||literallyjustadog.shop^
-@@||x1337x.cc^
-@@||ai-sucks-actually.fyi^
-@@||integraldata.cc^
-@@||www.integraldata.cc^
-@@||pghrt.diy^$important
-@@||subdomain.cargo.site^
-@@||freight.cargo.site^
-@@||static.cargo.site^
-@@||freedomtobuy.games^
-@@||neat.tube^
-@@||neocities.org^
-@@||www.librepunk.club^
-@@||lgbtqia.space^
-@@||miau.pub^
+@@||ai-sucks-actually.fyi^$document
+@@||alex.party^$document
+@@||freedomtobuy.games^$document
+@@||freight.cargo.site^$document
+@@||hashtags.fyi^$document
+@@||joinfediverse.wiki^$document
+@@||lgbtqia.space^$document
+@@||limetorrents.lol^$document
+@@||literallyjustadog.shop^$document
+@@||miau.pub^$document
+@@||neat.tube^$document
+@@||neocities.org^$document
+@@||palemoon.start.me^$document
+@@||peertube.wtf^$document
+@@||pghrt.diy^$document
+@@||rvncd.cfd^$document
+@@||static.cargo.site^$document
+@@||stream.new^$document
+@@||subdomain.cargo.site^$document
+@@||www.librepunk.club^$document
+@@||x1337x.cc^$document
 
 ! Trackers that are ok
-@@||isk.richardsw.club^
-@@||tracker.imgoingto.icu^
-@@||tracker.coppersurfer.tk^
-@@||moonburrow.club^
-@@||tracker1.myporn.club^
+@@||isk.richardsw.club^$document
+@@||moonburrow.club^$document
+@@||tracker.coppersurfer.tk^$document
+@@||tracker.imgoingto.icu^$document
+@@||tracker1.myporn.club^$document
 
 ! Fixes some sites blocked elsewhere that I personally view
-@@||www.neowin.net^
+@@||www.neowin.net^$document
+
+! Work
+@@||alltechishuman.org^$document
+@@||bidmc.org^$document,all
+@@||bilh-my.sharepoint.com^$document,all
+@@||bilh.org^$document,all
+@@||certbot.eff.org^$document
+@@||codeberg.org^$document
+@@||copilot.microsoft.com^$document
+@@||dcinetwork.org^$document
+@@||diabetesdefa.org^$document
+@@||login.microsoftonline.com^$document,all
+@@||outlook.office.com^$document
+@@||outlook.office365.com^$document
+@@||panel.dreamhost.com^$document
+@@||store.sectigo.com^$document
+@@||teams.microsoft.com^$document,all
+@@||us02web.zoom.us^$document
+@@||www.eff.org^$document

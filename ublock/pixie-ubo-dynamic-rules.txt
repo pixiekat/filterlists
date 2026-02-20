@@ -1,0 +1,38 @@
+! ============================
+! Pixie Dynamic Rules (uBO)
+! ============================
+
+! --- Global overrides ---
+no-csp-reports: * true
+
+! --- No cosmetic filtering (sites you want untouched) ---
+no-cosmetic-filtering: www.gocomics.com true
+no-cosmetic-filtering: www.wbur.org true
+no-cosmetic-filtering: www.msnbc.com true
+no-cosmetic-filtering: www.techdirt.com true
+no-cosmetic-filtering: www.theverge.com true
+
+! --- No large media ---
+no-large-media: behind-the-scene false
+
+! --- Global noop rules (soften blocking globally) ---
+* * 1p-script noop
+* * inline-script noop
+
+! --- Site-specific noop rules ---
+cbc.ca * noop
+www.cbc.ca * noop
+gog.com * noop
+watch.njpwworld.com onetrust.com * noop
+play.pocketcasts.com sentry.io * noop
+www.tumblr.com tumblr.com * noop
+www.tumblr.com www.tumblr.com * noop
+
+! --- Behind-the-scenes rules ---
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
