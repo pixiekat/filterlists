@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 20February2026v1
+! Version: 20February2026v3
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -16,3 +16,6 @@
 
 ! Include cosmetic
 !#include https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/crap.txt
+
+! Fix Brave first‑party tracking
+||brave.com/matomo.js$all
