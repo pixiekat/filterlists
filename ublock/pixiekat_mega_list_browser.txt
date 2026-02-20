@@ -10918,3 +10918,48 @@ xhamster.com##+js(set-cookie, parental-control, yes)
 ||zenmate.com^$document
 ||ziffdavis.com.edgekey.net^$document
 ||ziffdavis.com^$document
+﻿[Adblock Plus 3.12]
+! Title: 🎬 Stop Autoplay On Video Sites
+! Expires: 7 days
+! Version: 01December2025v1
+! Description: Are you tired of having to turn oﬀ autoplay on YouTube, Vimeo, and other video sites every time you e.g. go to incognito mode? Do you work in classrooms/courserooms and don't want to accidentally show unfitting videos to your students/coursetakers? Are you worried of having to use specific extensions just for that purpose? Then this list is for you.
+! Special thanks to https://github.com/llacb47 for waterproofing large parts of this list.
+! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! I oﬀer a 15€ bounty to anyone who can figure out how to automatically turn oﬀ autoplay on Dailymotion through one or more uBlock Origin entries, payable by PayPal.
+! ——— YouTube ———
+! Note: Video suggestions after the video is finished, will not be shown.
+/endscreen.js$script,domain=youtube.com|youtu.be|youtube-nocookie.com|35.190.94.206
+youtube.com,35.190.94.206###head.ytd-compact-autoplay-renderer
+youtube.com,35.190.94.206##.checkbox-on-off
+youtube.com,35.190.94.206##.watch-sidebar-head
+m.youtube.com##.ytm-autonav-bar
+! 30/11/2025
+!!!||www.youtube.com/youtubei/v1/player?prettyPrint=false| (A really bad idea; https://github.com/DandelionSprout/adfilt/issues/1210)
+!#if !ext_ublock
+/endscreen.js$app=com.google.android.youtube|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
+! ——— Vimeo ———
+&stream_pos=0&autoplay=true$xmlhttprequest,domain=vimeo.com
+vimeo.com##.iris_progress-container
+vimeo.com##.pagination_holder
+vimeo.com##._16rrx
+! (Has some problems due to https://github.com/AdguardTeam/FiltersCompiler/blob/master/src/main/utils/trust-levels/exclusions-high.txt)
+! (Also breaks Vimeo's upload page entirely.)
+!!!vimeo.com#%#AG_setConstant('vimeo.clip_page_config.continuous_play_enabled', 'false');
+! ——— Rumble ———
+||rumble.com/embedJS/u3/?request=related$xmlhttprequest
+! ——— TED ———
+! Note: Once the outro screen is triggered and blocked, the page has to be reloaded to play the same video again. It also remains stuck on an ominously red-tinted frame when it happens.
+||pb.tedcdn.com/bumpers/hls/video/out/$xmlhttprequest,domain=ted.com
+! ——— BBC Reel ———
+||bbci.co.uk/plugins/onwardJourneyHTML/*/js/onwardJourney.js^
+! ——— Dailymotion ———
+! https://github.com/DandelionSprout/adfilt/issues/1023
+||static1.dmcdn.net/playerv5/dmp.end_screen.*.js$script
+! ——— Ixigua - 西瓜视频 ———
+! Note: Also removes video recommendations
+||ixigua.com/api/feedv2^
+! ——— Help wanted for: ———
+! Sites using JW Player (e.g. Mediaite)
+! Gfycat
+! YouTube Kids
+!#include uBO%20list%20extensions/StopAutoplayOnYouTube-uBOExtension.txt

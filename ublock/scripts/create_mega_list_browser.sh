@@ -19,6 +19,7 @@ URLS=(
   "https://badblock.celenity.dev/abp/annoyances.txt"
   "https://badblock.celenity.dev/abp/data-brokers.txt"
   "https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/crap.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/StopAutoplayOnYouTube.txt"
 )
 
 for url in "${URLS[@]}"; do
