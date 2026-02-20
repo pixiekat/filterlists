@@ -24,6 +24,7 @@ URLS=(
   "https://badblock.celenity.dev/abp/ethical_whitelist.txt"
   "https://badblock.celenity.dev/abp/lan_whitelist.txt"
   "https://badblock.celenity.dev/abp/linux_whitelist.txt"
+  "https://badblock.celenity.dev/abp/microsoft_whitelist.txt"
   "https://badblock.celenity.dev/abp/misc_whitelist.txt"
   "https://badblock.celenity.dev/abp/mobile_whitelist.txt"
   "https://badblock.celenity.dev/abp/mozilla_whitelist.txt"
