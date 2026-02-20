@@ -11,9 +11,13 @@ URLS=(
   "https://badblock.celenity.dev/abp/brave.txt"
   "https://badblock.celenity.dev/abp/data-brokers.txt"
   "https://badblock.celenity.dev/abp/drm.txt"
+  "https://badblock.celenity.dev/abp/facebook.txt"
+  "https://badblock.celenity.dev/abp/monitoring.txt"
   "https://badblock.celenity.dev/abp/radar.txt"
   "https://badblock.celenity.dev/abp/unsafe.txt"
   # cosmetic
+  "https://badblock.celenity.dev/abp/annoyances.txt"
+  "https://badblock.celenity.dev/abp/data-brokers.txt"
   "https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/crap.txt"
 )
 
