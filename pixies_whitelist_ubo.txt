@@ -83,6 +83,7 @@
 
 ! Ok Substacks
 @@||contrarian.substack.com^$document
+@@||www.erininthemorning.com^$document
 
 ! Hasan merch
 @@||ideologie.shop^$document
@@ -118,6 +119,14 @@
 @@||subdomain.cargo.site^$document
 @@||www.librepunk.club^$document
 @@||x1337x.cc^$document
+
+! Sourceforge overrides
+@@||sourceforge.net/projects/qbittorrent/files/latest/download^$document
+@@||sourceforge.net/projects/qbittorrent/files/qbittorrent^$document
+@@||*.dl.sourceforge.net/project/qbittorrent/^$document
+@@||downloads.sourceforge.net/project/qbittorrent^$document
+@@||downloads.sourceforge.net^$document
+@@||dl.sourceforge.net^$document
 
 ! Trackers that are ok
 @@||isk.richardsw.club^$document
