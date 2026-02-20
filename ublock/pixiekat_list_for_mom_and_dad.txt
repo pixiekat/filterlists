@@ -1,10 +1,10 @@
 ! Title: Pixiekat's Browser List for Mom & Dad
-! Version: 20February2026v1
+! Version: 20February2026v2
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Browser List for Mom & Dad
 
 ! Include DandelionSprout's List For Old People
-!#include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Sensitive%20lists/AntiAstrologyList.txt
-!#include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Pro-LED%20List.txt
-!#include https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt
+!#include https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Sensitive%20lists/AntiAstrologyList.txt
+!#include https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Pro-LED%20List.txt
+!#include https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt
