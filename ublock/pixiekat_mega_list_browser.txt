@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 20February2026v3
+! Version: 20February2026v4
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -8,11 +8,11 @@
 !#include https://badblock.celenity.dev/abp/click-tracking_whitelist.txt
 
 ! Include blocklists
-!#include https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/brave.txt
-!#include https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/data-brokers.txt
-!#include https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/drm.txt
-!#include https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/radar.txt
-!#include https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/unsafe.txt
+!#include https://badblock.celenity.dev/abp/brave.txt
+!#include https://badblock.celenity.dev/abp/data-brokers.txt
+!#include https://badblock.celenity.dev/abp/drm.txt
+!#include https://badblock.celenity.dev/abp/radar.txt
+!#include https://badblock.celenity.dev/abp/unsafe.txt
 
 ! Include cosmetic
 !#include https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/crap.txt
