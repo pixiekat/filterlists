@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 20February2026v1
+! Version: 20February2026v2
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -44,6 +44,12 @@
 @@||gocomics.com^$document
 @@||mst3k.fandom.com^$document
 
+! Unbreaks Autostraddle email links
+@@||ctrk.klclick1.com^$document
+
+! Banking and Important Sites
+@@||bankofamerica.com^$document,all
+
 ! Email
 @@||app.tuta.com^$document
 
@@ -55,7 +61,6 @@
 @@||stv.hb.omtrdc.net^$document
 @@||stv.d3.sc.omtrdc.net^$document
 @@||stv.sc.omtrdc.net^$document
-@@||stv.hb.omtrdc.net^$document
 @@||stvandroid.2cnt.net^$document
 
 ! BBC iPlayer
@@ -70,6 +75,9 @@
 @@||accounts-tax.intuit.com^$document
 @@||login.nationalgrid.com^$document
 @@||myaccount.nationalgrid.com^$document
+
+! Fixes telemetry
+@@||telemetry.1passwordservices.com^$document,all
 
 ! Deckblue
 @@||deck.blue^$document
