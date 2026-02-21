@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-02-21T21:45:05Z
+! Version: 2026-02-21T23:51:47Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -4177,3 +4177,200 @@ logrocket.com##div.code-block:-abp-has(> div.news-pop-outer-wrap)
 logrocket.com##div.code-block:-abp-has(> a div.metrics-banner)
 logrocket.com##div[class*="-plug"]
 logrocket.com##div[class*="-cta"]
+! Title: 🔮 I Don't Want to Download Your Browser
+! Version: 29November2024v1-Beta
+! Expires: 5 days
+! Description: Do you already have a favourite browser or PDF reader? Are you tired of seeing "Try out [some browser] now!" on some websites? Then this is a list for you!
+! Note: The list doesn't block browser download buttons on first-party site pages solely dedicated to downloads, if the browser is made by that same first-party. For instance https://www•ccleaner•com/ccleaner/download
+! ——— Chrome ———
+google.com##.gb_vd[aria-label*="Google Play"][aria-label*=Chrome]
+google.*##.gb_g.gb_ba:has(.gb_Ad)
+chrome.google.com##.Yb
+futureordering.com,bestill.egon.no###unsupported
+! https://teorifilm•no/en/i-have-a-code/
+##.chrome-footer:not(html, body)
+! https://github.com/AdguardTeam/AdguardFilters/issues/108684
+##.chrome-banner:not(html, body)
+! Chrome's uninstall survey page
+www.google.com##.chr-panel-switcher__card:first-of-type
+! ——— Edge ———
+##.epb-container.f-information.c-uhfh-alert
+bing.com#?##b_pole:has-text(Microsoft Edge)
+bing.com##.bnp_btc
+bing.com##.bnp_fly_hp
+bing.com##[data-flyout=anaheim]
+microsoft.com,windows.com###epb
+microsoft.com,windows.com##bannerAboveUHF
+microsoft.com,windows.com##banner-above-uhf
+msn.com###irisbannerph
+msn.com##.articlebody > div[style="width:100%;border:1px solid #CCC;padding:10px;"]
+outlook.live.com##div[class*=" body-"] > div[class] > div[class]:not([role]) > div:first-of-type:not([class])
+! ——— Opera ———
+addons.opera.com###overlay
+! https://github.com/AdguardTeam/AdguardFilters/issues/119793
+||opera.com/*/downloadassets/sticky-bar-auto|$subdocument
+! ——— Firefox ———
+addons.mozilla.org##.DownloadFirefoxButton
+send.firefox.com##send-promo
+! WordPress Firefox ESR52 nag (Sourced from https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt)
+###dashboard_browser_nag
+! ——— Avast Secure Browser ———
+softonic.com##[src*="/avastsecurebrowser/"]
+! toca-hair-salon-2-windows-10•en•softonic•com
+###download-recommended-app
+! ——— GMX Internet Browser, whatever that is ———
+||united-infos.net^$third-party
+! ——— DuckDuckGo Browser ———
+duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##div.header--aside__item:has(+a)
+! ——— All browsers except Brave ———
+archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,btdig.com##+js(acis, document.cookie, document.location.href)
+rapid-cloud.co##+js(aopw, navigator.brave)
+! ——— Unknown browsers ———
+! https://www•kongregate•com/games/hapiwakuproject/incremental-epic-hero (05/08/2022)
+##.browser-notice--downloads
+kongregate.com##.browser-notice
+! ——— Adobe Reader / Adobe Acrobat ———
+! https://www•asrock•com/mb/Intel/Z390%20Phantom%20Gaming%209/index•asp#Manual
+asrock.com###Manual > .Notice
+/getAdobeReader.$image
+! https://www•jal•co•jp/en/footer/browser•html
+jal.co.jp#?#.mgt20:has-text(is necessary to view or print PDF)
+! https://www•jal•com/en/press/2004/090801/090801•html
+jal.com#?#body > font:has-text(have Adobe Reader)
+! https://www•yadvashem•org/yv/en/downloads/name_reading_ceremonies•asp
+yadvashem.org#?#.text_and_menu_block > p:has-text(need to download Adobe Acrobat)
+yadvashem.org#?#p:has-text(start your Acrobat Reader)
+! https://www•gigabyte•com/Motherboard/Z390-M-GAMING-rev-10#support-manual
+gigabyte.com#?#div.target-container.desc:has-text(PDF files with Acrobat )
+/get_adobe_reader.$image
+! https://www•supermicro•com/about/sitemap/
+supermicro.com##.boxHome.textA:has([href*="products/acrobat/"])
+@@||supermicro.com$elemhide,badfilter
+! https://signform•no/dss/statlige-blanketter?view=forms&id=12
+signform.no#?##signformheader + div > p:has-text(Adobe Reader)
+! https://www•cia•gov/index•html
+cia.gov,ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion#?#.info-panel:has-text(Adobe® Reader®)
+! No active example pages
+/images/acrobat.gif|
+! ——— Desktop app versions of websites ———
+deezer.com##.page-alerts:has(a[href$="/download"])
+! ——— Self-promoting but somewhat annoying links ———
+fileinfo.com##.fv
+fileinfo.com##.top:has(a[href*="/windows_file_viewer"])
+! ——— Prompts about outdated browsers... within reasonable limits ———
+! nettavisenNO (24/05/2023)
+!#if cap_user_stylesheet
+##div.browserwarning
+﻿! Title: ♟ Anti-'Fake transparent images' List
+! Version: 02February2025v2-Alpha
+! Expires: 8 days
+! Description: Have you browsed through image search engines looking for transparent images, but all you can find are ones with fake transparency and grey chessboards in the background? Then this list is for you.
+!!! Webpages offers the PNG upright, with fake transparency
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="similarpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngegg.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngwing.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="toppng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="hiclipart.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="png.is/"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngfind.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="clipartmax.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="lovepik.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="cleanpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pinpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="flyclipart.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngaaa.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="dlf.pt"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="nohat.cc"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="www.vhv.rs"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="www.uihere.com"])
+!!! Webpages offer a JPG, but claims you can download a PNG with an account
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="favpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pnghut.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="pngtree.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="imgbin.com"])
+!!! Webpages offer a JPG, but claims you can download a PNG with a Captcha
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="subpng.com"])
+google.*##:is(div[data-attrid^="images "],.isv-r):has(a[href*="kissclipart.com"])
+! Acquitted
+!!! cleanpngCOM
+!!! clipart-libraryCOM
+!!! freepngimgCOM
+!!! holidaypngCOM
+!!! klipartzCOM
+!!! nicepngCOM
+!!! pinclipartCOM
+!!! pingitemCOM
+!!! pngallCOM
+!!! pngimagesIN
+!!! pngkeyCOM
+!!! pngplayCOM
+!!! pngsetCOM
+!!! stickpngCOM
+! Title: 🧗 Anti-'Functionality removal' List
+! Version: 14June2025v1-Beta
+! Expires: 9 days
+! Description: This list aims to combat some sites' attempts to make it impossible to copy text, right-click on pages, open the F12 menu, create fake loading times, or who otherwise obstruct people from features that they should be perfectly in their rights to have access to.
+! 📛 = This category requires using uBlock Origin or AdGuard for the best results.
+! Copypaste hĳackers 📛
+bloombergquint.com##+js(acis, document.oncopy)
+bloombergquint.com##+js(aopr, getSelection)
+delfi.lt##+js(aeld, copy)
+!!!||deepl.com/js/docTrans-react.chunk. (https://github.com/AdguardTeam/AdguardFilters/issues/119645)
+||www.15min.lt/naujiena^$inline-script
+!#if adguard
+! https://github.com/AdguardTeam/FiltersRegistry/issues/683
+||www.15min.lt/naujiena^$csp=script-src 'self' 'unsafe-eval' http: https:
+! Prevents sites from removing the ability to right-click on pages
+! https://www•patheos•com/blogs/godzooks
+/wp-content/plugins/disable-right-click-and-content-copy-protection^
+! From "Frellwit's Swedish Filter"
+/plugins/wp-content-copy-protection^
+/plugins/wp-copy-protect-with-color-design^
+! https://github.com/DandelionSprout/adfilt/pull/1045
+/secure-copy-content-protection-public.css^$css
+! Prevents sites from removing the ability to right-click on images 📛
+! https://www•matprat•no/oppskrifter/kos/koreansk-beef-bulgogi/ (29/03/2024)
+*,~tumblr.com,~deviantart.com,~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##section:remove-class(image-copy-protection)
+! Prevents sites from removing the ability to copy text 📛
+respublika.lt#?#[class^=com_]:style(user-select: unset !important; -webkit-user-select: unset !important; -moz-user-select: unset !important)
+hirunews.lk,ada.lk#?#body:style(user-select: unset !important; -webkit-user-select: unset !important; -moz-user-select: unset !important)
+||laisvadienis.lt^$inline-script
+niskevesti.rs##^script:has-text(ays_tooltip)
+niskevesti.rs##:not(input):not(textarea)::selection:style(background-color: #B4D5FFA0 !important)
+!#if !env_firefox
+niskevesti.rs##style:not([class],[id]):remove()
+||niskevesti.rs^$inline-script
+! https://jarloworks•com/hq-previews/ (NSFW)
+jarloworks.com##+js(acis, show_alert)
+jarloworks.com##*:style(user-select:auto!important;-moz-user-select:auto!important;-wekbit-user-select:auto!important)
+! Prevents sites from disabling DevTools keyboard shortcuts 📛
+dropgalaxy.*##+js(acs, document.onkeydown)
+! Defuse anti-debugging measures in sites 📛
+||jsdelivr.net/npm/disable-devtool$script
+dropgalaxy.*##+js(acs, isWesternEuropeanTimezone)
+! Removes strange blurring of comments on non-Nordic sites 📛
+respublika.lt#?##news_comment_container:style(filter: none !important)
+! Prevents sites from forcibly always opening pages in new tabs 📛
+! https://github.com/EasyList-Lithuania/easylist_lithuania/issues/16
+autoplius.lt##+js(ra, target, [target="_blank"], stay)
+! Fake loading screens
+hackintoshshop.com##body > div:first-of-type[style^=background-color][id]
+! 🇳🇴 (From "Nordic Filters")
+nettavisen.no###topover-loader
+nettavisen.no###topover
+! 🇳🇴 adressaNO (02/12/2020)
+||collector.schibsted.io^$third-party
+! https://sandberg•world/en-no/product/Wireless-Mouse-Pro (25/12/2022); mppdainikCOM (Unknown date)
+~ru###preloader
+! metropoleshoppingmontecarloCOM (27/01/2025)
+! (lamodaRU; https://github.com/AdguardTeam/AdguardFilters/issues/202815; easier than handling future non-VPN-able Russian sites)
+~ru##div.preloader
+! 🇸🇷 sunSR
+##app-loading-screen
+! 🇫🇴 EldingFO checkout
+##.loading-mask:not(html,body)
+! 🇯🇵 sunflower•co•jp (14/06/2025)
+##div#loading
+! Prevents Google from changing normal links in image searches to their tracking links whenever they're clicked on.
+! I was only able to get this to work with the 2 links below the main image in the rightside drawer, and not on the main image itself. Trust me, I tried.
+www.google.*,ipv6.google.com##a[data-ved][jsaction*="focus:trigger"]:remove-attr(jsaction)
