@@ -3,16 +3,6 @@
 OUTPUT="../merged_allowlist.txt"
 TMPFILE=$(mktemp)
 
-# Metadata header
-cat <<EOF > "$TMPFILE"
-! Title: Pixiekat's Mega White List (Router)
-! Version: $(date -u +"%d%b%Yv1")
-! Expires: 7 days
-! Homepage: https://codeberg.org/pixiekat/filterlists
-! Description: Pixiekat's merged allowlist for AdGuard Home
-!
-EOF
-
 # List of whitelist URLs to fetch
 URLS=(
   "https://badblock.celenity.dev/abp/android_whitelist.txt"

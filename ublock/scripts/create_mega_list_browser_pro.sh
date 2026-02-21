@@ -6,6 +6,7 @@ TMPFILE=$(mktemp)
 # List of whitelist URLs to fetch
 URLS=(
   # whitelists
+  "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/spam-tlds-adblock-allow.txt"
   # blocklists
   "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/spam-tlds-ublock.txt"
   "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt"
