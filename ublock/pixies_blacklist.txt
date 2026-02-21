@@ -1,0 +1,175 @@
+! Title: 🥶 Pixie's Blacklist
+! Version: 20February2026v2
+! Expires: 12 hours
+! Description: Ew, gross, get out of here! 
+! Homepage: codeberg.org/pixiekat/filterlists
+
+
+! AI Spammy Sites
+||1sixty8.ai^$document
+||binance.us^$document
+||character.ai^$document
+||dev.to^$document
+||devset.ai^$document
+||github.com/necarlson97/codex-ai-sublime$document
+||github.com/pieces-app^$document
+||github.com/promontorycoder$document
+||pieces.app^$document
+||quizard.io^$document
+
+! Canadian Government and Politicians
+||conservative.ca^$document
+
+! Corporate media news sites that contribute to fascism and evil
+||breitbart.com^$document,all,domain=~its-a-fascist-domain.*
+||businessinsider.com^$document
+||canadafreepress.com^$document,all,domain=~its-a-fascist-domain.*
+||dailymail.co.uk^$document,domain=~its-a-fascist-domain.*
+||dailymail.com^$document,domain=~its-a-fascist-domain.*
+||dailywire.com^$document,all,domain=~its-a-fascist-domain.*
+||foxbusiness.com^$document,all,domain=~its-a-fascist-domain.*
+||foxnews.com^$document,all,domain=~its-a-fascist-domain.*
+||foxweather.com^$document,all,domain=~its-a-fascist-domain.*
+||gbnews.com^$document,all,domain=~its-a-fascist-domain.*
+||greenwald.locals.com^$document,all,domain=~its-a-fascist-domain.*
+||infowars.com^$document,all,domain=~its-a-fascist-domain.*
+||nytimes.com^$document,all,domain=~its-a-fascist-domain.*
+||rebelnews.com^$document,all,domain=~its-a-fascist-domain.*
+||rsbnetwork.com^$document,all,domain=~its-a-fascist-domain.*
+||substack.com^$document,domain=~its-a-nazi-domain.*
+||telegraph.co.uk^$document,domain=~its-a-fascist-domain.*
+||thegatewaypundit.com^$document,all,domain=~its-a-fascist-domain.*
+||thehill.com^$document,domain=~its-a-fascist-domain.*
+||wabcradio.com^$document
+||washingtonpost.com^$document,all,domain=~its-a-fascist-domain.*
+||washingtonreporter.news$document,all,domain=~its-a-fascist-domain.*
+||www.cbs.com/shows/video/JSfaBN2wbRxf2KJXbJwRBdZREI4a33Ig/$document,all,domain=~its-a-fascist-domain.*
+||www.cbsnews.com^$document,all,domain=~its-a-fascist-domain.*
+||www.thefp.com^$document,all,domain=~its-a-fascist-domain.*
+||www.youtube.com/c/CBSNews$document,domain=~its-a-fascist-domain.*
+
+! General evil sites
+||www.realamericanfreestyle.com^$document
+||rumble.com^$document,all,domain=~its-a-fascist-domain.*
+
+! Probably fine but I just don't like to see
+||adpizzapub.com^$document
+||dominos.com^$document
+||doordash.com^$document
+||granburyrs.com^$document
+||grubhub.com^$document
+||mediaite.com^$document
+||moes.com^$document
+||qdoba.com^$document
+||retailmenot.com^$document
+||ubereats.com^$document
+||www.qdoba.com.cdn.cloudflare.net^$document
+
+! RYD Return Youtube Dislikes
+www.youtube.com##.ryd-premium-teaser
+
+! Sites that contribute to evil
+||grok.com^$document,all,domain=~its-a-fascist-domain.*
+||grokipedia.com^$document,all,domain=~its-a-fascist-domain.*
+||heritage.org^$document,domain=~its-a-fascist-domain.*
+||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*
+||spacex.com^$document
+||starlink.com^$document
+||tesla.com^$document
+||twitter.com^$document,all,domain=~its-a-fascist-domain.*
+||x.com^$document,all,domain=~its-a-fascist-domain.*
+||xai.com^$document,all,domain=~its-a-fascist-domain.*
+
+! Spammy sites in general
+||esspots.com^$document
+||geekpedia.com^$document
+
+! Terf sites
+||jkrowling.com^$document,all
+||mumsnet.com^$document,all
+||reddit.com/r/harry_potter^$document,domain=~its-a-terf-apologia-subreddit.*
+||reddit.com/r/harrypotter^$document,domain=~its-a-terf-apologia-subreddit.*
+||reddit.com/r/harrypotterbooks^$document,domain=~its-a-terf-apologia-subreddit.*
+||reddit.com/r/HarryPotteronHBO^$document,domain=~its-a-terf-apologia-subreddit.*
+||www.harrypotter.com^$document
+||www.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/$document
+||www.wbstudiotour.co.uk^$document
+
+! Twitter is garbage, get rid of it
+##.twitter-tweet
+##.twitter-tweet.twitter-tweet-rendered
+||platform.twitter.com/embed/Tweet.html$subdocument
+
+! Also get rid of shitty Truth Social embeds
+##.truthsocial-embed
+
+! UK Government and Political Parties
+||conservatives.com^$document
+||reformparty.org^$document
+||reformparty.uk^$document
+
+! UK Politicians
+||keirstarmer.com^$document
+||kemibadenoch.org.uk^$document
+||nfarage.com^$document
+||wesstreeting.org^$document
+
+! US Government websites under a fascist regime
+||ai.gov^$document,all,domain=~its-a-fascist-domain.*
+||americabydesign.gov^$document,all,domain=~its-a-fascist-domain.*
+||cdc.gov^$document,all,domain=~its-a-fascist-domain.*
+||dei.gov^$document,all,domain=~its-a-fascist-domain.*
+||doge.gov^$document,all,domain=~its-a-fascist-domain.*
+||donaldjtrump.com^$document,all,domain=~its-a-fascist-domain.*
+||gop.com^$document,all,domain=~its-a-fascist-domain.*
+||justice.gov^$document,all,domain=~its-a-fascist-domain.*
+||kennedy-center.org^$document,all,domain=~its-a-fascist-domain.*
+||realfood.gov^$document,all,domain=~its-a-fascist-domain.*
+||rnc.org^$document,all,domain=~its-a-fascist-domain.*
+||trump.com^$document,all,domain=~its-a-fascist-domain.*
+||trumpaccounts.gov^$document,all,domain=~its-a-fascist-domain.*
+||trumpcard.gov^$document,all,domain=~its-a-fascist-domain.*
+||trumpmobile.com^$document,all,domain=~its-a-fascist-domain.*
+||trumprx.com^$document,all,domain=~its-a-fascist-domain.*
+||trumprx.gov^$document,all,domain=~its-a-fascist-domain.*
+||trumpvancetransition.com^$document,all,domain=~its-a-fascist-domain.*
+||war.gov^$document,all,domain=~its-a-fascist-domain.*
+||waste.gov^$document,all,domain=~its-a-fascist-domain.*
+||whitehouse.gov^$document,all,domain=~its-a-fascist-domain.*
+
+! US Politicians
+||kennedy24.com^$document,all,domain=~its-a-fascist-domain.*
+||rfkcos.lausd.org^$document,all,domain=~its-a-fascist-domain.*
+||rfkhumanrights.org^$document,all,domain=~its-a-fascist-domain.*
+||tulsigabbard.com^$document
+
+! -----
+! - Site Specific Rules
+! -----
+
+! Bluesky
+||ip.bsky.app/config$replace=/(?<="countryCode":").+?(?=")/US/
+||ip.bsky.app/config$replace=/(?<="regionCode":").+?(?=")/WA/
+||ip.bsky.app/config$replace=/(?<="ageRestrictedGeos":)\[.*?]/[]/
+||ip.bsky.app/config$replace=/(?<="ageBlockedGeos":)\[.*?]/[]/
+
+! DuckDuckGo
+duckduckgo.com##li.sideMenu_hasBadge__sgC0X:nth-of-type(1)
+duckduckgo.com##li.sideMenu_hasBadge__sgC0X:nth-of-type(2)
+duckduckgo.com##.minimal-homepage_belowTheFoldWrapper__I_rnZ
+duckduckgo.com##.center_andText__ejUnC.center_intrinsic__mk_Ab.center_root__Uf1xM.minimal-homepage_exploreFeatureScroller__TL5Vx.homepage-cta-section_scrollCta__HuSCL
+duckduckgo.com##.button_size-xs__Pzg8L.button_ghost__4prhT.button_button__qrSvw.header_aiChatButton___qF_q
+
+! Mediaite
+www.mediaite.com##.u-lazy-parent.o-slice.c-youtube-home-section.o-fcc-full\@desktop
+www.mediaite.com##.c-sidebar-tips.o-sidebar-tips.promo-sidebar.promo
+www.mediaite.com##.c-footer-network__item.c-footer-network-bottleraiders
+www.mediaite.com##li.c-header-nav-bar__item.primary:nth-of-type(3)
+www.mediaite.com##.c-menu-social-items.o-social-items
+www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(8)
+www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(7)
+www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(6)
+www.mediaite.com##li.c-menu-nav-list__item:nth-of-type(5)
+www.mediaite.com##li.c-menu-nav-list__item.primary:nth-of-type(3)
+www.mediaite.com##.c-header-account-wrap
+www.mediaite.com##.c-youtube-container
