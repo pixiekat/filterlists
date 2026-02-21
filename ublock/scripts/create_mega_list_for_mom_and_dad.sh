@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 OUTPUT="$SCRIPT_DIR/../pixiekat_list_for_mom_and_dad.txt"
 TMPFILE=$(mktemp)
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 OUTPUT="$SCRIPT_DIR/../merged_blocklist.txt"
 TMPFILE=$(mktemp)
 
