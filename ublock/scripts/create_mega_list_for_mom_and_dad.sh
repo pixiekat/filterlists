@@ -1,6 +1,7 @@
 #!/bin/bash
 
-OUTPUT="../pixiekat_list_for_mom_and_dad.txt"
+CRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+OUTPUT="$SCRIPT_DIR/../pixiekat_list_for_mom_and_dad.txt"
 TMPFILE=$(mktemp)
 
 # List of URLs to fetch
@@ -22,7 +23,7 @@ done
 echo "Prepending metadata..."
 cat <<EOF > "$OUTPUT"
 ! Title: Pixiekat's Browser List for Mom & Dad
-! Version: $(date -u +"%d%b%Yv1")
+! Version: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Browser List for Mom & Dad

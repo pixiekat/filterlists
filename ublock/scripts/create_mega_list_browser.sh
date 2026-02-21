@@ -1,6 +1,7 @@
 #!/bin/bash
 
-OUTPUT="../pixiekat_mega_list_browser.txt"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+OUTPUT="$SCRIPT_DIR/../pixiekat_mega_list_browser.txt"
 TMPFILE=$(mktemp)
 
 # List of whitelist URLs to fetch
@@ -49,7 +50,7 @@ done
 echo "Prepending metadata..."
 cat <<EOF > "$OUTPUT"
 ! Title: Pixiekat's Mega List
-! Version: $(date -u +"%d%b%Yv1")
+! Version: $(date -u +"%Y-%m-%dT%H:%M:%SZ")
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
