@@ -31,6 +31,9 @@ URLS=(
   "https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt"
   "https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/crap.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/StopAutoplayOnYouTube.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/RedditTrashRemovalService.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/SocialShareList.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/RickrollLinkIdentifier.txt"
 )
 
 for url in "${URLS[@]}"; do

@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 21Feb2026v7
+! Version: 21Feb2026v8
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -23292,3 +23292,829 @@ vimeo.com##._16rrx
 ! Gfycat
 ! YouTube Kids
 !#include uBO%20list%20extensions/StopAutoplayOnYouTube-uBOExtension.txt
+! Title: 🎛 Reddit Trash Removal Service
+! Version: 10November2025v1-Beta
+! Expires: 3 days
+! Description: Reddit can have some good places and posts, but unfortunately 95% of it is also a large pile of echo chambers whose only equivalent is 8kun. So if you only browse Reddit for its humouristical and artistical subreddits, this list will massively help you focus on those things.
+! Some categories in this list only supports New Reddit, because let's be honest: It's so much better to be able to actually see the posts' images from the timelines, instead of having to open every single thread to see if their images are noteworthy or not.
+! Similarly, the ability for me to help out with Reddit in phone browsers is very limited due to its very frequent app demands, though the list has at least been set to work in phone browsers now (10th of March 2023).
+! Removes sitewide feeds from the dropdown menu, on the assumption that they contain posts from bad subreddits
+! Dropdown menu
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###focus-All
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###focus-OC
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###focus-Home
+! Top navigation bar
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###header-quicklinks-oc
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###header-quicklinks-popular
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###header-quicklinks-all
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[role=navigation]
+! The user feed, if I don't remember completely wrong
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##ul.hover.sr-bar.flat-list > li:has(a[href*="/r/all/"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##ul.hover.sr-bar.flat-list > li:has(a[href*="/r/popular/"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##ul.hover.sr-bar.flat-list > li:has(a[href*="/r/random/"])
+! Search bar
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[id^=SearchDropdown]:has(.icon-popular)
+! Removes hard-to-close cookie banners on Imgur embeds
+||quantcast.mgr.consensu.org$domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|imgur.com
+! Subreddits that have extremely messed-up criteria for what is considered to be banworthy
+! Known to ban everyone who are not ultraconservative:
+||reddit.com/r/conservative$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/conspiracy^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/Republican^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/JusticeServed^$document
+! Known to ban all furries:
+||reddit.com/r/antifurry_irl^$document
+||reddit.com/r/yiffinhell^$document
+! Known to ban all men:
+||reddit.com/r/PinkpillFeminism^$document
+! Known to ban most of their white users:
+||reddit.com/r/blackpeopletwitter^$document
+||reddit.com/r/CurlyHair^$document
+! https://www.reddit.com/r/PowertrippingMods/comments/r3fhvd/dont_know_if_anyone_has_thanked_this_mod_for/
+||reddit.com/r/trueoffmychest^$document
+||reddit.com/r/technicallythetruth^$document
+||reddit.com/r/iamatotalpieceofshit^$document
+||reddit.com/r/CODWarzone^$document
+||reddit.com/r/maybemaybemaybe^$document
+! Subreddits known to condone mass-murders or the notion of such to varying degrees
+! Known to condone mass murdering of Jews:
+||reddit.com/r/POLITIC^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/multiculturalcancer^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/IsraelExposed^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/jewishcontributions^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/TeamHeckleBerry^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/ClericalFascism^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/NaziFreeMDE^$document,domain=~its-a-racist-subreddit.*
+! Known to condone mass murdering of non-Christians:
+||reddit.com/r/the3rdposition^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/AltRightChristian^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/kotakuinaction2^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/WhiteBiblicalNation^$document,domain=~its-a-racist-subreddit.*
+! Known to condone mass murdering of women:
+||reddit.com/r/Celouts^$document
+||reddit.com/r/shortcels^$document
+! Known to condone mass murdering of Afro-Americans:
+||reddit.com/r/SubforWhitePeopleOnly^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/TruePoliticalHumor^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/HardUnpopularOpinon^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/13do50^$document,domain=~its-a-racist-subreddit.*
+! Known to condone mass murdering of one or more LGBTQ categories:
+||reddit.com/r/AntiLGBTQplus^$document
+||reddit.com/r/islamicsub^$document
+||reddit.com/r/dogeright^$document
+! Known to condone mass murdering of anti-PR-China entities; including student protesters and Uyghurs:
+||reddit.com/r/sino^$document
+! Known to condone mass murdering of non-ultraconservatives:
+||reddit.com/r/DefinitelyNOTboogaloo^$document,domain=~its-a-racist-subreddit.*
+! Known to promote fake screenshots in order to incite violence and hanging of users of competing subreddits:
+||reddit.com/r/WatchRedditDie^$document
+! Posts whose scores are lower than a certain amount (New Reddit)
+! The default for all subreddits is 10 points, although this can be adjusted for a handful of subreddits whose quality levels are deemed to sharply increase with a higher or lower limit.
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[class^=subredditvars-]:not(.subredditvars-r-mapswithoutnz) #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^\d$|^[A-Z]/))
+!!!reddit.com,~old.reddit.com##faceplate-batch > .block:is([score="0"],[score="1"],[score="2"],[score="3"],[score="4"],[score="5"],[score="6"],[score="7"],[score="8"],[score="9"],:not([score]))
+reddit.com,~old.reddit.com#?#.m-0:has(> shreddit-post:is([score="0"],[score="1"],[score="2"],[score="3"],[score="4"],[score="5"],[score="6"],[score="7"],[score="8"],[score="9"]))
+reddit.com#?#.m-0:has(faceplate-number:has-text(/^.$/))
+! 5 points
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-mapswithoutnz #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^[0-4]$|^[A-Z]/))
+! 15 points
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-dontdeadopeninside #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^\d$|^1[0-4]$|^[A-Z]/))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-assholedesign #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^\d$|^1[0-4]$|^[A-Z]/))
+! 20 points
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-ihadastroke #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^1?\d$|^[A-Z]/))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-boneappletea #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^1?\d$|^[A-Z]/))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-bestofreports #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^1?\d$|^[A-Z]/))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-showerthoughts #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^1?\d$|^[A-Z]/))
+! 25 points
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-europe #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^1?\d$|^2[0-4]$|^[A-Z]/))
+! Posts that are too new to have been given a points score
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(div[style^="color:"]:has-text(•):not(:has-text(/[a-z]/i)))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(span[data-click-id=metadata_comments]):not(:has(span[data-click-id=metadata_votes]))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(div[style*=-postfooter-]):not(:has(span[data-click-id=metadata_votes]))
+! Usernames that are 139% guaranteed to be trolls
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(a[href^="/user"]:has-text(/p[e3]p[e3]/i):has-text(/fr[o0]g/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(a[href^="/user"]:has-text(/kek\istan/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(a[href^="/user"]:has-text(/Red{2}\itAd\m\ins/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(a[href^="/user"]:has-text(/j[eou][owi]w?[sz]?/i):has-text(/wh\ite/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(a[href^="/user"]:has-text(/g[o0]y/i):has-text(/wh[i1]te/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a[href^="/user"]:has-text(/p[e3]p[e3]/i):has-text(/fr[o0]g/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a[href^="/user"]:has-text(/kek\istan/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a[href^="/user"]:has-text(/Red{2}\itAd\m\ins/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a[href^="/user"]:has-text(/j[eou][owi]w?[sz]?/i):has-text(/wh\ite/i))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a[href^="/user"]:has-text(/g[o0]y/i):has-text(/wh[i1]te/i))
+! Removes the "n new posts for you" banner
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div:has(> svg[viewbox="0 0 34 16"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[class^=SubredditVars-r-] > div:has(> svg)
+! Attempts to remove the "Recommended posts" feed on the bottom of almost all posts
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):has(> div[data-redditstyle])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[tabindex] > div > div:nth-of-type(2):has(> div[data-redditstyle])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):has(div[data-redditstyle])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[tabindex] > div > div:nth-of-type(2):has(> div > div[data-redditstyle])
+! Removes three specific types of comments that offer nothing to a thread apart from vapid far-out-of-place greetings
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment,.entry:has-text(/Hap{2}\y\sCake\s?Day/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment,.entry:has-text(/charge\s\your\sphone/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a:has-text(/^r/charge\yourphone$/))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.entry:has(a:has-text(/^r/charge\yourphone$/))
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/f\irst\sgold/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/f\irst\ss\ilver/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/f\irst\splat\inum/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/f\irst\saward/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/Thank/i):has-text(/gold/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/Thank/i):has-text(/s\ilver/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/Thank/i):has-text(/plat\inum/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/Thank/i):has-text(/award/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/Thank/i):has-text(/stranger/i)
+! Attempts to remove the "Recommended posts" feed on the right of most posts
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[data-redditstyle=false] + div:has(> div[data-redditstyle=true])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###right-sidebar-container > aside:not([class])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##aside[aria-label]:has(> pdp-right-rail)
+! Let's give people a more free choice on whether to use New or Old Reddit, okay?
+||styles.redditmedia.com/t5_2qimj/styles/image_widget_hosy9x86gxv11.png$image
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[data-redditstyle=false][style]:has-text(/Old\sRed{2}\it/i)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[data-redditstyle=false][style]:has-text(/New\sRed{2}\it/i):has-text(/Trash/i)
+! Aims to prevent Imgur embeds from cutting off half the preview
+imgur.com#?#img[id=image-element][src*=imgur]:style(margin-top: 0 !important)
+! If you're planning to run a background-related April Fools' joke, please don't let it run for ≥2 weeks afterwards
+||styles.redditmedia.com/*/styles/backgroundImage_n3apip7pe9q41.jpg^
+! Removes "r/all"-style posts from "More posts from the" feeds below pages
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[style^="color:"] + div div:not([class*=" "]) > div[class*="  Post "]:not([style])
+! "Similar to this post"
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[style^=max-width] > div[class*=" "] > div[class*=" "] > div:nth-of-type(2):last-of-type
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[style^="height:"] > div > div[class$=" "][data-redditstyle=false]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div:not([class]) > div:only-of-type > div[class$=" "][data-redditstyle=false]
+! Remove the right sidebar related posts on New New Reddit
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,~old.reddit.com##.right-sidebar:has(> pdp-right-rail)
+! Complete and total failings at source critique
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,~old.reddit.com##article:has(> [author-id="t2_g2unu1x5s" i][permalink^="/r/oddlyspecific/" i])
+! Removes something absolutely no one asked for: random bits of text in comments being shown as generally useless search links. (10/11/2025; https://new•reddit•com/r/softwaregore/comments/1my6np3/is_visual_studio_code_trying_to_insult_me/ )
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker a:remove-attr(href)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker a:style(color:unset!important;border-bottom-style:unset!important;cursor:text!important)
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker .align-middle:has(> svg)
+! ————— ↓ Removes content posted by karma hoarders and bribe-taking mods ↓ —————
+! Comments and Posts on New Reddit
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/GallowBoob"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/pepsi_next"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/TooShiftyForYou"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/mvea"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/SlimJones123"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/BunyipPouch"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/iBleeedorange"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/KevlarYarmulke"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/maxwellhill"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/bubblr"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/PowerModerator"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/GallowBoob"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/pepsi_next"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/TooShiftyForYou"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/mvea"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/SlimJones123"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/BunyipPouch"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/iBleeedorange"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/KevlarYarmulke"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/maxwellhill"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/bubblr"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/PowerModerator"])
+! Comments on Old Reddit
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/GallowBoob"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/pepsi_next"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/TooShiftyForYou"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/mvea"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/SlimJones123"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/BunyipPouch"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/iBleeedorange"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/KevlarYarmulke"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/maxwellhill"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/bubblr"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/PowerModerator"])
+! Posts on Old Reddit
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=GallowBoob]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=pepsi_next]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=TooShiftyForYou]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=mvea]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=SlimJones123]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=BunyipPouch]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=iBleeedorange]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=KevlarYarmulke]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=maxwellhill]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=bubblr]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=PowerModerator]
+! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
+! Version: 16February2026v1-Beta
+! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
+! Note: This list does not intentionally try to remove links to websites' social accounts, or to third-party logins. However, there currently will be many de facto false positives that end up removing such buttons as well.
+###add_like_bar
+###batchsdk-ui-alert
+###contents > yt-share-target-renderer:nth-of-type(1n+2)
+###ctoolbar
+###diaspora-button-container
+###divShare
+###inline-share-links
+###likebuttons
+###mashfbar-header
+###new-social-share
+###p-sharing
+###ppsPopupBgOverlay
+###rail-share-bar
+###share-buttons
+###share-tool
+###share-unit
+###share_bar
+###share_container:not([class*=body i])
+###sharebar
+###ShareEntryPoint
+###sharingfooter
+###social-share:not([class*=body i])
+###social_buttons:not([class*=body i])
+###ss-floating-bar
+###story-socials
+###tell-a-friend
+###top_share
+##.addthis_button_facebook:not(html,body,:empty)
+##.addthis_button_messenger:not(html,body,:empty)
+##.addthis_button_more:not(html,body,:empty)
+##.addthis_counter:not(html,body,:empty)
+##.addtoany_content:not(html,body,:empty)
+##.addtoany_list:not(html,body,:empty)
+##.addtoany_share:not(html,body,:empty)
+##.album-dialog__image-share:not(html,body,:empty)
+##.ArevicoModal-bg:not(html,body,:empty)
+##.ArevicoModal:not(html,body,:empty)
+##.article__share:not(html,body,:empty)
+##.basicsSocialActions-socialIcons:not(html,body,:empty)
+##.blog-post-single-share:not(html,body,:empty)
+##.btn--facebook:not(html,body,:empty)
+##.btn-google-plus:not(html,body,:empty)
+##.btn-messenger:not(html,body,:empty)
+##.btn-share:not(html,body,:empty)
+##.btn-tweet:not(html,body,:empty)
+##.button--share:not(html,body,:empty)
+##.c-article__byline-social:not(html,body,:empty)
+##.c-share-tools:not(html,body,:empty)
+##.dre-share-band:not(html,body,:empty)
+##.et_social_icons_container:not(html,body,:empty)
+##.face-share:not(html,body,:empty)
+##.fbbsb-button:not(html,body,:empty)
+##.figure-share:not(html,body,:empty)
+##.floating-share-bar:not(html,body,:empty)
+##.follow_like_module:not(html,body,:empty)
+##.footerSocial:not(html,body,:empty)
+##.Gallery-Share:not(html,body,:empty)
+##.globalSharing:not(html,body,:empty)
+##.googleplusshare:not(html,body,:empty)
+##.heateor_sss_sharing_container:not(html,body,:empty)
+##.i-more-share:not(html,body,:empty)
+##.js-share-btn:not(html,body,:empty)
+##.jw-sharing-icon:not(html,body,:empty)
+##.loader-container.shares:not(html,body,:empty)
+##.mashsb-box:not(html,body,:empty)
+##.meta-share-wrapper:not(html,body,:empty)
+##.news-share-link:not(html,body,:empty)
+##.news_share:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.post-social-goog:not(html,body,:empty)
+##.post_social:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.ppsPopupFbLikeShell:not(html,body,:empty)
+##.product-sharing:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.recentsocial:not(html,body,:empty)
+##.sbtn_main:not(html,body,:empty)
+##.sc-1bdg1q0-0:not(html,body,:empty)
+##.sd-sharing:not(html,body,:empty)
+##.share-actions:not(html,body,:empty)
+##.share-after:not(html,body,:empty)
+##.share-bar:not(html,body,:empty)
+##.share-before:not(html,body,:empty)
+##.share-bottom:not(html,body,:empty)
+##.share-btns:not(html,body,:empty)
+##.share-icon:not(html,body,:empty)
+##.share-icons:not(html,body,:empty)
+##.share-it:not(html,body,:empty)
+##.share-item-plus:not(html,body,:empty)
+##.share-link.js-require-widget:not(html,body,:empty)
+##.share-metas:not(html,body,:empty)
+##.share-networks:not(html,body,:empty)
+##.share-nw:not(html,body,:empty)
+##.share-other:not(html,body,:empty)
+##.share-reddit:not(html,body,:empty)
+##.share-social:not(html,body,:empty)
+##.share-telegram:not(html,body,:empty)
+##.share-this:not(html,body,:empty)
+##.share-toggle:not(html,body,:empty)
+##.share-tools:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.share-top:not(html,body,:empty)
+##.share-trigger:not(html,body,:empty)
+##.share-whatsapp:not(html,body,:empty)
+##.share__list:not(html,body,:empty)
+##.share_area:not(html,body,:empty)
+##.share_btn:not(html,body,:empty)
+##.share_icon_area:not(html,body,:empty)
+##.Share_Icons:not(html,body,:empty)
+##.share_toggle:not(html,body,:empty)
+##.sharea:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.shareBar:not(html,body,:empty)
+##.shareBottom:not(html,body,:empty)
+##.sharebtns:not(html,body,:empty)
+##.shareit:not(html,body,:empty)
+##.shareon:not(html,body,:empty)
+##.shares-badge:not(html,body,:empty)
+##.sharethis-wrapper:not(html,body,:empty)
+##.shareToggle:not(html,body,:empty)
+##.sharetools:not(html,body,:empty)
+##.shariff-button:not(html,body,:empty)
+##.sharing-btn:not(html,body,:empty)
+##.sharing-container:not(html,body,:empty)
+##.sharing-item:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.sharing-links:not(html,body,:empty)
+##.sharing-tools:not(html,body,:empty)
+##.sharing:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.shr-badge__button:not(html,body,:empty)
+##.shr-opn:not(html,body,:empty)
+##.shr.btn:not(html,body,:empty)
+##.single-share:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.sns:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.soc-list:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.social-action[test-id*=facebook]:not(html,body,:empty)
+##.social-footer:not(html,body,:empty)
+##.social-icon:not(html, body, img)
+##.social-likes:not(html,body,:empty)
+##.social-share-sidebar-component:not(html,body,:empty)
+##.social-sharing-buttons:not(html,body,:empty)
+##.social-sharing:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.social-widget:not(html,body,:empty)
+##.social-wrap:not(html,body,:empty)
+##.social.shares:not(html,body,:empty)
+##.social_buttons:not(html,body,:empty)
+##.social_media:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.social_widget__reactions_icons
+##.SocialArticleIcons:not(html,body,:empty)
+##.socialbuttons:not(html,body,:empty)
+##.socialmedia-btns:not(html,body,:empty)
+##.socialmedia:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##.spotheader__sharing:not(html,body,:empty)
+##.ssba:not(html,body,:empty)
+##.ssk-group:not(html,body,:empty)
+##.story-share-bottom:not(html,body,:empty)
+##.swp-hover-pin-button:not(html,body,:empty)
+##.swp_social_panel:not(html,body,:empty)
+##.wpusb:not(html,body,:empty)
+##[app=addtoany]:not(html,body,:empty)
+##[class*=share-toolbar]:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-share-toolbar])
+##[class*=social_share]:not(article,html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##[data-flip-widget=shareflip]:not(html,body,:empty)
+##[socialshare]:not(html,body,:empty)
+##a[appshareclick]
+##a[class$=-sharing-button__link]
+##a[class$=sharebtn]
+##a[class*=-sharing-popup]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##a[class*=-socials__item]
+##a[class*=addthis_button]
+##a[class*=BtnShare]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##a[class*=google_plus_share]
+##a[class*=share__button]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##a[class^=share_btn]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##a[class^=sharing-popup-]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##a[class^=socialbutton i][onclick*="window.open"]
+##a[data-ga-event-action^="share:"]
+##a[data-plugin^=sharingButtons]
+##a[data-ss-ss-type]
+##a[data-tooltip^="Share on "]
+##a[data-type=sharing-button]
+##a[href*=".cmd=addShare"]
+##a[href*="/share-newsletter/"]
+##a[href*="/social_plugins/share"]
+##a[href*="://plus.google.com/share?url="]
+##a[href*="addtoany.com/add_to/"]
+##a[href*="api.addthis.com"]:not([href*="/email/"])
+##a[href*="plusone.google.com"]
+##a[href*="telegram.me/share/url?"]
+##a[href="#javascript"][class*=social-link]
+##a[href="/#messenger"]
+##a[href^="/sharer/sharer.php?"] > button[type=submit]
+##a[href^="javascript:sendSns('"]
+##a[href^="javascript:tw_share('"]
+##a[id*=share-][id*=-button]
+##a[id^=share_btn]
+##a[onclick*="plus.google.com/share?"]
+##a[onclick^="share_toggle("]
+##a[onclick^="var share"]
+##a[onclick^="window.open('http"][onclick*="facebook.com/sharer"]
+##a[onclick^=ShowShareDialog]
+##a[onmouseover^="return addthis_open"]
+##a[title="Share on Baidu" i]
+##a[title="Share on Reddit" i]
+##a[title="Share on Telegram" i]
+##a[title="Share on WhatsApp" i]
+##a[title^="Share to "]
+##amedia-share
+##amp-social-share
+##button[aria-controls=ShareContainer]
+##button[class*=ShareOverlayButton i]
+##button[class^=share-module__share]
+##button[data-a-target^=share]
+##button[data-arctrac*=socialShare i]
+##button[data-fatal-attraction*=":share"]
+~chess.com##button[data-share-url]
+##button[ng-click^=shareOn]
+##button[onclick^=socialsharing_]
+##button[title^="Del på "]
+##button[title^="Share this "]
+##div[button=share]
+##div[class$=-share-single]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class$=has-share-single])
+##div[class$=-sticky-share]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=post-with-stick])
+##div[class*=_share_button]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##div[class*=addthis]
+##div[class*=article-share]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-article-share])
+##div[class*=box--share]
+##div[class*=footer__share]
+##div[class*=FooterShare i]
+##div[class*=iconShare]
+##div[class*=lp_sharing]
+##div[class*=post-sharing]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-post-sharing])
+##div[class*=share-article]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-share-article])
+##div[class*=sharer-tool]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-sharer-tool])
+##div[class*=shareToolbar]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##div[class*=social-panel]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-social-panel])
+##div[class*=social][class*=sharing]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##div[class*=social_sidebar]
+##div[class*=social_slide]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##div[class*=socials-share]
+##div[class^=container_NotificationsBanner_]
+##div[class^=icon-share-]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##div[class^=share-options]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##div[class^=shareLinks]
+##div[class^=social-like]
+##div[class^=social-media-container]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##div[data-aop^=sharingtoolbar]
+##div[data-hook=social-sharing]
+##div[href*="plus.google.com/share?url="]
+##div[id$=_sharethis]
+##div[id^=btnShare i]
+##div[id^=dpsp-]
+##div[id^=sthoverbuttons]
+##div[tmp^="Share on "]
+##h2[class*=share-links]
+##h4[class*=social-share-label]
+##ksf-sharing
+##label[for*=ShareModal]
+##li[class$=-share-toggle]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##p[class^=del-artikel]
+##share-grid
+##span[class*=-social-share-]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##span[class*=share-icon]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##span[class^=share_btn]
+##span[data-lnkd-debug]
+##ul[aria-label=Del]
+##ul[class*=-share-buttons]
+##ul[class^=share-action]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+##ul[class^=sociale-ikoner-del]
+##ytm-share-target-renderer
+/images/share_icons/*
+/images/social-share/*
+/share-newsletter/*
+/^.*(\.|//)shar(e|ing)\.[a-z0-9-]{2,60}\..*$/$image,match-case,domain=~discord.com|~reddit.com|~reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
+/addthis_widget.js^
+/btn_share_fb.
+/btn_share_ln.
+/btn_share_tw.
+/mixx_share.gif$image
+/modules/responsive_share_buttons^
+/^.*/pinitbtn\..*/$image,match-case
+/^.*/share-icons_.*$/$image,match-case
+/^.*/share/.*-icon\.png.*$/$image,match-case
+/sharing/facebook.$image
+/sharing/reddit.$image
+/sharing/stumbleupon.$image
+/sharing/twitter.$image
+condoblues.com###milotree_box_wrap
+|whatsapp://send$domain=~whatsapp.com
+||addthis.com/static/btn/sm-share*.gif^
+||apis.google.com/*/+1/*button$subdocument
+||apis.google.com/js/plusone.js^
+||assets.pinterest.com/js/pinit
+||facebook.com/*lugins/like.php$subdocument
+||facebook.com/*lugins/page.php$subdocument
+||facebook.com/*lugins/share_button$subdocument
+||iconosquare.com/widget.php$subdocument
+||linkedin.com/shareArticle$third-party
+||lists.malwarepatrol.net/images/searchbg.gif$image
+||milotree.com^$third-party
+||platform.twitter.com/widgets/follow_button$subdocument
+||platform.twitter.com/widgets/tweet_button$subdocument
+||social-plugins.line.me/widget/share?url=$subdocument
+||softwareok.com/img/i_like_this.png?$image
+||static.addtoany.com/buttons^$image
+||static.addtoany.com/menu^$script
+||static.mixi.jp/share_button.html^$subdocument,domain=~mixi.jp
+||tumblr.com/share/$third-party
+||twitter.com/share$third-party
+||widgets.getpocket.com/v1/button?label=pocket$subdocument
+||ws.sharethis.com^$third-party
+||yastatic.net/share/*-icon.
+~allrecipes.com,~myrecipes.com##div[class*=sharebar]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-sharebar],[class*=hassharebar])
+~baidu.com##.share-list:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+~digg.com##a[href*="://digg.com/submit?url="]
+~ef.com##.social-btns:not(html,body,[class*=body i],[id*=body i],[class*=content i],[id*=content i])
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###btn-send-fb
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###fb-share
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###fb_share
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###share-facebook
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###share-facebook-bottom
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.btn-facebook-like:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.btn[href*="facebook.com/sharer/"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.button__facebook:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook-like-box:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook-messenger-share:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook-page-plugin:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook-share:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook[href*="/sharer/"]:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook_share:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.facebook_top:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.fb-like-box:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.fb-page-plugin:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.icon--facebook:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.like_facebook:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.share-fb:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.shareFacebook:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[class*=facebookShare i]:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[class*=fb-share]:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##[class*=share-facebook]:not(html,body,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[class=facebook i][title="Share this"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[data-js=facebook-share]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[data-popup-url*="facebook.com/dialog/share?"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[data-share$=Facebook i]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[data-sharer=facebook]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/dialog/feed"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/dialog/send?"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/dialog/share?"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/share.php?u=http"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/sharer.php"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href*="facebook.com/sharer/sharer.php"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href="/#facebook"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^="javascript:fb_share('"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[href^="javascript:fbShare"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[onclick*="facebook.com/sharer.php?"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[title="Share on Facebook" i]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[title="Share this post on Facebook"]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##button[class*=_fbshare]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[class^=fbshare i]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##li[aria-label=facebook]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##li[class*=link_facebook]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##li[data-share=facebook]
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.share-via-fb:not(html,body,:empty)
+~flipboard.com##a[href*="://share.flipboard.com/bookmarklet/popout?"]
+~hatena.ne.jp##.hatena-bookmark-button:not(html,body,:empty)
+~instagram.com##.button__instagram:not(html,body,:empty)
+~instagram.com##div[class=instagram-Share i]
+~instagram.com##div[class=instagram_Share i]
+~instagram.com##div[class=instagramShare i]
+~line.me##a[href*="/lineit/share?"]
+~linkedin.com##.addthis_button_linkedin:not(html,body,:empty)
+~linkedin.com##.button__linkedin:not(html,body,:empty)
+~linkedin.com##.linkedin_share:not(html,body,:empty)
+~linkedin.com##.linkedinShare:not(html,body,:empty)
+~linkedin.com##.share-linkedin:not(html,body,:empty)
+~linkedin.com##a[href*="linkedin.com/cws/share?"]
+~linkedin.com##a[href*="linkedin.com/shareArticle?"]
+~linkedin.com##a[href*="linkedin.com/sharing/share-offsite/"]
+~linkedin.com##a[title="Share on LinkedIn" i]
+~linkedin.com,~terabox.com##div[class*=share-box]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-share-box])
+~linkedin.com##li[data-share=linkedin]
+~mail.ru##a[href^="https://connect.mail.ru/share?url="]
+~mewe.com##div[class*=share-link]
+~mixi.jp##a[href*="mixi.jp/simplepost/voice?status="]
+~ne.jp##a[href*="b.hatena.ne.jp/add?url="]
+~ne.jp##iframe[class^=hatena-bookmark]
+~ok.ru##a[href*="/connect.ok.ru/dk?"]
+~ok.ru##a[href^="https://connect.ok.ru/offer?url="]
+~pinterest.*###pinterest
+~pinterest.*##.inline-share-pinterest:not(html,body,:empty)
+~pinterest.*##.js-share-pinterest:not(html,body,:empty)
+~pinterest.*##.pinterest-share:not(html,body,:empty)
+~pinterest.*##.pinterest[href*="/pin/create/"]
+~pinterest.*##.share-pinterest:not(html,body,:empty)
+~pinterest.*##a[class$=pinterest-share]
+~pinterest.*##a[class$=share-pinterest]
+~pinterest.*##a[class^=pinterest-save]
+~pinterest.*##a[data-pin-do=buttonPin]
+~pinterest.*##a[href*="pinterest.com/pin/find/?"]
+~pinterest.*##a[href*=pinterest][href*="/pin/create/b"]
+~pinterest.*##a[href="#pinit"]
+~pinterest.*##a[href="/#pinterest"]
+~pinterest.*##a[onclick*="pinterest.com/pin/create/"]
+~pinterest.*##a[onclick^=execPinmarklet]
+~pinterest.*##a[title="Share on Pinterest" i]
+~pinterest.*##button[data-href*="pinterest.com/pin/create/button/"]
+~reddit.com,~reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###share-reddit
+~reddit.com,~reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href*="reddit.com/r/"][href*="/submit?url="]
+~reddit.com,~reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href*="reddit.com/submit?"]
+~reddit.com,~reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##button[data-href*="reddit.com/submit?"]
+~skype.com##a[href*="web.skype.com/share?url="]
+~stumbleupon.com##a[href*="stumbleupon.com/badge?"]
+~stumbleupon.com##a[href*="stumbleupon.com/submit?url="]
+~telegram.org##a[href^="tg://msg_url?"]
+~tumblr.com##.js-share-stumble:not(html,body,:empty)
+~tumblr.com##.share-tumblr:not(html,body,:empty)
+~tumblr.com##a[href*="tumblr.com/share/"]
+~tumblr.com##a[href*="tumblr.com/share?"]
+~tumblr.com##a[href*="tumblr.com/widgets/share/"]
+~tumblr.com##a[title="Share on Tumblr" i]
+###share-twitter
+###share-twitter-bottom
+##.btn-twitter:not(html,body,:empty)
+##.button__twitter:not(html,body,:empty)
+##.icon--twitter:not(html,body,:empty)
+##.js-share-twitter:not(html,body,:empty)
+##.share-twitter:not(html,body,:empty)
+##.share-twttr:not(html,body,:empty)
+##.twit_share_button:not(html,body,:empty)
+##.twitter-share:not(html,body,:empty)
+##.twitter[href*="/share?"]:not(html,body,:empty)
+##.twitter_share:not(html,body,:empty)
+##a[class$=share-twitter]
+##a[class=twitter i][title=Tweet]
+##a[class^=pagetools][class*=icon--twitter]
+##a[data-js=twitter-share]
+##a[data-sharer=twitter]
+##a[href*="twitter.com/home?source="]
+##a[href*="twitter.com/home?status="]
+##a[href*="twitter.com/intent/tweet?"]
+##a[href*="twitter.com/share?text="]
+##a[href*="twitter.com/share?url="]
+##a[href^="t.me/share/url"]
+##a[onclick*="twitter.com/share?"]
+##a[title="Share on Twitter" i]
+##a[title="Tweet this post"]
+##button[data-href*="twitter.com/share?text="]
+##div[class=twitterShare i]
+##div[class^=twittshare]
+##div[pw\:twitter-via]
+##li[data-share=twitter]
+~viber.com##a[href^="viber://forward?text"]
+~vk.com##.share-vk:not(html,body,:empty)
+~vk.com##a[href*="/vk.com/share.php"]
+~vk.com##a[title="Share on VKontakte" i]
+~vk.com##iframe[src^="https://vk.com/widget_like.php?"]
+~vk.com,~vkontakte.ru##a[href*="vkontakte.ru/share.php?"]
+~whatsapp.com##[href^="whatsapp://send"]
+~whatsapp.com##a[href*="whatsapp.com/send?"]
+~whatsapp.com,~wa.me##a[href*="://wa.me/?text="]
+~xing.com###xing-share
+##.sharethis-inline-share-buttons:not(html,body,:empty)
+##.share-buttons-bottom:not(html,body,:empty)
+##.a2a_kit:not(html,body,:empty)
+##div[class^=wp_social_bookmarking]:not([class*=body i],[id*=body i],[class*=content i],[id*=content i])
+/wp-content/plugins/wp-social-bookmarking
+##button[data-google-events*="\"socialAction\":\"share\""]
+##.twitterbtn:not(html,body)
+##a[href^=javascript][onclick*="javascript:window.open('https://www.facebook.com/sharer/"]
+##div[class*=social-share]:not([preload],[class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-social-share i],[class*=slide i])
+##a[class*=social-share]:not([preload],[class*=body i],[id*=body i],[class*=content i],[id*=content i],[class*=has-social-share i],[class*=slide i])
+##.js-share-fb:not(html,body,:empty)
+##.js-share-dr:not(html,body,:empty)
+##.js-share-wa:not(html,body,:empty)
+##.js-share-tw:not(html,body,:empty)
+##.react-share__ShareButton:not(body,html,:empty)
+##.mh-share-buttons:not(body,html,:empty)
+##button.btn-twitter-liveblog
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##button.btn-facebook-liveblog
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###article-share-facebook
+~linkedin.com###article-share-linkedIn
+###article-share-twitter
+##.uSocial-Share:not(body,html,:empty)
+~line.me,~linecorp.com##a.js-share-line
+~line.me,~linecorp.com##a[href^="line://msg/text/"]:is([class*=share i],[aria-label*=share i])
+##.b-share-bar__twitter
+~pinterest.*##.b-share-bar__pinterest:not(body,html,:empty)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.b-share-bar__facebook:not(body,html,:empty)
+~linkedin.com##.b-share-bar__linkedin:not(body,html,:empty)
+~linkedin.com##.sp_article_share_linkedin:not(body,html,:empty)
+##.sp_article_share_x:not(body,html,:empty)
+winstall.app##button[class*=singleApp_shareApp_]
+! reutersCOM
+##button[aria-label^="Share article on "]
+! rawstoryCOM (21/04/2025)
+~facebook.com,~facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.share-fb:not(html,body,article)
+##.share-tw:not(html,body,article)
+~flipboard.com##.share-flipboard:not(html,body,article)
+~bsky.social##.share-bluesky:not(html,body,article)
+~beloud.com##.share-beloud:not(html,body,article)
+! https://linktr•ee/chord_ep (27/07/2025)
+##a[data-testid^=ShareModal-ShareLink]
+! https://codeshack•io/online-ruler/ (10/12/2025)
+##a.x-share
+! https://newrepublic•com/article/204511/house-defy-trump-win-labor (17/12/2025)
+~bsky.*,~bluesky.*##a[href^="https://bsky.app/intent/compose?text="]
+~threads.net##a[href^="https://threads.net/intent/post?text="]
+! https://www•skysports•com/football/bodo-glimt-vs-manchester-city/report/548019 (16/02/2026)
+##.sdc-site-share__link--x:not(html,body,:empty)
+!!!~mewe•com,~www•nrk•no##[class*=share-button i]:not(body, html) (Can't be generic due to www.nrk.no, meweCOM, stylecasterCOM)
+!!!~tidssonen•no,~mmoculture•com##div[class*=share-container] (Entry needs to be rewritten at some point)
+!!!~feedly•com,~chaturbate•com##.follow (Too many exceptions needed)
+! Fairly broad entries, likely to be made non-generic after the next false positive is found
+##[class*=socialshare i]:not(html,body,article,[class*=body i],[id*=body i])
+##a[href*=share-tools]
+##button[class*=SharesButton i]
+##div[class*=sharethisbutton i]
+~kjokkenskriveren.no##[class*=ShareButton i]:not(button,body,html,article,[class*=body i],[id*=body i])
+! NOT allowed to be generic
+pastebin.com##.h_800.tweet
+vox.com##.c-social-buttons
+hardreset.info###modal-facebook
+hardreset.info##.modal-backdrop
+180.*,chugoku-np.co.jp##.social
+liberaldictionary.com##.share-post
+tass.com##.social__button
+ikea.com##.social-media-bar__content
+pixivision.net##._floated-bottom-bar
+telesign.com##.share-area
+kickstarter.com##.bttn-facebook
+kickstarter.com##.fill-facebook-blue
+kreativtforum.no##.content-sidebar--social
+music.apple.com#?#.context-menu__option .context-menu__option:has-text(Twitter)
+music.apple.com#?#.context-menu__option .context-menu__option:has-text(Facebook)
+invenglobal.com##.sns-list
+swissinfo.ch##.si-page__utility-container
+midtnorskdebatt.no##.twitter
+knowyourmeme.com##.cbox-smedia
+kglakademi.dk##.social-button
+! For sites that have $generichide
+e24.no##.article-share
+ekstrabladet.dk##label[for*=ShareModal]
+eurogamer.net##.social
+vg.no##button[aria-label*=Facebook]
+tomshardware.co.uk##.share-bar
+knowyourmeme.com##a[class^=pinterest-save]
+racefans.net##.sd-social
+gamespot.com##.share--column
+forbes.com##.article-sharing
+rawstory.com##.share-flipboard
+rawstory.com##.share-tw
+rawstory.com##.share-fb
+rawstory.com##.share-popup.rm-stats-tracked
+! All embed feeds I've seen of it, have been broken since July 2023 anyway
+||syndication.twitter.com/srv/timeline-profile^$third-party
+##iframe[src*="//syndication.twitter.com/"]:has(div[data-testid=empty_state_header_text])
+﻿! Title: 🎙 Rickroll Link Identifier
+! Version: 05June2025v1-Deprecated
+! Expires: 10 days
+! Description: So you're browsing Reddit or Twitch, and you're seeing an interesting info link? Well… about that link… this list will turn links to the biggest YouTube uploads of Rick Astley's «Never Gonna Give You Up» into a bright red colour, thus helping you steer clear of being rickrolled.
+! Note 1: Never in my entire life have I seen anyone try to link to e.g. the Spotify uploads of «Never Gonna Give You Up» for rickrolling, so I'll skip adding entries for streaming service links for now.
+! Note 2: I have been made aware of «Whenever You Need Somebody» having the same intro, but at the current point in time that song is considered to be out of scope for this list.
+! Note 3: Working on the list had officially been discontinued in December 2023, but issues reports (or better yet, pull requests) are still processed for the most part.
+*##a[href*="/watch?v=dQw4w9WgXcQ"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=oHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=p7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=iik25wqIuFo"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=CAZ8kTQ49c8"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=xvFZjo5PgG0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=XGxIE1hr0w4"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="%2Fwatch%3Fv%3DdQw4w9WgXcQ"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="%2Fwatch%3Fv%3DoHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="%2Fwatch%3Fv%3Dp7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="%2Fwatch%3Fv%iik25wqIuFo"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="%2Fwatch%3Fv%CAZ8kTQ49c8"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="%2Fwatch%3Fv%3DxvFZjo5PgG0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="%2Fwatch%3Fv%XGxIE1hr0w4"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtu.be/dQw4w9WgXcQ"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtu.be/oHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtu.be/p7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtu.be/iik25wqIuFo"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtu.be/CAZ8kTQ49c8"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtu.be/xvFZjo5PgG0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtu.be/XGxIE1hr0w4"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtube-nocookie.com/embed/dQw4w9WgXcQ"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtube-nocookie.com/embed/oHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtube-nocookie.com/embed/p7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtube-nocookie.com/embed/iik25wqIuFo"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtube-nocookie.com/embed/CAZ8kTQ49c8"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtube-nocookie.com/embed/xvFZjo5PgG0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtube-nocookie.com/embed/XGxIE1hr0w4"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=lYBUbBu4W08"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=LLFhKaqnWwk"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=3BFTio5296w"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=o-YBDTqX_ZU"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href$="imgur.com/gallery/yed5Zfk"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="imgur.com/yed5Zfk"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="rr.noordstar.me"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*,~spotify.com##a[href*="open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+||youtube.com/watch?v=dQw4w9WgXcQ^
+||youtube.com/watch?v=oHg5SJYRHA0^
+||youtube.com/watch?v=iik25wqIuFo^
+||youtube.com/watch?v=CAZ8kTQ49c8^
+||youtube.com/watch?v=xvFZjo5PgG0^
+||youtube.com/watch?v=XGxIE1hr0w4^
+||youtube.com./watch?v=dQw4w9WgXcQ^
+||youtube.com./watch?v=oHg5SJYRHA0^
+||youtube.com./watch?v=iik25wqIuFo^
+||youtube.com./watch?v=CAZ8kTQ49c8^
+||youtube.com./watch?v=xvFZjo5PgG0^
+||youtu.be/dQw4w9WgXcQ^
+||youtu.be/oHg5SJYRHA0^
+||youtu.be/iik25wqIuFo^
+||youtu.be/CAZ8kTQ49c8^
+||youtu.be/xvFZjo5PgG0^
+||youtu.be/XGxIE1hr0w4^
+||imgur.com/*yed5Zfk
+||sanfransentinel.com^
+||theraleighregister.com^
+||rr.noordstar.me^
+! Partial support for YouTube videos that aren't covered by https://rickrolldb.com/, whose list updates and submission form are both broken
+||youtube.com/watch?v=rW7hXs-81hM^
+||youtu.be/rW7hXs-81hM^

@@ -12,6 +12,9 @@ URLS=(
   "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt"
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser"
   # cosmetic
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Imperial%20Units%20Remover.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/EmptyPaddingRemover.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Dandelion%20Sprout's%20Website%20Stretcher.txt"
 )
 
 for url in "${URLS[@]}"; do
