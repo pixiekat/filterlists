@@ -18,6 +18,9 @@ URLS=(
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Dandelion%20Sprout's%20Website%20Stretcher.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/fi-nuance.txt"
   "https://raw.githubusercontent.com/taylr/linkedinsanity/refs/heads/master/linkedinsanity.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiFakeTransparentImagesList.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiFunctionalityRemovalList.txt"
 )
 
 for url in "${URLS[@]}"; do
