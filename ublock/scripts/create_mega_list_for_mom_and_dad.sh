@@ -9,6 +9,7 @@ URLS=(
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Pro-LED%20List.txt"
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt"
   "https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt"
+  "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt"
 )
 
 for url in "${URLS[@]}"; do
