@@ -8,6 +8,8 @@ URLS=(
   # whitelists
   # blocklists
   # cosmetic
+  "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/filters.txt"
+  "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/non-copilot-filters.txt"
 )
 
 for url in "${URLS[@]}"; do
