@@ -10,6 +10,8 @@ URLS=(
   # cosmetic
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/filters.txt"
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/non-copilot-filters.txt"
+  "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/none-of-your-bezos.txt"
+  "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/good-sports.txt"
 )
 
 for url in "${URLS[@]}"; do

@@ -15,6 +15,8 @@ URLS=(
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Imperial%20Units%20Remover.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/EmptyPaddingRemover.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Dandelion%20Sprout's%20Website%20Stretcher.txt"
+  "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/fi-nuance.txt"
+  "https://raw.githubusercontent.com/taylr/linkedinsanity/refs/heads/master/linkedinsanity.txt"
 )
 
 for url in "${URLS[@]}"; do
