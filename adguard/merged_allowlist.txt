@@ -1,14 +1,8 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 20Feb2026v1
+! Version: 2026-02-21T21:45:00Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
-! Title: Pixiekat's Mega White List (Router)
-! Version: 20Feb2026v1
-! Expires: 7 days
-! Homepage: https://codeberg.org/pixiekat/filterlists
-! Description: Pixiekat's merged allowlist for AdGuard Home
-!
 ! Title: 🤖 BadBlock - Android Whitelist (ABP)
 ! Version: 14January2026v1
 ! Expires: 1 hour
