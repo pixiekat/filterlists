@@ -26,6 +26,7 @@ URLS=(
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiRacismList.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiPepeList.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/SayNoToRacismOnTwitch.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/AntiPreacherList.txt"
   # cosmetic
   "https://badblock.celenity.dev/abp/annoyances.txt"
   "https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt"
