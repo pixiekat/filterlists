@@ -40,6 +40,8 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.infowars.com/*
 *://*.megynkelly.com/*
 *://*.rebelnews.com/*
+*://*.spectator.co.uk/*
+*://*.spectator.com/*
 *://*.thefp.com/*
 *://*.thegatewaypundit.com/*
 *://*.thewashingtonreporter.com/*

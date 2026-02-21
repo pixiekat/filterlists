@@ -4,7 +4,19 @@ description: For corporate news that I don't like that might be okay to others (
 homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/pixies_news_megalist_extreme.txt
 ---
 
+*://*.bbc.co.uk/news/*
+*://*.bbc.com/news/*
 *://*.binance.us/*
 *://*.businessinsider.com/*
+*://*.economist.com/*
+*://*.ft.com/*
+*://*.mediaite.com/*
+*://*.nytimes.com/*
+*://*.substack.com/*
 *://*.telegraph.co.uk/*
+*://*.theconversation.com/*
+*://*.theguardian.com/*
 *://*.thehill.com/*
+*://*.timesofisrael.com/*
+*://*.washingtonpost.com/*
+*://*.wsj.com/*

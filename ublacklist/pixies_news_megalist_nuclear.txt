@@ -5,14 +5,19 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 ---
 
 *://*.abcnews.com/*
+*://*.apnews.com/*
 *://*.cbs.com/shows/video/JSfaBN2wbRxf2KJXbJwRBdZREI4a33Ig/*
 *://*.cbsnews.com/*
+*://*.cnbc.com/*
 *://*.cnn.com/*
 *://*.hindustantimes.com/*
-*://*.mediaite.com/*
+*://*.huffpost.com/*
+*://*.msn.com/en-*/news/*
 *://*.msnbc.com/*
 *://*.nbcnews.com/*
-*://*.substack.com/*
+*://*.reuters.com/*
+*://*.sky.com/story/*
 *://*.usatoday.com/*
+*://*.usnews.com/*
 *://*.yahoo.com/news/*
 *://*.youtube.com/c/CBSNews*
