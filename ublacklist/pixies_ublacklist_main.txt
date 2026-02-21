@@ -1,0 +1,88 @@
+---
+name: Pixie's Main uBlacklist List 💙
+description: Combined list of my main uBlacklist sites
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/pixies_ublacklist_main.txt
+---
+
+# --- AI Sites ---
+*://*.dev.to/*
+*://*.devset.ai/*
+*://*.github.com/necarlson97/codex-ai-sublime/*
+*://*.github.com/promontorycoder/*
+*://*.packagecontrol.io/packages/AssistantAI/*
+*://*.pieces.app/*
+*://*.topbusinesssoftware.com/*
+
+# --- Elon Affiliated ---
+*://*.grok.com
+*://*.grokipedia.com/*
+*://*.reddit.com/r/elonmusk/*
+*://*.reddit.com/r/spacex/*
+*://*.reddit.com/r/teslainvestorsclub/*
+*://*.reddit.com/r/teslamotors/*
+*://*.reddit.com/r/xai/*
+*://*.spacex.com/*
+*://*.starlink.com/*
+*://*.tesla.com/*
+*://*.x.ai/*
+
+# --- News Sites ---
+*://*.breitbart.com/*
+*://*.canadafreepress.com/*
+*://*.dailymail.co.uk/*
+*://*.dailymail.com/*
+*://*.dailywire.com/*
+*://*.foxbusiness.com/*
+*://*.foxnews.com/*
+*://*.foxweather.com/*
+*://*.gbnews.com/*
+*://*.greenwald.locals.com/*
+*://*.infowars.com/*
+*://*.megynkelly.com/*
+*://*.rebelnews.com/*
+*://*.thefp.com/*
+*://*.thegatewaypundit.com/*
+*://*.thewashingtonreporter.com/*
+*://*.wabcradio.com/*
+*://washingtonreporter.news/*
+
+# --- Social Sites ---
+*://*.facebook.com/*
+*://*.instagram.com/*
+*://*.meta.ai/*
+*://*.meta.com/*
+*://*.pinterest.*/*
+*://*.rumble.com/*
+*://*.t.co/*
+*://*.threads.com/*
+*://*.threads.net/*
+*://*.truthsocial.com/*
+*://*.twimg.com/*
+*://*.twitter.com/*
+*://*.x.com/*
+
+# --- Spammy Sites ---
+*://*.1sixty8.ai/*
+*://*.4chan.org/*
+*://*.deepwiki.com/*
+*://*.dev.to/*
+*://*.drupalize.me/*
+*://*.esspots.com/*
+*://*.geekpedia.com/*
+*://*.gitmemories.com/*
+*://*.jewornotjew.com/*
+*://*.quizard.io/*
+*://*.sportskeeda.com/*
+*://access.redhat.com/search/knowledgebase
+*://access.redhat.com/solutions/*
+
+# --- Terf Apologia ---
+*://*.harrypotter.com/*
+*://*.jkrowling.com/*
+*://*.mumsnet.com/*
+*://*.reddit.com/r/harry_potter/*
+*://*.reddit.com/r/harrypotter/*
+*://*.reddit.com/r/harrypotterbooks/*
+*://*.reddit.com/r/HarryPotteronHBO/*
+*://*.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/*
+*://*.wbstudiotour.co.uk/*

@@ -1,0 +1,18 @@
+---
+name: Pixie's News Megalist (Nuclear version)
+description: Lots of news to hide it all!
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/pixies_news_megalist_nuclear.txt
+---
+
+*://*.abcnews.com/*
+*://*.cbs.com/shows/video/JSfaBN2wbRxf2KJXbJwRBdZREI4a33Ig/*
+*://*.cbsnews.com/*
+*://*.cnn.com/*
+*://*.hindustantimes.com/*
+*://*.mediaite.com/*
+*://*.msnbc.com/*
+*://*.nbcnews.com/*
+*://*.substack.com/*
+*://*.usatoday.com/*
+*://*.yahoo.com/news/*
+*://*.youtube.com/c/CBSNews*

@@ -1,0 +1,10 @@
+---
+name: Pixie's News Megalist (Extreme version)
+description: For corporate news that I don't like that might be okay to others (not things like Fox)
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/pixies_news_megalist_extreme.txt
+---
+
+*://*.binance.us/*
+*://*.businessinsider.com/*
+*://*.telegraph.co.uk/*
+*://*.thehill.com/*

@@ -1,0 +1,42 @@
+---
+name: Pixie's Government Sites for a Fascist Regime
+description: Block the government sites under a fascist regime
+homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/pixies_ublacklist_main.txt
+---
+
+# --- Canada ---
+*://*.conservative.ca/*
+
+# --- UK ---
+*://*.conservatives.com/*
+*://*.keirstarmer.com/*
+*://*.kemibadenoch.org.uk/*
+*://*.nfarage.com/*
+*://*.reformparty.org/*
+*://*.reformparty.uk/*
+*://*.wesstreeting.org/*
+
+# --- US ---
+*://*.ai.gov/*
+*://*.americabydesign.gov/*
+*://*.cdc.gov/*
+*://*.dei.gov/*
+*://*.doge.gov/*
+*://*.donaldjtrump.com/*
+*://*.gop.com/*
+*://*.heritage.org/*
+*://*.justice.gov/*
+*://*.kennedy-center.org/*
+*://*.realfood.gov/*
+*://*.rnc.org/*
+*://*.state.gov/*
+*://*.trump.com/*
+*://*.trumpaccounts.gov/*
+*://*.trumpcard.gov/*
+*://*.trumpmobile.com/*
+*://*.trumprx.com/*
+*://*.trumpvancetransition.com/*
+*://*.tulsigabbard.com/*
+*://*.war.gov/*
+*://*.waste.gov/*
+*://*.whitehouse.gov/*
