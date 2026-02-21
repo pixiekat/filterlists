@@ -3,11 +3,12 @@
 OUTPUT="../pixiekat_list_for_mom_and_dad.txt"
 TMPFILE=$(mktemp)
 
-# List of whitelist URLs to fetch
+# List of URLs to fetch
 URLS=(
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Sensitive%20lists/AntiAstrologyList.txt"
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Pro-LED%20List.txt"
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt"
+  "https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt"
 )
 
 for url in "${URLS[@]}"; do
