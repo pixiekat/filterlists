@@ -23,6 +23,9 @@ URLS=(
   "https://badblock.celenity.dev/abp/twitter.txt"
   "https://badblock.celenity.dev/abp/unsafe.txt"
   "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiRacismList.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiPepeList.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/SayNoToRacismOnTwitch.txt"
   # cosmetic
   "https://badblock.celenity.dev/abp/annoyances.txt"
   "https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt"
