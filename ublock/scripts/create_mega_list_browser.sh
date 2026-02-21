@@ -8,16 +8,20 @@ URLS=(
   # whitelists
   "https://badblock.celenity.dev/abp/click-tracking_whitelist.txt"
   # blocklists
+  "https://badblock.celenity.dev/abp/amazon.txt"
+  "https://badblock.celenity.dev/abp/apple.txt"
   "https://badblock.celenity.dev/abp/brave.txt"
   "https://badblock.celenity.dev/abp/data-brokers.txt"
   "https://badblock.celenity.dev/abp/drm.txt"
   "https://badblock.celenity.dev/abp/facebook.txt"
+  "https://badblock.celenity.dev/abp/gaming.txt"
+  "https://badblock.celenity.dev/abp/google.txt"
+  "https://badblock.celenity.dev/abp/microsoft.txt"
   "https://badblock.celenity.dev/abp/monitoring.txt"
   "https://badblock.celenity.dev/abp/radar.txt"
   "https://badblock.celenity.dev/abp/unsafe.txt"
   # cosmetic
   "https://badblock.celenity.dev/abp/annoyances.txt"
-  "https://badblock.celenity.dev/abp/data-brokers.txt"
   "https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/crap.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/StopAutoplayOnYouTube.txt"
 )
