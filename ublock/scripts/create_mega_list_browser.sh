@@ -19,9 +19,13 @@ URLS=(
   "https://badblock.celenity.dev/abp/microsoft.txt"
   "https://badblock.celenity.dev/abp/monitoring.txt"
   "https://badblock.celenity.dev/abp/radar.txt"
+  "https://badblock.celenity.dev/abp/tiktok.txt"
+  "https://badblock.celenity.dev/abp/twitter.txt"
   "https://badblock.celenity.dev/abp/unsafe.txt"
+  "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt"
   # cosmetic
   "https://badblock.celenity.dev/abp/annoyances.txt"
+  "https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt"
   "https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/crap.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/StopAutoplayOnYouTube.txt"
 )
