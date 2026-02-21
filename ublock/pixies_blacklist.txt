@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 20February2026v2
+! Version: 21February2026v1
 ! Expires: 12 hours
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -72,7 +72,12 @@ www.youtube.com##.ryd-premium-teaser
 ||grok.com^$document,all,domain=~its-a-fascist-domain.*
 ||grokipedia.com^$document,all,domain=~its-a-fascist-domain.*
 ||heritage.org^$document,domain=~its-a-fascist-domain.*
+||reddit.com/r/elonmusk^$document,domain=~its-a-fascist-subreddit.*
+||reddit.com/r/spacex^$document,domain=~its-a-fascist-subreddit.*
+||reddit.com/r/teslainvestorsclub^$document,domain=~its-a-fascist-subreddit.*
+||reddit.com/r/teslamotors^$document,domain=~its-a-fascist-subreddit.*
 ||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*
+||reddit.com/r/xai^$document,domain=~its-a-fascist-subreddit.*
 ||spacex.com^$document
 ||starlink.com^$document
 ||tesla.com^$document

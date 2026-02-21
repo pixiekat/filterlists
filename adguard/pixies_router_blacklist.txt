@@ -1,0 +1,29 @@
+! Title: Pixiekat's Router Block List
+! Version: 21Feb2026v1
+! Expires: 7 days
+! Homepage: https://codeberg.org/pixiekat/filterlists
+! Description: Pixiekat's custom block list for adguard home
+
+! Fascist Government Sites
+ai.gov
+americabydesign.gov
+cdc.gov
+dei.gov
+doge.gov
+donaldjtrump.com
+gop.com
+justice.gov
+kennedy-center.org
+realfood.gov
+rnc.org
+state.gov
+trump.com
+trumpaccounts.gov
+trumpcard.gov
+trumpmobile.com
+trumprx.com
+trumprx.gov
+trumpvancetransition.com
+war.gov
+waste.gov
+whitehouse.gov
