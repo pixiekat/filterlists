@@ -2,7 +2,6 @@
 100.80.97.172
 100.99.173.52/32
 15313.live.streamtheworld.com
-18.175.91.46
 193.36.118.217
 1password.com
 35.170.165.158
@@ -25,17 +24,20 @@ adobe.com
 adpizzapub.com
 afd-a-acdc-direct.office.com
 africancancerstars.org
+alb-podcast-api-production-969323618.us-east-1.elb.amazonaws.com
 alicantobidmc.org
 alicantotrials.org
 amazon.com
 android.googleapis.com
 api.hetzner.cloud
+api.pocketcasts.com
 api.stripe.com
 archive.is
 archive.mozilla.org
 archive.org
 archive.ph
 archive.today
+audioboom.com
 bankofamerica.com
 barclaysus.com
 barnesandnoble.com
@@ -47,6 +49,7 @@ britbox.com
 bsky-video.b-cdn.net
 build-planner-14.emergent.host
 c3ctc.org
+cache.pocketcasts.com
 cdn-gl.imrworldwide.com
 cdn-wgbh-live1.streamguys1.com
 cdn.bullwhip.cloud
@@ -56,6 +59,7 @@ chewy.com
 clearsky.app
 cloudflare.com
 cloudflare.net
+clrtpod.com
 codeberg.org
 codium.b-cdn.net
 copilot.microsoft.com
@@ -63,9 +67,11 @@ csp.microsoft.com
 cvs.com
 cwtv.com
 d3ag4hukkh62yn.cloudfront.net
+d3dy4wt18a202v.cloudfront.net
 dcinetwork.org
 ddrl65sbcpv8a.cloudfront.net
 delivery.revcontent.com
+democracynow.cachefly.net
 dfci.zoom.us
 diabetesdefa.org
 discomax.com
@@ -87,7 +93,6 @@ drivefrontend-pa.clients6.google.com
 drupal.org
 e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com
 ea.ypncdn.com.sds.rncdn7.com
-ec2-18-175-91-46.eu-west-2.compute.amazonaws.com
 ec2-3-227-209-244.compute-1.amazonaws.com
 ec2-35-170-165-158.compute-1.amazonaws.com
 ec2-52-2-20-165.compute-1.amazonaws.com
@@ -167,6 +172,7 @@ mullvad.net
 mysynchrony.com
 myworkdaycdn.com
 nasc.nintendowifi.net
+nationalgrid.com
 nepm.org
 nih.gov
 nintendo.com
@@ -178,7 +184,6 @@ ollama.com
 outlook.office.com
 outlook.office365.com
 packages.linuxmint.com
-packages.linuxmint.com.lan
 packages.microsoft.com
 packages.mozilla.org.lan
 paloaltonetworks.com
@@ -196,13 +201,16 @@ phncdn.com
 photos.google.com
 phreesia.net
 piefed.social
+play.podtrac.com
 playerservices.streamtheworld.com
 playvids.com
+podcast-api.pocketcasts.com
 polandspring.com
 pornhub.com
 ppa.launchpadcontent.net
 pphosted.com
 progressivedirect.homesite.com
+pscrb.fm
 publicmediasignin.org
 qcc.edu
 qdoba.com
@@ -229,6 +237,7 @@ secure-dcr.imrworldwide.com
 secureinternetbank.com
 sentry-next.wixpress.com
 sharepoint.com
+shownotes.pocketcasts.com.cdn.cloudflare.net
 signal.org
 siriusxm.com
 siriusxmpreferences.com
@@ -290,6 +299,7 @@ visible.com
 water.com
 wbru.com
 wbur.org
+wcvb.com
 weareher.com
 wgbh.org
 whdh.com
@@ -313,7 +323,6 @@ www.nerdfonts.com
 www.qdoba.com.cdn.cloudflare.net
 www.sectigo.com
 www.tvchannellists.com
-www.wcvb.com
 xhamster.com
 xhcdn.com
 xumo.com
