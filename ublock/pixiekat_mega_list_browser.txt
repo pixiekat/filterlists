@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-02-21T23:52:04Z
+! Version: 2026-02-22T01:41:18Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List

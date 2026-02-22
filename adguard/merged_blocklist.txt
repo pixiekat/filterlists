@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega Block List (Router)
-! Version: 2026-02-21T23:51:29Z
+! Version: 2026-02-22T01:40:38Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged blocklist for AdGuard Home
