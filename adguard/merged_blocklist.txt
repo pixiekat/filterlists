@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega Block List (Router)
-! Version: 22February2026v1
+! Version: 2026-02-22T17:40:12Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged blocklist for AdGuard Home
@@ -399,4 +399,3 @@ aleph.to
 # None at the moment. Help is wanted and appreciated, especially for religions that currently have no entries in this list.
 # In particular, it turned out to be far more difficult than expected to find non-state-sponsored Muslim insane preachers than I expected, even ones from the Middle East or central Asia.
 # ——— Entries for uBlock Origin and AdGuard ———
-!#include uBO%20list%20extensions/AntiPreacherList-AdblockerExtension.txt
