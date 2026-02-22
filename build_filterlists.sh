@@ -23,7 +23,7 @@ if git diff --cached --quiet; then
 fi
 
 COMMIT_MSG="Automated filterlist update: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-#git commit -m "$COMMIT_MSG"
+git commit -m "$COMMIT_MSG"
 
 # Optional: push automatically
 #git push
