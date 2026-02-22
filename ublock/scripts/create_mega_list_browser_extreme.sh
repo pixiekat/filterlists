@@ -24,6 +24,10 @@ for url in "${URLS[@]}"; do
   echo "" >> "$TMPFILE"
 done
 
+# Strip only !#include lines (leave !#if, !#else, !#endif intact)
+grep -v '^!#include' "$TMPFILE" > "${TMPFILE}.clean"
+mv "${TMPFILE}.clean" "$TMPFILE"
+
 # 1) Write metadata to OUTPUT (not to TMPFILE)
 echo "Prepending metadata..."
 cat <<EOF > "$OUTPUT"

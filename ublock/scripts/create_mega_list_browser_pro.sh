@@ -36,6 +36,10 @@ for url in "${URLS[@]}"; do
   echo "" >> "$TMPFILE"
 done
 
+# Strip only !#include lines (leave !#if, !#else, !#endif intact)
+grep -v '^!#include' "$TMPFILE" > "${TMPFILE}.clean"
+mv "${TMPFILE}.clean" "$TMPFILE"
+
 # $(date -u +"%d%b%Yv1")
 # $(date -u +"%Y-%m-%dT%H:%M:%SZ")
 # 1) Write metadata to OUTPUT (not to TMPFILE)
