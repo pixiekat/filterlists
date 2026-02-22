@@ -14,6 +14,7 @@ URLS=(
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiMV3List.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiNonNewsList.txt"
+  #"https://github.com/AFNIL-AntiFakeNewsInternationalList/AFNIL/raw/refs/heads/master/AFNIL-ABP-uBO.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/TabloidRemover.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/TabloidRemover-MastodonCategoryForImports.csv"
   # cosmetic

@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-02-22T19:59:07Z
+! Version: 2026-02-22T20:06:34Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -487,3 +487,111 @@ apkmirror.com#?#+js(aopw, #downloadCountdownBar)
 apkmirror.com#?#+js(aopw, ranTwice)
 apkmirror.com#?#+js(aopw, timerInterval)
 apkmirror.com#?#+js(set, visibleEl, noopFunc)
+! Title: Anti-Trash YouTube
+! Version: 27November2020v1
+! Description: Eliminates trash videos, channels, and features from the user's feeds, so that the experience is much more enjoyable.
+! Removes unnecesary stuff
+youtube.com##ytd-horizontal-card-list-renderer, ytd-badge-supported-renderer, ytd-rich-section-renderer, ytd-mini-guide-renderer
+! Removes Side Menu Playlists and Subscription List (Can be accessed in library)
+youtube.com###guide-section-title:has-text(Subscriptions):upward(ytd-guide-section-renderer)
+youtube.com##ytd-guide-collapsible-entry-renderer:has-text(Show more)
+! Put that "More from YouTube" somewhere else, since you stuff the important stuff at the BOTTOM.
+youtube.com##ytd-guide-section-renderer:has-text(More from YouTube)
+! For the last time stop pushing us your memberships.
+youtube.com##a#endpoint[href="/paid_memberships"]
+youtube.com###offer-module
+! Just let the user search for god sake...
+youtube.com##ytd-feed-filter-chip-bar-renderer:upward(1)
+youtube.com##ytd-rich-shelf-renderer:has-text(/Latest YouTube posts|Free to watch/i)
+! Mixes are pointless. Just add an option for their appearance, or remove them.
+youtube.com###video-title-link[href*="start_radio=1"]:upward(ytd-rich-item-renderer)
+youtube.com##ytd-radio-renderer, ytd-compact-radio-renderer
+! Can you remove diming when scrubbing so we can replay stuff easier?
+youtube.com##.ytp-storyboard-framepreview-img:style(opacity: 1 !important)
+youtube.com##.ytp-storyboard-framepreview:style(background: none !important; transition: none !important)
+! Removes already played videos from user feed; will not remove if on the creator's channel. (Go to history for that.)
+youtube.com##ytd-thumbnail-overlay-resume-playback-renderer:not(:upward(ytd-section-list-renderer[page-subtype="history"], ytd-browse[page-subtype="channels"])):upward(ytd-rich-item-renderer, ytd-compact-video-renderer, ytd-video-renderer, ytd-grid-video-renderer)
+! Filtering based on titles.
+! Reference Regex: /([\d:]+\s*((.?)(A|P)(.?)M(.?))|([$€£元₩₹₽₺฿₪﷼₱][\d,]+)|((.+)to(.+)))/i
+! Regex List
+! (vine|(diy|life)(?= hack(s?))|tik(\s*)tok|expose|giveaway|fortnite|unbox|gatcha|gone(?= sexual|wrong)|not(?= clickbait)|nursery(?= rhymes)|(for|with)(?= (kid(s|z)('?)|children|babies))|(kid(s|z)('?)|children|babies)\s*(\w+)|prank|orbeez) - All of these search terms just outright suck. Don't search these.
+! ([$€£元₩₹₽₺฿₪﷼₱]?[\d,]+) - Filters the $<blank> <blank> trash. 
+! ([\d:]+\s*((.?)(A|P)(.?)M(.?)) - Removes the 3am videos.
+! \b([A-Z\s]{3,}){3,}\b - Filters out videos with ≥3 all-cap words.
+youtube.com###video-title:has-text(/([\d:]+\s*((.?)(A|P)(.?)M(.?))|([$€£元₩₹₽₺฿₪﷼₱][\d,]+)|(vine|(diy|life)(?= hack(s?))|tik(\s*)tok|expose|giveaway|fortnite|unbox|gatcha|gone(?= sexual|wrong)|not(?= clickbait)|nursery(?= rhymes)|(for|with)(?= (kid(s|z)('?)|children|babies))|(kid(s|z)('?)|children|babies)\s*(\w+)|prank|orbeez))/i):upward(ytd-compact-video-renderer, ytd-video-renderer, ytd-movie-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer):remove()
+! Removes all-cap titled videos.
+youtube.com###video-title:has-text(/\b([A-Z\s]{3,}){3,}\b/m):upward(ytd-compact-video-renderer, ytd-video-renderer, ytd-movie-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer):remove()
+! Channel Blacklist
+youtube.com##ytd-channel-name:has-text(/(prank|orbeez|nursery(?= rhymes)|(for|with)(?= (kid(s|z)?|toddler(s?)|children|babies))|(kid(s|z)('?)|children|babies)\s*(\w+))/i):upward(ytd-channel-renderer, ytd-video-renderer):remove()
+! Filter based on description
+youtube.com###description-text:has-text(/((kid(s|z)('?)|children|babies)\s*(\w+)|prank|orbeez)/i):upward(ytd-video-renderer, ytd-movie-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer):remove()
+! Channel Blacklist for channels with too varied and simplified titles to filter with regexes.
+! IGN - Their "reviews" are basically just marketing.
+youtube.com##a[href^="/user/IGN" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+! IGN Hungary
+youtube.com##a[href="/channel/UC3UX8a0QJFBvlQ74NCpKTkw"]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+! CNN - King of fake news.
+youtube.com##a[href^="/user/CNN" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href="/user/HLN" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+! Jimmy Kimmel and Fallon - Unlikable bastards
+youtube.com##a[href="/user/JimmyKimmelLive" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href="/c/fallontonight" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+! Preston - Kidbait videos.
+youtube.com##a[href^="/channel/UCmr_vYKbp98f6kdRoer0iVw" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/channel/UCJZam2u1G0syq3kyqrCXrNw" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/user/PrestonPlayz" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+youtube.com##a[href^="/user/TBNRfrags" i]:upward(ytd-channel-renderer, ytd-rich-item-renderer, ytd-show-renderer, ytd-playlist-renderer, ytd-video-renderer)
+www.imdb.com#$#.ipc-poster-card:has(>.ipc-poster-card__actions){padding-bottom:0 !important;}
+imdb.com##.ipc-poster-card__actions
+imdb.com#$#.ipc-poster-card__title{white-space:nowrap !important;text-align:center !important;display:inline-block !important;}
+imdb.com#$#.ipc-poster-card__title>span{vertical-align:-webkit-baseline-middle !important;}
+imdb.com#$#.ipc-poster-card__title.ipc-poster-card__title--clickable:hover{text-decoration:none !important;}
+imdb.com#$#.ipc-rating-star-group{align-self:center !important;}
+imdb.com#$#.ipc-rating-star-group .ipc-rating-star--currentUser,.ipc-rating-star-group .ipc-rating-star--imdb{margin:0 .5rem !important;}
+imdb.com#$#.ipc-poster-card__title:has(+.gtc-title-metadata){padding-top:1rem !important;}
+imdb.com##.gtc-title-metadata
+imdb.com#$#.gli-rating-group:has(~.gtc-title-metadata) .ipc-rate-button.ipc-rate-button--rated .ipc-rating-star{padding:0px .5rem !important;}
+imdb.com##footer.imdb-footer
+imdb.com##.imdb-header__nav-drawer .navlinkcat:has(input[data-category-id=video],#nav-link-categories-awards,#nav-link-categories-celebs,#nav-link-categories-comm)
+imdb.com##.imdb-header__nav-drawer .navlinkcat__listContainerInner>ul>a:has-text(/Movie Spotlight|Movie News|Showtimes & Tickets|on TV & Streaming|TV News/i)
+m.imdb.com##.imdb-header__nav-drawer  a[href*="https://pro.imdb"],.imdb-header__nav-drawer  label[aria-label=language-select]
+imdb.com#$#.ipc-promptable-base__panel .ipc-promptable-base__content>div{padding-bottom:0 !important;}
+imdb.com##.ipc-promptable-base__panel .ipc-promptable-base__content>div>div:is(:has(>.ipc-expandableSection),:has(>.character-summary-episodic-credit))
+imdb.com##.ipc-promptable-base__panel .ipc-promptable-base__content>div>div:has(>div:has-text(/STREAMING/i))
+imdb.com##nav#imdbHeader .navbar__imdbpro,nav#imdbHeader div:has(>label[aria-label="Toggle language selector"])
+m.imdb.com##nav#imdbHeader  a[aria-label="Use app"]
+imdb.com##nav#imdbHeader li.react-autosuggest__suggestion--first:has(>a:not([href^="/name"]):not([href^="/title"]))
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Episodes]>div[data-testid=episodes-header],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Episodes]>div[data-testid=episodes-header]+div>div:not([data-testid=episodes-browse-episodes])
+imdb.com##.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center section[cel_widget_id=DynamicFeature_PopularCelebrities],.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center div[data-testid=whatToWatch_title],.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div.ipc-page-grid:not(.page-grid),.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div.ipc-page-grid:has(div#featured-today,iframe,section.more-to-watch,div#imdb-originals,#editors-picks,#born-today,#top-news),.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>div:has(#in-theaters,#top-box-office,#coming-soon-movie)
+imdb.com##.ipc-poster-card .gli-meter-title-header
+imdb.com##section[data-testid=chart-layout-sidebar]>div[class],section[data-testid=chart-layout-sidebar]>div[data-testid]
+imdb.com#$#ul.compact-list-view .ipc-metadata-list-summary-item{padding-top:20px !important;padding-bottom:20px !important;}
+imdb.com#$#ul.compact-list-view li.ipc-metadata-list-summary-item>:first-child{margin-right:1rem !important;width:7rem !important;}
+imdb.com###content-2-wide:not([class]) #sidebar>div:not(.list-activity-widget)
+imdb.com###rvi-div>.recently-viewed
+imdb.com##.lister-item-content>p:has(a[href*="/name/"]),.lister-item-content>div.wtw-option-standalone
+imdb.com#$#.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1,.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__btn,.ipc-btn--theme-base:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__iconBtn,.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1,.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__btn,.ipc-btn--theme-baseAlt:not(:disabled).ipc-btn--core-accent1 .ipc-split-button__iconBtn{background:#f5c518 !important;color:#000 !important;border-radius:10px !important;}
+imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center .title-cast-item__avatar{min-width:calc(36% - 1.3125rem) !important;}
+imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-media--avatar-circle,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar .ipc-lockup-overlay,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast] .ipc-avatar .ipc-lockup-overlay__screen{border-radius:.75rem !important;}
+imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Photos] .ipc-media--base,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Photos] .ipc-image{border-radius:.75rem !important;}
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=videos-section],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=DidYouKnow],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Storyline] ul.ipc-metadata-list,.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=News],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=BoxOffice],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=contribution],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[cel_widget_id=StaticFeature_FAQ],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section:has(>div>div[data-testid=top-picks--title]),.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[cel_widget_id=StaticFeature_Awards],.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section:has(>section[data-testid=main-column-editorial-single])
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center .right-rail-more-to-explore
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=title-cast]>ul
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center li:has(#ProUpsellLink)
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center div:not([class])>div:has(div[data-testid=tm-box-woc-text])
+m.imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center  div:has(>a[data-testid=hero__video-link],>a[data-testid=hero__photo-link])
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center ul[data-testid=reviewContent-all-reviews]
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=MoreLikeThis] div:has(>a[aria-label="More information"])
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section[data-testid=Details] .ipc-metadata-list li[data-testid=title-details-companycredits]
+imdb.com#$#.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center .ipc-page-section div:has(>div[data-testid=hero-subnav-bar-left-block]),.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center .ipc-page-section div:has(>div[data-testid=hero-subnav-bar-right-block]:not(:has(>div[data-testid=hero-list-subnav-export-button]))){visibility:hidden !important;height:20px !important;}
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center div:has(>div[data-testid=hero-rating-bar__user-rating])>div[data-testid*=hero-rating-bar__]>div
+m.imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center  div[data-testid=hero-rating-bar__aggregate-rating__score]>span:has-text("/")
+imdb.com##.starmeter-logo
+imdb.com##ul.ipc-metadata-list>li:has(>a[href*=pro])
+imdb.com##.ipc-page-content-container--full>.ipc-page-content-container.ipc-page-content-container--center>section>div>div>div:has(>section[data-testid=more-results-section],>section[data-testid=advanced-search-section])
+imdb.com##.results-section-exact-match-btn
+imdb.com##.ipc-page-content-container--full .ipc-page-content-container.ipc-page-content-container--center section:has(>section[data-testid=embeddable-section])
+imdb.com##div[data-testid=list-author-and-metrics]>:not(:first-child)
+imdb.com#$#div[data-testid=list-author-and-metrics]:has(+.list-description.editable-trigger)>:first-child{margin-bottom:1.5rem !important;}
+imdb.com##div[role=tabpanel]>div>div:has-text(/Browse these IMDb collections/i)
+imdb.com##section:has(>div>p:has-text(/Browse these IMDb collections/i))
