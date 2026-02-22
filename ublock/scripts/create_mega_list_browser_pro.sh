@@ -36,6 +36,8 @@ for url in "${URLS[@]}"; do
   echo "" >> "$TMPFILE"
 done
 
+# $(date -u +"%d%b%Yv1")
+# $(date -u +"%Y-%m-%dT%H:%M:%SZ")
 # 1) Write metadata to OUTPUT (not to TMPFILE)
 echo "Prepending metadata..."
 cat <<EOF > "$OUTPUT"
