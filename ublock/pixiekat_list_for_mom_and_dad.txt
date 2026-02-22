@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Browser List for Mom & Dad
-! Version: 2026-02-22T01:41:21Z
+! Version: 21February2026v100
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Browser List for Mom & Dad
