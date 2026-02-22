@@ -26,7 +26,7 @@ COMMIT_MSG="Automated filterlist update: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
 git commit -m "$COMMIT_MSG"
 
 # Optional: push automatically
-#git push
+git push
 
 echo "Committed changes with message:"
 echo "$COMMIT_MSG"
