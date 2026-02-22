@@ -5,3 +5,4 @@
 ! Description: Pixiekat's custom white list for adguard home
 
 @@||r.bbci.co.uk^$document,all
+@@||analytics.google.com^$important

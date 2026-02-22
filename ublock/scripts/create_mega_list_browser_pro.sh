@@ -25,6 +25,9 @@ URLS=(
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiFakeTransparentImagesList.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiFunctionalityRemovalList.txt"
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Android%20Scum%20Class%20%E2%80%94%20Fake%20notification%20counters.txt"
+  "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/SurvivedTrackingLinkWarning.txt"
+  "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/MiscAnnoyance.txt"
 )
 
 for url in "${URLS[@]}"; do

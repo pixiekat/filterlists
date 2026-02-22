@@ -41,6 +41,11 @@
 @@||netkitten.net^$document,all
 @@||spacecadetgrrl.me^$document,all
 
+! Allow analytics from Google for my personal sites
+@@||www.googletagmanager.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
+@@||www.google-analytics.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
+@@||analytics.google.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
+
 ! Allow my favourite blogs and sites
 @@||autostraddle.com^$document
 @@||forthem.com^$document

@@ -8,6 +8,7 @@ TMPFILE=$(mktemp)
 URLS=(
   # whitelists
   # blocklists
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/GDPR%20451%20List.txt"
   # cosmetic
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/filters.txt"
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/non-copilot-filters.txt"
