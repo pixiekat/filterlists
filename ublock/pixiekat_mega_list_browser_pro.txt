@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 21February2026v100
+! Version: 2026-02-22T12:04:40Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -112,6 +112,7 @@
 @@||lurl.cc^
 @@||mydaddy.cc^
 @@||myppt.cc^
+@@||nssm.cc^
 @@||postimg.cc^
 @@||ppt.cc^
 @@||pretendo.cc^
@@ -904,8 +905,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 20 Feb 2026 20:31 UTC
-! Version: 2026.0220.2031.28
+! Last modified: 22 Feb 2026 04:58 UTC
+! Version: 2026.0222.0458.52
 ! Syntax: uBlock
 ! Number of latin TLDs: 283 - punycode TLDs: 151
 !
@@ -944,7 +945,7 @@
 ||casa^$doc,domain=~nabu.casa
 ||cash^$doc,domain=~doe.cash
 ||casino^$doc
-||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~forestapp.cc|~frontrow.cc|~imgus.cc|~is.cc|~itead.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~postimg.cc|~ppt.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
+||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~forestapp.cc|~frontrow.cc|~imgus.cc|~is.cc|~itead.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
 ||center^$doc,domain=~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
 ||ceo^$doc
 ||cf^$doc,domain=~google.cf
@@ -1434,6 +1435,7 @@
 ||bestiamos.com^
 ||bestvod.pl^
 ||big-sale-warehouse.com^
+||bikehotsale.com^
 ||billboardwring.com^
 ||binom0-web.com^
 ||binomo-brokers.com^
@@ -1464,6 +1466,7 @@
 ||bnidigital.com^
 ||bolejug.us^
 ||bombardina.pl^
+||booklng.com.id71481393.date^
 ||botsuanah.com^
 ||boutiqueondemand.com^
 ||bradcroninnapo82.myshopify.com^
@@ -1495,6 +1498,7 @@
 ||check-update-today.me^
 ||chesssorrydescend.com^
 ||chikepod.com^
+||chipcy.com^
 ||chipteeamz.com^
 ||cibtvisas.com^
 ||cinemak.pl^
@@ -1576,6 +1580,7 @@
 ||dressesloves.com^
 ||dresseslovesootd.com^
 ||duitpanas.top^
+||dumanus.com^
 ||e-indianvisa.com^
 ||e-touristvisa.com^
 ||e-touristvisaindia.com^
@@ -1583,6 +1588,7 @@
 ||e-visaindia.com^
 ||e-visaindiaonline.com^
 ||e-visums.nl^
+||easynatures.com^
 ||ecomicrolab.com^
 ||ecs-online.ffm.to^
 ||edecher.com^
@@ -1625,6 +1631,7 @@
 ||faze10.com^
 ||faze2.com^
 ||faze3.com^
+||faze35.com^
 ||faze4.com^
 ||faze47.com^
 ||faze5.com^
@@ -1645,6 +1652,7 @@
 ||filmy-online.eu^
 ||filmy24.cc^
 ||filser.pl^
+||find-vod.com^
 ||find-vod.com.pl^
 ||findglocal.com^
 ||finnews7.wordpress.com^
@@ -1654,7 +1662,6 @@
 ||fiusps.com^
 ||fixpub.com^
 ||flattee.com^
-||flwzen.com^
 ||folkrbvi.pages.dev^
 ||food-network.fwh.is^
 ||foreveusps.com^
@@ -1697,6 +1704,7 @@
 ||glitchy.go2cloud.org^
 ||gload.info^
 ||globalvisacorp.com^
+||godsfillingstation.org^
 ||goglle.com^
 ||goindiavisa.com^
 ||gossvibe.com^
@@ -1757,7 +1765,6 @@
 ||indianimmigration.org^
 ||indianonlinevisas.org^
 ||indiantravelvisa.com^
-||indianvisa-online.org^
 ||indianvisa.online^
 ||indianvisagov.com^
 ||indianvisaonline.org^
@@ -1842,7 +1849,6 @@
 ||mail.zalukaj.cc^
 ||malgorzataschlegel.click^
 ||mango-desert-09ebb4010.4.azurestaticapps.net^
-||mansion-xenarthran.info^
 ||maxdebrid.com^
 ||mayor4london.com^
 ||mcds100.com^
@@ -1850,6 +1856,7 @@
 ||mega-heritage.com^
 ||mega-kino.pl^
 ||megoindonesia.com^
+||microgull.com^
 ||microngroup.pro^
 ||microsoft-notifcation.com^
 ||microsoft.teams-live.com^
@@ -1860,6 +1867,7 @@
 ||moddetail.com^
 ||modmobile24.com^
 ||monkstars.com^
+||mononus.com^
 ||mot73yi07.info^
 ||ms-analytics.mywire.org^
 ||msgclick.top^
@@ -1923,6 +1931,7 @@
 ||navi7.com^
 ||navi72.com^
 ||navi72.ru^
+||navi76.com^
 ||navi77.com^
 ||navi78.ru^
 ||navi8.com^
@@ -1956,8 +1965,10 @@
 ||nip29.com^
 ||nip3.com^
 ||nip4.com^
+||nip43.com^
 ||nip46.com^
 ||nip5.com^
+||nip53.com^
 ||nip57.com^
 ||nip8.com^
 ||nip9.com^
@@ -1971,7 +1982,6 @@
 ||notify-user-adjustments.vercel.app^
 ||novabeds.ca^
 ||nowefilmyonline.pl^
-||nxtgenerator.top^
 ||nzxsxn.98kk89.com^
 ||oablages.org.br^
 ||obejrzyj-to.pl^
@@ -2019,6 +2029,7 @@
 ||pharaohstore.com^
 ||phgliders.com^
 ||philsshorthairorientalkittens.com^
+||phototan-cdirect.info^
 ||phototan-unterstutzung.win^
 ||phototan.net^
 ||pinjamanelit.top^
@@ -2060,6 +2071,7 @@
 ||robalmeister.workers.dev^
 ||robinmooreband.com^
 ||rosateeshop.com^
+||route2content.com^
 ||royaldecorhome.store^
 ||royalhedgies.com^
 ||rozomii.info^
@@ -2076,6 +2088,8 @@
 ||salimusic.com^
 ||sanla-tan.net^
 ||saveeeee.myshopify.com^
+||sberbank.blablacar.id90152861.com^
+||sberbank.id11853502.date^
 ||seagulltee.com^
 ||seans24.com.pl^
 ||seasonsofficial.com^
@@ -2128,6 +2142,7 @@
 ||sportsbrooks.com^
 ||sportswearfanatics.com^
 ||spotgee.com^
+||stage3x.store^
 ||staging.zendrop.com^
 ||startuplatte.com^
 ||steamgateways.com^
@@ -2215,6 +2230,7 @@
 ||twitchlogger.robalmeister.workers.dev^
 ||twitterr.com^
 ||ucapsidop.info^
+||uchy.online^
 ||ucureo.com^
 ||udemy-creators.com^
 ||udrop.com^
@@ -2227,8 +2243,8 @@
 ||uniswap-wallet.pro^
 ||uniswap.host^
 ||uniswap.ro^
+||uniswap7.info^
 ||uniswapagent.com^
-||uniswapclient.com^
 ||uniswapcriteria.com^
 ||uniswapcriteria.net^
 ||uniswapcriteria.org^
@@ -2297,6 +2313,7 @@
 ||wazofurniture.com^
 ||wealthsimple-zfmip.com^
 ||weathly.com^
+||web3ledger-app.online^
 ||webvod.pl^
 ||whbinder.com^
 ||wikeb.com^
