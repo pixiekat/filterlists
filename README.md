@@ -92,7 +92,7 @@ A quick overview of how my lists are organized:
 All upstream lists are:
 
 - Linked directly from their original maintainers.
-- Unmodified.
+- Unmodified (with the exception of removing local includes which don't work in the compiled megalists).
 - Clearly credited.
 - Not redistributed or repackaged.
 - Included only as references inside my metalists.
