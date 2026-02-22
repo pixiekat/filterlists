@@ -14,6 +14,7 @@ URLS=(
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/non-copilot-filters.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/none-of-your-bezos.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/good-sports.txt"
+  "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/specific/AntiAPKMirrorCountdown.txt"
 )
 
 for url in "${URLS[@]}"; do

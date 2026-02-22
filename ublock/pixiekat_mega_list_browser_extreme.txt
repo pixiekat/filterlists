@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-02-22T19:52:12Z
+! Version: 2026-02-22T19:54:26Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -1186,3 +1186,42 @@ numberfire.com##li.premium
 numberfire.com/socket.io
 !! fbschedules
 fbschedules.com##a[href*="prf.hn"]
+[uBlock Origin 1.45.0]
+! Title: Anti APKMirror Ads and Countdown
+! Version: 202211101659
+! Expires: 2 days
+! Author: kowith337
+! Homepage: https://github.com/kowith337/PersonalFilterListCollection
+! Mirror: https://gitlab.com/kowith337/PersonalFilterListCollection/raw/master/filterlist/specific/AntiAPKMirrorCountdown.txt
+! Stop making some tears!
+||apkmirror.com/wp-content/themes/APKMirror/images/sadkitten.png$important
+! DOM
+apkmirror.com#?#.OUTBRAIN
+apkmirror.com#?#.appRow:if(.gooWidget)
+apkmirror.com#?#.advertisement-text
+apkmirror.com#?#.amazon-ad
+apkmirror.com#?#.downloadCountdown
+apkmirror.com#?#.gooWidget
+apkmirror.com#?#.google-ad-leaderboard
+apkmirror.com#?#.google-ad-square-sidebar
+apkmirror.com#?#.promotedApp
+apkmirror.com#?##sidebar .listWidget:has-text(/Follow APK Mirror/i)
+! 3P domains block
+||amazon-adsystem.com$domain=apkmirror.com,important
+||consensu.org$domain=apkmirror.com,important
+||crsspxl.com$domain=apkmirror.com,important
+||google-analytics.com$domain=apkmirror.com,important
+||googlesyndication.com$domain=apkmirror.com,important
+||instant.page$domain=apkmirror.com,important
+||outbrain.com$domain=apkmirror.com,important
+||pagefair.*$domain=apkmirror.com,important
+||pro-market.net$domain=apkmirror.com,important
+||quantserve.com$domain=apkmirror.com,important
+||referrer.disqus.com$domain=apkmirror.com,important
+||scorecardresearch.com$domain=apkmirror.com,important
+! Scriptlets
+apkmirror.com#?#+js(aopr, visibleAds)
+apkmirror.com#?#+js(aopw, #downloadCountdownBar)
+apkmirror.com#?#+js(aopw, ranTwice)
+apkmirror.com#?#+js(aopw, timerInterval)
+apkmirror.com#?#+js(set, visibleEl, noopFunc)
