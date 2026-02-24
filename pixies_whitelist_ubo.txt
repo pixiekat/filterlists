@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 22February2026v1
+! Version: 23February2026v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -19,6 +19,7 @@
 @@||groups.google.com^$document
 @@||history.google.com^$document
 @@||keep.google.com^$document
+@@||messages.google.com^$document,all
 @@||mail.google.com^$document
 @@||myaccount.google.com^$document
 @@||myactivity.google.com^$document
