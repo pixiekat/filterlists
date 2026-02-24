@@ -9,6 +9,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 
 # --- UK ---
 *://*.conservatives.com/*
+*://*.restorebritain.org.uk/*
 *://*.keirstarmer.com/*
 *://*.kemibadenoch.org.uk/*
 *://*.nfarage.com/*
