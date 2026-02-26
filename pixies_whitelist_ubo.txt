@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 23February2026v1
+! Version: 26February2026v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -15,7 +15,7 @@
 @@||calendar.google.com^$document
 @@||docs.google.com^$document
 @@||drive.google.com^$document
-@@||google.com/search*^$document
+@@||google.com/search*^$document,all
 @@||groups.google.com^$document
 @@||history.google.com^$document
 @@||keep.google.com^$document
@@ -23,9 +23,9 @@
 @@||mail.google.com^$document
 @@||myaccount.google.com^$document
 @@||myactivity.google.com^$document
-@@||photos.google.com^$document
+@@||photos.google.com^$document,all
 @@||translate.google.com^$document
-@@||www.google.com/maps*^$document
+@@||www.google.com/maps*^$document,all
 @@||*youtube.com/*&disableadblock=1^$document
 
 ! Fixes cost breakdowns on AWS reports
