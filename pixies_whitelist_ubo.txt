@@ -156,6 +156,10 @@
 @@||www.neowin.net^$document
 
 ! Work
+@@||acquia.com^$document,all
+@@||profile.acquia.com^$document,all
+@@||id.acquia.com^$document,all
+@@||acquia.my.site.com^$document,all
 @@||alltechishuman.org^$document
 @@||bidmc.org^$document,all
 @@||bilh-my.sharepoint.com^$document,all
