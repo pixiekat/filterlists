@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 26February2026v1
+! Version: 26February2026v2
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -13,7 +13,7 @@
 ! Google Apps
 @@||analytics.google.com^$document
 @@||calendar.google.com^$document
-@@||docs.google.com^$document
+@@||docs.google.com^$document,all
 @@||drive.google.com^$document
 @@||google.com/search*^$document,all
 @@||groups.google.com^$document
@@ -166,7 +166,7 @@
 @@||bilh.org^$document,all
 @@||certbot.eff.org^$document
 @@||codeberg.org^$document
-@@||copilot.microsoft.com^$document
+@@||copilot.microsoft.com^$document,all
 @@||dcinetwork.org^$document
 @@||diabetesdefa.org^$document
 @@||login.microsoftonline.com^$document,all
