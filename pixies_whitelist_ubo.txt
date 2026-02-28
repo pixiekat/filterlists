@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 28February2026v3
+! Version: 28February2026v4
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -18,7 +18,8 @@
 @@||s.youtube.com^$document
 
 ! Google Apps
-@@||analytics.google.com^$document
+@@||*youtube.com/*&disableadblock=1^$document
+@@||analytics.google.com^$document,all,domain=analytics.google.com
 @@||calendar.google.com^$document
 @@||docs.google.com^$document,all
 @@||drive.google.com^$document,all
@@ -26,16 +27,17 @@
 @@||groups.google.com^$document
 @@||history.google.com^$document
 @@||keep.google.com^$document
-@@||remotedesktop.google.com^$document,all
-@@||messages.google.com^$document,all
 @@||mail.google.com^$document
+@@||maps.googleapis.com^$document
+@@||maps.gstatic.com^$document
+@@||messages.google.com^$document,all
 @@||myaccount.google.com^$document
 @@||myactivity.google.com^$document
 @@||photos.google.com^$document,all
+@@||remotedesktop.google.com^$document,all
 @@||translate.google.com^$document
-@@||www.google.com/maps^$document,all
-@@||www.google.com/search^$document,all
-@@||*youtube.com/*&disableadblock=1^$document
+@@|https://www.google.com/maps^$document,all
+@@|https://www.google.com/search^$document,all
 
 ! Fixes Google search
 @@||ogads-pa.clients6.google.com^$document,domain=google.com
@@ -124,6 +126,7 @@
 
 ! Streaming
 @@||lcprd1.samsungcloudsolution.net^$document
+@@||pca.st^$document
 @@||player.stv.tv^$document
 @@||pocketcasts.com^$document
 @@||www.itv.com^$document
@@ -162,13 +165,6 @@
 @@||downloads.sourceforge.net^$document
 @@||dl.sourceforge.net^$document
 
-! Trackers that are ok
-@@||isk.richardsw.club^$document
-@@||moonburrow.club^$document
-@@||tracker.coppersurfer.tk^$document
-@@||tracker.imgoingto.icu^$document
-@@||tracker1.myporn.club^$document
-
 ! Fixes some sites blocked elsewhere that I personally view
 @@||www.neowin.net^$document
 
@@ -185,11 +181,13 @@
 @@||diabetesdefa.org^$document
 @@||id.acquia.com^$document,all
 @@||login.microsoftonline.com^$document,all
+@@||onedrive.live.com^$document,all
 @@||outlook.office.com^$document,all
 @@||outlook.office365.com^$document,all
 @@||panel.dreamhost.com^$document
 @@||profile.acquia.com^$document,all
 @@||res.public.onecdn.static.microsoft^$document,all
+@@||sharepoint.com^$document,all
 @@||store.sectigo.com^$document
 @@||support-acquia.force.com^$document
 @@||teams.microsoft.com^$document,all

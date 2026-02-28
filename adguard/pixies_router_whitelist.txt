@@ -1,8 +1,18 @@
 ! Title: Pixiekat's Router White List
-! Version: 20Feb2026v1
+! Version: 28Feb2026v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom white list for adguard home
 
-@@||r.bbci.co.uk^$document,all
+! Fixes
 @@||analytics.google.com^$important
+@@||emp.bbci.co.uk^$important
+@@||r.bbci.co.uk^$important
+@@||static.bbci.co.uk^$important
+
+! Trackers that are ok
+@@||isk.richardsw.club^$important
+@@||moonburrow.club^$important
+@@||tracker.coppersurfer.tk^$important
+@@||tracker.imgoingto.icu^$important
+@@||tracker1.myporn.club^$important
