@@ -59,6 +59,11 @@
 @@||www.google-analytics.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
 @@||analytics.google.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
 
+! Allow analytics for specific sites
+@@||www.google-analytics.com^$domain=www.democracynow.org|www.autostraddle.com|forthem.com
+@@||www.googletagmanager.com^$domain=www.democracynow.org|www.autostraddle.com|forthem.com
+@@||js-agent.newrelic.com^$domain=www.democracynow.org|www.autostraddle.com|forthem.com
+
 ! Allow my favourite blogs and sites
 @@||autostraddle.com^$document
 @@||forthem.com^$document
