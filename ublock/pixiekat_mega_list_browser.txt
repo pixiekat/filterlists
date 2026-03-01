@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-02-22T19:52:43Z
+! Version: 2026-03-01T11:13:53Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -153,6 +153,7 @@
 @@|z5-pauw.phreesia.net^
 @@|z5-sns.phreesia.net^
 ! Title: 📦 BadBlock - Amazon (ABP)
+! Version: 24February2026v1
 ! Description: Block Amazon advertising, tracking, telemetry, promotions, & more!
 !! (ex. https://c.amazon-adsystem.com/aax2/apstag.js)
 !! (ex. https://certify-js.alexametrics.com/atrk.js)
@@ -327,6 +328,10 @@ execute-api.*.amazonaws.$all
 !! https://github.com/celenityy/BadBlock/issues/77
 !!! (CNAME of 983q4pby9a.execute-api.us-east-1.amazonaws.com)
 @@||rss.libsyn.com^
+! Unbreak "Play to Unlock" on Nintendo Switch 2
+!! https://github.com/celenityy/BadBlock/issues/85
+!!! (CNAME of 2jg3n309he.execute-api.us-west-2.amazonaws.com)
+@@||fw-api.lp1.nso.nintendo.net^
 ! Unbreak zeenews.india.com/bengali/live-tv
 !! https://github.com/celenityy/BadBlock/issues/14
 @@||execute-api.*.amazonaws.$all,domain=zeenews.india.com
@@ -17633,6 +17638,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||xadsacademy.com^
 ! Title: ⚠️ BadBlock - Unsafe (ABP)
 ! Description: Block dangerous & malicious domains!
+# We don't want to set these IP rules for AdGuard, see: https://github.com/celenityy/BadBlock/issues/83
 ! "Payment Not Received – Security Lock Applied – Thursday, 29 January 2026" spam/phishing email
 !! (http://[::ffff:b98f:f00d]/qs=r-agjhcafbdgjkcfahddgdckaddjhgjeiaghiffaghiffaghiffabakbaediaccafbejaebgbagcedibadcc)
 ||[::ffff:b98f:f00d]
@@ -17642,6 +17648,9 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ! "[URGENT] 5 MINUTES LEFT TO COMPLETE DATA BACKUP | THU, Jan 27, 2026" spam/phishing email
 !! (http://[::ffff:a3ac:db6f]/qs=r-agjhcafbdgjkcfahbfhhkdaddjhbhkdaggfjfabaggfjfabafbaedhaccagfjaedhjafigkkcadcc)
 ||[::ffff:a3ac:db6f]
+! "Reminder: Don't Forget your subscription" spam/phishing email
+!! (http://[::ffff:1750:a4c]/qs=r-agjhcafbdgjkcfahchgehbaddgccffjaghbegabababakdadijaccaggdjaedjdagbkhekadcc)
+||[::ffff:1750:a4c]
 ! "Confirm Your Account to Maintain Service" spam/phishing email
 !! (http://[::ffff:2ea5:c3b3]/qs=op-agjhcafbdgjkcfahcigbgkaddgehchgaghkgiabababajgaebkaccafccbadjbiagccgckadcc)
 ||[::ffff:2ea5:c3b3]
@@ -17798,6 +17807,13 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||apksim.com^
 ||apponic.com^
 ||aptoide.com^
+||archive.fo^
+||archive.is^
+||archive.li^
+||archive.md^
+||archive.ph^
+||archive.today^
+||archive.vn^
 ||areserver.net^
 ||arsenij-art.com^
 ||assets-nextplaysearch.nyc3.cdn.digitaloceanspaces.com^
