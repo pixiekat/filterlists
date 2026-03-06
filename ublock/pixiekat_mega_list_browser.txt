@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-03-01T11:13:53Z
+! Version: 2026-03-06T10:57:26Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -153,7 +153,7 @@
 @@|z5-pauw.phreesia.net^
 @@|z5-sns.phreesia.net^
 ! Title: 📦 BadBlock - Amazon (ABP)
-! Version: 24February2026v1
+! Version: 01March2026v1
 ! Description: Block Amazon advertising, tracking, telemetry, promotions, & more!
 !! (ex. https://c.amazon-adsystem.com/aax2/apstag.js)
 !! (ex. https://certify-js.alexametrics.com/atrk.js)
@@ -302,9 +302,6 @@ compute-optimizer*.amazonaws.$all
 !! "DynamoDB Contributor Insights"
 dynamodb-kai*.amazonaws.
 dynamodb-kai*.amazonaws.$all
-!! "VPC Flow Logs" & "EC2 Customer Maintenance Event Service"
-||ec2*.amazonaws.
-||ec2*.amazonaws.$all
 !! "Elastic Beanastalk Health Service" Monitoring & Metrics
 elasticbeanstalk-health*.amazonaws.
 elasticbeanstalk-health*.amazonaws.$all
@@ -859,10 +856,6 @@ voiceid*.amazonaws.$all
 ||device-metrics-us.amazon.com^
 ||dynamodb-kai.cn-north-1.amazonaws.com.cn^
 ||dynamodb-kai.cn-northwest-1.amazonaws.com.cn^
-||ec2.cn-north-1.amazonaws.com.cn^
-||ec2.cn-northwest-1.amazonaws.com.cn^
-||ec2cms.cn-north-1.amazonaws.com.cn^
-||ec2cms.cn-northwest-1.amazonaws.com.cn^
 ||elasticbeanstalk-health.cn-north-1.amazonaws.com.cn^
 ||elasticbeanstalk-health.cn-northwest-1.amazonaws.com.cn^
 ||elasticmapreduce.cn-north-1.amazonaws.com.cn^
@@ -2692,7 +2685,7 @@ roblox.com##.recommendations-container.sponsored-layer
 ||zynga2-a.akamaihd.net^
 ||zynga3-a.akamaihd.net^
 ! Title: 🔤 BadBlock - Google (ABP)
-! Version: 15February2026v1
+! Version: 05March2026v1
 ! Description: Block Google advertising, tracking, promotions, & more!
 ! Cengage
 !! (ex. https://ng.cengage.com/nb/service/googleAnalyticsConfig)
@@ -2825,7 +2818,6 @@ music.youtube.com##ytmusic-network-status-banner
 ! Google Cloud Console Analytics & Tracking
 !! ($important and the allow rule below are to counter Easylist :/)
 !! (ex. https://cloudconsole-pa.clients6.google.com/v3/entityServices/AbuseEntityService/schemas/ABUSE_GRAPHQL:batchGraphql?key=...&prettyPrint=false)
-!! (ex. https://cloudconsole-pa.clients6.google.com/v3/entityServices/CrmEntityService/schemas/CRM_GRAPHQL:batchGraphql?key=...&prettyPrint=false)
 !! (ex. https://cloudconsole-pa.clients6.google.com/v3/entityServices/TagsEntityService/schemas/TAGS_GRAPHQL:batchGraphql?key=...&prettyPrint=false)
 !! (ex. https://cloudconsole-pa.clients6.google.com/v3/entityServices/TargetingEntityService/entities/TARGETED_FEATURES:get?key=...&alt=json&prettyPrint=false)
 !! (ex. https://console.cloud.google.com/p/bscframe)
@@ -2834,7 +2826,6 @@ music.youtube.com##ytmusic-network-status-banner
 ||cloud.google.com/*/ping$important
 ||cloud.google.com/log$important
 ||google.com/*/entityServices/AbuseEntityService
-||google.com/*/entityServices/CrmEntityService
 ||google.com/*/entityServices/TagsEntityService
 ||google.com/*/entityServices/TargetingEntityService
 ||google.com/p/bscframe
@@ -6275,7 +6266,6 @@ visionai.googleapis.com
 ||invitemediainc.com^
 ||invitmedia.com^
 ||jmt17.google.com^
-||kaggle.com^
 ||kmsinventory.clients6.google.com^
 ||kmsinventory.googleapis.com^
 ||kmsinventory.mtls.googleapis.com^
@@ -8784,14 +8774,13 @@ watson.trafficmanager.net
 ||zoneminder.github.io^
 ||zylo.com^
 ! Title: 📡 BadBlock - Radar (ABP)
-! Version: 12February2026v1
 ! Description: Block advertising, analytics, unwanted data collection, tracking, & more as they arise!
 ! Wildcards
 ! uBlock Origin needs $all
 ||ad.$all,domain=~ad.jp
 ||ad-*.$all
 ||ads.$all
-||ads*.$all,domain=~ads-track-digest256.dummytracker.org
+||ads*.$all,domain=~ads-track-digest256.dummytracker.org|~adsbexchange.com
 ||advert.$all
 ||advert*.$all,domain=~adverts.ie
 ||analytic.$all
@@ -8852,7 +8841,7 @@ watson.trafficmanager.net
 ||ad.$denyallow=ad.jp
 ||ad-*.
 ||ads.
-||ads*.$denyallow=ads-track-digest256.dummytracker.org
+||ads*.$denyallow=ads-track-digest256.dummytracker.org|adsbexchange.com
 ||advert.
 ||advert*.$denyallow=adverts.ie
 ||analytic.

@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-03-01T11:13:36Z
+! Version: 2026-03-06T10:57:06Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -227,6 +227,7 @@
 @@||orangefox.download^
 @@||up4ever.download^
 @@||upfiles.download^
+@@||auk.eco^
 @@||elli.eco^
 @@||mer.eco^
 @@||play.eco^
@@ -910,8 +911,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 28 Feb 2026 22:48 UTC
-! Version: 2026.0228.2248.48
+! Last modified: 04 Mar 2026 23:09 UTC
+! Version: 2026.0304.2309.30
 ! Syntax: uBlock
 ! Number of latin TLDs: 283 - punycode TLDs: 151
 !
@@ -990,7 +991,7 @@
 ||dog^$doc,domain=~chainsawman.dog|~heika.dog|~misskey.dog|~telegram.dog
 ||download^$doc,domain=~caido.download|~kali.download|~mkvtoolnix.download|~orangefox.download|~up4ever.download|~upfiles.download
 ||dpdns.org^$doc
-||eco^$doc,domain=~elli.eco|~mer.eco|~play.eco
+||eco^$doc,domain=~auk.eco|~elli.eco|~mer.eco|~play.eco
 ||edu.eu^$doc
 ||engineer^$doc
 ||enterprises^$doc
@@ -1399,6 +1400,7 @@
 ||altruetech.com^
 ||altwi-zgs.com^
 ||amorpulse.com^
+||animeshoppers.com^
 ||anydebrid.com^
 ||aoptee.com^
 ||appdrive.info^
@@ -1538,7 +1540,6 @@
 ||cycle100percent.com^
 ||czasnakino.pl^
 ||czwcvfbc.page.link^
-||dailygiftstore.com^
 ||danainstan.xyz^
 ||danylevych.com^
 ||dash.pocketuniverse.app^
@@ -1654,6 +1655,7 @@
 ||finnews7.wordpress.com^
 ||fishingdaily.shop^
 ||fitgirl-repacks-site.org^
+||fitgirl-repacks.vip^
 ||fitgirlrepacksite.com^
 ||fiusps.com^
 ||fixpub.com^
@@ -1664,7 +1666,6 @@
 ||freebitcoin.pages.dev^
 ||friday89.com^
 ||friday99.com^
-||fridaylocalmanager.duckdns.org^
 ||fuehrungszeugnis-service.de^
 ||fullview.pl^
 ||fundanemt.org^
@@ -1712,16 +1713,15 @@
 ||gunstee.com^
 ||habtoorloyal.com^
 ||hairyfy.com^
-||haowei.me^
 ||happymod.cloud^
 ||headsets4business.co.uk^
-||helpdesk-usps.online^
 ||helpnanacenter.helpscoutdocs.com^
 ||hernoclothing.com^
 ||heyfusio.com^
 ||hfr67jhqrw8.com^
 ||hindustantowergroupltd.com^
 ||hippie-pets.com^
+||hityvod.pl^
 ||hookahheroes.com^
 ||hostpoco.com^
 ||hotbignews.com^
@@ -1806,13 +1806,11 @@
 ||kmsauto.info^
 ||kmspi.co^
 ||kmspico-official.org^
-||kmspico.io^
 ||knightmods.com^
 ||koinprime.com^
 ||kontribusiuang.top^
 ||kopisusu.co.id^
 ||kra18.com^
-||krediteksklusif.com^
 ||kuyhaa.cc^
 ||lasercutjewelry.net^
 ||lds.xyz^
@@ -1837,6 +1835,7 @@
 ||lucatee.com^
 ||lucidtiger.com^
 ||lucysstyle.com^
+||luxsgear.com^
 ||maebl.com^
 ||magnite.shop^
 ||mail-cytanet.pages.dev^
@@ -1873,10 +1872,8 @@
 ||myfunfarm.com^
 ||myhandshops.myshopify.com^
 ||mypuregaming.com^
-||mysuperdatingforyou.life^
 ||nabaza.shop^
 ||nalzahqp.page.link^
-||natilove.com^
 ||nationaladvancegroup.com^
 ||natvisa.com^
 ||navi1.com^
@@ -1905,6 +1902,7 @@
 ||navi38.ru^
 ||navi39.ru^
 ||navi4.com^
+||navi42.ru^
 ||navi43.com^
 ||navi45.ru^
 ||navi48.com^
@@ -1931,6 +1929,7 @@
 ||navi98.com^
 ||navi99.com^
 ||nayatowerinstallation.in.net^
+||nbdiscount.com^
 ||neozor.com^
 ||nevaon.com^
 ||new.gdtot.me^
@@ -1992,7 +1991,6 @@
 ||onrunningshop.com^
 ||ontario-energy.com^
 ||orderquilt.com^
-||outarshop.fi^
 ||outel.abmarketworks.com^
 ||outlet-alfresco.com^
 ||owlala.com^
@@ -2040,6 +2038,7 @@
 ||promoalfresco.com^
 ||promotion40-form.com^
 ||pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com^
+||punchonsol.top^
 ||qq51f.short.gy^
 ||qriedf.info^
 ||quoka.dk9zc9.pro^
@@ -2058,7 +2057,6 @@
 ||royalhedgies.com^
 ||rozomii.info^
 ||rsaonlinenow.com.au^
-||rupiahlagi.com^
 ||rupiahsaku.com^
 ||rustdesk.co.nz^
 ||rustdesk.io^
@@ -2144,7 +2142,6 @@
 ||sugarandpearl.com^
 ||suitablepartner.life^
 ||summersale.online^
-||sunsetstore.net^
 ||supercutestuff.com^
 ||supperbrand.company.site^
 ||survivalcatsupply.com^
@@ -2216,7 +2213,6 @@
 ||uniswap.host^
 ||uniswap.ro^
 ||uniswapagent.com^
-||uniswapsupport.online^
 ||universityofqatarrectorate.godaddysites.com^
 ||updatesnow.click^
 ||uplevelreward.com^
@@ -2270,6 +2266,7 @@
 ||w0-eg-d12-de-yd-nka-ne-rklkyazwo0.vercel.app^
 ||wadahlapak.top^
 ||wallpaperflare.com^
+||waronsol.top^
 ||warriordecor.com^
 ||watchmark.shop^
 ||watchseniorfit.com^
@@ -2295,7 +2292,6 @@
 ||ww25.utilify.me^
 ||base-vod.pl^
 ||www.base-vod.pl^
-||xajzfwgs.com^
 ||xcartpro.com^
 ||xn--airuptrkiye-yhb.com^
 ||xunlei.it^
@@ -2311,7 +2307,6 @@
 ||youdebrid.com^
 ||yourdatefind.com^
 ||yoursecrethookup.com^
-||youtubee.com^
 ||youtunbe.com^
 ||youutube.com^
 ||ytvancedpro.com^
@@ -2351,7 +2346,7 @@
 ||avito.avito.www.avito.
 ||booking.com-id*
 [Adblock Plus 3.13]
-! Version: 04November2025v1
+! Version: 06March2026v1
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -2884,6 +2879,10 @@ instagram.com##div[class]:first-of-type:not(.html-div) + div.html-div:has(+ div:
 ##.footer-app-icons:not(html,body,:empty)
 ! https://www•180•no/varsel/nummer/•••••••• (29/09/2025)
 ##a.both-badges.ai-app-badge
+! https://www•defiance•news/action/disable_email (01/03/2026)
+##div[class*=inlineAppUpsell-]
+! live•peppes•no (03/03/2026)
+##.app-branding-card:not(html,body,:empty)
 ! Below are entries that I borrowed from "I Don't Want Your App", which was maintained by https://github.com/lassekongo83 at https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/i-dont-want-your-app.txt, and which was licenced as GPLv3
 ! Generic
 ##a[href*=".app.link/"]

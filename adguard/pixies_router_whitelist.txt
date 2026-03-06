@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Router White List
-! Version: 28Feb2026v1
+! Version: 6March2026v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom white list for adguard home
@@ -9,6 +9,11 @@
 @@||emp.bbci.co.uk^$important
 @@||r.bbci.co.uk^$important
 @@||static.bbci.co.uk^$important
+@@||statsig.anthropic.com^$important
+@@||telemetry.1passwordservices.com^$important
+
+! Ring of Honor fixes
+@@||beacon.playback.api.brightcove.com^$important
 
 ! Trackers that are ok
 @@||isk.richardsw.club^$important

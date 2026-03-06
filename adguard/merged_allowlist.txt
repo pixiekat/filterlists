@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 2026-03-01T11:13:26Z
+! Version: 2026-03-06T10:56:49Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
@@ -3336,6 +3336,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|www1.dell-cidr.akadns.net^
 @@|wwwfile.realtek.com^
 ! Title: 🏠 BadBlock - Misc. Whitelist (ABP)
+! Version: 01March2026v1
 ! Description: Unblock the Good! (Misc. Edition)
 ! Downloads/Updates for various FOSS projects, ex. Asuswrt-Merlin
 @@|sourceforge.net^
@@ -3357,6 +3358,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|ad.jp^
 @@|adelaide.qualtrics.com^
 @@|adelaideuniwide.qualtrics.com^
+@@|adsbexchange.com^
 @@|agsupdate.adobe.com^
 @@|akron.qualtrics.com^
 @@|amazon1.qualtrics.com^
@@ -3736,6 +3738,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|g.alipaypplus.com^
 @@|get.videolan.org^
 @@|girlscoutsusa.ca1.qualtrics.com^
+@@|globe.adsbexchange.com^
 @@|go-eset-com.trafficmanager.net^
 @@|go.eset.com^
 @@|go.eset.eu^
@@ -3868,6 +3871,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|jpn.network-access-protection.eset.systems^
 @@|jpn.web-access-protection.eset.systems^
 @@|js.radar.com^
+@@|kaggle.com^
 @@|kcliop.eu.qualtrics.com^
 @@|kuleuven.eu.qualtrics.com^
 @@|lancasteruni.eu.qualtrics.com^

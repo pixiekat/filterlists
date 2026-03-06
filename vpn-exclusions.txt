@@ -23,6 +23,7 @@ adameve.com
 adamevestores.com
 adobe.com
 adpizzapub.com
+advancedmd.com
 afd-a-acdc-direct.office.com
 africancancerstars.org
 alb-podcast-api-production-969323618.us-east-1.elb.amazonaws.com
@@ -43,6 +44,7 @@ autostraddle.com
 bankofamerica.com
 barclaysus.com
 barnesandnoble.com
+beacon.playback.api.brightcove.com
 bestbuy.com
 bettystoybox.com
 bidmc.org
@@ -50,8 +52,6 @@ bigy.com
 bilh.org
 boston25news.com
 britbox.com
-bsky-video.b-cdn.net
-build-planner-14.emergent.host
 c3ctc.org
 cache.pocketcasts.com
 cdn-gl.imrworldwide.com
@@ -135,7 +135,6 @@ hbomax.com
 hearthhead.com
 hetzner.com
 homeagain.com
-host.bsky.network
 hrblock.com
 hulu.com
 imap.dreamhost.com
@@ -159,7 +158,6 @@ lgbtqiaspace.b-cdn.net
 lifestance.com
 linuxmint.com
 list-manage.com
-live-events.workers.bsky.app
 login.live.com
 login.microsoftonline.com
 madcapnetwork.org
@@ -204,7 +202,6 @@ pangoly.com
 papaginos.com
 papajohns.com
 partners.org
-patientportal.advancedmd.com
 pbs.org
 pdx1-shared-a1-19.dreamhost.com
 peacocktv.com
@@ -307,10 +304,9 @@ verizon.com
 verizon.net
 verizonfios.net
 verizonwireless.com
-video.bsky.app
-video.cdn.bsky.app
 video.google.com
 visible.com
+watchroh.com
 water.com
 wbru.com
 wbur.org
