@@ -84,7 +84,10 @@ discomax.com
 discord.com
 display.ravm.tv
 dl.flathub.org
+dl.librewolf.net
 dl.vimm.net
+docker.com
+docker.io
 docs.google.com
 dominos.com
 doordash.com
@@ -220,6 +223,7 @@ pornhub.com
 ppa.launchpadcontent.net
 pphosted.com
 progressivedirect.homesite.com
+promdress.me.uk
 pscrb.fm
 publicmediasignin.org
 qcc.edu
@@ -228,6 +232,7 @@ raddle.me
 raw.githubusercontent.com
 reddit.com
 redditstatic.com
+registry.ollama.ai
 release-assets.githubusercontent.com
 reliantmedicalgroup.org
 reliantparking.com
