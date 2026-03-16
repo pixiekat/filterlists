@@ -1,29 +1,29 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 16March2026v2
+! Version: 16March2026v3
 ! Expires: 12 hours
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
 
 
 ! AI Spammy Sites
-||1sixty8.ai^$document
-||binance.us^$document
-||character.ai^$document
-||dev.to^$document
-||devset.ai^$document
-||github.com/necarlson97/codex-ai-sublime$document
-||github.com/pieces-app^$document
-||github.com/promontorycoder$document
-||pieces.app^$document
-||quizard.io^$document
+||1sixty8.ai^$document,domain=~scourge-of-society.*
+||binance.us^$document,all,domain=~scourge-of-society.*
+||character.ai^$document,domain=~scourge-of-society.*
+||dev.to^$document,domain=~scourge-of-society.*
+||devset.ai^$document,domain=~scourge-of-society.*
+||github.com/necarlson97/codex-ai-sublime$document,domain=~scourge-of-society.*
+||github.com/pieces-app^$document,domain=~scourge-of-society.*
+||github.com/promontorycoder$document,domain=~scourge-of-society.*
+||pieces.app^$document,domain=~scourge-of-society.*
+||quizard.io^$document,domain=~scourge-of-society.*
 
 ! Canadian Government and Politicians
 ||conservative.ca^$document
 
 ! Corporate media news sites that contribute to fascism and evil
 ||breitbart.com^$document,all,domain=~its-a-fascist-domain.*
-||businessinsider.com^$document
-||canadafreepress.com^$document,all,domain=~its-a-fascist-domain.*
+||businessinsider.com^$document,domain=~its-tabloid-gutter-trash.*
+||canadafreepress.com^$document,all,domain=~its-a-fascist-domain.*z
 ||dailymail.co.uk^$document,domain=~its-a-fascist-domain.*
 ||dailymail.com^$document,domain=~its-a-fascist-domain.*
 ||dailywire.com^$document,all,domain=~its-a-fascist-domain.*
@@ -63,7 +63,7 @@
 ||doordash.com^$document
 ||granburyrs.com^$document
 ||grubhub.com^$document
-||mediaite.com^$document
+||mediaite.com^$document,domain=~its-tabloid-gutter-trash.*
 ||moes.com^$document
 ||qdoba.com^$document
 ||retailmenot.com^$document
