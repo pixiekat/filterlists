@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-03-11T18:22:57Z
+! Version: 2026-03-16T15:51:29Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -8774,6 +8774,7 @@ watson.trafficmanager.net
 ||zoneminder.github.io^
 ||zylo.com^
 ! Title: 📡 BadBlock - Radar (ABP)
+! Version: 08March2026v1
 ! Description: Block advertising, analytics, unwanted data collection, tracking, & more as they arise!
 ! Wildcards
 ! uBlock Origin needs $all
@@ -8833,8 +8834,8 @@ watson.trafficmanager.net
 ||stats*.$all,domain=~stats.gc.apple.com|~stats.izzyondroid.org|~stats.izzysoft.de|~stats.labs.apnic.net|~stats.medium.build
 ||supportmetrics.$all
 ||tags.$all
-||telemetry.$all,domain=~dictionary.telemetry.mozilla.org|~docs.telemetry.mozilla.org|~probeinfo.telemetry.mozilla.org|~public-data.telemetry.mozilla.org
-||telemetry*.$all,domain=~dictionary.telemetry.mozilla.org|~docs.telemetry.mozilla.org|~probeinfo.telemetry.mozilla.org|~public-data.telemetry.mozilla.org
+||telemetry.$all,domain=~dictionary.telemetry.mozilla.org|~docs.telemetry.mozilla.org|~probeinfo.telemetry.mozilla.org|~public-data.telemetry.mozilla.org|~telemetry.console.api.aws
+||telemetry*.$all,domain=~dictionary.telemetry.mozilla.org|~docs.telemetry.mozilla.org|~probeinfo.telemetry.mozilla.org|~public-data.telemetry.mozilla.org|~telemetry.console.api.aws
 ||trace.$all,domain=~trace.moe
 ||tracing.$all
 ||tracing*.$all
@@ -23496,7 +23497,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thi
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=bubblr]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=PowerModerator]
 ! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
-! Version: 07March2026v1-Beta
+! Version: 16March2026v1-Beta
 ! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
 ! Note: This list does not intentionally try to remove links to websites' social accounts, or to third-party logins. However, there currently will be many de facto false positives that end up removing such buttons as well.
 ###add_like_bar
@@ -24032,6 +24033,7 @@ swissinfo.ch##.si-page__utility-container
 midtnorskdebatt.no##.twitter
 knowyourmeme.com##.cbox-smedia
 kglakademi.dk##.social-button
+artstation.com##.s-icons
 ! For sites that have $generichide
 e24.no##.article-share
 ekstrabladet.dk##label[for*=ShareModal]

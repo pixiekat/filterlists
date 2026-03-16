@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-03-11T18:22:39Z
+! Version: 2026-03-16T15:51:13Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -457,7 +457,9 @@
 @@||sheet.new^
 @@||site.new^
 @@||slide.new^
+@@||coupa.ng^
 @@||google.com.ng^
+@@||clash.ninja^
 @@||poe.ninja^
 @@||protomedia.ninja^
 @@||project2025.observer^
@@ -740,6 +742,7 @@
 @@||archive.today^
 @@||futurology.today^
 @@||lemmy.today^
+@@||oceanhero.today^
 @@||oldweb.today^
 @@||som.today^
 @@||type.today^
@@ -911,8 +914,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 11 Mar 2026 10:55 UTC
-! Version: 2026.0311.1055.07
+! Last modified: 16 Mar 2026 11:04 UTC
+! Version: 2026.0316.1104.05
 ! Syntax: uBlock
 ! Number of latin TLDs: 283 - punycode TLDs: 151
 !
@@ -1086,8 +1089,8 @@
 ||name^$doc,domain=~chris.boyle.name|~davidwalsh.name|~keenetic.name|~stefvanbuuren.name|~vlo.name
 ||navy^$doc
 ||new^$doc,domain=~bolt.new|~doc.new|~drawing.new|~form.new|~git.new|~lecture.new|~postgres.new|~sheet.new|~site.new|~slide.new
-||ng^$doc,domain=~google.com.ng
-||ninja^$doc,domain=~poe.ninja|~protomedia.ninja
+||ng^$doc,domain=~coupa.ng|~google.com.ng
+||ninja^$doc,domain=~clash.ninja|~poe.ninja|~protomedia.ninja
 ||observer^$doc,domain=~project2025.observer
 ||okinawa^$doc
 ||ong^$doc
@@ -1165,7 +1168,7 @@
 ||tienda^$doc
 ||tires^$doc
 ||tk^$doc,domain=~air.tk|~bstweaker.tk|~budterence.tk|~c-r-t.tk|~google.tk|~goshujin.tk|~kabi.tk|~sironi.tk|~tokelau-info.tk|~xn--qubec-csa.tk|~zete.tk
-||today^$doc,domain=~addtocart.today|~applefans.today|~archive.today|~futurology.today|~lemmy.today|~oldweb.today|~som.today|~type.today
+||today^$doc,domain=~addtocart.today|~applefans.today|~archive.today|~futurology.today|~lemmy.today|~oceanhero.today|~oldweb.today|~som.today|~type.today
 ||tokyo^$doc
 ||top^$doc,domain=~ambr.top|~caitlin.top|~chillx.top|~corriente.top|~cpolar.top|~dinsden.top|~edgeless.top|~mastodon.top|~mianbeian.top|~nfmirrorcdn.top|~pegelinux.top|~polar.top|~qwertycxz.top|~reminder.top|~saltwood.top|~shucks.top|~strims.top|~suiten.top|~thedesk.top|~vsdb.top
 ||town^$doc,domain=~tilde.town
@@ -1360,6 +1363,7 @@
 ||1stireland.com^
 ||1sttheworld.com^
 ||270278609-2020004278-462904544-440202503325--570202500372x-usps.com^
+||365analytics.xyz^
 ||3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev^
 ||3ae52b08mbt3oxw4zh32q5-z5m.hop.clickbank.net^
 ||42gixk.98kk89.com^
@@ -1397,7 +1401,6 @@
 ||altruetech.com^
 ||altwi-zgs.com^
 ||amorpulse.com^
-||animeshoppers.com^
 ||anydebrid.com^
 ||aoptee.com^
 ||appdrive.info^
@@ -1413,7 +1416,6 @@
 ||augusthenri.be^
 ||aussiesportfashion.com^
 ||autorizadigital.co^
-||autorizaonline.co^
 ||avarik.web.app^
 ||avisocnh.co^
 ||azfancy.com^
@@ -1526,6 +1528,7 @@
 ||couponxoo.com^
 ||courier-tracking.com^
 ||covex.it^
+||crackedpc.org^
 ||cracksway.com^
 ||crocssalenz.com^
 ||crypto030.online^
@@ -1544,13 +1547,11 @@
 ||datempire.com^
 ||dautee.com^
 ||db-phototans.com^
-||dbphototans.com^
 ||ddzk513bd.com^
 ||debridlink.com^
 ||decoryourhome.store^
 ||deergift.com^
 ||dein-rundfunkbeitrag.de^
-||deiongh.info^
 ||deluxdoll.com^
 ||designbyus.online^
 ||desiupload.in^
@@ -1586,7 +1587,6 @@
 ||e-visums.nl^
 ||ecomicrolab.com^
 ||ecs-online.ffm.to^
-||edecher.com^
 ||edgeupgrade.com^
 ||edwardjhutley107375938786edwardjrhutley70205433153583usps.com^
 ||ekommmedia.com^
@@ -1622,6 +1622,7 @@
 ||familygiftville.com^
 ||familystore.com^
 ||fapst.com^
+||faunugraipt.com^
 ||faze1.com^
 ||faze10.com^
 ||faze2.com^
@@ -1705,7 +1706,6 @@
 ||govmedcareers.com^
 ||gsport.com^
 ||gtlinfrastructurelimited.com^
-||gtltowerinfratel.in^
 ||gunstee.com^
 ||habtoorloyal.com^
 ||hairyfy.com^
@@ -1723,7 +1723,6 @@
 ||hotbignews.com^
 ||hotdebrid.com^
 ||hotmod.eu^
-||houselar.com.br^
 ||hubfiles.ws^
 ||hudson-bay.com^
 ||hushlove.com^
@@ -1797,7 +1796,6 @@
 ||kinonline.pl^
 ||kisserine.com^
 ||kitchendecor.shop^
-||klelnanzeigen-deutch.confirm542351.info^
 ||kms-pc.com^
 ||kms-tool.com^
 ||kmsauto.info^
@@ -1806,6 +1804,7 @@
 ||kmspico.io^
 ||knightmods.com^
 ||koinprime.com^
+||kongpixel.com^
 ||kontribusiuang.top^
 ||kopisusu.co.id^
 ||kra18.com^
@@ -1826,6 +1825,7 @@
 ||lisabuddy.com^
 ||litcomplex.com^
 ||liverepsae.adeftsolutions.com^
+||load.365analytics.xyz^
 ||lojavariedadesvariedades.com^
 ||look-like-star.myshopify.com^
 ||lorenzettibrasil-vendas.com^
@@ -1869,7 +1869,6 @@
 ||myfunfarm.com^
 ||myhandshops.myshopify.com^
 ||mypuregaming.com^
-||nabaza.shop^
 ||nalzahqp.page.link^
 ||nationaladvancegroup.com^
 ||natvisa.com^
@@ -2017,7 +2016,6 @@
 ||piratedrive.com^
 ||pjs.outlet.com^
 ||pl-vider.pl^
-||pl.vider-info.pl^
 ||player-cda.pl^
 ||player-qr.com^
 ||polish-money-matters.blogspot.com^
@@ -2031,6 +2029,7 @@
 ||primeleech.com^
 ||primevod.pl^
 ||printteestore.com^
+||promo-offer.com^
 ||promoalfresco.com^
 ||promotion40-form.com^
 ||pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com^
@@ -2101,6 +2100,7 @@
 ||smartpower4all.org^
 ||smartproduct.site^
 ||smtpget.com^
+||smtpwire.com^
 ||smvisa.co.il^
 ||sodipi.com^
 ||softgetpc.com^
@@ -2116,6 +2116,7 @@
 ||sportswearforfans.com^
 ||spotgee.com^
 ||staging.zendrop.com^
+||stallioncredit.com^
 ||startuplatte.com^
 ||steamgateways.com^
 ||steampowered.cn.com^
@@ -2166,7 +2167,6 @@
 ||theshirtyouneed.com^
 ||thevitic.com^
 ||thevitic.onshopbase.com^
-||thewindowsactivator.com^
 ||thuthuatxiaomi.com^
 ||tikgeeker.com^
 ||tinkleo.com^
@@ -2218,7 +2218,6 @@
 ||us99.pro^
 ||uschse04.my03.com^
 ||uusilemmikki.com^
-||uydrnhsb.info^
 ||valeofoodsgroup.com^
 ||validsteamkeys.com^
 ||vanced-official.com^
@@ -2228,7 +2227,6 @@
 ||venezuelabaseballjerseys.com^
 ||verfun.com^
 ||vernahora.app^
-||vessideutschland.net^
 ||vessisdeutschland.com^
 ||vider-cda.online^
 ||vider-cda.pl^
@@ -2277,7 +2275,6 @@
 ||wisdomganga.com^
 ||withyotta.com^
 ||woadoodles.com^
-||worthas.shop^
 ||wp3.xyz^
 ||wpad.casa^
 ||wpad.ru^
@@ -2301,7 +2298,6 @@
 ||yhdshop.com^
 ||yofi-yofi.com^
 ||youdebrid.com^
-||yourdatefind.com^
 ||yoursecrethookup.com^
 ||youtunbe.com^
 ||youutube.com^
@@ -4541,7 +4537,7 @@ lematin.ma##.meteo-bloc span
 sveip.no##.wmsb_f
 gismeteo.de##.ifnoie
 ! Title: 🕳 Empty Padding Remover
-! Version: 07March2026v1-Beta
+! Version: 16March2026v1-Beta
 ! Description: Are you tired of having to scroll so much on websites, or you want to keep your eyes on more text and content at once? Or perhaps you're tired ot very large shadows on video sites when moving the mouse? If so, this list will help you a little extra bit with that.
 ! ——— Generic ———
 ##.skille:not(html, body)
@@ -4613,13 +4609,14 @@ dyrevennene.no##.td-footer-wrapper
 replacementdocs.com#?#.forumheader3:not(:has(img)):not(:has-text(/\S/)):not(:has(input))
 transfermarkt.com##.clearer
 sat24.com###headermenu
+freedownloadmanager.org###unite
 !#if !env_mobile
 eeconomy.gr##.bgnav:style(max-height:40px!important)
 ! https://www•feltet•dk/nyheder/dansker_enig_i_kritik_svaert_ved_at_se_hvad_de_har_at_goere_her/
 feltet.dk##iframe + div[style*="height: 80vh"]:style(height: unset !important)
 !#if env_mobile
 ! https://sims•fandom•com/wiki/Special:RecentChanges?hidebots=1&limit=1000&days=30&enhanced=1&urlversion=2
-sims.fandom.com##table[data-mw-revid]:style(margin-left:0!important)
+fandom.com##table[data-mw-revid]:style(margin-left:0!important)
 ! For listings with 2 or more related/size notices
 rule34.xxx###status-notices > br:empty
 pixiv.net##div[class*=" "]:empty:has(+ aside + aside)
