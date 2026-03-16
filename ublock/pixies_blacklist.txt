@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 16March2026v3
+! Version: 16March2026v4
 ! Expires: 12 hours
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -23,7 +23,7 @@
 ! Corporate media news sites that contribute to fascism and evil
 ||breitbart.com^$document,all,domain=~its-a-fascist-domain.*
 ||businessinsider.com^$document,domain=~its-tabloid-gutter-trash.*
-||canadafreepress.com^$document,all,domain=~its-a-fascist-domain.*z
+||canadafreepress.com^$document,all,domain=~its-a-fascist-domain.*
 ||dailymail.co.uk^$document,domain=~its-a-fascist-domain.*
 ||dailymail.com^$document,domain=~its-a-fascist-domain.*
 ||dailywire.com^$document,all,domain=~its-a-fascist-domain.*
@@ -115,14 +115,14 @@ www.youtube.com##.ryd-premium-teaser
 
 ! UK Government and Political Parties
 ||conservatives.com^$document
-||reformparty.org^$document
-||reformparty.uk^$document
-||restorebritain.org.uk^$document,all
+||reformparty.org^$document,all,domain=~its-a-fascist-domain.*
+||reformparty.uk^$document,all,domain=~its-a-fascist-domain.*
+||restorebritain.org.uk^$document,all,domain=~its-a-fascist-domain.*
 
 ! UK Politicians
 ||keirstarmer.com^$document
 ||kemibadenoch.org.uk^$document
-||nfarage.com^$document
+||nfarage.com^$document,all,domain=~its-a-fascist-domain.*s
 ||wesstreeting.org^$document
 
 ! US Government websites under a fascist regime
@@ -133,6 +133,7 @@ www.youtube.com##.ryd-premium-teaser
 ||doge.gov^$document,all,domain=~its-a-fascist-domain.*
 ||donaldjtrump.com^$document,all,domain=~its-a-fascist-domain.*
 ||gop.com^$document,all,domain=~its-a-fascist-domain.*
+||hhs.gov^$document,all,domain=~its-a-fascist-domain.*
 ||justice.gov^$document,all,domain=~its-a-fascist-domain.*
 ||kennedy-center.org^$document,all,domain=~its-a-fascist-domain.*
 ||realfood.gov^$document,all,domain=~its-a-fascist-domain.*
@@ -144,6 +145,7 @@ www.youtube.com##.ryd-premium-teaser
 ||trumprx.com^$document,all,domain=~its-a-fascist-domain.*
 ||trumprx.gov^$document,all,domain=~its-a-fascist-domain.*
 ||trumpvancetransition.com^$document,all,domain=~its-a-fascist-domain.*
+||usa.gov^$document,all,domain=~its-a-fascist-domain.*
 ||war.gov^$document,all,domain=~its-a-fascist-domain.*
 ||waste.gov^$document,all,domain=~its-a-fascist-domain.*
 ||whitehouse.gov^$document,all,domain=~its-a-fascist-domain.*
@@ -152,7 +154,7 @@ www.youtube.com##.ryd-premium-teaser
 ||kennedy24.com^$document,all,domain=~its-a-fascist-domain.*
 ||rfkcos.lausd.org^$document,all,domain=~its-a-fascist-domain.*
 ||rfkhumanrights.org^$document,all,domain=~its-a-fascist-domain.*
-||tulsigabbard.com^$document
+||tulsigabbard.com^$document,all,domain=~its-a-fascist-domain.*
 
 ! -----
 ! - Site Specific Rules
