@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 4March2026v1
+! Version: 16March2026v1
 ! Expires: 12 hours
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -49,9 +49,9 @@
 ||www.youtube.com/c/CBSNews$document,domain=~its-a-fascist-domain.*
 
 ! Garbage Gambling Markets
-||polymarket.com^$document,all,domain=scourge-of-society.*
-||kalshi.com^$document,all,domain=scourge-of-society.*
-||manifold.markets^$document,all,domain=scourge-of-society.*
+||polymarket.com^$document,all,domain~=scourge-of-society.*
+||kalshi.com^$document,all,domain~=scourge-of-society.*
+||manifold.markets^$document,all,domain~=scourge-of-society.*
 
 ! General evil sites
 ||www.realamericanfreestyle.com^$document
