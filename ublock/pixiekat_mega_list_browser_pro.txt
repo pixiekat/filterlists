@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-03-16T15:51:13Z
+! Version: 2026-03-18T21:41:24Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -209,6 +209,7 @@
 @@||push.delivery^
 @@||return-my.delivery^
 @@||ze.delivery^
+@@||clear.dental^
 @@||xhamster.desi^
 @@||2fa.directory^
 @@||cursor.directory^
@@ -231,6 +232,8 @@
 @@||elli.eco^
 @@||mer.eco^
 @@||play.eco^
+@@||bigdig.energy^
+@@||octopus.energy^
 @@||biqu.equipment^
 @@||ticketco.events^
 @@||infosec.exchange^
@@ -387,6 +390,7 @@
 @@||techaro.lol^
 @@||weblog.lol^
 @@||wpp.lol^
+@@||football.london^
 @@||digitalize.ltd^
 @@||homebrew.ltd^
 @@||picsee.ltd^
@@ -418,6 +422,7 @@
 @@||cubari.moe^
 @@||ddlc.moe^
 @@||dmn.moe^
+@@||ewe.moe^
 @@||honse.moe^
 @@||mathi.moe^
 @@||nyarchlinux.moe^
@@ -485,6 +490,7 @@
 @@||mastodon.online^
 @@||mrprice.online^
 @@||open.online^
+@@||order.online^
 @@||owncast.online^
 @@||photostore24.online^
 @@||radarpayment.online^
@@ -837,6 +843,7 @@
 @@||survivors.wiki^
 @@||tajrobe.wiki^
 @@||tardis.wiki^
+@@||thefitness.wiki^
 @@||thehomelab.wiki^
 @@||tilde.wiki^
 @@||twewy.wiki^
@@ -914,10 +921,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 16 Mar 2026 11:04 UTC
-! Version: 2026.0316.1104.05
+! Last modified: 17 Mar 2026 23:01 UTC
+! Version: 2026.0317.2301.55
 ! Syntax: uBlock
-! Number of latin TLDs: 283 - punycode TLDs: 151
+! Number of latin TLDs: 285 - punycode TLDs: 151
 !
 ||actor^$doc
 ||africa^$doc,domain=~nation.africa
@@ -986,7 +993,7 @@
 ||deals^$doc,domain=~gg.deals
 ||degree^$doc,domain=~opf.degree|~three60.degree
 ||delivery^$doc,domain=~meucarrinho.delivery|~push.delivery|~return-my.delivery|~ze.delivery
-||dental^$doc
+||dental^$doc,domain=~clear.dental
 ||desi^$doc,domain=~xhamster.desi
 ||directory^$doc,domain=~2fa.directory|~cursor.directory|~fedi.directory|~ooh.directory|~passkeys.directory|~reactnative.directory
 ||discount^$doc,domain=~real.discount
@@ -996,6 +1003,7 @@
 ||dpdns.org^$doc
 ||eco^$doc,domain=~auk.eco|~elli.eco|~mer.eco|~play.eco
 ||edu.eu^$doc
+||energy^$doc,domain=~bigdig.energy|~octopus.energy
 ||engineer^$doc
 ||enterprises^$doc
 ||equipment^$doc,domain=~biqu.equipment
@@ -1067,7 +1075,7 @@
 ||loans^$doc
 ||locker^$doc
 ||lol^$doc,domain=~adsb.lol|~ags.lol|~animevietsub.lol|~browser.lol|~dankmemer.lol|~fmhy.lol|~guns.lol|~hubcloud.lol|~io.lol|~kizuki.lol|~lemy.lol|~library.lol|~nexdrive.lol|~nos.lol|~noted.lol|~objection.lol|~omg.lol|~paste.lol|~proven.lol|~sibellavia.lol|~social.lol|~status.lol|~techaro.lol|~weblog.lol|~wpp.lol
-||london^$doc
+||london^$doc,domain=~football.london
 ||love^$doc
 ||ltd^$doc,domain=~digitalize.ltd|~homebrew.ltd|~picsee.ltd|~swizzin.ltd
 ||luxe^$doc
@@ -1080,7 +1088,7 @@
 ||miami^$doc
 ||ml^$doc,domain=~aire.ml|~amap.ml|~google.ml|~info-matin.ml|~lemmygrad.ml|~lemmy.ml|~lingva.ml|~loma.ml|~mastodon.ml|~melody.ml|~precure.ml|~prompt.ml
 ||moda^$doc
-||moe^$doc,domain=~anh.moe|~aniya.moe|~catbox.moe|~cdn.moe|~cubari.moe|~ddlc.moe|~dmn.moe|~honse.moe|~mathi.moe|~nyarchlinux.moe|~sakurajima.moe|~save.moe|~snug.moe|~trace.moe|~tzatzikiweeb.moe|~uma.moe
+||moe^$doc,domain=~anh.moe|~aniya.moe|~catbox.moe|~cdn.moe|~cubari.moe|~ddlc.moe|~dmn.moe|~ewe.moe|~honse.moe|~mathi.moe|~nyarchlinux.moe|~sakurajima.moe|~save.moe|~snug.moe|~trace.moe|~tzatzikiweeb.moe|~uma.moe
 ||mom^$doc
 ||money^$doc,domain=~copilot.money|~flowyour.money|~super.money|~unstoppable.money|~usual.money|~vivid.money
 ||monster^$doc,domain=~cloudcdn.monster|~fedi.monster|~mortgage.monster|~rollenspiel.monster|~tts.monster|~yts.monster
@@ -1095,7 +1103,7 @@
 ||okinawa^$doc
 ||ong^$doc
 ||onl^$doc,domain=~gc.onl
-||online^$doc,domain=~2kweb.online|~adguard-vpn.online|~argon2.online|~bebraver.online|~blink.online|~dancewave.online|~discuss.online|~dnsspeedtest.online|~eufh.online|~fireshinegames.online|~flexilead.online|~forceofwind.online|~geoigarape.online|~grapheneos.online|~incdn.online|~infomax.online|~instructions.online|~manuals.online|~mastodon.online|~mrprice.online|~open.online|~owncast.online|~photostore24.online|~radarpayment.online|~randemretail.online|~ravendawn.online|~shueisha.online|~vmwesa.online|~zander.online
+||online^$doc,domain=~2kweb.online|~adguard-vpn.online|~argon2.online|~bebraver.online|~blink.online|~dancewave.online|~discuss.online|~dnsspeedtest.online|~eufh.online|~fireshinegames.online|~flexilead.online|~forceofwind.online|~geoigarape.online|~grapheneos.online|~incdn.online|~infomax.online|~instructions.online|~manuals.online|~mastodon.online|~mrprice.online|~open.online|~order.online|~owncast.online|~photostore24.online|~radarpayment.online|~randemretail.online|~ravendawn.online|~shueisha.online|~vmwesa.online|~zander.online
 ||ooo^$doc,domain=~term.ooo|~toast.ooo
 ||partners^$doc,domain=~1password.partners|~nvidia.partners|~stripe.partners|~xh.partners
 ||parts^$doc
@@ -1185,11 +1193,12 @@
 ||vision^$doc,domain=~swing.vision
 ||vote^$doc,domain=~arizona.vote
 ||voto^$doc
+||voyage^$doc
 ||wang^$doc
 ||webcam^$doc
 ||website^$doc,domain=~acro.website|~bestmotherfucking.website|~eddie.website|~noclip.website|~thatsup.website|~tilde.website|~tiny.tilde.website|~uphold.website
 ||wedding^$doc
-||wiki^$doc,domain=~avid.wiki|~bakugan.wiki|~bg3.wiki|~blazblue.wiki|~burnout.wiki|~chibi-robo.wiki|~consumerrights.wiki|~cooked.wiki|~datei.wiki|~deadlock.wiki|~deltarune.wiki|~dragalialost.wiki|~drawntolife.wiki|~falcom.wiki|~fallout.wiki|~gbf.wiki|~getindie.wiki|~hacktricks.wiki|~hollowknight.wiki|~hololive.wiki|~klingon.wiki|~kodi.wiki|~koeitecmo.wiki|~kometa.wiki|~lain.wiki|~lhlab.wiki|~libreelec.wiki|~manson.wiki|~mediaclients.wiki|~minecraft.wiki|~modding.wiki|~mtg.wiki|~namu.wiki|~nixos.wiki|~notifiarr.wiki|~osrs.wiki|~pizzatower.wiki|~rs.wiki|~runescape.wiki|~saintsrow.wiki|~severance.wiki|~survivors.wiki|~tajrobe.wiki|~tardis.wiki|~thehomelab.wiki|~tilde.wiki|~twewy.wiki|~umamusu.wiki|~undertale.wiki|~usermanual.wiki|~vaporwave.wiki|~w.wiki|~yume.wiki|~zeldawiki.wiki|~zeppelin.wiki
+||wiki^$doc,domain=~avid.wiki|~bakugan.wiki|~bg3.wiki|~blazblue.wiki|~burnout.wiki|~chibi-robo.wiki|~consumerrights.wiki|~cooked.wiki|~datei.wiki|~deadlock.wiki|~deltarune.wiki|~dragalialost.wiki|~drawntolife.wiki|~falcom.wiki|~fallout.wiki|~gbf.wiki|~getindie.wiki|~hacktricks.wiki|~hollowknight.wiki|~hololive.wiki|~klingon.wiki|~kodi.wiki|~koeitecmo.wiki|~kometa.wiki|~lain.wiki|~lhlab.wiki|~libreelec.wiki|~manson.wiki|~mediaclients.wiki|~minecraft.wiki|~modding.wiki|~mtg.wiki|~namu.wiki|~nixos.wiki|~notifiarr.wiki|~osrs.wiki|~pizzatower.wiki|~rs.wiki|~runescape.wiki|~saintsrow.wiki|~severance.wiki|~survivors.wiki|~tajrobe.wiki|~tardis.wiki|~thefitness.wiki|~thehomelab.wiki|~tilde.wiki|~twewy.wiki|~umamusu.wiki|~undertale.wiki|~usermanual.wiki|~vaporwave.wiki|~w.wiki|~yume.wiki|~zeldawiki.wiki|~zeppelin.wiki
 ||win^$doc,domain=~activated.win|~communities.win|~debloat.win|~ios-countdown.win|~patriots.win|~vaultcord.win
 ||wine^$doc,domain=~nostr.wine
 ||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work
@@ -1710,10 +1719,10 @@
 ||habtoorloyal.com^
 ||hairyfy.com^
 ||happymod.cloud^
+||haruko.store^
 ||headsets4business.co.uk^
 ||helpnanacenter.helpscoutdocs.com^
 ||hernoclothing.com^
-||heyfusio.com^
 ||hfr67jhqrw8.com^
 ||hindustantowergroupltd.com^
 ||hippie-pets.com^
@@ -1796,6 +1805,7 @@
 ||kinonline.pl^
 ||kisserine.com^
 ||kitchendecor.shop^
+||klelnanzeigen-deutch.confirm542351.info^
 ||kms-pc.com^
 ||kms-tool.com^
 ||kmsauto.info^
@@ -1832,7 +1842,6 @@
 ||lozly.com^
 ||lucatee.com^
 ||lucidtiger.com^
-||lucysstyle.com^
 ||luxsgear.com^
 ||maebl.com^
 ||magnite.shop^
@@ -2176,7 +2185,6 @@
 ||tomadamsenergy.com^
 ||touristvisaonline.com^
 ||toweragency.in^
-||towerdepartment.com^
 ||townaptdesk.info^
 ||toyrube.com^
 ||tpqcywcx.page.link^
@@ -2299,10 +2307,12 @@
 ||yofi-yofi.com^
 ||youdebrid.com^
 ||yoursecrethookup.com^
+||youtubee.com^
 ||youtunbe.com^
 ||youutube.com^
 ||ytvancedpro.com^
 ||yuaonew.com^
+||z-lib.id^
 ||z-lib.is^
 ||zalukaj-film.pl^
 ||zalukaj-pl.tv^
@@ -4672,7 +4682,7 @@ play.tv2.no##div[data-testid=player-controls]::before
 www.twitch.tv##div[data-a-target=player-controls]:style(background:unset!important)
 www.twitch.tv##.top-bar:style(background:unset!important)
 ﻿! Title: 🖥️ Dandelion Sprout's Website Stretcher
-! Version: 03February2026v2
+! Version: 17March2026v2
 ! Expires: 3 days
 ! Description: Have you ever felt bothered by how many websites still think that everyone are using narrow monitors? Well, here's how to stretch them out like a piece of gum!
 ! Note that the list is designed for screens that are ≥1440px wide, and it should not be used on phones, pre-2007 monitors, or cheap Windows laptops.
@@ -5082,8 +5092,11 @@ winstall.app##div.container:style(max-width:2400px!important)
 perplexity.ai##.max-w-threadContentWidth:style(max-width:2000px!important)
 ! Category: CoPilot. Like... the actual CoPilot. Not the atrocious renaming of Microsoft Office. (18/09/2025)
 copilot.microsoft.com##.max-w-chat:style(max-width:1900px!important)
-! duckaiAI
+! Category: duckaiAI
 app.duckai.ai##.max-w-3xl.w-full:style(max-width:2000px!important)
+! Category: Google Web Search
+! The front search bar (17/03/2026)
+www.google.*,ipv6.google.com##div[jsmodel*="       "]:style(max-width:2000px!important)
 ! metaAI
 ! Result(s)
 www.meta.ai##div[class*=" "]:nth-of-type(2) > div[class*=" "]:first-of-type:has(+ div[aria-hidden=true]):style(max-width:1900px!important)
