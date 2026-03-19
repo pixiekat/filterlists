@@ -59,7 +59,14 @@ A quick overview of how my lists are organized:
 
 ## Upstream Lists by Tier
 
-### Main Layer
+| Tier | Purpose |
+| --- | --- |
+| Main | Stable, global, low‑breakage protection |
+| Pro | Annoyance removal, cosmetic cleanup, UI fixes, quality‑of‑life |
+| Extreme | Expressive, political, experimental, intentionally aggressive |
+| Mom & Dad | Safe, stable, zero‑breakage inherited protection |
+
+### Main
 
 - [BadBlock Amazon](https://badblock.celenity.dev/abp/amazon.txt)
 - [BadBlock Annoyances](https://badblock.celenity.dev/abp/annoyances.txt)
@@ -86,6 +93,56 @@ A quick overview of how my lists are organized:
 - [🐐 Dandelion Sprout's Lightweight Anti-'Social share' List](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/SocialShareList.txt)
 - [👨🏾🤵 Say No to Racism on Twitch](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/SayNoToRacismOnTwitch.txt)
 - [🦨 Anti-Pepe List](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiPepeList.txt)
+
+### Pro
+
+***Whitelists***
+
+- [Spam TLDs Adblock Allow](https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/spam-tlds-adblock-allow.txt)
+
+***Blocklists***
+
+- [HaGeZi's The World's Most Abused TLDs](https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/spam-tlds-ublock.txt)
+- [Scam Blocklist by DurableNapkin](https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt)
+- [📱 Staying On The Phone Browser](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser)
+- [🤺 Anti-'Manifest V3' List](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiMV3List.txt)
+- [🥒 Anti-'Non-news' List](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiNonNewsList.txt)
+- [🏗 Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/TabloidRemover.txt)
+- [TabloidRemover-MastodonCategoryForImports](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/TabloidRemover-MastodonCategoryForImports.csv)
+
+***Cosmetic***
+
+- [Imperial Units Remover](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Imperial%20Units%20Remover.txt)
+- [Empty Padding Remover](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/EmptyPaddingRemover.txt)
+- [🖥️ Dandelion Sprout's Website Stretcher](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Dandelion%20Sprout's%20Website%20Stretcher.txt)
+- [Fi-Nuance Finance Annoyance Rules (uBlock Origin)](https://github.com/taylr/linkedinsanity/raw/refs/heads/master/fi-nuance.txt)
+- [Linked Insanity Annoyance Rules (uBlock Origin)](https://raw.githubusercontent.com/taylr/linkedinsanity/refs/heads/master/linkedinsanity.txt)
+- [🔮 I Don't Want to Download Your Browser](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt)
+- [♟ Anti-'Fake transparent images' List](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiFakeTransparentImagesList.txt)
+- [🧗 Anti-'Functionality removal' List](https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiFunctionalityRemovalList.txt)
+- [🔴 Anti-'Unnecessary notification counters' List](https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Android%20Scum%20Class%20%E2%80%94%20Fake%20notification%20counters.txt)
+- [[Borrow Ability] Anti Survived Tracking Link Warning](https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/SurvivedTrackingLinkWarning.txt)
+- [Miscellaneous Annoyance by kowith337](https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/MiscAnnoyance.txt)
+
+### Extreme
+
+***Cosmetic***
+
+- [Github Copilot Filters by rossabaker](https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/filters.txt)
+- [Non-Copilot Filters by rossabaker](https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/non-copilot-filters.txt)
+- [None of Your Bezos Annoyance Rules (uBlock Origin)](https://github.com/taylr/linkedinsanity/raw/refs/heads/master/none-of-your-bezos.txt)
+- [Good Sports Annoyance Rules (uBlock Origin)](https://github.com/taylr/linkedinsanity/raw/refs/heads/master/good-sports.txt)
+- [Anti APKMirror Ads and Countdown](https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/specific/AntiAPKMirrorCountdown.txt)
+- [Anti-Trash YouTube](https://raw.githubusercontent.com/WhyIsEvery4thYearAlwaysBad/anti-cancer-filter-lists/master/anti_trash_youtube.txt)
+- [IMDB Clean As Fuck](https://tetrax-10.github.io/imdb-clean-as-fuck/imdb-clean-as-fuck-with-better-styles.txt)
+
+### Mom & Dad
+
+- [🛤️ Anti-Astrology List](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Sensitive%20lists/AntiAstrologyList.txt)
+- [💡 Pro-LED List](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Pro-LED%20List.txt)
+- [💊 Dandelion Sprout's Anti-Malware List](https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Dandelion%20Sprout's%20Anti-Malware%20List.txt)
+- [Phishing URL Blocklist](https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt)
+- [Malicious URL Blocklist (URLHaus)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt)
 
 ## Attribution
 
