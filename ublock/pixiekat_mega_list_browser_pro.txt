@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-03-18T21:41:24Z
+! Version: 2026-03-23T10:10:47Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -49,6 +49,7 @@
 @@||onlinesizing.bike^
 @@||rapido.bike^
 @@||anonymurl.biz^
+@@||antiphishing.biz^
 @@||asana.biz^
 @@||beiniz.biz^
 @@||bonial.biz^
@@ -233,6 +234,7 @@
 @@||mer.eco^
 @@||play.eco^
 @@||bigdig.energy^
+@@||eonnext-kraken.energy^
 @@||octopus.energy^
 @@||biqu.equipment^
 @@||ticketco.events^
@@ -921,10 +923,10 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 17 Mar 2026 23:01 UTC
-! Version: 2026.0317.2301.55
+! Last modified: 22 Mar 2026 11:09 UTC
+! Version: 2026.0322.1109.46
 ! Syntax: uBlock
-! Number of latin TLDs: 285 - punycode TLDs: 151
+! Number of latin TLDs: 286 - punycode TLDs: 151
 !
 ||actor^$doc
 ||africa^$doc,domain=~nation.africa
@@ -944,7 +946,7 @@
 ||bid^$doc
 ||bike^$doc,domain=~dat.bike|~lime.bike|~onlinesizing.bike|~rapido.bike
 ||bingo^$doc
-||biz^$doc,domain=~anonymurl.biz|~asana.biz|~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dailyinnovation.biz|~engelliler.biz|~epson.biz|~ette.biz|~figureit.biz|~gamesindustry.biz|~giftee.biz|~gimmeporn.biz|~hb.biz|~iimwf.biz|~kioskcms.biz|~knuddels.biz|~line.biz|~localise.biz|~luckysbarbershop.biz|~movabletype.biz|~netcetera.biz|~notebookcheck.biz|~oe24cdn.biz|~ooshahwa.biz|~panasonic.biz|~slussen.biz|~surveycake.biz|~volvocars.biz|~wiz.biz|~wspay.biz|~wyborcza.biz|~yoox.biz
+||biz^$doc,domain=~anonymurl.biz|~antiphishing.biz|~asana.biz|~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dailyinnovation.biz|~engelliler.biz|~epson.biz|~ette.biz|~figureit.biz|~gamesindustry.biz|~giftee.biz|~gimmeporn.biz|~hb.biz|~iimwf.biz|~kioskcms.biz|~knuddels.biz|~line.biz|~localise.biz|~luckysbarbershop.biz|~movabletype.biz|~netcetera.biz|~notebookcheck.biz|~oe24cdn.biz|~ooshahwa.biz|~panasonic.biz|~slussen.biz|~surveycake.biz|~volvocars.biz|~wiz.biz|~wspay.biz|~wyborcza.biz|~yoox.biz
 ||black^$doc
 ||blue^$doc,domain=~niim.blue
 ||boats^$doc
@@ -1003,7 +1005,7 @@
 ||dpdns.org^$doc
 ||eco^$doc,domain=~auk.eco|~elli.eco|~mer.eco|~play.eco
 ||edu.eu^$doc
-||energy^$doc,domain=~bigdig.energy|~octopus.energy
+||energy^$doc,domain=~bigdig.energy|~eonnext-kraken.energy|~octopus.energy
 ||engineer^$doc
 ||enterprises^$doc
 ||equipment^$doc,domain=~biqu.equipment
@@ -1051,6 +1053,7 @@
 ||health^$doc,domain=~sca.health
 ||healthcare^$doc,domain=~severance.healthcare
 ||help^$doc,domain=~crisp.help|~fastmail.help|~gorgias.help|~kustomer.help|~pixiv.help
+||hl.cn^$doc
 ||homes^$doc,domain=~stremio.homes
 ||hot^$doc,domain=~minecraft.hot
 ||house^$doc,domain=~lanparty.house|~nature.house
@@ -1410,6 +1413,8 @@
 ||altruetech.com^
 ||altwi-zgs.com^
 ||amorpulse.com^
+||anacondanz.com^
+||animeshoppers.com^
 ||anydebrid.com^
 ||aoptee.com^
 ||appdrive.info^
@@ -1424,9 +1429,7 @@
 ||audiosg.com.sg^
 ||augusthenri.be^
 ||aussiesportfashion.com^
-||autorizadigital.co^
 ||avarik.web.app^
-||avisocnh.co^
 ||azfancy.com^
 ||azsolver.com^
 ||azvclothing.com^
@@ -1517,9 +1520,7 @@
 ||cityofdream.co.uk^
 ||cluckergifts.ecwid.com^
 ||cmoboy.com^
-||cnhadverti.co^
 ||cnhajuda.co^
-||cnhcomunicado.co^
 ||cnhnotificou.co^
 ||cnhvirtual.co^
 ||cofdeal.com^
@@ -1527,11 +1528,9 @@
 ||coiincmi.com^
 ||coinreq.com^
 ||colorandcotton.com^
-||commerz-phototans.com^
 ||compoundexotics.com^
 ||confira.io^
 ||containably.com^
-||coolest3d.com^
 ||coolestpod.com^
 ||corg.co^
 ||couponxoo.com^
@@ -1555,7 +1554,6 @@
 ||dashracegear.net^
 ||datempire.com^
 ||dautee.com^
-||db-phototans.com^
 ||ddzk513bd.com^
 ||debridlink.com^
 ||decoryourhome.store^
@@ -1569,12 +1567,12 @@
 ||dieserbenni.ru^
 ||displaymovies.pl^
 ||distrochooser.snehit.dev^
-||distryct.shop^
 ||diteringion.com^
 ||dkfodboldstore.com^
 ||dleggere.com^
 ||dogparadiseshop.com^
 ||dogparadisestore.com^
+||doh-gov.com^
 ||doh-gov.ph^
 ||dohealths.com^
 ||dolystore.com^
@@ -1599,7 +1597,6 @@
 ||edgeupgrade.com^
 ||edwardjhutley107375938786edwardjrhutley70205433153583usps.com^
 ||ekommmedia.com^
-||emberio.com^
 ||enchantestore.myshopify.com^
 ||envisiongear.com^
 ||eset.co.il^
@@ -1631,7 +1628,6 @@
 ||familygiftville.com^
 ||familystore.com^
 ||fapst.com^
-||faunugraipt.com^
 ||faze1.com^
 ||faze10.com^
 ||faze2.com^
@@ -1649,6 +1645,7 @@
 ||filexstorage.site^
 ||fili-cc.tv^
 ||filman-hd.cc^
+||filmersi.pl^
 ||filmhit.pl^
 ||filmhunt.pl^
 ||filmo.agency^
@@ -1842,6 +1839,7 @@
 ||lozly.com^
 ||lucatee.com^
 ||lucidtiger.com^
+||lucysstyle.com^
 ||luxsgear.com^
 ||maebl.com^
 ||magnite.shop^
@@ -1866,10 +1864,11 @@
 ||moddetail.com^
 ||modmobile24.com^
 ||monkstars.com^
-||mot73yi07.info^
 ||ms-analytics.mywire.org^
 ||mslfgl434.pages.dev^
 ||mujib-store28.blogspot.com^
+||mulllvad.org^
+||mullvaad.net^
 ||multifilmy.pl^
 ||museuw.com^
 ||muskusa.com^
@@ -1889,6 +1888,7 @@
 ||navi14.com^
 ||navi18.com^
 ||navi2.com^
+||navi20.com^
 ||navi20.ru^
 ||navi21.com^
 ||navi22.ru^
@@ -1900,6 +1900,7 @@
 ||navi26.ru^
 ||navi27.ru^
 ||navi3.com^
+||navi30.com^
 ||navi30.ru^
 ||navi33.com^
 ||navi35.com^
@@ -1907,12 +1908,14 @@
 ||navi38.ru^
 ||navi39.ru^
 ||navi4.com^
+||navi42.ru^
 ||navi43.com^
 ||navi45.ru^
 ||navi48.com^
 ||navi5.com^
 ||navi52.com^
 ||navi53.com^
+||navi55.com^
 ||navi56.com^
 ||navi59.ru^
 ||navi6.com^
@@ -2007,7 +2010,7 @@
 ||pandzee.com^
 ||paradisevs.com^
 ||path2zillion.com^
-||peaveymartca.com^
+||peekpok.com^
 ||penguinnow.com^
 ||peppatees.com^
 ||perlatoshoe.com^
@@ -2034,7 +2037,6 @@
 ||powerboostup.com^
 ||prawdziwefilmy.pl^
 ||premiumqualityblanket.com^
-||primakovreadings.info^
 ||primeleech.com^
 ||primevod.pl^
 ||printteestore.com^
@@ -2067,7 +2069,6 @@
 ||rustdesk.pl^
 ||rustdesk.secure-box.de^
 ||ruthiekresal.za.com^
-||sailiabot.com^
 ||sakuradate.com^
 ||salimusic.com^
 ||sanla-tan.net^
@@ -2118,7 +2119,6 @@
 ||somethingapparel.com^
 ||souhoney.com^
 ||southernlife.net^
-||sport-specialoffers.shop^
 ||sportsapparelmarket.com^
 ||sportsbrooks.com^
 ||sportswearfanatics.com^
@@ -2156,7 +2156,6 @@
 ||swuso.com^
 ||t-post.com^
 ||tamed-exotics.com^
-||taramatikarou.com^
 ||tartannewzealand.myshopify.com^
 ||tbao684tryo.com^
 ||tee24h.com^
@@ -2180,6 +2179,7 @@
 ||tikgeeker.com^
 ||tinkleo.com^
 ||tiranaaquapark-eg.com^
+||tlstoreonline.com^
 ||toko999.net^
 ||toko999.shop^
 ||tomadamsenergy.com^
@@ -2306,6 +2306,7 @@
 ||yhdshop.com^
 ||yofi-yofi.com^
 ||youdebrid.com^
+||yourdatefind.com^
 ||yoursecrethookup.com^
 ||youtubee.com^
 ||youtunbe.com^
@@ -2348,7 +2349,7 @@
 ||avito.avito.www.avito.
 ||booking.com-id*
 [Adblock Plus 3.13]
-! Version: 07March2026v1
+! Version: 21March2026v1
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -2669,7 +2670,7 @@ radugaskidok.ru#?#.rs-header-line-new:style(top: 0 !important)
 rambler.ru##.wrap > section.promo.j-promo
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.XPromoPill
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[class]:last-of-type:not([class*=" "]) > div[class]:only-of-type:not([class*=" "]):has(img[src*=redditstatic][src*="/img/nsfw-blocking-"])
-regnum.ru##.footer-apps
+regnum.ru,vijesti.ba##.footer-apps
 republika.rs##.app-box
 roblox.com###app-bumper-main
 romania-insider.com##.ri-app
@@ -2817,6 +2818,7 @@ coinlive.com##.ant-tooltip-open
 panewslab.com##button[data-grace-area-trigger]
 panewslab.com##div.leading-none ~ div:not([class]):last-of-type
 foodora.*##.bds-c-sticky-banner
+novosti.rs##.mobile-app
 ! https://github.com/DandelionSprout/adfilt/issues/1047
 @@/jquery.smartbanner.js^
 ! (https://github.com/DandelionSprout/adfilt/issues/1065)
@@ -4547,7 +4549,7 @@ lematin.ma##.meteo-bloc span
 sveip.no##.wmsb_f
 gismeteo.de##.ifnoie
 ! Title: 🕳 Empty Padding Remover
-! Version: 16March2026v1-Beta
+! Version: 23March2026v1-Beta
 ! Description: Are you tired of having to scroll so much on websites, or you want to keep your eyes on more text and content at once? Or perhaps you're tired ot very large shadows on video sites when moving the mouse? If so, this list will help you a little extra bit with that.
 ! ——— Generic ———
 ##.skille:not(html, body)
@@ -4681,6 +4683,8 @@ play.tv2.no##div[data-testid=player-controls]::before
 ! Twitch on PC
 www.twitch.tv##div[data-a-target=player-controls]:style(background:unset!important)
 www.twitch.tv##.top-bar:style(background:unset!important)
+! DR TV
+dr.dk##.player-overlay:style(background:0!important)
 ﻿! Title: 🖥️ Dandelion Sprout's Website Stretcher
 ! Version: 17March2026v2
 ! Expires: 3 days
