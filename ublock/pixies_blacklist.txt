@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 18March2026v4
+! Version: 23March2026v1
 ! Expires: 12 hours
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -139,6 +139,7 @@ www.youtube.com##.ryd-premium-teaser
 ||kennedy-center.org^$document,all,domain=~its-a-fascist-domain.*
 ||realfood.gov^$document,all,domain=~its-a-fascist-domain.*
 ||rnc.org^$document,all,domain=~its-a-fascist-domain.*
+||state.gov^$document,all,domain=~its-a-fascist-domain.*
 ||trump.com^$document,all,domain=~its-a-fascist-domain.*
 ||trumpaccounts.gov^$document,all,domain=~its-a-fascist-domain.*
 ||trumpcard.gov^$document,all,domain=~its-a-fascist-domain.*
@@ -150,6 +151,7 @@ www.youtube.com##.ryd-premium-teaser
 ||war.gov^$document,all,domain=~its-a-fascist-domain.*
 ||waste.gov^$document,all,domain=~its-a-fascist-domain.*
 ||whitehouse.gov^$document,all,domain=~its-a-fascist-domain.*
+||www.fcc.gov^$document,all,domain=~its-a-fascist-domain.*
 
 ! US Politicians
 ||kennedy24.com^$document,all,domain=~its-a-fascist-domain.*
