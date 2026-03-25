@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-03-23T10:10:47Z
+! Version: 2026-03-25T01:57:37Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -330,6 +330,7 @@
 @@||gorgias.help^
 @@||kustomer.help^
 @@||pixiv.help^
+@@||lzk.hl.cn^
 @@||stremio.homes^
 @@||minecraft.hot^
 @@||lanparty.house^
@@ -511,6 +512,7 @@
 @@||mstdn.party^
 @@||ntc.party^
 @@||spankbang.party^
+@@||wmars.party^
 @@||kickthespy.pet^
 @@||kuma.pet^
 @@||safe.pharmacy^
@@ -871,6 +873,7 @@
 @@||mirror.work^
 @@||schueller.work^
 @@||spiegel.work^
+@@||starlightnet.work^
 @@||bevisioneers.world^
 @@||boo.world^
 @@||calckey.world^
@@ -923,8 +926,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 22 Mar 2026 11:09 UTC
-! Version: 2026.0322.1109.46
+! Last modified: 24 Mar 2026 17:17 UTC
+! Version: 2026.0324.1717.37
 ! Syntax: uBlock
 ! Number of latin TLDs: 286 - punycode TLDs: 151
 !
@@ -1053,7 +1056,7 @@
 ||health^$doc,domain=~sca.health
 ||healthcare^$doc,domain=~severance.healthcare
 ||help^$doc,domain=~crisp.help|~fastmail.help|~gorgias.help|~kustomer.help|~pixiv.help
-||hl.cn^$doc
+||hl.cn^$doc,domain=~lzk.hl.cn
 ||homes^$doc,domain=~stremio.homes
 ||hot^$doc,domain=~minecraft.hot
 ||house^$doc,domain=~lanparty.house|~nature.house
@@ -1110,7 +1113,7 @@
 ||ooo^$doc,domain=~term.ooo|~toast.ooo
 ||partners^$doc,domain=~1password.partners|~nvidia.partners|~stripe.partners|~xh.partners
 ||parts^$doc
-||party^$doc,domain=~ducks.party|~mstdn.party|~ntc.party|~spankbang.party
+||party^$doc,domain=~ducks.party|~mstdn.party|~ntc.party|~spankbang.party|~wmars.party
 ||pet^$doc,domain=~kickthespy.pet|~kuma.pet
 ||pharmacy^$doc,domain=~safe.pharmacy
 ||phd^$doc,domain=~rafael.phd
@@ -1204,7 +1207,7 @@
 ||wiki^$doc,domain=~avid.wiki|~bakugan.wiki|~bg3.wiki|~blazblue.wiki|~burnout.wiki|~chibi-robo.wiki|~consumerrights.wiki|~cooked.wiki|~datei.wiki|~deadlock.wiki|~deltarune.wiki|~dragalialost.wiki|~drawntolife.wiki|~falcom.wiki|~fallout.wiki|~gbf.wiki|~getindie.wiki|~hacktricks.wiki|~hollowknight.wiki|~hololive.wiki|~klingon.wiki|~kodi.wiki|~koeitecmo.wiki|~kometa.wiki|~lain.wiki|~lhlab.wiki|~libreelec.wiki|~manson.wiki|~mediaclients.wiki|~minecraft.wiki|~modding.wiki|~mtg.wiki|~namu.wiki|~nixos.wiki|~notifiarr.wiki|~osrs.wiki|~pizzatower.wiki|~rs.wiki|~runescape.wiki|~saintsrow.wiki|~severance.wiki|~survivors.wiki|~tajrobe.wiki|~tardis.wiki|~thefitness.wiki|~thehomelab.wiki|~tilde.wiki|~twewy.wiki|~umamusu.wiki|~undertale.wiki|~usermanual.wiki|~vaporwave.wiki|~w.wiki|~yume.wiki|~zeldawiki.wiki|~zeppelin.wiki
 ||win^$doc,domain=~activated.win|~communities.win|~debloat.win|~ios-countdown.win|~patriots.win|~vaultcord.win
 ||wine^$doc,domain=~nostr.wine
-||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work
+||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work|~starlightnet.work
 ||world^$doc,domain=~bevisioneers.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
 ||wtf^$doc,domain=~akko.wtf|~cyber.wtf|~fx.wtf|~ip.wtf|~jascha.wtf|~lemmy.wtf|~myip.wtf|~tigress.wtf|~wxx.wtf|~xo.wtf
 ||xin^$doc
@@ -1425,7 +1428,6 @@
 ||arvetellefsen.no^
 ||asvbaen.info^
 ||atlaspvs.com^
-||atrendsz.com^
 ||audiosg.com.sg^
 ||augusthenri.be^
 ||aussiesportfashion.com^
@@ -1663,7 +1665,6 @@
 ||fiusps.com^
 ||fixpub.com^
 ||flattee.com^
-||flwzen.com^
 ||folkrbvi.pages.dev^
 ||food-network.fwh.is^
 ||freebitcoin.pages.dev^
@@ -1802,7 +1803,6 @@
 ||kinonline.pl^
 ||kisserine.com^
 ||kitchendecor.shop^
-||klelnanzeigen-deutch.confirm542351.info^
 ||kms-pc.com^
 ||kms-tool.com^
 ||kmsauto.info^
@@ -1819,6 +1819,7 @@
 ||lasercutjewelry.net^
 ||lds.xyz^
 ||ledgerlivewallets.com^
+||ledgerslive.org^
 ||leonoremanry.sa.com^
 ||lericettedifrancy74.com^
 ||lesliespracklen.sa.com^
@@ -1885,7 +1886,6 @@
 ||navi100.com^
 ||navi11.com^
 ||navi12.com^
-||navi14.com^
 ||navi18.com^
 ||navi2.com^
 ||navi20.com^
@@ -2119,6 +2119,7 @@
 ||somethingapparel.com^
 ||souhoney.com^
 ||southernlife.net^
+||sportfanlab.com^
 ||sportsapparelmarket.com^
 ||sportsbrooks.com^
 ||sportswearfanatics.com^
@@ -2158,7 +2159,6 @@
 ||tamed-exotics.com^
 ||tartannewzealand.myshopify.com^
 ||tbao684tryo.com^
-||tee24h.com^
 ||teearrow.com^
 ||teezill.com^
 ||telegramweb.vercel.app^
@@ -2194,7 +2194,6 @@
 ||travelvisabookings.com^
 ||travisa.com^
 ||treasurefan.com^
-||trendsharks.com^
 ||treverschmelerkris18.myshopify.com^
 ||tripinpremiumsnacks.com^
 ||trkucibqy.com^
@@ -2207,7 +2206,6 @@
 ||twitchlogger.robalmeister.workers.dev^
 ||twitterr.com^
 ||ucureo.com^
-||udemy-creators.com^
 ||udrop.com^
 ||uk-tweed-jackets.com^
 ||ultimate-tech-products.myshopify.com^
