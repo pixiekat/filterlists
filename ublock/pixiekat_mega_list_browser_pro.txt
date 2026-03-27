@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-03-25T01:57:37Z
+! Version: 2026-03-27T13:15:01Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -1404,6 +1404,7 @@
 ||airupgreece.net^
 ||airupnederlands.com^
 ||airupsrbija.com^
+||aizipai.cn^
 ||akulaku.me^
 ||alindflepkaty14.pages.dev^
 ||aliyaoberbrunnergreg21.myshopify.com^
@@ -1744,6 +1745,7 @@
 ||ikoee.com^
 ||imagemotorcycles.co.nz^
 ||imlb2c.com^
+||improtants.space^
 ||india-e-visa.com^
 ||india-visa-online.com^
 ||india-visa-online.org^
@@ -1819,7 +1821,6 @@
 ||lasercutjewelry.net^
 ||lds.xyz^
 ||ledgerlivewallets.com^
-||ledgerslive.org^
 ||leonoremanry.sa.com^
 ||lericettedifrancy74.com^
 ||lesliespracklen.sa.com^
@@ -1886,6 +1887,7 @@
 ||navi100.com^
 ||navi11.com^
 ||navi12.com^
+||navi14.com^
 ||navi18.com^
 ||navi2.com^
 ||navi20.com^
@@ -1919,7 +1921,6 @@
 ||navi56.com^
 ||navi59.ru^
 ||navi6.com^
-||navi66.ru^
 ||navi69.com^
 ||navi7.com^
 ||navi72.com^
@@ -2019,7 +2020,6 @@
 ||pharaohstore.com^
 ||phgliders.com^
 ||philsshorthairorientalkittens.com^
-||phototan-unterstutzung.win^
 ||pinjamanelit.top^
 ||pinjamanrupiah.xyz^
 ||pinjamteman.top^
@@ -2136,6 +2136,7 @@
 ||stingcool-com.myshopify.com^
 ||storagestory.com^
 ||store-aleteia.org^
+||store-uni-app.com^
 ||store25848025.company.site^
 ||storeax.com^
 ||storecollegeonline.com^
@@ -2193,7 +2194,6 @@
 ||travelexpress.us.com^
 ||travelvisabookings.com^
 ||travisa.com^
-||treasurefan.com^
 ||treverschmelerkris18.myshopify.com^
 ||tripinpremiumsnacks.com^
 ||trkucibqy.com^
@@ -2206,6 +2206,7 @@
 ||twitchlogger.robalmeister.workers.dev^
 ||twitterr.com^
 ||ucureo.com^
+||udemy-creators.com^
 ||udrop.com^
 ||uk-tweed-jackets.com^
 ||ultimate-tech-products.myshopify.com^
@@ -4547,7 +4548,7 @@ lematin.ma##.meteo-bloc span
 sveip.no##.wmsb_f
 gismeteo.de##.ifnoie
 ! Title: 🕳 Empty Padding Remover
-! Version: 23March2026v1-Beta
+! Version: 25March2026v1-Beta
 ! Description: Are you tired of having to scroll so much on websites, or you want to keep your eyes on more text and content at once? Or perhaps you're tired ot very large shadows on video sites when moving the mouse? If so, this list will help you a little extra bit with that.
 ! ——— Generic ———
 ##.skille:not(html, body)
@@ -4587,7 +4588,7 @@ gismeteo.de##.ifnoie
 ! https://www•thetravelinspector•no/news/dobler-prisen-for-nye-pass-bestill-naa
 ##.spacer-block:not(html,body)
 ! doktor•frettabladid•is
-~gog.com##.footer-spacer:not(html, body)
+~gog.com,~adultprime.com##.footer-spacer:not(html, body)
 ! https://thedroidguy•com/htc-u11-troubleshooting (25/10/2020)
 ##.elementor-spacer:not(html, body)
 ! allersNO
