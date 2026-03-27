@@ -34,6 +34,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.heritage.org/*
 *://*.justice.gov/*
 *://*.kennedy-center.org/*
+*://play.google.com/store/apps/details?id=gov.whitehouse.app*
 *://*.realfood.gov/*
 *://*.rnc.org/*
 *://*.state.gov/*
