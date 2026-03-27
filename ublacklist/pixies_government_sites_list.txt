@@ -22,10 +22,14 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.aliens.gov/*
 *://*.americabydesign.gov/*
 *://*.cdc.gov/*
+*://*.cia.gov/*
+*://*.commerce.gov/*
 *://*.dei.gov/*
 *://*.doge.gov/*
 *://*.donaldjtrump.com/*
+*://*.fbi.gov/*
 *://*.fcc.gov/*
+*://*.freedom.gov/*
 *://*.gop.com/*
 *://*.heritage.org/*
 *://*.justice.gov/*
