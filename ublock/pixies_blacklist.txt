@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 27March2026v2
+! Version: 27March2026v3
 ! Expires: 12 hours
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -122,7 +122,7 @@ www.youtube.com##.ryd-premium-teaser
 ! UK Politicians
 ||keirstarmer.com^$document
 ||kemibadenoch.org.uk^$document
-||nfarage.com^$document,all,domain=~its-a-fascist-domain.*s
+||nfarage.com^$document,all,domain=~its-a-fascist-domain.*
 ||wesstreeting.org^$document
 
 ! US Government websites under a fascist regime
