@@ -31,16 +31,19 @@ archive.mozilla.org
 archive.org
 archive.ph
 archive.today
+assets-proxy.anthropic.com
 audioboom.com
 autostraddle.com
 bankofamerica.com
 barclaysus.com
 barnesandnoble.com
+battle.net
 beacon.playback.api.brightcove.com
 bestbuy.com
 bettystoybox.com
 bigy.com
 bilh.org
+blizzard.com
 boston25news.com
 britbox.com
 c3ctc.org
@@ -109,6 +112,8 @@ fwupd.org
 gateway.discord.gg
 gemini.google.com
 getflex.com
+ghcr.io
+ghcr1production.blob.core.windows.net
 github.com
 gitlab.com
 googleapis.com
@@ -153,6 +158,7 @@ login.microsoftonline.com
 madcapnetwork.org
 mail.dreamhost.com
 mailchimp.com
+main.vscode-cdn.net
 marvel.com
 maxmind.com
 mcdonalds.com
@@ -165,6 +171,7 @@ millburylibrary.org
 millburyma.gov
 moes.com
 moviesanywhere.com
+mr-z01.tm-azurefd.net
 mriresidentconnect.com
 mullvad.net
 mysynchrony.com
@@ -183,6 +190,8 @@ npr.org
 office.com
 ogads-pa.clients6.google.com
 ollama.com
+onedscolprdcus17.centralus.cloudapp.azure.com
+outlook.cloud.microsof
 outlook.office.com
 outlook.office365.com
 packages.linuxmint.com
