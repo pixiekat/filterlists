@@ -1,15 +1,15 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 28February2026v4
+! Version: 25March2026v1
 ! Expires: 12 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
 
 ! AI Sites
-@@||a-cdn.anthropic.com^$document,domain=claude.ai
+@@||a-cdn.anthropic.com^$domain=claude.ai|claude.com
 @@||claude.ai^$document,all
 @@||copilot.microsoft.com^$document,all
 @@||support.claude.com^$document
-@@||widget.intercom.io^$document,domain=claude.ai
+@@||widget.intercom.io^$domain=claude.ai|claude.com
 
 ! Google
 @@||device-provisioning.googleapis.com^$document
@@ -21,29 +21,38 @@
 @@||*youtube.com/*&disableadblock=1^$document
 @@||analytics.google.com^$document,all,domain=analytics.google.com
 @@||calendar.google.com^$document
-@@||docs.google.com^$document,all
-@@||drive.google.com^$document,all
-@@||gemini.google.com^$document,all
+@@||docs.google.com^$document
+@@||drive.google.com^$document
+@@||gemini.google.com^$document
 @@||groups.google.com^$document
 @@||history.google.com^$document
 @@||keep.google.com^$document
 @@||mail.google.com^$document
 @@||maps.googleapis.com^$document
 @@||maps.gstatic.com^$document
-@@||messages.google.com^$document,all
+@@||messages.google.com^$document
 @@||myaccount.google.com^$document
 @@||myactivity.google.com^$document
-@@||photos.google.com^$document,all
-@@||remotedesktop.google.com^$document,all
+@@||photos.google.com^$document
+@@||remotedesktop.google.com^$document
 @@||translate.google.com^$document
-@@|https://www.google.com/maps^$document,all
-@@|https://www.google.com/search^$document,all
+@@|https://www.google.com/maps^$document
+@@|https://www.google.com/search^$document
 
 ! Fixes Google search
 @@||ogads-pa.clients6.google.com^$document,domain=google.com
 
 ! Fixes cost breakdowns on AWS reports
 @@||ce.us-east-1.amazonaws.com^$document,all,domain=console.aws.amazon.com
+
+! Fixes comments
+@@||disqus.com^$document
+@@||a.disquscdn.com^$document
+@@||c.disquscdn.com^$domain=disqus.com
+@@||mediaite.disqus.com^$domain=mediaite.com
+
+! Fixes social media
+@@||events.bsky.app^$domain=bsky.app|deck.blue
 
 ! Radio
 @@||www.siriusxm.com^$document
@@ -94,11 +103,6 @@
 ! BBC iPlayer
 @@||r.bbci.co.uk^$document
 
-! Disqus
-@@||disqus.com^$document
-@@||a.disquscdn.com^$document
-@@||c.disquscdn.com^$document
-
 ! Fixes bill paying
 @@||accounts-tax.intuit.com^$document
 @@||login.nationalgrid.com^$document
@@ -108,7 +112,7 @@
 @@||telemetry.1passwordservices.com^$document,all
 
 ! Deckblue
-@@||deck.blue^$document
+@@||deck.blue^$document,all
 
 ! WBRU Fixing
 @@||wbru.com^$document
@@ -156,6 +160,11 @@
 @@||subdomain.cargo.site^$document
 @@||www.librepunk.club^$document
 @@||x1337x.cc^$document
+@@||stream.place^$document
+@@||bookhive.buzz^$document
+@@||www.1337x.to^$document
+@@||ext.to^$document
+@@||standard.site^$document
 
 ! Sourceforge overrides
 @@||sourceforge.net/projects/qbittorrent/files/latest/download^$document
