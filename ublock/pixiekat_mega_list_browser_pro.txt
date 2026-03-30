@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-03-27T13:15:01Z
+! Version: 2026-03-30T09:43:39Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -183,6 +183,7 @@
 @@||tmdb.club^
 @@||xhtml.club^
 @@||google.cm^
+@@||prop.cm^
 @@||helium.computer^
 @@||libre.computer^
 @@||neat.computer^
@@ -197,7 +198,6 @@
 @@||daily.dad^
 @@||dear.dad^
 @@||gdflix.dad^
-@@||gdtot.dad^
 @@||rad.dad^
 @@||endoflife.date^
 @@||boo.dating^
@@ -569,6 +569,7 @@
 @@||insomnia.rest^
 @@||nect.rest^
 @@||moyos.restaurant^
+@@||swipein.restaurant^
 @@||vecchioamore.restaurant^
 @@||highquality.rip^
 @@||medium.rip^
@@ -926,8 +927,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 24 Mar 2026 17:17 UTC
-! Version: 2026.0324.1717.37
+! Last modified: 28 Mar 2026 20:46 UTC
+! Version: 2026.0328.2046.13
 ! Syntax: uBlock
 ! Number of latin TLDs: 286 - punycode TLDs: 151
 !
@@ -981,7 +982,7 @@
 ||click^$doc,domain=~am-videos.click|~buybox.click|~fibra.click|~popcat.click|~popdog.click|~porsche.click|~qr-code.click|~ravelin.click|~wmg.click
 ||clothing^$doc
 ||club^$doc,domain=~1kb.club|~1mb.club|~250kb.club|~512kb.club|~acstuff.club|~assettocorsa.club|~baby-beamup.club|~chinaq.club|~ctrl-c.club|~debian.club|~digipres.club|~hack.club|~hd-olimpo.club|~hopium.club|~j-novel.club|~mbcherohub.club|~nocss.club|~no-js.club|~readme.club|~rwinfo.club|~skin.club|~thelemmy.club|~tilde.club|~tmdb.club|~xhtml.club
-||cm^$doc,domain=~google.cm
+||cm^$doc,domain=~google.cm|~prop.cm
 ||college^$doc
 ||computer^$doc,domain=~helium.computer|~libre.computer|~neat.computer|~silly.computer
 ||consulting^$doc
@@ -990,7 +991,7 @@
 ||courses^$doc
 ||credit^$doc
 ||cyou^$doc,domain=~hammertime.cyou|~prometko.cyou
-||dad^$doc,domain=~daily.dad|~dear.dad|~gdflix.dad|~gdtot.dad|~rad.dad
+||dad^$doc,domain=~daily.dad|~dear.dad|~gdflix.dad|~rad.dad
 ||dance^$doc
 ||date^$doc,domain=~endoflife.date
 ||dating^$doc,domain=~boo.dating|~breeze.dating|~gaudi.dating
@@ -1143,7 +1144,7 @@
 ||rent^$doc,domain=~srv.rent
 ||repair^$doc
 ||rest^$doc,domain=~insomnia.rest|~nect.rest
-||restaurant^$doc,domain=~moyos.restaurant|~vecchioamore.restaurant
+||restaurant^$doc,domain=~moyos.restaurant|~swipein.restaurant|~vecchioamore.restaurant
 ||review^$doc
 ||reviews^$doc
 ||rich^$doc
@@ -1413,7 +1414,6 @@
 ||allnewsready.com^
 ||allstarshirt.com^
 ||allupdatenow.com^
-||alphatowercompany.in^
 ||altruetech.com^
 ||altwi-zgs.com^
 ||amorpulse.com^
@@ -1451,7 +1451,6 @@
 ||benxi.info^
 ||bertasxt.com^
 ||best-torrents.com^
-||bestiamos.com^
 ||bestvod.pl^
 ||big-sale-warehouse.com^
 ||billboardwring.com^
@@ -1631,6 +1630,7 @@
 ||familygiftville.com^
 ||familystore.com^
 ||fapst.com^
+||faunugraipt.com^
 ||faze1.com^
 ||faze10.com^
 ||faze2.com^
@@ -1662,7 +1662,6 @@
 ||finnews7.wordpress.com^
 ||fishingdaily.shop^
 ||fitgirl-repacks-site.org^
-||fitgirlrepacksite.com^
 ||fiusps.com^
 ||fixpub.com^
 ||flattee.com^
@@ -1785,6 +1784,7 @@
 ||iphone.quiztionnaire.biz^
 ||iqcreditcheck.com^
 ||italyworldbaseballclassic.com^
+||iteeus.com^
 ||itseasy.com^
 ||ivisa.com^
 ||j-natural.com^
@@ -1805,6 +1805,7 @@
 ||kinonline.pl^
 ||kisserine.com^
 ||kitchendecor.shop^
+||klelnanzeigen-deutch.confirm542351.info^
 ||kms-pc.com^
 ||kms-tool.com^
 ||kmsauto.info^
@@ -1872,7 +1873,6 @@
 ||mulllvad.org^
 ||mullvaad.net^
 ||multifilmy.pl^
-||museuw.com^
 ||muskusa.com^
 ||mybestautologin567.com^
 ||myblogshop.top^
@@ -1893,6 +1893,7 @@
 ||navi20.com^
 ||navi20.ru^
 ||navi21.com^
+||navi21.ru^
 ||navi22.ru^
 ||navi23.com^
 ||navi23.ru^
@@ -1921,6 +1922,7 @@
 ||navi56.com^
 ||navi59.ru^
 ||navi6.com^
+||navi66.ru^
 ||navi69.com^
 ||navi7.com^
 ||navi72.com^
@@ -2099,7 +2101,6 @@
 ||sieuto.com^
 ||sigmaoffers.com^
 ||signpify.com^
-||signwdocu.com^
 ||singingfiles.com^
 ||singleflirt.com^
 ||skincheap.com^
@@ -2216,6 +2217,8 @@
 ||uniswap.host^
 ||uniswap.ro^
 ||uniswapagent.com^
+||uniswapetf.xyz^
+||uniswaplabs.xyz^
 ||universityofqatarrectorate.godaddysites.com^
 ||updatesnow.click^
 ||uplevelreward.com^
@@ -4548,7 +4551,7 @@ lematin.ma##.meteo-bloc span
 sveip.no##.wmsb_f
 gismeteo.de##.ifnoie
 ! Title: 🕳 Empty Padding Remover
-! Version: 25March2026v1-Beta
+! Version: 30March2026v1-Beta
 ! Description: Are you tired of having to scroll so much on websites, or you want to keep your eyes on more text and content at once? Or perhaps you're tired ot very large shadows on video sites when moving the mouse? If so, this list will help you a little extra bit with that.
 ! ——— Generic ———
 ##.skille:not(html, body)
@@ -4621,6 +4624,7 @@ replacementdocs.com#?#.forumheader3:not(:has(img)):not(:has-text(/\S/)):not(:has
 transfermarkt.com##.clearer
 sat24.com###headermenu
 freedownloadmanager.org###unite
+deviantart.com##iframe[title=DealerAdIframe]
 !#if !env_mobile
 eeconomy.gr##.bgnav:style(max-height:40px!important)
 ! https://www•feltet•dk/nyheder/dansker_enig_i_kritik_svaert_ved_at_se_hvad_de_har_at_goere_her/

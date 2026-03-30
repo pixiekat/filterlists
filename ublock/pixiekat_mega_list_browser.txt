@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-03-16T15:51:29Z
+! Version: 2026-03-30T09:43:55Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -153,8 +153,13 @@
 @@|z5-pauw.phreesia.net^
 @@|z5-sns.phreesia.net^
 ! Title: 📦 BadBlock - Amazon (ABP)
-! Version: 01March2026v1
+! Version: 28March2026v1
 ! Description: Block Amazon advertising, tracking, telemetry, promotions, & more!
+! Twitch Sentry analytics
+!! (ex. https://assets.twitch.tv/assets/errors-fe37ba7d341ca19cd6e9.js)
+||twitch.tv/assets/errors
+twitch.tv##+js(set, _sentryDebugIdIdentifier, undefined)
+twitch.tv##+js(set, _sentryDebugIds, undefined)
 !! (ex. https://c.amazon-adsystem.com/aax2/apstag.js)
 !! (ex. https://certify-js.alexametrics.com/atrk.js)
 /apstag.js
@@ -8774,7 +8779,6 @@ watson.trafficmanager.net
 ||zoneminder.github.io^
 ||zylo.com^
 ! Title: 📡 BadBlock - Radar (ABP)
-! Version: 08March2026v1
 ! Description: Block advertising, analytics, unwanted data collection, tracking, & more as they arise!
 ! Wildcards
 ! uBlock Origin needs $all
@@ -8790,7 +8794,7 @@ watson.trafficmanager.net
 ||beacon.$all
 ||beacon*.$all,domain=~beacondb.derpingu.in|~beacondb.net|~beacondb.pngn.cc
 ||collect.$all
-||collect*.$all,domain=~collector-otp-prod.camsys-apps.com|~collector-otp-qa.camsys-apps.com|~www.mta.info
+||collect*.$all,domain=~collection.sciencemuseumgroup.org.uk|~collector-otp-prod.camsys-apps.com|~collector-otp-qa.camsys-apps.com|~www.mta.info
 ||csp.$all,domain=~csp.minienm.nl|~csp.rcsc.lt
 ||cstat.$all
 ||cstat*.$all
@@ -8818,7 +8822,7 @@ watson.trafficmanager.net
 ||monitor*.$all,domain=~monitor.f-droid.org|~monitor.firefox.com|~monitor.matrix.catgirl.cloud|~monitor.mozilla.org|~monitoring.solaredge.com|~monitoring-mfecdn-prod.solaredge.com
 ||mparticle.$all,important
 ! mParticle "Data Platform" & Insights https://www.mparticle.com/
-||ping.$all,domain=~ping.eu,~ping.nextdns.io
+||ping.$all,domain=~ping.eu|~ping.nextdns.io
 ||pix.$all
 ||pixel.$all,domain=~pixel.google|~pixel.one|~pixel.withgoogle.com
 ||px.$all
@@ -8851,7 +8855,7 @@ watson.trafficmanager.net
 ||beacon.
 ||beacon*.$denyallow=beacondb.derpingu.in|beacondb.net|beacondb.pngn.cc
 ||collect.
-||collect*.$denyallow=collector-otp-prod.camsys-apps.com|collector-otp-qa.camsys-apps.com
+||collect*.$denyallow=collection.sciencemuseumgroup.org.uk|collector-otp-prod.camsys-apps.com|collector-otp-qa.camsys-apps.com
 ||csp.$denyallow=csp.minienm.nl|csp.rcsc.lt
 ||cstat.
 ||cstat*.
@@ -8877,7 +8881,7 @@ watson.trafficmanager.net
 ||monitor.$denyallow=monitor.f-droid.org|monitor.firefox.com|monitor.matrix.catgirl.cloud|monitor.mozilla.org
 ||monitor*.$denyallow=monitor.f-droid.org|monitor.firefox.com|monitor.matrix.catgirl.cloud|monitor.mozilla.org|monitoring.solaredge.com|monitoring-mfecdn-prod.solaredge.com
 ||mparticle.$important
-||ping.denyallow=ping.eu,ping.nextdns.io
+||ping.denyallow=ping.eu|ping.nextdns.io
 ||pix.
 ||pixel.$denyallow=pixel.google|pixel.one|pixel.withgoogle.com
 ||px.
@@ -8982,6 +8986,30 @@ watson.trafficmanager.net
 ! (ex. https://ucom-cmg-x-use4.ns1.fiservapis.com/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js)
 !! (Fingerprinting)
 /stormcaster.js
+! Canva analytics
+!! (ex. https://static.canva.com/web/c688833c9c362b5c.sentry_browser.js)
+!! (ex. https://static.canva.com/web/f3cf4411110060c6.sentry_browser.js)
+!! (ex. https://telemetry.canva.com/v1/traces)
+!! (ex. https://www.canva.com/_ajax/ae/createBatch)
+!! (ex. https://www.canva.com/_online?1774741054177)
+||canva.com/*/traces
+||canva.com/_ajax/ae/createBatch
+||canva.com/_online
+||canva.com/web/*.sentry
+canva.com##+js(set, Sentry, undefined)
+canva.com##+js(set, __SENTRY__, undefined)
+canva.com##+js(set, __sentry_config__, undefined)
+! Canva CMP
+!! (ex. https://www.canva.com/_ajax/privacypreference/trackingconsent/check)
+||canva.com/_ajax/privacypreference
+! Mercado Libre fingerprinting
+!! (ex. https://http2.mlstatic.com/frontend-assets/snoopy-generation-web/latest/snoopy-search.js)
+||mlstatic.com/frontend-assets/snoopy
+! Calendly tracking/analytics
+!! (ex. https://calendly.com/api/booking/analytics/track)
+!! (ex. https://dfp.calendly.com/errors)
+||calendly.com/api/booking/analytics
+||calendly.com/errors
 ! Cengage tracking/analytics
 !! (ex. https://aplia.apps.ng.cengage.com/static/nb/ui/evo/ruxitagentjs_ICANVfhqru_10329260206100503.js)
 !! (ex. https://cap-engagement-events-production01.cengage.info/v2/resource-interactions)
@@ -11898,6 +11926,7 @@ zonkafeedback*.amazonaws.com
 ||adroll.map.fastly.net^
 ||adrta.com^
 ||ads-api.reddit.com^
+||ads-events.mercadolibre.com^
 ||ads-interfaces.sc-cdn.net^
 ||ads-pixiv.net^
 ||ads.cdn.live^
@@ -12184,6 +12213,7 @@ zonkafeedback*.amazonaws.com
 ||analytics.levante-emv.com^
 ||analytics.lne.es^
 ||analytics.mallorcazeitung.es^
+||analytics.mercadolibre.com^
 ||analytics.mobile-cdn.walmart.com.akadns.net^
 ||analytics.mobile.walmart.com^
 ||analytics.neomotor.com^
@@ -15746,6 +15776,7 @@ zonkafeedback*.amazonaws.com
 ||snigel.com^
 ||snigelweb.com^
 ||snitcher.com^
+||snoopy.mercadolibre.com^
 ||snoresmile.com^
 ||snowplow-collector-load-balancer-156346584.us-east-1.elb.amazonaws.com^
 ||snowplow.cartrawler.com^
@@ -16104,6 +16135,8 @@ zonkafeedback*.amazonaws.com
 ||telegraph.prd.api.discomax.com^
 ||telegraph.prd.api.max.com^
 ||telemetr.io^
+||telemetry.canva.com.cdn.cloudflare.net^
+||telemetry.canva.com^
 ||telemetry.devolutions.net^
 ||telemetry.kde.org^
 ||telemetry.malwarebytes.com^
@@ -17745,8 +17778,9 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 !! https://wikipedia.org/wiki/IDN_homograph_attack
 !! www.iana.org: https://codeberg.org/celenity/BadBlock/issues/78
 !! xn----7sbb3acajbee5aggvnq.xn--90ais: https://github.com/celenityy/BadBlock/issues/56
+!! xn--80a2abbdd.xn--j1amh: https://github.com/celenityy/BadBlock/issues/88
 !! xn--gckvb8fzb.com: https://codeberg.org/celenity/BadBlock/issues/43
-||xn--$document,domain=~xn----7sbb3acajbee5aggvnq.xn--90ais|~xn--gckvb8fzb.com
+||xn--$document,domain=~xn----7sbb3acajbee5aggvnq.xn--90ais|~xn--80a2abbdd.xn--j1amh|~xn--gckvb8fzb.com
 ! IP Loggers
 ! "IP Logger URL Shortener"
 !! https://iplogger.org/

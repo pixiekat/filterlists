@@ -1,0 +1,8 @@
+gem.cbc.ca
+cbc.ca
+cbcrc.ca
+cbcsports.ca
+ctv.ca
+ctvnews.ca
+tsn.ca
+sportsnet.ca
