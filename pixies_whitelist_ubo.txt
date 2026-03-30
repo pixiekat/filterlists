@@ -1,14 +1,11 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 25March2026v1
-! Expires: 12 hours
+! Version: 29March2026v1
+! Expires: 24 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
 
 ! AI Sites
 @@||a-cdn.anthropic.com^$domain=claude.ai|claude.com
-@@||claude.ai^$document,all
-@@||copilot.microsoft.com^$document,all
-@@||support.claude.com^$document
 @@||widget.intercom.io^$domain=claude.ai|claude.com
 
 ! Google
@@ -56,14 +53,15 @@
 
 ! Radio
 @@||www.siriusxm.com^$document
-@@||www.wbur.org^$document
-@@||www.wgbh.org^$document
+@@||www.wbur.org^$document,all
+@@||www.wgbh.org^$document,all
 
 ! Allow anything from my personal site
 @@||integraldata.cc^$document,all
 @@||pixiekat.net^$document,all
 @@||netkitten.net^$document,all
 @@||spacecadetgrrl.me^$document,all
+@@||webkitten.net^$document,all
 
 ! Allow analytics from Google for my personal sites
 @@||www.googletagmanager.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
@@ -88,7 +86,8 @@
 @@||bankofamerica.com^$document,all
 
 ! Email
-@@||app.tuta.com^$document
+@@||app.tuta.com^$document,all
+@@||mail.tutanota.com^$document,all
 
 ! ITV Fixing
 @@||tom.itv.com^$document
@@ -181,24 +180,18 @@
 @@||acquia.com^$document,all
 @@||acquia.my.site.com^$document,all
 @@||alltechishuman.org^$document
-@@||bidmc.org^$document,all
 @@||bilh-my.sharepoint.com^$document,all
 @@||bilh.org^$document,all
 @@||certbot.eff.org^$document
 @@||codeberg.org^$document
-@@||dcinetwork.org^$document
-@@||diabetesdefa.org^$document
 @@||id.acquia.com^$document,all
 @@||login.microsoftonline.com^$document,all
 @@||onedrive.live.com^$document,all
 @@||outlook.office.com^$document,all
 @@||outlook.office365.com^$document,all
-@@||panel.dreamhost.com^$document
 @@||profile.acquia.com^$document,all
 @@||res.public.onecdn.static.microsoft^$document,all
 @@||sharepoint.com^$document,all
-@@||store.sectigo.com^$document
 @@||support-acquia.force.com^$document
 @@||teams.microsoft.com^$document,all
 @@||us02web.zoom.us^$document
-@@||www.eff.org^$document
