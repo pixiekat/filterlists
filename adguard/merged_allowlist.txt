@@ -1,10 +1,10 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 2026-03-30T09:42:52Z
+! Version: 2026-04-02T20:20:18Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
 ! Title: 🤖 BadBlock - Android Whitelist (ABP)
-! Version: 14January2026v1
+! Version: 02April2026v1
 ! Expires: 1 hour
 ! Description: Unblock the Good! (Android Edition)
 ! Homepage: https://badblock.celenity.dev
@@ -46,8 +46,8 @@
 @@|ota.googlezip.net^
 @@|ota.nvidia.com^
 @@|otaadmin.nvidia.com^
-@@|otag.nvidia.com.edgekey.net^
 @@|otag.nvidia.com^
+@@|otag.nvidia.com.edgekey.net^
 @@|release.calyxinstitute.org^
 @@|releases.grapheneos.org^
 @@|repo.accrescent.app^
@@ -58,8 +58,6 @@
 @@|vas.samsungapps.com^
 ! Title: 🍎 BadBlock - Apple Whitelist (ABP)
 ! Description: Unblock the Good! (Apple Edition)
-! Carrier Updates
-! https://support.apple.com/101555
 @@|itunes.com^
 @@|itunes.apple.com^
 @@|activateiphone-usw2-cx01.apple.com^
@@ -81,25 +79,25 @@
 @@|albert.v.aaplimg.com^
 @@|amp-api-edge-lb.itunes-apple.com.akadns.net^
 @@|amp-api-edge-music-akam.itunes-apple.com.akadns.net^
-@@|amp-api-edge.apps.apple.com.edgekey.net^
 @@|amp-api-edge.apps.apple.com^
+@@|amp-api-edge.apps.apple.com.edgekey.net^
 @@|amp-api-edge.music-lb.itunes-apple.com.akadns.net^
 @@|amp-api-edge.music.apple.com^
 @@|amp-api-music-lb.itunes-apple.com.akadns.net^
 @@|amp-api-search-edge.apps-lb.itunes-apple.com.akadns.net^
-@@|amp-api-search-edge.apps.apple.com.edgekey.net^
 @@|amp-api-search-edge.apps.apple.com^
+@@|amp-api-search-edge.apps.apple.com.edgekey.net^
 @@|amp-api.music-akam.apple.com.akadns.net^
 @@|amp-api.music.apple.com^
 @@|api-apps-lb.itunes-apple.com.akadns.net^
-@@|api.apps.apple.com.edgekey.net^
 @@|api.apps.apple.com^
+@@|api.apps.apple.com.edgekey.net^
 @@|api.palera.in^
 @@|appattest.apple.com^
 @@|appattest.v.aaplimg.com^
+@@|appldnld.apple.com^
 @@|appldnld.apple.com.akadns.net^
 @@|appldnld.apple.com.edgesuite.net^
-@@|appldnld.apple.com^
 @@|appldnld.g.aaplimg.com^
 @@|apps-cdn.itunes-apple.com.akadns.net^
 @@|apps-marketplace.apple.com^
@@ -107,8 +105,8 @@
 @@|apps.apple.com^
 @@|apps.itunes-nocookie.com^
 @@|apps.itunes.apple.com.edgekey.net^
-@@|apps.mzstatic.com.edgekey.net^
 @@|apps.mzstatic.com^
+@@|apps.mzstatic.com.edgekey.net^
 @@|audiocontentdownload-lb.apple.com.akadns.net^
 @@|audiocontentdownload-row-lb.apple.com.akadns.net^
 @@|audiocontentdownload.apple.com^
@@ -116,19 +114,19 @@
 @@|auth.itunes.apple.com^
 @@|auth.v.aaplimg.com^
 @@|ax.init-cdn.itunes-apple.com.akadns.net^
-@@|ax.init.itunes.apple.com.edgesuite.net^
 @@|ax.init.itunes.apple.com^
+@@|ax.init.itunes.apple.com.edgesuite.net^
 @@|buy.itunes-apple.com.akadns.net^
 @@|buy.itunes.apple.com^
 @@|carrierbundle-cdn.itunes-apple.com.akadns.net^
 @@|carrierbundle.itunes-apple.com.akadns.net^
-@@|carrierbundle.itunes.apple.com.edgesuite.net^
 @@|carrierbundle.itunes.apple.com^
+@@|carrierbundle.itunes.apple.com.edgesuite.net^
 @@|cdn.altstore.io^
 @@|commerce.itunes.apple.com.edgesuite.net^
+@@|configuration.apple.com^
 @@|configuration.apple.com.akadns.net^
 @@|configuration.apple.com.edgekey.net^
-@@|configuration.apple.com^
 @@|data-development.appattest.apple.com^
 @@|data-development.appattest.v.aaplimg.com^
 @@|data.appattest.apple.com^
@@ -141,8 +139,8 @@
 @@|download.apple.map.fastly.net^
 @@|download.developer.apple.com^
 @@|downloaddispatch-cdn.itunes-apple.com.akadns.net^
-@@|downloaddispatch.itunes.apple.com.edgesuite.net^
 @@|downloaddispatch.itunes.apple.com^
+@@|downloaddispatch.itunes.apple.com.edgesuite.net^
 @@|entitlements.edge-itunes-apple.com.akadns.net^
 @@|entitlements.itunes.apple.com^
 @@|fcs-keys-pub-prod.cdn-apple.com^
@@ -156,29 +154,29 @@
 @@|gdmf-ados.v.aaplimg.com^
 @@|gdmf.apple.com^
 @@|gdmf.v.aaplimg.com^
-@@|gg.apple.com.v.aaplimg.com^
 @@|gg.apple.com^
-@@|gs.apple.com.v.aaplimg.com^
+@@|gg.apple.com.v.aaplimg.com^
 @@|gs.apple.com^
-@@|gsa.apple.com.akadns.net^
+@@|gs.apple.com.v.aaplimg.com^
 @@|gsa.apple.com^
-@@|gsas.apple.com.akadns.net^
+@@|gsa.apple.com.akadns.net^
 @@|gsas.apple.com^
-@@|gsra.apple.com.v.aaplimg.com^
+@@|gsas.apple.com.akadns.net^
 @@|gsra.apple.com^
+@@|gsra.apple.com.v.aaplimg.com^
 @@|homebrew.github.io^
 @@|humb.apple.com^
 @@|humb.v.aaplimg.com^
-@@|identity.apple.com.akadns.net^
 @@|identity.apple.com^
+@@|identity.apple.com.akadns.net^
 @@|idms-apple.com.akadns.net^
 @@|idmsa.apple.com^
 @@|idmsa.idms-apple.com.akadns.net^
-@@|ig.apple.com.v.aaplimg.com^
 @@|ig.apple.com^
+@@|ig.apple.com.v.aaplimg.com^
 @@|init-cdn.itunes-apple.com.akadns.net^
-@@|init.itunes.apple.com.edgesuite.net^
 @@|init.itunes.apple.com^
+@@|init.itunes.apple.com.edgesuite.net^
 @@|iosapps.itunes.apple.com^
 @@|iosapps.itunes.g.aaplimg.com^
 @@|iphonediags.apple.com^
@@ -190,8 +188,8 @@
 @@|mesu.g.aaplimg.com^
 @@|ns.itunes-apple.com.akadns.net^
 @@|ns.itunes.apple.com^
-@@|oscdn.apple.com.edgesuite.net^
 @@|oscdn.apple.com^
+@@|oscdn.apple.com.edgesuite.net^
 @@|oscdn.origin-apple.com.akadns.net^
 @@|osrecovery.apple.com^
 @@|osrecovery.swu-apple.com.akadns.net^
@@ -204,8 +202,8 @@
 @@|pd-cdn.itunes-apple.com.akadns.net^
 @@|pd.itunes.apple.com^
 @@|play-cdn.itunes-apple.com.akadns.net^
-@@|play.itunes.apple.com.edgesuite.net^
 @@|play.itunes.apple.com^
+@@|play.itunes.apple.com.edgesuite.net^
 @@|publicassets.cdn-apple.com^
 @@|publicassets.cdn-apple.v.aaplimg.com^
 @@|qa2-int-swscan.apple.com^
@@ -220,8 +218,8 @@
 @@|sandbox.itunes-apple.com.akadns.net^
 @@|sandbox.itunes.apple.com^
 @@|se-edge.itunes-apple.com.akadns.net^
-@@|se-edge.itunes.apple.com.edgekey.net^
 @@|se-edge.itunes.apple.com^
+@@|se-edge.itunes.apple.com.edgekey.net^
 @@|search-cdn.itunes-apple.com.akadns.net^
 @@|search.itunes.apple.com^
 @@|sequoia.cdn-apple.com^
@@ -231,8 +229,8 @@
 @@|sfss.cdn-apple.com^
 @@|sfss.v.aaplimg.com^
 @@|sign.kravasign.com^
-@@|skl.apple.com.v.aaplimg.com^
 @@|skl.apple.com^
+@@|skl.apple.com.v.aaplimg.com^
 @@|sq-device.apple.com^
 @@|sq-device.v.aaplimg.com^
 @@|st11p01su-swcdnlocator.swu-apple.com.akadns.net^
@@ -241,26 +239,26 @@
 @@|static2.ips.apple.com.edgekey.net^
 @@|su-applak.itunes-apple.com.akadns.net^
 @@|su-cdn.itunes-apple.com.akadns.net^
-@@|su.itunes.apple.com.edgekey.net^
 @@|su.itunes.apple.com^
+@@|su.itunes.apple.com.edgekey.net^
 @@|swcdn.apple.com^
 @@|swcdn.g.aaplimg.com^
 @@|swcdnlocator.apple.com^
 @@|swcdnlocator.swu-apple.com.akadns.net^
+@@|swdist.apple.com^
 @@|swdist.apple.com.akadns.net^
 @@|swdist.apple.com.edgekey.net^
-@@|swdist.apple.com^
 @@|swdownload.apple.com^
 @@|swquery.apple.com^
 @@|swscan-cdn.apple.com.akadns.net^
 @@|swscan.apple.com^
-@@|tbsc.apple.com.v.aaplimg.com^
 @@|tbsc.apple.com^
-@@|updates-http.cdn-apple.com.akadns.net^
+@@|tbsc.apple.com.v.aaplimg.com^
 @@|updates-http.cdn-apple.com^
+@@|updates-http.cdn-apple.com.akadns.net^
 @@|updates-http.g.aaplimg.com^
-@@|updates.cdn-apple.com.akadns.net^
 @@|updates.cdn-apple.com^
+@@|updates.cdn-apple.com.akadns.net^
 @@|updates.g.aaplimg.com^
 @@|use1-wps-prod.apple.com^
 @@|usw2-data-appattest-aws-prod.apple.com^
@@ -274,8 +272,6 @@
 @@|wps.v.aaplimg.com^
 ! Title: 🌐 BadBlock - Browser Whitelist (ABP)
 ! Description: Unblock the Good! (Browser Edition)
-! BRAVE
-! Component Updates
 @@|go-updater*.bravesoftware.com^
 @@|go-updater*.amazonaws.com^
 @@|archive-01.torproject.org^
@@ -372,8 +368,8 @@
 @@|app-ca.central.arubanetworks.com^
 @@|app-prod2.central.arubanetworks.com^
 @@|app-yoda.arubathena.com^
-@@|app.central.arubanetworks.com.cn^
 @@|app.central.arubanetworks.com^
+@@|app.central.arubanetworks.com.cn^
 @@|app1-ap-h2.central.arubanetworks.com^
 @@|app1-ap.central.arubanetworks.com^
 @@|app1-h2.central.arubanetworks.com^
@@ -384,8 +380,8 @@
 @@|app2-eu.central.arubanetworks.com^
 @@|app2-ofc.central.arubanetworks.com^
 @@|aruba.odyssys.net^
-@@|arubanetworks.com.cn^
 @@|arubanetworks.com^
+@@|arubanetworks.com.cn^
 @@|asset-acms.anuvu.cloud^
 @@|atlanta-airport.com^
 @@|atlwifi.atlanta-airport.com^
@@ -445,8 +441,8 @@
 @@|conncheck.opensuse.org^
 @@|connect-edge.ihg.com^
 @@|connect.edge.ihg.com^
-@@|connect.klm.com-01.edgekey.net^
 @@|connect.klm.com^
+@@|connect.klm.com-01.edgekey.net^
 @@|connect.rom.miui.com^
 @@|connect.viasat.com^
 @@|connected.southwestwifi.com^
@@ -513,8 +509,8 @@
 @@|gogoinflight.com^
 @@|gp1.wendys.com^
 @@|grapheneos.online^
-@@|guestinternet.com.s3-website-us-east-1.amazonaws.com^
 @@|guestinternet.com^
+@@|guestinternet.com.s3-website-us-east-1.amazonaws.com^
 @@|hamptoninn.hiltonwifi.com^
 @@|hilton.hiltonwifi.com^
 @@|hiltongardeninn.hiltonwifi.com^
@@ -537,8 +533,8 @@
 @@|ipv4.jolla.com^
 @@|ipv6.connman.net^
 @@|ipv6.jolla.com^
-@@|ipv6.msftconnecttest.com.edgesuite.net^
 @@|ipv6.msftconnecttest.com^
+@@|ipv6.msftconnecttest.com.edgesuite.net^
 @@|kong-gtw-portal-apse2prod5-lb-1386339370.ap-southeast-2.elb.amazonaws.com^
 @@|kong-gtw-portal-eu-lb-1104785228.eu-central-1.elb.amazonaws.com^
 @@|kong-gtw-portal-mec1prod6-lb-2104849938.me-central-1.elb.amazonaws.com^
@@ -586,8 +582,8 @@
 @@|naw2.cloudguest.central.arubanetworks.com^
 @@|ncsi-geo.trafficmanager.net^
 @@|ncsiv6-geo.trafficmanager.net^
-@@|netcts.cdn-apple.com.edgesuite.net^
 @@|netcts.cdn-apple.com^
+@@|netcts.cdn-apple.com.edgesuite.net^
 @@|network-auth.com^
 @@|network-test.debian.org^
 @@|neverssl.com^
@@ -602,8 +598,8 @@
 @@|onboard.eurostar.com^
 @@|onboard.sbb.ch^
 @@|onboardicafe.com^
-@@|pay.viasat.com.00d70000000k0rweak.live.siteforce.com^
 @@|pay.viasat.com^
+@@|pay.viasat.com.00d70000000k0rweak.live.siteforce.com^
 @@|ping.archlinux.org^
 @@|ping.manjaro.org^
 @@|ping.ubnt.com^
@@ -622,8 +618,8 @@
 @@|portal.ac5.mist.com^
 @@|portal.ac6.mist.com^
 @@|portal.arubainstanton.com^
-@@|portal.central.arubanetworks.com.cn^
 @@|portal.central.arubanetworks.com^
+@@|portal.central.arubanetworks.com.cn^
 @@|portal.eu.mist.com^
 @@|portal.gc1.mist.com^
 @@|portal.gc2.mist.com^
@@ -685,8 +681,8 @@
 @@|utils.gogoinflight.com^
 @@|uucp.wifi.viasat.com^
 @@|vgw1-03.phl-philly-iap.lpv.attwifi.com^
-@@|viasat.com.00d70000000k0rweak.live.siteforce.com^
 @@|viasat.com^
+@@|viasat.com.00d70000000k0rweak.live.siteforce.com^
 @@|virginwifi.com^
 @@|wanderingwifi.com^
 @@|we.windstream.com^
@@ -711,24 +707,24 @@
 @@|wifi.starbucks.com^
 @@|wifi.tgv-lyria.com^
 @@|wifi.tgvlyria.com^
-@@|wifi.united.com.edgekey.net^
 @@|wifi.united.com^
+@@|wifi.united.com.edgekey.net^
+@@|wifi.vivo.com.cn^
 @@|wifi.vivo.com.cn.ctdns.cn^
 @@|wifi.vivo.com.cn.ctgcdn.cachenow.net^
-@@|wifi.vivo.com.cn^
 @@|wifi.we.co^
 @@|wifi.xfinity.com^
 @@|wifi1.kfc.com^
 @@|wifi1.viasat.com^
 @@|wifi2.kfc.com^
 @@|wifihotspot.io^
-@@|wifilauncher.com.s3-website.us-east-1.amazonaws.com^
 @@|wifilauncher.com^
+@@|wifilauncher.com.s3-website.us-east-1.amazonaws.com^
 @@|wifilrn-ch2-1p.xfinity.com^
 @@|wifionboard.com^
 @@|wingsconnect.aero^
-@@|wirelessportal.americanexpress.com.akadns.net^
 @@|wirelessportal.americanexpress.com^
+@@|wirelessportal.americanexpress.com.akadns.net^
 @@|wirelessportal2.americanexpress.com.akadns.net^
 @@|wlb1-1579773356.us-east-1.elb.amazonaws.com^
 @@|wlb1.us-east-1.sbux-portal.globalreachtech.com^
@@ -746,8 +742,8 @@
 @@|www.flyfi.com^
 @@|www.gogoinair.com^
 @@|www.gogoinflight.com^
-@@|www.guestinternet.com.s3-website-us-east-1.amazonaws.com^
 @@|www.guestinternet.com^
+@@|www.guestinternet.com.s3-website-us-east-1.amazonaws.com^
 @@|www.hiltonwifi.com^
 @@|www.httpforever.com^
 @@|www.iceportal.de^
@@ -756,8 +752,8 @@
 @@|www.marriottwifi.com^
 @@|www.medallionclass.com^
 @@|www.msftconnecttest.com^
-@@|www.msftncsi.com.edgesuite.net^
 @@|www.msftncsi.com^
+@@|www.msftncsi.com.edgesuite.net^
 @@|www.neverssl.com^
 @@|www.nossl.com^
 @@|www.onboardicafe.com^
@@ -772,8 +768,8 @@
 @@|www.unitedprivatescreening.com^
 @@|www.unitedwifi.com^
 @@|www.wifi.singaporeair.com^
-@@|www.wifilauncher.com.s3-website.us-east-1.amazonaws.com^
 @@|www.wifilauncher.com^
+@@|www.wifilauncher.com.s3-website.us-east-1.amazonaws.com^
 @@|www.wifionboard.com^
 @@|www.wingsconnect.aero^
 @@|www.zugportal.de^
@@ -788,7 +784,6 @@
 @@|apple.com^$important
 @@|trendmicro.com^$important
 @@|vodafone.com^$important
-!! Wildcards
 @@||api.apple-cloudkit.*.apple-dns.net^$important
 @@|certs*.aaplimg.com^$important
 @@|certs*.apple.com.akadns.net^$important
@@ -916,8 +911,8 @@
 @@|ccd2.acsoluti.com.br^
 @@|ccd2.serpro.gov.br^
 @@|cdn.d-trust-cloudcrl.net^
-@@|cdn.globalsigncdn.com.cdn.cloudflare.net^
 @@|cdn.globalsigncdn.com^
+@@|cdn.globalsigncdn.com.cdn.cloudflare.net^
 @@|cdn.intertek.com^
 @@|cdp-east.pki.disney.com^
 @@|cdp-ldap.intranet.eon.com^
@@ -997,8 +992,8 @@
 @@|commercial.ocsp.identrust.com^
 @@|community.letsencrypt.org^
 @@|comodo.com^
-@@|comodoca.com.cdn.cloudflare.net^
 @@|comodoca.com^
+@@|comodoca.com.cdn.cloudflare.net^
 @@|comodoca2.com^
 @@|comodoca3.com^
 @@|comodoca4.com^
@@ -1034,8 +1029,8 @@
 @@|crl.adacom.com^
 @@|crl.adacom.net^
 @@|crl.addtrust.com^
-@@|crl.adobe.com.edgekey.net^
 @@|crl.adobe.com^
+@@|crl.adobe.com.edgekey.net^
 @@|crl.aetna.com^
 @@|crl.affirmtrust.com^
 @@|crl.allscripts.com^
@@ -1098,8 +1093,8 @@
 @@|crl.dhimyotis.com^
 @@|crl.digi-sign.com^
 @@|crl.digicert-cn.com^
-@@|crl.digicert.com.my^
 @@|crl.digicert.com^
+@@|crl.digicert.com.my^
 @@|crl.digisign.ro^
 @@|crl.diplomatie.gouv.fr^
 @@|crl.disa.mil^
@@ -1309,8 +1304,8 @@
 @@|crl.usertrust.com^
 @@|crl.utexas.edu^
 @@|crl.verisign.co.jp^
-@@|crl.verisign.com.au^
 @@|crl.verisign.com^
+@@|crl.verisign.com.au^
 @@|crl.vialink.fr^
 @@|crl.vii.tcclass2.trustcenter.de^
 @@|crl.vii.tcclass3.trustcenter.de^
@@ -1705,8 +1700,8 @@
 @@|gl.symcd.com^
 @@|global.prd.cdn.globalsign.com^
 @@|globalsign.com^
-@@|globalsigncdn.com.cdn.cloudflare.net^
 @@|globalsigncdn.com^
+@@|globalsigncdn.com.cdn.cloudflare.net^
 @@|globaltrust.crl.sectigo.com^
 @@|globaltrust.ocsp.sectigo.com^
 @@|gn.symcd.com^
@@ -1747,8 +1742,8 @@
 @@|ocsp.ca.vodafone.com^
 @@|ocsp.comodo.com^
 @@|ocsp.comodo.net^
-@@|ocsp.comodoca.com.cdn.cloudflare.net^
 @@|ocsp.comodoca.com^
+@@|ocsp.comodoca.com.cdn.cloudflare.net^
 @@|ocsp.comodoca.net^
 @@|ocsp.comodoca2.com^
 @@|ocsp.comodoca3.com^
@@ -1761,8 +1756,8 @@
 @@|ocsp.geotrust.com^
 @@|ocsp.globalsign.com^
 @@|ocsp.globalsign.net^
-@@|ocsp.godaddy.com.akadns.net^
 @@|ocsp.godaddy.com^
+@@|ocsp.godaddy.com.akadns.net^
 @@|ocsp.identrust.com^
 @@|ocsp.identrust.net^
 @@|ocsp.incommon-rsa.org^
@@ -1858,8 +1853,8 @@
 @@|tn.symcd.com^
 @@|trust-provider.com^
 @@|trustid.ocsp.identrust.com^
-@@|trustlist.adobe.com.edgekey.net^
 @@|trustlist.adobe.com^
+@@|trustlist.adobe.com.edgekey.net^
 @@|trustwave.com^
 @@|ts-crl.ws.symantec.com^
 @@|ts-ocsp.ws.symantec.com^
@@ -2258,14 +2253,14 @@
 @@|safetotalk.nz^
 @@|safmh.org^
 @@|samaritans.bg^
-@@|samaritans.org.nz^
 @@|samaritans.org^
+@@|samaritans.org.nz^
 @@|samaritansmumbai.com^
 @@|samaritansonlus.org^
 @@|samhsa.gov^
 @@|sananim.cz^
-@@|sane.org.uk^
 @@|sane.org^
+@@|sane.org.uk^
 @@|saps.gov.za^
 @@|sarsas.org.uk^
 @@|sash.co.nz^
@@ -2576,14 +2571,14 @@
 @@|www.safenet.bg^
 @@|www.safmh.org^
 @@|www.samaritans.bg^
-@@|www.samaritans.org.nz^
 @@|www.samaritans.org^
+@@|www.samaritans.org.nz^
 @@|www.samaritansmumbai.com^
 @@|www.samaritansonlus.org^
 @@|www.samhsa.gov^
 @@|www.sananim.cz^
-@@|www.sane.org.uk^
 @@|www.sane.org^
+@@|www.sane.org.uk^
 @@|www.saps.gov.za^
 @@|www.sarsas.org.uk^
 @@|www.saveindianfamily.in^
@@ -2654,15 +2649,9 @@
 @@|zestni.org^
 ! Title: 😇 BadBlock - Ethical Whitelist (ABP)
 ! Description: Unblock Ethical Data Collection!
-! Brave
 search.brave.com#@#+js(set-local-storage-item, app.usageMetricsOptOut, true)
-! Cobalt (cobalt.tools)
-!! https://github.com/imputnet/cobalt/issues/1136
 cobalt.tools#@#+js(set-local-storage-item, plausible_ignore, true)
-! DuckDuckGo
 duckduckgo.com#@#+js(set-cookie, 1, -1)
-! Openverse
-!! Opt-out can be found here: https://openverse.org/privacy
 openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|a.imput.net^
 @@|ads-admin.brave.com^
@@ -2675,9 +2664,9 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|ads-static.brave.com^
 @@|ads-static.bravesoftware.com^
 @@|ads.allizom.org^
+@@|ads.apple.com^
 @@|ads.apple.com.akadns.net^
 @@|ads.apple.com.edgesuite.net^
-@@|ads.apple.com^
 @@|ads.brave.com^
 @@|ads.bravesoftware.com^
 @@|ads.mozilla.org^
@@ -2730,9 +2719,9 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|iadcontent-lb.apple.com.akadns.net^
 @@|iadcontent.apple.com^
 @@|iadmoo.apple.com^
+@@|iadsdk.apple.com^
 @@|iadsdk.apple.com.akadns.net^
 @@|iadsdk.apple.com.edgekey.net^
-@@|iadsdk.apple.com^
 @@|iadworkbench.apple.com^
 @@|images-mercury.mzstatic.com^
 @@|images-mercury.v.aaplimg.com^
@@ -2766,8 +2755,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|p3a.brave.com^
 @@|p3a.bravesoftware.com^
 @@|partiality.itunes-apple.com.akadns.net^
-@@|partiality.itunes.apple.com.edgekey.net^
 @@|partiality.itunes.apple.com^
+@@|partiality.itunes.apple.com.edgekey.net^
 @@|pdfjs.robwu.nl^
 @@|pipeline-incoming-prod-elb-149169523.us-west-2.elb.amazonaws.com^
 @@|pkgstats.archlinux.de^
@@ -2793,8 +2782,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|sdkintgiad.apple.com^
 @@|search.anonymous.brave.com^
 @@|search.anonymous.bravesoftware.com^
-@@|searchads.apple.com.edgesuite.net^
 @@|searchads.apple.com^
+@@|searchads.apple.com.edgesuite.net^
 @@|searchads.lb-apple.com.akadns.net^
 @@|self-repair.mozilla.org^
 @@|self-repair.r53-2.services.mozilla.com^
@@ -2922,8 +2911,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|tplinkplclogin.net^
 @@|tplinkrepeater.net^
 @@|tplinkwifi.net^
-@@|web.setup.home^
 @@|web.setup^
+@@|web.setup.home^
 @@|www.asusap.com^
 @@|www.asusap.net^
 @@|www.asusnetwork.net^
@@ -2940,17 +2929,12 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|zenwifi.net^
 ! Title: 🐧 BadBlock - GNU/Linux Whitelist (ABP)
 ! Description: Unblock the Good! (GNU/Linux Edition)
-! General Download Mirrors
 @@|ftpmirror*.infania.net^
-! (* was 1 & 2)
 @@||mirror.*.cvut.cz^
-! (* was fel)
 @@||mirror.fel.cvut.cz^
 @@||mirror.*.leaseweb.net^
-! (* was wdc2.us)
 @@||mirror.wdc2.us.leaseweb.net^
 @@||mirrors.*.silicloud.com^
-! (* was lax & tyo)
 @@|_http._tcp.security.ubuntu.com^
 @@|admin.fedoraproject.org^
 @@|alpha.gnu.org^
@@ -3226,72 +3210,72 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 ! Title: 🪟 BadBlock - Microsoft Whitelist (ABP)
 ! Description: Unblock the Good! (Microsoft Edition)
 @@|activated.win^
-@@|adl.windows.com.edgesuite.net^
 @@|adl.windows.com^
+@@|adl.windows.com.edgesuite.net^
 @@|apps.microsoft.com^
 @@|asrockchina.com.cn^
 @@|catalog.update.microsoft.com^
-@@|cdn-drivers.amd.com.edgekey.net.globalredir.akadns.net^
 @@|cdn-drivers.amd.com.edgekey.net^
-@@|cdn-www.dell.com-v2.edgekey.net.globalredir.akadns.net^
+@@|cdn-drivers.amd.com.edgekey.net.globalredir.akadns.net^
 @@|cdn-www.dell.com-v2.edgekey.net^
+@@|cdn-www.dell.com-v2.edgekey.net.globalredir.akadns.net^
 @@|community.chocolatey.org^
 @@|ctldl.windowsupdate.com^
-@@|definitionupdates.microsoft.com.edgekey.net^
 @@|definitionupdates.microsoft.com^
+@@|definitionupdates.microsoft.com.edgekey.net^
 @@|delivery.mp.microsoft.com^
-@@|dellupdater.dell.com.edgekey.net^
 @@|dellupdater.dell.com^
-@@|developer.nvidia.com.global.ogslb.com^
+@@|dellupdater.dell.com.edgekey.net^
 @@|developer.nvidia.com^
+@@|developer.nvidia.com.global.ogslb.com^
 @@|devicemetadataservice.prod.trafficmanager.net^
-@@|dl.dell.com-stls-dd.edgesuite.net.globalredir.akadns.net^
-@@|dl.dell.com-stls-dd.edgesuite.net^
 @@|dl.dell.com^
+@@|dl.dell.com-stls-dd.edgesuite.net^
+@@|dl.dell.com-stls-dd.edgesuite.net.globalredir.akadns.net^
 @@|dlcdnets.asus.com^
 @@|dmd.metaservices.microsoft.com^
 @@|download.asrock.com^
-@@|download.gigabyte.com.akamaized.net^
 @@|download.gigabyte.com^
-@@|download.lenovo.com.akadns.net^
-@@|download.lenovo.com.edgekey.net.globalredir.akadns.net^
-@@|download.lenovo.com.edgekey.net^
+@@|download.gigabyte.com.akamaized.net^
 @@|download.lenovo.com^
+@@|download.lenovo.com.akadns.net^
+@@|download.lenovo.com.edgekey.net^
+@@|download.lenovo.com.edgekey.net.globalredir.akadns.net^
 @@|download.microsoft.com^
 @@|download.visualstudio.microsoft.com^
 @@|downloadmirror.intel.com^
 @@|downloads-int.dell-cidr.akadns.net^
 @@|downloads.dell-cidr.akadns.net^
-@@|downloads.dell.com-v2-dd.edgekey.net^
 @@|downloads.dell.com^
+@@|downloads.dell.com-v2-dd.edgekey.net^
 @@|driverhub.asus.com^
 @@|drivers.amd.com^
-@@|dsa-www.amd.com.edgekey.net.globalredir.akadns.net^
 @@|dsa-www.amd.com.edgekey.net^
-@@|dsadata.intel.com.edgesuite.net^
+@@|dsa-www.amd.com.edgekey.net.globalredir.akadns.net^
 @@|dsadata.intel.com^
+@@|dsadata.intel.com.edgesuite.net^
 @@|ftp-hpcom.glb1.hp.com^
 @@|ftp.hp.com^
 @@|gammacdn.net^
 @@|get.activated.win^
-@@|gfwsl.geforce.com.global.ogslb.com^
 @@|gfwsl.geforce.com^
+@@|gfwsl.geforce.com.global.ogslb.com^
 @@|git.activated.win^
 @@|gravesoft.dev^
 @@|i.manage.microsoft.com^
-@@|intel11.cn.edgekey.net.globalredir.akadns.net^
 @@|intel11.cn.edgekey.net^
+@@|intel11.cn.edgekey.net.globalredir.akadns.net^
 @@|intel11.edgekey.net^
 @@|liveupdate01.asus.com^
 @@|liveupdate01s.asus.com^
 @@|marketplace.visualstudio.com^
 @@|massgrave.dev^
 @@|msdl.gravesoft.dev^
-@@|network.nvidia.com.edgekey.net^
 @@|network.nvidia.com^
-@@|pcsupport.lenovo.com.edgekey.net.globalredir.akadns.net^
-@@|pcsupport.lenovo.com.edgekey.net^
+@@|network.nvidia.com.edgekey.net^
 @@|pcsupport.lenovo.com^
+@@|pcsupport.lenovo.com.edgekey.net^
+@@|pcsupport.lenovo.com.edgekey.net.globalredir.akadns.net^
 @@|prod.do.dsp.mp.microsoft.com^
 @@|r.bing.com^
 @@|rog.asus.com^
@@ -3299,48 +3283,46 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|script.sophia.team^
 @@|sl.sophia.team^
 @@|sophia.team^
-@@|storecatalogrevocation.storequality.microsoft.com.edgekey.net^
 @@|storecatalogrevocation.storequality.microsoft.com^
-@@|storeedgefd.dsx.mp.microsoft.com.edgekey.net.globalredir.akadns.net^
-@@|storeedgefd.dsx.mp.microsoft.com.edgekey.net^
+@@|storecatalogrevocation.storequality.microsoft.com.edgekey.net^
 @@|storeedgefd.dsx.mp.microsoft.com^
+@@|storeedgefd.dsx.mp.microsoft.com.edgekey.net^
+@@|storeedgefd.dsx.mp.microsoft.com.edgekey.net.globalredir.akadns.net^
 @@|storeedgefd.xbetservices.akadns.net^
 @@|support.hp.com^
-@@|support.lenovo.com.edgekey.net.globalredir.akadns.net^
-@@|support.lenovo.com.edgekey.net^
 @@|support.lenovo.com^
+@@|support.lenovo.com.edgekey.net^
+@@|support.lenovo.com.edgekey.net.globalredir.akadns.net^
 @@|tsfe.trafficmanager.net^
 @@|tsfe.trafficshaping.dsp.mp.microsoft.com^
 @@|update.microsoft.com^
 @@|updatecheck.massgrave.dev^
-@@|us.download.nvidia.com.global.ogslb.com^
 @@|us.download.nvidia.com^
+@@|us.download.nvidia.com.global.ogslb.com^
 @@|wideip-dlcdnets.isoi.asia^
-@@|windowsupdate.com.delivery.microsoft.com^
 @@|windowsupdate.com^
+@@|windowsupdate.com.delivery.microsoft.com^
 @@|windowsupdate.microsoft.com^
 @@|www.amd.com^
 @@|www.asrock.com^
 @@|www.asus.com^
 @@|www.catalog.update.microsoft.com^
 @@|www.dell.com^
+@@|www.dellcdn.com^
 @@|www.dellcdn.com-v2.edgekey.net^
 @@|www.dellcdn.com.akadns.net^
-@@|www.dellcdn.com^
-@@|www.gigabyte.com.edgesuite.net^
 @@|www.gigabyte.com^
+@@|www.gigabyte.com.edgesuite.net^
 @@|www.intel.com^
-@@|www.nvidia.com.edgekey.net^
 @@|www.nvidia.com^
+@@|www.nvidia.com.edgekey.net^
 @@|www.realtek.com^
 @@|www1.dell-cidr.akadns.net^
 @@|wwwfile.realtek.com^
 ! Title: 🏠 BadBlock - Misc. Whitelist (ABP)
-! Version: 28March2026v1
+! Version: 02April2026v2
 ! Description: Unblock the Good! (Misc. Edition)
-! Downloads/Updates for various FOSS projects, ex. Asuswrt-Merlin
 @@|sourceforge.net^
-! SIGNAL
 @@|updates*.signal.org^
 @@|360.qualtrics.com^
 @@|360.yul1.qualtrics.com^
@@ -3350,8 +3332,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|a.livegrid.eset.systems^
 @@|a.livegrid.gtm.eset.systems^
 @@|accounts.us1.gigya.com^
-@@|acm.mynt.xyz.edgekey.net^
 @@|acm.mynt.xyz^
+@@|acm.mynt.xyz.edgekey.net^
 @@|acs-home-prod-login-fde-hhd4d2h9drbfg7hy.a02.azurefd.net^
 @@|acs-home-prod-myeset-fde-atdba2caexbeadbb.a02.azurefd.net^
 @@|acsurvey.qualtrics.com^
@@ -3368,13 +3350,13 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|api.mynt.xyz^
 @@|api.radar.io^
 @@|aramark.co1.qualtrics.com^
-@@|ardownload.adobe.com.edgesuite.net^
 @@|ardownload.adobe.com^
+@@|ardownload.adobe.com.edgesuite.net^
 @@|ardownload2.adobe.com^
 @@|ardownload3-stls.adobe.com.edgesuite.net^
 @@|ardownload3.adobe.com^
-@@|armdl.adobe.com.edgesuite.net^
 @@|armdl.adobe.com^
+@@|armdl.adobe.com.edgesuite.net^
 @@|armmf.adobe.com^
 @@|au1.qualtrics.com^
 @@|augur.scanners.eset.systems^
@@ -3423,11 +3405,11 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|cdn.signal.org^
 @@|cdn2.signal.org^
 @@|cdn3.signal.org^
-@@|cdnfonts.devolutions.net.cdn.cloudflare.net^
 @@|cdnfonts.devolutions.net^
+@@|cdnfonts.devolutions.net.cdn.cloudflare.net^
 @@|chat.signal.org^
-@@|chinacdn2swupdl.adobe.com.edgesuite.net.globalredir.akadns.net^
 @@|chinacdn2swupdl.adobe.com.edgesuite.net^
+@@|chinacdn2swupdl.adobe.com.edgesuite.net.globalredir.akadns.net^
 @@|client-update.akamai.steamstatic.com^
 @@|client-update.fastly.steamstatic.com^
 @@|client-update.steamstatic.com^
@@ -3500,6 +3482,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|consent.google.co.za^
 @@|consent.google.co.zm^
 @@|consent.google.co.zw^
+@@|consent.google.com^
 @@|consent.google.com.af^
 @@|consent.google.com.ag^
 @@|consent.google.com.ai^
@@ -3568,7 +3551,6 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|consent.google.com.vc^
 @@|consent.google.com.ve^
 @@|consent.google.com.vn^
-@@|consent.google.com^
 @@|consent.google.cv^
 @@|consent.google.cz^
 @@|consent.google.de^
@@ -3607,8 +3589,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|consent.google.io^
 @@|consent.google.iq^
 @@|consent.google.is^
-@@|consent.google.it.ao^
 @@|consent.google.it^
+@@|consent.google.it.ao^
 @@|consent.google.je^
 @@|consent.google.jo^
 @@|consent.google.jp^
@@ -3634,8 +3616,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|consent.google.mv^
 @@|consent.google.mw^
 @@|consent.google.mx^
-@@|consent.google.ne.jp^
 @@|consent.google.ne^
+@@|consent.google.ne.jp^
 @@|consent.google.ng^
 @@|consent.google.nl^
 @@|consent.google.no^
@@ -3701,13 +3683,13 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|download-stls.adobe.com.edgesuite.net^
 @@|download.eset.com^
 @@|download.garmin.cn^
-@@|download.garmin.com.cdn.cloudflare.net^
 @@|download.garmin.com^
+@@|download.garmin.com.cdn.cloudflare.net^
 @@|download.gtm.eset.com^
 @@|download.java.net^
 @@|download.liveinstaller.eset.systems^
-@@|download.oracle.com.edgekey.net^
 @@|download.oracle.com^
+@@|download.oracle.com.edgekey.net^
 @@|downloads.plex.tv^
 @@|ds-edelivery.oracle.com.edgekey.net^
 @@|eba.eset.com^
@@ -3885,16 +3867,16 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|livegrid.eset.systems^
 @@|livegrid.gtm.eset.systems^
 @@|login.eset.com^
-@@|login.mynt.xyz-v1.edgekey.net^
 @@|login.mynt.xyz^
+@@|login.mynt.xyz-v1.edgekey.net^
 @@|lostrealm-my.sharepoint.com^
 @@|m.esa.eset.com^
 @@|maastrichtuniversity.eu.qualtrics.com^
 @@|manchesterlib.eu.qualtrics.com^
 @@|media.steampowered.com^
 @@|media2.steampowered.com^
-@@|media4.steampowered.com.edgesuite.net^
 @@|media4.steampowered.com^
+@@|media4.steampowered.com.edgesuite.net^
 @@|metrics.beacondb.net^
 @@|mirrors.cernet.edu.cn^
 @@|mirrors.cqupt.edu.cn^
@@ -3911,8 +3893,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|mspapi.gtm.eset.com^
 @@|mubusiness.eu.qualtrics.com^
 @@|myactivity.google.com^
-@@|nationbuilder.com.cdn.cloudflare.net^
 @@|nationbuilder.com^
+@@|nationbuilder.com.cdn.cloudflare.net^
 @@|neowin.net^
 @@|newschool.co1.qualtrics.com^
 @@|nhprovidersurvey.qualtrics.com^
@@ -3920,15 +3902,15 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|nocdn-repository.gtm.eset.com^
 @@|northropgrumman360.qualtrics.com^
 @@|noscript.net^
+@@|nsu.lge.com^
 @@|nsu.lge.com.usgcac.cdnetworks.net^
 @@|nsu.lge.com.wtxcdn.com^
-@@|nsu.lge.com^
 @@|nupsych.qualtrics.com^
 @@|nus.syd1.qualtrics.com^
 @@|obed.servehalflife.com^
 @@|omt.garmin.cn^
-@@|omt.garmin.com.cdn.cloudflare.net^
 @@|omt.garmin.com^
+@@|omt.garmin.com.cdn.cloudflare.net^
 @@|open-vsx.org^
 @@|openvsxorg.blob.core.windows.net^
 @@|oshkosh.qualtrics.com^
@@ -3939,8 +3921,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|pace.qualtrics.com^
 @@|pandapush-iad-prod.inscloudgate.net^
 @@|paulcarroty.gitlab.io^
-@@|paybills.mynt.xyz-v1.edgekey.net^
 @@|paybills.mynt.xyz^
+@@|paybills.mynt.xyz-v1.edgekey.net^
 @@|pico.eset.com^
 @@|pico.gtm.eset.com^
 @@|ping.eu^
@@ -3988,14 +3970,15 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|snu.lge.com^
 @@|socialize.gigya.com.edgekey.net^
 @@|ssl-download.adobe.com.edgekey.net^
+@@|stat.columbia.edu^
 @@|stats.labs.apnic.net^
 @@|steamcdn-a.akamaihd.net^
 @@|storage.signal.org^
 @@|stun.services.mozilla.com^
-@@|su-ssl.lge.com.edgekey.net^
 @@|su-ssl.lge.com^
-@@|su.lge.com.edgesuite.net^
+@@|su-ssl.lge.com.edgekey.net^
 @@|su.lge.com^
+@@|su.lge.com.edgesuite.net^
 @@|support-go.eset.eu^
 @@|survey.au1.qualtrics.com^
 @@|survey.az1.qualtrics.com^
@@ -4065,8 +4048,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|vscodium.vercel.app^
 @@|washu.qualtrics.com^
 @@|waynestate.qualtrics.com^
-@@|web.mynt.xyz-v1.edgekey.net^
 @@|web.mynt.xyz^
+@@|web.mynt.xyz-v1.edgekey.net^
 @@|weeklyad.target.com^
 @@|wsustudents.au1.qualtrics.com^
 @@|wustl.az1.qualtrics.com^
@@ -4268,8 +4251,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|dnapro.fi^
 @@|dream.jp^
 @@|drei.at^
-@@|dst.com.bn^
 @@|dst.com^
+@@|dst.com.bn^
 @@|dst.internet^
 @@|dst.mms^
 @@|dtac.co.th^
@@ -4481,9 +4464,9 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|iamgprs1.ma^
 @@|ibc.sasktel.com^
 @@|ibox.tim.it^
+@@|ideasclaro.com^
 @@|ideasclaro.com.do^
 @@|ideasclaro.com.jm^
-@@|ideasclaro.com^
 @@|iesmms.porta.com.ec^
 @@|iesporta.com.ec^
 @@|igprs.claro.com.ar^
@@ -4565,9 +4548,9 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|internet.ho-mobile.it^
 @@|internet.ht.hr^
 @@|internet.ideasalo.ni^
+@@|internet.ideasclaro^
 @@|internet.ideasclaro.com.do^
 @@|internet.ideasclaro.com.jm^
-@@|internet.ideasclaro^
 @@|internet.indigoip^
 @@|internet.inland.com^
 @@|internet.invianet.com^
@@ -4595,8 +4578,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|internet.movistar.ve^
 @@|internet.mtelia.dk^
 @@|internet.mtn.com.af^
-@@|internet.mts.ru^
 @@|internet.mts^
+@@|internet.mts.ru^
 @@|internet.mvno.mobi^
 @@|internet.ng.zain.com^
 @@|internet.no^
@@ -4620,8 +4603,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|internet.song.fi^
 @@|internet.t-2.net^
 @@|internet.t-d1.de^
-@@|internet.t-mobile.cz^
 @@|internet.t-mobile^
+@@|internet.t-mobile.cz^
 @@|internet.tal.is^
 @@|internet.tele2.dk^
 @@|internet.tele2.ee^
@@ -4694,8 +4677,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|lebaramobile.es^
 @@|life.com.by^
 @@|live.pre.vodafone.com^
-@@|live.vodafone.com.fj^
 @@|live.vodafone.com^
+@@|live.vodafone.com.fj^
 @@|lmt.lv^
 @@|location.nexteldata.com.mx^
 @@|loopmobile.in^
@@ -4850,8 +4833,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|mms.digicelsamoa.net^
 @@|mms.digicelsv.com^
 @@|mms.dnapro.fi^
-@@|mms.dst.com.bn^
 @@|mms.dst.com^
+@@|mms.dst.com.bn^
 @@|mms.dtac.co.th^
 @@|mms.du.ae^
 @@|mms.edgemobile.net^
@@ -4909,10 +4892,10 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|mms.hu.upcmobile.com^
 @@|mms.hutchisonmacau.com^
 @@|mms.ideasalo.ni^
+@@|mms.ideasclaro^
+@@|mms.ideasclaro.com^
 @@|mms.ideasclaro.com.do^
 @@|mms.ideasclaro.com.jm^
-@@|mms.ideasclaro.com^
-@@|mms.ideasclaro^
 @@|mms.iliad-italia.it^
 @@|mms.iliad.it^
 @@|mms.immix.csky.us^
@@ -4938,8 +4921,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|mms.lebara.co.uk^
 @@|mms.lebara.dk^
 @@|mms.lebaramobile.es^
-@@|mms.life.com.by^
 @@|mms.life^
+@@|mms.life.com.by^
 @@|mms.loopmobile.in^
 @@|mms.lowi.omv.es^
 @@|mms.luckymobile.ca^
@@ -4969,14 +4952,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|mms.monaco-telecom.mc^
 @@|mms.mova.pl^
 @@|mms.movicel.co.ao^
-@@|mms.movil.com.bo^
 @@|mms.movil^
+@@|mms.movil.com.bo^
 @@|mms.movistar.cl^
+@@|mms.movistar.com^
 @@|mms.movistar.com.ar^
 @@|mms.movistar.com.co^
 @@|mms.movistar.com.ec^
 @@|mms.movistar.com.ve^
-@@|mms.movistar.com^
 @@|mms.movistar.cr^
 @@|mms.movistar.gt^
 @@|mms.movistar.mx^
@@ -5073,8 +5056,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|mms.simi.is^
 @@|mms.simobil.si^
 @@|mms.singtel.com^
-@@|mms.smartone.com.mo^
 @@|mms.smartone.com^
+@@|mms.smartone.com.mo^
 @@|mms.smarts.ru^
 @@|mms.sonera.fi^
 @@|mms.song.fi^
@@ -5195,13 +5178,13 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|mms.wcc.net^
 @@|mms.westlink^
 @@|mms.wholesale.mmsmvno.com^
-@@|mms.wind.it^
 @@|mms.wind^
+@@|mms.wind.it^
 @@|mms.windmobile.ca^
 @@|mms.windtre.it^
 @@|mms.yota^
-@@|mms.zain.sd^
 @@|mms.zain^
+@@|mms.zain.sd^
 @@|mms.zonamovil.com.pa^
 @@|mms01.evolvecellular.com^
 @@|mms1.live.vodafone.in^
@@ -5396,12 +5379,12 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|movilfalabella.com^
 @@|movilnet.com.ve^
 @@|movistar.cl^
+@@|movistar.com^
 @@|movistar.com.ar^
 @@|movistar.com.co^
 @@|movistar.com.ec^
 @@|movistar.com.uy^
 @@|movistar.com.ve^
-@@|movistar.com^
 @@|movistar.cr^
 @@|movistar.es^
 @@|movistar.gt^
@@ -5599,8 +5582,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|singtel.com^
 @@|sktims.net^
 @@|smart.com^
-@@|smartone.com.mo^
 @@|smartone.com^
+@@|smartone.com.mo^
 @@|smartsites.t-mobile^
 @@|smdp.io^
 @@|smdpp.test.rsp.sysmocom.de^
@@ -5632,8 +5615,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|symamobile.com^
 @@|sysmocom.de^
 @@|t-mobile.at^
-@@|t-mobile.com.mk^
 @@|t-mobile.com^
+@@|t-mobile.com.mk^
 @@|t-mobile.de^
 @@|t-mobile.hr^
 @@|t-mobile.hu^
@@ -6115,7 +6098,6 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|versioncheck.prod.mozaws.net^
 @@|versioncheck.stage.mozaws.net^
 ! Title: ⭐ BadBlock - Nintendo Whitelist (ABP)
-! Version: 24February2026v1
 ! Description: Unblock the Good! (Nintendo Edition)
 @@|aqua.p01.dd1.d4c.srv.nintendo.net^
 @@|aqua.p01.dp1.d4c.srv.nintendo.net^
@@ -6126,8 +6108,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|aqua.p01.td1.d4c.srv.nintendo.net^
 @@|atumn.p01.dp1.d4c.srv.nintendo.net^
 @@|atumn.p01.jd1.d4c.srv.nintendo.net^
-@@|atumn.p01.lp1.d4c.srv.nintendo.net.edgesuite.net^
 @@|atumn.p01.lp1.d4c.srv.nintendo.net^
+@@|atumn.p01.lp1.d4c.srv.nintendo.net.edgesuite.net^
 @@|atumn.p01.sp1.d4c.srv.nintendo.net^
 @@|atumn.p01.td1.d4c.srv.nintendo.net^
 @@|bvc-hac-dd1.cdn.nintendo.net^
@@ -6337,8 +6319,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|proxy.safebrowsing.apple^
 @@|safebrowsing-cache.google.com^
 @@|safebrowsing-proxy.g.aaplimg.com^
-@@|safebrowsing.apple.com^
 @@|safebrowsing.apple^
+@@|safebrowsing.apple.com^
 @@|safebrowsing.brave.com^
 @@|safebrowsing.brave.software^
 @@|safebrowsing.bravesoftware.com^
@@ -6359,23 +6341,16 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|sb-ssl.l.google.com^
 @@|sb.google.com^
 @@|testsafebrowsing.appspot.com^
-@@|token.safebrowsing.apple.com^
 @@|token.safebrowsing.apple^
+@@|token.safebrowsing.apple.com^
 @@|websitereview.corp.apple.com^
 ! Title: ⏰ BadBlock - Time Servers Whitelist (ABP)
 ! Description: Unblock the Good! (Time Edition)
-! Apple
 @@||time*.apple.com^
 @@|time-*.apple.com^
-! CNAME from time.euro.apple.com
 @@|time-*.g.aaplimg.com^
-! Android
-! (* was 1, 2, 3, 4)
 @@|time*.google.com^
-!! Misc.
 @@|ptbtime*.ptb.de^
-! Ensure we still block Datadog tracking...
-! https://github.com/hagezi/dns-blocklists/issues/4400
 ||0.datadog.pool.ntp.org^$important
 ||1.datadog.pool.ntp.org^$important
 ||2.datadog.pool.ntp.org^$important

@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-03-30T09:43:39Z
+! Version: 2026-04-02T20:20:25Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -777,6 +777,7 @@
 @@||suiten.top^
 @@||thedesk.top^
 @@||vsdb.top^
+@@||lofi.town^
 @@||tilde.town^
 @@||composer.trade^
 @@||dx.trade^
@@ -927,8 +928,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 28 Mar 2026 20:46 UTC
-! Version: 2026.0328.2046.13
+! Last modified: 02 Apr 2026 18:39 UTC
+! Version: 2026.0402.1839.43
 ! Syntax: uBlock
 ! Number of latin TLDs: 286 - punycode TLDs: 151
 !
@@ -1186,7 +1187,7 @@
 ||today^$doc,domain=~addtocart.today|~applefans.today|~archive.today|~futurology.today|~lemmy.today|~oceanhero.today|~oldweb.today|~som.today|~type.today
 ||tokyo^$doc
 ||top^$doc,domain=~ambr.top|~caitlin.top|~chillx.top|~corriente.top|~cpolar.top|~dinsden.top|~edgeless.top|~mastodon.top|~mianbeian.top|~nfmirrorcdn.top|~pegelinux.top|~polar.top|~qwertycxz.top|~reminder.top|~saltwood.top|~shucks.top|~strims.top|~suiten.top|~thedesk.top|~vsdb.top
-||town^$doc,domain=~tilde.town
+||town^$doc,domain=~lofi.town|~tilde.town
 ||trade^$doc,domain=~composer.trade|~dx.trade|~kite.trade
 ||trading^$doc
 ||tube^$doc,domain=~hoes.tube|~neat.tube
@@ -1427,7 +1428,6 @@
 ||arnoldgloverruss58.myshopify.com^
 ||arthoodie.com^
 ||arvetellefsen.no^
-||asvbaen.info^
 ||atlaspvs.com^
 ||audiosg.com.sg^
 ||augusthenri.be^
@@ -1456,6 +1456,7 @@
 ||billboardwring.com^
 ||binom0-web.com^
 ||binomo-brokers.com^
+||binomo-id.in^
 ||binomo.ai^
 ||binomo.app^
 ||binomo.broker^
@@ -1497,7 +1498,6 @@
 ||burgershirt.com^
 ||buylikes.se^
 ||bwpkizpfms.funnelish.com^
-||bwsvbk.info^
 ||by-emmamuller.de^
 ||c.dreamdating1.fun^
 ||c0nt4ct-me.pages.dev^
@@ -1567,6 +1567,7 @@
 ||devifoodgrains.com^
 ||dezpez.com^
 ||dieserbenni.ru^
+||dischargebackhanded.com^
 ||displaymovies.pl^
 ||distrochooser.snehit.dev^
 ||diteringion.com^
@@ -1784,7 +1785,6 @@
 ||iphone.quiztionnaire.biz^
 ||iqcreditcheck.com^
 ||italyworldbaseballclassic.com^
-||iteeus.com^
 ||itseasy.com^
 ||ivisa.com^
 ||j-natural.com^
@@ -1805,7 +1805,6 @@
 ||kinonline.pl^
 ||kisserine.com^
 ||kitchendecor.shop^
-||klelnanzeigen-deutch.confirm542351.info^
 ||kms-pc.com^
 ||kms-tool.com^
 ||kmsauto.info^
@@ -1842,7 +1841,6 @@
 ||lozly.com^
 ||lucatee.com^
 ||lucidtiger.com^
-||lucysstyle.com^
 ||luxsgear.com^
 ||maebl.com^
 ||magnite.shop^
@@ -1887,7 +1885,6 @@
 ||navi100.com^
 ||navi11.com^
 ||navi12.com^
-||navi14.com^
 ||navi18.com^
 ||navi2.com^
 ||navi20.com^
@@ -1911,7 +1908,6 @@
 ||navi38.ru^
 ||navi39.ru^
 ||navi4.com^
-||navi42.ru^
 ||navi43.com^
 ||navi45.ru^
 ||navi48.com^
@@ -2045,10 +2041,10 @@
 ||promo-offer.com^
 ||promoalfresco.com^
 ||promotion40-form.com^
+||prpages.com^
 ||pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com^
 ||punchonsol.top^
 ||qq51f.short.gy^
-||qriedf.info^
 ||quoka.dk9zc9.pro^
 ||quotex.com.in^
 ||resources4gaming.com^
@@ -2110,6 +2106,7 @@
 ||smartokids.com^
 ||smartpower4all.org^
 ||smartproduct.site^
+||smartuniswap.xyz^
 ||smtpget.com^
 ||smtpwire.com^
 ||smvisa.co.il^
@@ -2126,6 +2123,7 @@
 ||sportswearfanatics.com^
 ||sportswearforfans.com^
 ||spotgee.com^
+||stableuniswap.xyz^
 ||staging.zendrop.com^
 ||stallioncredit.com^
 ||startuplatte.com^
@@ -2217,10 +2215,14 @@
 ||uniswap.host^
 ||uniswap.ro^
 ||uniswapagent.com^
+||uniswapai.xyz^
+||uniswapdefi.xyz^
 ||uniswapetf.xyz^
+||uniswapfund.xyz^
+||uniswaphub.xyz^
 ||uniswaplabs.xyz^
+||uniswapstaking.xyz^
 ||universityofqatarrectorate.godaddysites.com^
-||updatesnow.click^
 ||uplevelreward.com^
 ||upnews.me^
 ||uprising.kip.pro^
@@ -2236,10 +2238,8 @@
 ||vencord.app^
 ||venezuelabaseballjerseys.com^
 ||verfun.com^
-||vernahora.app^
 ||vessisdeutschland.com^
 ||vider-cda.online^
-||vider-cda.pl^
 ||vider-pl.pl^
 ||vider.cc^
 ||vider.com.pl^
@@ -2248,6 +2248,7 @@
 ||vikingstore.co^
 ||vindhuisdieren.com^
 ||vinisay.com^
+||vip100.cc^
 ||vipdeit.com^
 ||vipticketgiveaway.com^
 ||virustoal.com^
@@ -2291,7 +2292,6 @@
 ||wpad.top^
 ||wpad.xyz^
 ||wpclick.cc^
-||wuqrie.info^
 ||ww25.utilify.me^
 ||base-vod.pl^
 ||www.base-vod.pl^
@@ -5797,7 +5797,7 @@ logrocket.com##div.code-block:-abp-has(> a div.metrics-banner)
 logrocket.com##div[class*="-plug"]
 logrocket.com##div[class*="-cta"]
 ! Title: 🔮 I Don't Want to Download Your Browser
-! Version: 29November2024v1-Beta
+! Version: 31March2026v1-Beta
 ! Description: Do you already have a favourite browser or PDF reader? Are you tired of seeing "Try out [some browser] now!" on some websites? Then this is a list for you!
 ! Note: The list doesn't block browser download buttons on first-party site pages solely dedicated to downloads, if the browser is made by that same first-party. For instance https://www•ccleaner•com/ccleaner/download
 ! ——— Chrome ———
@@ -5805,6 +5805,7 @@ google.com##.gb_vd[aria-label*="Google Play"][aria-label*=Chrome]
 google.*##.gb_g.gb_ba:has(.gb_Ad)
 chrome.google.com##.Yb
 futureordering.com,bestill.egon.no###unsupported
+chromewebstore.google.com##div[aria-labelledby=promo-header]
 ! https://teorifilm•no/en/i-have-a-code/
 ##.chrome-footer:not(html, body)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108684
@@ -5830,7 +5831,7 @@ addons.opera.com###overlay
 ! ——— Firefox ———
 addons.mozilla.org##.DownloadFirefoxButton
 send.firefox.com##send-promo
-! WordPress Firefox ESR52 nag (Sourced from https://raw.githubusercontent.com/acnapyx/paywall-remover/master/paywall-remover-list.txt)
+! WordPress Firefox ESR52 nag
 ###dashboard_browser_nag
 ! ——— Avast Secure Browser ———
 softonic.com##[src*="/avastsecurebrowser/"]
