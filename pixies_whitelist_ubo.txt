@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 5April2026v1
+! Version: 6April2026v1
 ! Expires: 24 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -15,8 +15,7 @@
 @@||s.youtube.com^$document
 
 ! Google Apps
-@@||*youtube.com/*&disableadblock=1^$document
-@@||analytics.google.com^$document,all,domain=analytics.google.com
+@@||analytics.google.com^$domain=analytics.google.com
 @@||calendar.google.com^$document
 @@||docs.google.com^$document
 @@||drive.google.com^$document
@@ -46,7 +45,7 @@
 @@||ogads-pa.clients6.google.com^$document,domain=google.com
 
 ! Fixes cost breakdowns on AWS reports
-@@||ce.us-east-1.amazonaws.com^$document,all,domain=console.aws.amazon.com
+@@||ce.us-east-1.amazonaws.com^$domain=console.aws.amazon.com
 
 ! Fixes comments
 @@||disqus.com^$document
@@ -114,10 +113,7 @@
 @@||myaccount.nationalgrid.com^$document
 
 ! Fixes telemetry
-@@||telemetry.mozilla.org^$document,all,domain=mozilla.org
-@@||telemetry.mozilla.org^$document,all,domain=firefox.com
-@@||telemetry.mozilla.org^$document,all,domain=mozilla.com
-@@||telemetry.mozilla.org^$document,all,domain=mozilla.net
+@@||telemetry.mozilla.org^$domain=mozilla.org|firefox.com|mozilla.com|mozilla.net
 
 ! Deckblue
 @@||deck.blue^$document,all
