@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 29March2026v1
+! Version: 5April2026v1
 ! Expires: 24 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -35,6 +35,12 @@
 @@||translate.google.com^$document
 @@|https://www.google.com/maps^$document
 @@|https://www.google.com/search^$document
+
+! YouTube - watch history and account settings
+@@||www.youtube.com/api/stats/playback^
+@@||www.youtube.com/youtubei/v1/account/get_setting_values^
+@@||youtube.com/api/stats/watchtime$xmlhttprequest,domain=youtube.com
+@@||youtube.com/ptracking^
 
 ! Fixes Google search
 @@||ogads-pa.clients6.google.com^$document,domain=google.com
@@ -108,7 +114,10 @@
 @@||myaccount.nationalgrid.com^$document
 
 ! Fixes telemetry
-@@||telemetry.1passwordservices.com^$document,all
+@@||telemetry.mozilla.org^$document,all,domain=mozilla.org
+@@||telemetry.mozilla.org^$document,all,domain=firefox.com
+@@||telemetry.mozilla.org^$document,all,domain=mozilla.com
+@@||telemetry.mozilla.org^$document,all,domain=mozilla.net
 
 ! Deckblue
 @@||deck.blue^$document,all
