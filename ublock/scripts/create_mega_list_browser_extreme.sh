@@ -14,7 +14,7 @@ URLS=(
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/none-of-your-bezos.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/good-sports.txt"
   "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/specific/AntiAPKMirrorCountdown.txt"
-  "https://raw.githubusercontent.com/WhyIsEvery4thYearAlwaysBad/anti-cancer-filter-lists/master/anti_trash_youtube.txt"
+  #"https://raw.githubusercontent.com/WhyIsEvery4thYearAlwaysBad/anti-cancer-filter-lists/master/anti_trash_youtube.txt"
   "https://tetrax-10.github.io/imdb-clean-as-fuck/imdb-clean-as-fuck-with-better-styles.txt"
 )
 
