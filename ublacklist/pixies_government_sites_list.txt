@@ -48,3 +48,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.war.gov/*
 *://*.waste.gov/*
 *://*.whitehouse.gov/*
+
+#--- PACs and Lobbyists ---
+*://*.aipac.org/*
+*://*.aipacpac.org/*

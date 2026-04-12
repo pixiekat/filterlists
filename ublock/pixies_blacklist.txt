@@ -1,6 +1,6 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 27March2026v3
-! Expires: 12 hours
+! Version: 10April2026v1
+! Expires: 7 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
 
@@ -47,6 +47,10 @@
 ||www.cbsnews.com^$document,all,domain=~its-a-fascist-domain.*
 ||www.thefp.com^$document,all,domain=~its-a-fascist-domain.*
 ||www.youtube.com/c/CBSNews$document,domain=~its-a-fascist-domain.*
+
+! PACs and Lobbyists
+||aipac.org^$document,all
+||aipacpac.org^$document,all
 
 ! Garbage Gambling Markets
 ||polymarket.com^$document,all,domain=~scourge-of-society.*
