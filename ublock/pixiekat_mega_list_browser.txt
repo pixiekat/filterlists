@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-04-02T20:20:40Z
+! Version: 2026-04-18T10:38:21Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -2383,6 +2383,7 @@ roblox.com##.recommendations-container.sponsored-layer
 ||zynga2-a.akamaihd.net^
 ||zynga3-a.akamaihd.net^
 ! Title: 🔤 BadBlock - Google (ABP)
+! Version: 13April2026v1
 ! Description: Block Google advertising, tracking, promotions, & more!
 ||cengage.com/nb/service/googleAnalyticsConfig
 ||cengage.com/services/fsasyaof
@@ -2820,7 +2821,7 @@ userstyles.org##+js(set, window.google.accounts.id.initialize, noopFunc)
 userstyles.org##+js(set, window.google.accounts.id.prompt, noopFunc)
 ||redditstatic.com/shreddit/*/google-one-tap
 ||dropboxstatic.com/static/metaserver/static/css/google_one_tap
-@@||identitytoolkit.googleapis.com^$domain=app.roll20.net|character.ai|www.theverge.com
+@@||identitytoolkit.googleapis.com^$domain=app.roll20.net|character.ai|crypt.ee|www.theverge.com
 ||analytics.google.com^$important
 ||analytics.withgoogle.com^$important
 google--analytics-com.cdn.ampproject.org
@@ -8026,7 +8027,6 @@ watson.trafficmanager.net
 ||zoneminder.github.io^
 ||zylo.com^
 ! Title: 📡 BadBlock - Radar (ABP)
-! Version: 02April2026v2
 ! Description: Block advertising, analytics, unwanted data collection, tracking, & more as they arise!
 ||ad.$all,domain=~ad.jp
 ||ad-*.$all
@@ -8187,6 +8187,23 @@ watson.trafficmanager.net
 /fraud-detect.js
 /z_stat.php
 /stormcaster.js
+||gitlab.com/-/track_namespace_visits
+||gitlab.com/api/*/usage_data
+||gitlab.com/assets/webpack/tracker
+gitlab.com##+js(set, gl, {})
+gitlab.com##+js(set, gl.client, undefined)
+gitlab.com##+js(set, gl.duoEvents, undefined)
+gitlab.com##+js(set, gl.experiments, undefined)
+gitlab.com##+js(set, gl.ga4MeasurementId, undefined)
+gitlab.com##+js(set, gl.lazyLoader, undefined)
+gitlab.com##+js(set, gl.maskedDefaultReferrerUrl, undefined)
+gitlab.com##+js(set, gl.onlySendDuoEvents, undefined)
+gitlab.com##+js(set, gl.snowplowPseudonymizedPageUrl, undefined)
+gitlab.com##+js(set, gl.snowplowStandardContext, undefined)
+gitlab.com##+js(set, snowplow, undefined)
+gitlab.com##+js(set, snowplowOptions, undefined)
+gitlab.com##+js(set, snowplowPlugins, undefined)
+@@||gitlab.com^$xhr,first-party,badfilter
 ||canva.com/*/traces
 ||canva.com/_ajax/ae/createBatch
 ||canva.com/_online
@@ -10578,6 +10595,7 @@ zonkafeedback*.amazonaws.com
 ||confiant-integrations.global.ssl.fastly.net^
 ||confiant-integrations.net^
 ||confiant.com^
+||config-factory.com^
 ||confsettings.com^
 ||connatix.com^
 ||connatix.com.cdn.cloudflare.net^
@@ -13347,6 +13365,7 @@ zonkafeedback*.amazonaws.com
 ||sirdata.com^
 ||sirdata.io^
 ||siriusxmmedia.com^
+||site-config.com^
 ||site.com^
 ||site.com.edgekey.net^
 ||sitecheck.opera.com^
@@ -14119,6 +14138,7 @@ zonkafeedback*.amazonaws.com
 ||vwo.com^
 ||w-profiling.cibc.com^
 ||w-profiling.simplii.com^
+||w.hcaptcha.com^
 ||w3-reporting.reddit.com^
 ||w3counter.com^
 ||w55c.net^
@@ -20780,7 +20800,7 @@ vimeo.com##._16rrx
 ! Gfycat
 ! YouTube Kids
 ! Title: 🎛 Reddit Trash Removal Service
-! Version: 10November2025v1-Beta
+! Version: 17April2026v1-Beta
 ! Expires: 3 days
 ! Description: Reddit can have some good places and posts, but unfortunately 95% of it is also a large pile of echo chambers whose only equivalent is 8kun. So if you only browse Reddit for its humouristical and artistical subreddits, this list will massively help you focus on those things.
 ! Some categories in this list only supports New Reddit, because let's be honest: It's so much better to be able to actually see the posts' images from the timelines, instead of having to open every single thread to see if their images are noteworthy or not.
@@ -20932,10 +20952,10 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div:n
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,~old.reddit.com##.right-sidebar:has(> pdp-right-rail)
 ! Complete and total failings at source critique
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,~old.reddit.com##article:has(> [author-id="t2_g2unu1x5s" i][permalink^="/r/oddlyspecific/" i])
-! Removes something absolutely no one asked for: random bits of text in comments being shown as generally useless search links. (10/11/2025; https://new•reddit•com/r/softwaregore/comments/1my6np3/is_visual_studio_code_trying_to_insult_me/ )
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker a:remove-attr(href)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker a:style(color:unset!important;border-bottom-style:unset!important;cursor:text!important)
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker .align-middle:has(> svg)
+! Removes something absolutely no one asked for: random bits of text in comments being shown as generally useless search links. (10/11/2025; https://new•reddit•com/r/softwaregore/comments/1my6np3/is_visual_studio_code_trying_to_insult_me/ ; Apparently gone by 17/04/2026)
+!!!reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker a:remove-attr(href)
+!!!reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker a:style(color:unset!important;border-bottom-style:unset!important;cursor:text!important)
+!!!reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker .align-middle:has(> svg)
 ! ————— ↓ Removes content posted by karma hoarders and bribe-taking mods ↓ —————
 ! Comments and Posts on New Reddit
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/GallowBoob"])

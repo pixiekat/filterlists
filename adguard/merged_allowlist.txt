@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 2026-04-02T20:20:18Z
+! Version: 2026-04-18T10:38:03Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
@@ -271,11 +271,14 @@
 @@|wps.apple.com^
 @@|wps.v.aaplimg.com^
 ! Title: 🌐 BadBlock - Browser Whitelist (ABP)
+! Version: 13April2026v1
 ! Description: Unblock the Good! (Browser Edition)
 @@|go-updater*.bravesoftware.com^
 @@|go-updater*.amazonaws.com^
 @@|archive-01.torproject.org^
 @@|archive.torproject.org^
+@@|assets.celenity.dev^
+@@|assets.ironfoxoss.org^
 @@|aus1.torproject.org^
 @@|aus2.torproject.org^
 @@|brave-browser-apt-beta.s3.brave.com^
@@ -299,6 +302,7 @@
 @@|deb.librewolf.net^
 @@|deb.torproject.org^
 @@|dist.torproject.org^
+@@|dl.librewolf.net^
 @@|dl.vanadium.app^
 @@|edgedl.gvt1.com^
 @@|edgedl.me.gvt1.com^
@@ -318,6 +322,8 @@
 @@|omahaproxy.appspot.com^
 @@|pack.google.com^
 @@|phoenix.celenity.dev^
+@@|releases.celenity.dev^
+@@|releases.ironfoxoss.org^
 @@|repo.librewolf.net^
 @@|repo.vivaldi.com^
 @@|repository.mullvad.net^
@@ -3320,7 +3326,6 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|www1.dell-cidr.akadns.net^
 @@|wwwfile.realtek.com^
 ! Title: 🏠 BadBlock - Misc. Whitelist (ABP)
-! Version: 02April2026v2
 ! Description: Unblock the Good! (Misc. Edition)
 @@|sourceforge.net^
 @@|updates*.signal.org^
@@ -3400,7 +3405,9 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|ca01.protect.eset.com^
 @@|ca1.qualtrics.com^
 @@|cac_api.mynt.xyz.edgekey.net^
+@@|calibour.net^
 @@|cdn.akamai.steamstatic.com.edgesuite.net^
+@@|cdn.calibour.net^
 @@|cdn.mullvad.net^
 @@|cdn.signal.org^
 @@|cdn2.signal.org^

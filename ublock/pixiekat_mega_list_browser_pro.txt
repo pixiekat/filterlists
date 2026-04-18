@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-04-12T23:12:38Z
+! Version: 2026-04-18T10:38:10Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -332,6 +332,7 @@
 @@||crisp.help^
 @@||fastmail.help^
 @@||gorgias.help^
+@@||intercom.help^
 @@||kustomer.help^
 @@||pixiv.help^
 @@||lzk.hl.cn^
@@ -774,6 +775,7 @@
 @@||mastodon.top^
 @@||mianbeian.top^
 @@||nfmirrorcdn.top^
+@@||noru.top^
 @@||pegelinux.top^
 @@||polar.top^
 @@||qwertycxz.top^
@@ -856,6 +858,7 @@
 @@||survivors.wiki^
 @@||tajrobe.wiki^
 @@||tardis.wiki^
+@@||thedivisionresurgence.wiki^
 @@||thefitness.wiki^
 @@||thehomelab.wiki^
 @@||tilde.wiki^
@@ -935,8 +938,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 12 Apr 2026 11:41 UTC
-! Version: 2026.0412.1141.18
+! Last modified: 17 Apr 2026 09:14 UTC
+! Version: 2026.0417.0914.51
 ! Syntax: uBlock
 ! Number of latin TLDs: 286 - punycode TLDs: 151
 !
@@ -1064,7 +1067,7 @@
 ||haus^$doc,domain=~lunar.haus
 ||health^$doc,domain=~sca.health
 ||healthcare^$doc,domain=~severance.healthcare
-||help^$doc,domain=~crisp.help|~fastmail.help|~gorgias.help|~kustomer.help|~pixiv.help
+||help^$doc,domain=~crisp.help|~fastmail.help|~gorgias.help|~intercom.help|~kustomer.help|~pixiv.help
 ||hl.cn^$doc,domain=~lzk.hl.cn
 ||homes^$doc,domain=~stremio.homes
 ||hot^$doc,domain=~minecraft.hot
@@ -1193,7 +1196,7 @@
 ||tk^$doc,domain=~air.tk|~bstweaker.tk|~budterence.tk|~c-r-t.tk|~google.tk|~goshujin.tk|~kabi.tk|~sironi.tk|~tokelau-info.tk|~xn--qubec-csa.tk|~zete.tk
 ||today^$doc,domain=~addtocart.today|~applefans.today|~archive.today|~futurology.today|~lemmy.today|~oceanhero.today|~oldweb.today|~som.today|~type.today
 ||tokyo^$doc
-||top^$doc,domain=~ambr.top|~caitlin.top|~chillx.top|~corriente.top|~cpolar.top|~dinsden.top|~edgeless.top|~mastodon.top|~mianbeian.top|~nfmirrorcdn.top|~pegelinux.top|~polar.top|~qwertycxz.top|~reminder.top|~saltwood.top|~shucks.top|~strims.top|~suiten.top|~thedesk.top|~vsdb.top
+||top^$doc,domain=~ambr.top|~caitlin.top|~chillx.top|~corriente.top|~cpolar.top|~dinsden.top|~edgeless.top|~mastodon.top|~mianbeian.top|~nfmirrorcdn.top|~noru.top|~pegelinux.top|~polar.top|~qwertycxz.top|~reminder.top|~saltwood.top|~shucks.top|~strims.top|~suiten.top|~thedesk.top|~vsdb.top
 ||town^$doc,domain=~lofi.town|~tilde.town
 ||trade^$doc,domain=~composer.trade|~dx.trade|~kite.trade
 ||trading^$doc
@@ -1213,7 +1216,7 @@
 ||webcam^$doc
 ||website^$doc,domain=~acro.website|~bestmotherfucking.website|~eddie.website|~noclip.website|~thatsup.website|~tilde.website|~tiny.tilde.website|~uphold.website
 ||wedding^$doc
-||wiki^$doc,domain=~avid.wiki|~bakugan.wiki|~bg3.wiki|~blazblue.wiki|~burnout.wiki|~chibi-robo.wiki|~consumerrights.wiki|~cooked.wiki|~datei.wiki|~deadlock.wiki|~deltarune.wiki|~dragalialost.wiki|~drawntolife.wiki|~falcom.wiki|~fallout.wiki|~gbf.wiki|~getindie.wiki|~hacktricks.wiki|~hollowknight.wiki|~hololive.wiki|~klingon.wiki|~kodi.wiki|~koeitecmo.wiki|~kometa.wiki|~lain.wiki|~lhlab.wiki|~libreelec.wiki|~manson.wiki|~mediaclients.wiki|~minecraft.wiki|~modding.wiki|~mtg.wiki|~namu.wiki|~nixos.wiki|~notifiarr.wiki|~osrs.wiki|~pizzatower.wiki|~rs.wiki|~runescape.wiki|~saintsrow.wiki|~severance.wiki|~survivors.wiki|~tajrobe.wiki|~tardis.wiki|~thefitness.wiki|~thehomelab.wiki|~tilde.wiki|~twewy.wiki|~umamusu.wiki|~undertale.wiki|~usermanual.wiki|~vaporwave.wiki|~w.wiki|~yume.wiki|~zeldawiki.wiki|~zeppelin.wiki
+||wiki^$doc,domain=~avid.wiki|~bakugan.wiki|~bg3.wiki|~blazblue.wiki|~burnout.wiki|~chibi-robo.wiki|~consumerrights.wiki|~cooked.wiki|~datei.wiki|~deadlock.wiki|~deltarune.wiki|~dragalialost.wiki|~drawntolife.wiki|~falcom.wiki|~fallout.wiki|~gbf.wiki|~getindie.wiki|~hacktricks.wiki|~hollowknight.wiki|~hololive.wiki|~klingon.wiki|~kodi.wiki|~koeitecmo.wiki|~kometa.wiki|~lain.wiki|~lhlab.wiki|~libreelec.wiki|~manson.wiki|~mediaclients.wiki|~minecraft.wiki|~modding.wiki|~mtg.wiki|~namu.wiki|~nixos.wiki|~notifiarr.wiki|~osrs.wiki|~pizzatower.wiki|~rs.wiki|~runescape.wiki|~saintsrow.wiki|~severance.wiki|~survivors.wiki|~tajrobe.wiki|~tardis.wiki|~thedivisionresurgence.wiki|~thefitness.wiki|~thehomelab.wiki|~tilde.wiki|~twewy.wiki|~umamusu.wiki|~undertale.wiki|~usermanual.wiki|~vaporwave.wiki|~w.wiki|~yume.wiki|~zeldawiki.wiki|~zeppelin.wiki
 ||win^$doc,domain=~activated.win|~communities.win|~debloat.win|~ios-countdown.win|~patriots.win|~vaultcord.win
 ||wine^$doc,domain=~nostr.wine
 ||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work|~starlightnet.work
@@ -1385,7 +1388,9 @@
 ||1000fapvids.online^
 ||1stfinancefirm.wixsite.com^
 ||1stireland.com^
+||1sttheglobal.com^
 ||1sttheworld.com^
+||23elon.pro^
 ||270278609-2020004278-462904544-440202503325--570202500372x-usps.com^
 ||365analytics.xyz^
 ||3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev^
@@ -1426,7 +1431,6 @@
 ||altwi-zgs.com^
 ||amorpulse.com^
 ||anacondanz.com^
-||animeshoppers.com^
 ||anydebrid.com^
 ||aoptee.com^
 ||appdrive.info^
@@ -1550,7 +1554,6 @@
 ||cryptot.net^
 ||customizerbox.com^
 ||customurink.com^
-||cuteclub.org^
 ||cutty.app^
 ||cycle100percent.com^
 ||czasnakino.pl^
@@ -1697,6 +1700,7 @@
 ||gemlis.com^
 ||genesis-mining.com^
 ||get-kmspico.com^
+||getintopc.today^
 ||getkmspico.com^
 ||getwavemax.com^
 ||giftyweb.com^
@@ -1843,13 +1847,11 @@
 ||lucatee.com^
 ||lucidtiger.com^
 ||luckyhomie.com^
-||lucysstyle.com^
 ||luxsgear.com^
 ||maebl.com^
 ||magnite.shop^
 ||mail-cytanet.pages.dev^
 ||mail.zalukaj.cc^
-||makitfornows.com^
 ||malgorzataschlegel.click^
 ||mango-desert-09ebb4010.4.azurestaticapps.net^
 ||maxdebrid.com^
@@ -1889,7 +1891,6 @@
 ||navi100.com^
 ||navi11.com^
 ||navi12.com^
-||navi14.com^
 ||navi18.com^
 ||navi2.com^
 ||navi20.com^
@@ -1913,7 +1914,7 @@
 ||navi38.ru^
 ||navi39.ru^
 ||navi4.com^
-||navi43.com^
+||navi42.ru^
 ||navi45.ru^
 ||navi48.com^
 ||navi5.com^
@@ -1937,6 +1938,7 @@
 ||navi89.com^
 ||navi9.com^
 ||navi90.com^
+||navi95.com^
 ||navi98.com^
 ||navi99.com^
 ||nayatowerinstallation.in.net^
@@ -1955,7 +1957,6 @@
 ||nip1.com^
 ||nip17.com^
 ||nip2.com^
-||nip23.com^
 ||nip24.com^
 ||nip26.com^
 ||nip28.com^
@@ -2042,11 +2043,9 @@
 ||premiumqualityblanket.com^
 ||primeleech.com^
 ||primevod.pl^
-||printteestore.com^
 ||promo-offer.com^
 ||promoalfresco.com^
 ||promotion40-form.com^
-||prpages.com^
 ||pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com^
 ||punchonsol.top^
 ||qq51f.short.gy^
@@ -2061,12 +2060,12 @@
 ||rjgriffith.com^
 ||robalmeister.workers.dev^
 ||robinmooreband.com^
+||robuxmenu.vip^
 ||rockchief.com^
 ||rosateeshop.com^
 ||royaldecorhome.store^
 ||royalhedgies.com^
 ||rozomii.info^
-||rsaonlinenow.com.au^
 ||rupiahsaku.com^
 ||rustdesk.co.nz^
 ||rustdesk.io^
@@ -2137,7 +2136,6 @@
 ||steampowered.cn.com^
 ||steamunlock.com^
 ||stellara.de^
-||stellasummer.com^
 ||stingcool-com.myshopify.com^
 ||storagestory.com^
 ||store-aleteia.org^
@@ -2165,6 +2163,7 @@
 ||tamed-exotics.com^
 ||tartannewzealand.myshopify.com^
 ||tbao684tryo.com^
+||tdgrop168.vip^
 ||teearrow.com^
 ||teezill.com^
 ||telegramweb.vercel.app^
@@ -2176,6 +2175,7 @@
 ||the-north-face.gr^
 ||thebayonline.shop^
 ||theeaglebrand.company.site^
+||themountainwarehouse.com^
 ||theneurobalancetherapy.org^
 ||theonepercentcommunity.com^
 ||theshirtyouneed.com^
@@ -2187,7 +2187,6 @@
 ||tiranaaquapark-eg.com^
 ||tlstoreonline.com^
 ||toko999.net^
-||toko999.shop^
 ||tomadamsenergy.com^
 ||touristvisaonline.com^
 ||toweragency.in^
@@ -2201,6 +2200,7 @@
 ||travisa.com^
 ||treverschmelerkris18.myshopify.com^
 ||tripinpremiumsnacks.com^
+||trivo.uk^
 ||trkucibqy.com^
 ||tromselementbygg.no^
 ||trusltwcllet.com^
@@ -2235,7 +2235,6 @@
 ||upnews.me^
 ||uprising.kip.pro^
 ||ureashi.com^
-||us99.pro^
 ||uschse04.my03.com^
 ||uusilemmikki.com^
 ||valeofoodsgroup.com^
@@ -4567,7 +4566,7 @@ lematin.ma##.meteo-bloc span
 sveip.no##.wmsb_f
 gismeteo.de##.ifnoie
 ! Title: 🕳 Empty Padding Remover
-! Version: 30March2026v1-Beta
+! Version: 14April2026v1-Beta
 ! Description: Are you tired of having to scroll so much on websites, or you want to keep your eyes on more text and content at once? Or perhaps you're tired ot very large shadows on video sites when moving the mouse? If so, this list will help you a little extra bit with that.
 ! ——— Generic ———
 ##.skille:not(html, body)
@@ -4641,6 +4640,7 @@ transfermarkt.com##.clearer
 sat24.com###headermenu
 freedownloadmanager.org###unite
 deviantart.com##iframe[title=DealerAdIframe]
+drhell.web.fc2.com##br
 !#if !env_mobile
 eeconomy.gr##.bgnav:style(max-height:40px!important)
 ! https://www•feltet•dk/nyheder/dansker_enig_i_kritik_svaert_ved_at_se_hvad_de_har_at_goere_her/
