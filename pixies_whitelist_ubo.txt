@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 11April2026v1
+! Version: 23April2026v1
 ! Expires: 24 hours
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -173,6 +173,7 @@
 @@||www.1337x.to^$document
 @@||ext.to^$document
 @@||standard.site^$document
+@@||xprime.su^$document
 
 ! Sourceforge overrides
 @@||sourceforge.net/projects/qbittorrent/files/latest/download^$document

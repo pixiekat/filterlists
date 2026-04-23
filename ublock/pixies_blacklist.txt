@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 10April2026v1
+! Version: 23April2026v1
 ! Expires: 7 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -100,6 +100,7 @@ www.youtube.com##.ryd-premium-teaser
 
 ! Terf sites
 ||jkrowling.com^$document,all
+||stonewall.org.uk^$document,all,domain=~its-a-terf-apologia-site.*
 ||mumsnet.com^$document,all
 ||reddit.com/r/harry_potter^$document,domain=~its-a-terf-apologia-subreddit.*
 ||reddit.com/r/harrypotter^$document,domain=~its-a-terf-apologia-subreddit.*

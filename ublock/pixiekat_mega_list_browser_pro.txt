@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-04-18T10:38:10Z
+! Version: 2026-04-23T22:18:25Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -89,8 +89,11 @@
 @@||sideb.buzz^
 @@||scalable.capital^
 @@||commonspirit.careers^
+@@||keys.casa^
 @@||nabu.casa^
 @@||doe.cash^
+@@||redtiger.cash^
+@@||vitunleija.cash^
 @@||10gen.cc^
 @@||adguard-vpn.cc^
 @@||akami-solutions.cc^
@@ -119,6 +122,7 @@
 @@||nssm.cc^
 @@||postimg.cc^
 @@||ppt.cc^
+@@||pravatar.cc^
 @@||pretendo.cc^
 @@||ptt.cc^
 @@||pttweb.cc^
@@ -211,6 +215,7 @@
 @@||meucarrinho.delivery^
 @@||push.delivery^
 @@||return-my.delivery^
+@@||wedos.delivery^
 @@||ze.delivery^
 @@||clear.dental^
 @@||xhamster45.desi^
@@ -241,6 +246,7 @@
 @@||homewizard.energy^
 @@||octopus.energy^
 @@||biqu.equipment^
+@@||lyyti.events^
 @@||ticketco.events^
 @@||infosec.exchange^
 @@||ioc.exchange^
@@ -268,6 +274,7 @@
 @@||player.foundation^
 @@||cdn.fun^
 @@||chinaq.fun^
+@@||disasterpr.fun^
 @@||enza.fun^
 @@||neal.fun^
 @@||patterncraft.fun^
@@ -352,6 +359,7 @@
 @@||rdl.ink^
 @@||shrinkme.ink^
 @@||simple.ink^
+@@||spaceforce.ink^
 @@||sumerian.ink^
 @@||work.ink^
 @@||returns.international^
@@ -482,6 +490,7 @@
 @@||argon2.online^
 @@||bebraver.online^
 @@||blink.online^
+@@||cf-equality.online^
 @@||dancewave.online^
 @@||discuss.online^
 @@||dnslookup.online^
@@ -548,6 +557,7 @@
 @@||infosec.pub^
 @@||leaflet.pub^
 @@||lunar.pub^
+@@||outpost.pub^
 @@||soapbox.pub^
 @@||static.pub^
 @@||wapo.pub^
@@ -613,6 +623,7 @@
 @@||grog.shop^
 @@||henssler.shop^
 @@||kalypso.shop^
+@@||layers.shop^
 @@||majblomman.shop^
 @@||munu.shop^
 @@||music-merchant.shop^
@@ -624,6 +635,7 @@
 @@||owl-dampfer.shop^
 @@||oxiline.shop^
 @@||prohibited.shop^
+@@||scayle.shop^
 @@||schweden.shop^
 @@||scorpions.shop^
 @@||sentry.shop^
@@ -759,6 +771,7 @@
 @@||addtocart.today^
 @@||applefans.today^
 @@||archive.today^
+@@||eventz.today^
 @@||futurology.today^
 @@||lemmy.today^
 @@||oceanhero.today^
@@ -938,8 +951,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 17 Apr 2026 09:14 UTC
-! Version: 2026.0417.0914.51
+! Last modified: 23 Apr 2026 16:37 UTC
+! Version: 2026.0423.1637.42
 ! Syntax: uBlock
 ! Number of latin TLDs: 286 - punycode TLDs: 151
 !
@@ -975,10 +988,10 @@
 ||cam^$doc
 ||capital^$doc,domain=~scalable.capital
 ||careers^$doc,domain=~commonspirit.careers
-||casa^$doc,domain=~nabu.casa
-||cash^$doc,domain=~doe.cash
+||casa^$doc,domain=~keys.casa|~nabu.casa
+||cash^$doc,domain=~doe.cash|~redtiger.cash|~vitunleija.cash
 ||casino^$doc
-||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
+||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
 ||center^$doc,domain=~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
 ||ceo^$doc
 ||cf^$doc,domain=~google.cf
@@ -1009,7 +1022,7 @@
 ||day^$doc
 ||deals^$doc,domain=~gg.deals
 ||degree^$doc,domain=~opf.degree|~three60.degree
-||delivery^$doc,domain=~meucarrinho.delivery|~push.delivery|~return-my.delivery|~ze.delivery
+||delivery^$doc,domain=~meucarrinho.delivery|~push.delivery|~return-my.delivery|~wedos.delivery|~ze.delivery
 ||dental^$doc,domain=~clear.dental
 ||desi^$doc,domain=~xhamster45.desi|~xhamster.desi
 ||directory^$doc,domain=~2fa.directory|~cursor.directory|~fedi.directory|~ooh.directory|~passkeys.directory|~reactnative.directory
@@ -1025,7 +1038,7 @@
 ||enterprises^$doc
 ||equipment^$doc,domain=~biqu.equipment
 ||esq^$doc
-||events^$doc,domain=~ticketco.events
+||events^$doc,domain=~lyyti.events|~ticketco.events
 ||exchange^$doc,domain=~infosec.exchange|~ioc.exchange
 ||expert^$doc,domain=~bahn.expert|~booking.expert|~malware.expert
 ||exposed^$doc
@@ -1044,7 +1057,7 @@
 ||forex^$doc
 ||forsale^$doc
 ||foundation^$doc,domain=~e.foundation|~grapheneos.foundation|~jp.foundation|~lgbt.foundation|~player.foundation
-||fun^$doc,domain=~cdn.fun|~chinaq.fun|~enza.fun|~neal.fun|~patterncraft.fun|~strem.fun
+||fun^$doc,domain=~cdn.fun|~chinaq.fun|~disasterpr.fun|~enza.fun|~neal.fun|~patterncraft.fun|~strem.fun
 ||fund^$doc
 ||futbol^$doc
 ||fyi^$doc,domain=~apollo.fyi|~better.fyi|~crypt.fyi|~genderdysphoria.fyi|~iusearchlinux.fyi|~laelaps.fyi|~levels.fyi|~lunar.fyi|~notbyai.fyi|~ost2.fyi|~poyoanon.fyi|~recollect.fyi|~vercel.fyi|~wpt.fyi
@@ -1075,7 +1088,7 @@
 ||how^$doc,domain=~mond.how|~notrace.how
 ||icu^$doc,domain=~intervals.icu|~lunar.icu|~mon.icu
 ||immo^$doc
-||ink^$doc,domain=~filepress.ink|~ishortn.ink|~mez.ink|~next.ink|~rdl.ink|~shrinkme.ink|~simple.ink|~sumerian.ink|~work.ink
+||ink^$doc,domain=~filepress.ink|~ishortn.ink|~mez.ink|~next.ink|~rdl.ink|~shrinkme.ink|~simple.ink|~spaceforce.ink|~sumerian.ink|~work.ink
 ||international^$doc,domain=~returns.international
 ||irish^$doc
 ||jetzt^$doc
@@ -1121,7 +1134,7 @@
 ||okinawa^$doc
 ||ong^$doc
 ||onl^$doc,domain=~gc.onl
-||online^$doc,domain=~2kweb.online|~adguard-vpn.online|~argon2.online|~bebraver.online|~blink.online|~dancewave.online|~discuss.online|~dnslookup.online|~dnsspeedtest.online|~eufh.online|~fireshinegames.online|~flexilead.online|~forceofwind.online|~geoigarape.online|~grapheneos.online|~incdn.online|~infomax.online|~instructions.online|~manuals.online|~mastodon.online|~mrprice.online|~open.online|~order.online|~owncast.online|~photostore24.online|~radarpayment.online|~randemretail.online|~ravendawn.online|~shueisha.online|~vmwesa.online|~zander.online
+||online^$doc,domain=~2kweb.online|~adguard-vpn.online|~argon2.online|~bebraver.online|~blink.online|~cf-equality.online|~dancewave.online|~discuss.online|~dnslookup.online|~dnsspeedtest.online|~eufh.online|~fireshinegames.online|~flexilead.online|~forceofwind.online|~geoigarape.online|~grapheneos.online|~incdn.online|~infomax.online|~instructions.online|~manuals.online|~mastodon.online|~mrprice.online|~open.online|~order.online|~owncast.online|~photostore24.online|~radarpayment.online|~randemretail.online|~ravendawn.online|~shueisha.online|~vmwesa.online|~zander.online
 ||ooo^$doc,domain=~term.ooo|~toast.ooo
 ||partners^$doc,domain=~1password.partners|~nvidia.partners|~stripe.partners|~xh.partners
 ||parts^$doc
@@ -1141,7 +1154,7 @@
 ||post^$doc,domain=~cypruspost.post
 ||prof^$doc,domain=~casey.prof
 ||promo^$doc
-||pub^$doc,domain=~arc.pub|~bierbaum.pub|~infosec.pub|~leaflet.pub|~lunar.pub|~soapbox.pub|~static.pub|~wapo.pub
+||pub^$doc,domain=~arc.pub|~bierbaum.pub|~infosec.pub|~leaflet.pub|~lunar.pub|~outpost.pub|~soapbox.pub|~static.pub|~wapo.pub
 ||pw^$doc,domain=~buttercup.pw|~core.pw|~darkcrystal.pw|~dpc.pw|~gopass.pw|~palaugov.pw|~petridish.pw|~plutonium.pw|~tabula-rasa.pw|~xor.pw|~zok.pw
 ||qpon^$doc
 ||quest^$doc,domain=~dice.quest|~epochal.quest|~mhn.quest|~mylegendary.quest|~prometheus.quest|~raccoon.quest
@@ -1168,7 +1181,7 @@
 ||science^$doc,domain=~amazon.science|~canonn.science|~hal.science|~wander.science
 ||sew^$doc
 ||sexy^$doc,domain=~privacy.sexy|~terminal.sexy
-||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~deportelibres.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~henssler.shop|~kalypso.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
+||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~deportelibres.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
 ||shopping^$doc
 ||show^$doc,domain=~camz.show|~j.show
 ||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
@@ -1194,7 +1207,7 @@
 ||tienda^$doc
 ||tires^$doc
 ||tk^$doc,domain=~air.tk|~bstweaker.tk|~budterence.tk|~c-r-t.tk|~google.tk|~goshujin.tk|~kabi.tk|~sironi.tk|~tokelau-info.tk|~xn--qubec-csa.tk|~zete.tk
-||today^$doc,domain=~addtocart.today|~applefans.today|~archive.today|~futurology.today|~lemmy.today|~oceanhero.today|~oldweb.today|~som.today|~type.today
+||today^$doc,domain=~addtocart.today|~applefans.today|~archive.today|~eventz.today|~futurology.today|~lemmy.today|~oceanhero.today|~oldweb.today|~som.today|~type.today
 ||tokyo^$doc
 ||top^$doc,domain=~ambr.top|~caitlin.top|~chillx.top|~corriente.top|~cpolar.top|~dinsden.top|~edgeless.top|~mastodon.top|~mianbeian.top|~nfmirrorcdn.top|~noru.top|~pegelinux.top|~polar.top|~qwertycxz.top|~reminder.top|~saltwood.top|~shucks.top|~strims.top|~suiten.top|~thedesk.top|~vsdb.top
 ||town^$doc,domain=~lofi.town|~tilde.town
@@ -1386,11 +1399,10 @@
 ! Contribute: https://github.com/durablenapkin/scamblocklist/issues
 ! License: MIT (https://mit-license.org/)
 ||1000fapvids.online^
+||1bmo-reactivemyaccount0.com^
 ||1stfinancefirm.wixsite.com^
 ||1stireland.com^
-||1sttheglobal.com^
 ||1sttheworld.com^
-||23elon.pro^
 ||270278609-2020004278-462904544-440202503325--570202500372x-usps.com^
 ||365analytics.xyz^
 ||3ab48a20-acaa-49ab-95cc-3eb16f1cda78-00-1a0l3yf6hw9aq.sisko.replit.dev^
@@ -1413,6 +1425,7 @@
 ||air-up-turkiye.com^
 ||airteltower.com^
 ||airtoff.com^
+||airup-nederland.com^
 ||airup-romania.com^
 ||airupbulgaria.com^
 ||airupgreece.net^
@@ -1459,10 +1472,8 @@
 ||beeaar.com^
 ||beecrave.com^
 ||benecharm.com^
-||benxi.info^
 ||bertasxt.com^
 ||best-torrents.com^
-||bestvod.pl^
 ||billboardwring.com^
 ||binom0-web.com^
 ||binomo-brokers.com^
@@ -1483,6 +1494,7 @@
 ||binorobot.com^
 ||bisertravel.com.mk^
 ||bite-life.com^
+||bitiiy.com^
 ||bitsoft360.com^
 ||bitsoft360.io^
 ||bitsoft360.net^
@@ -1507,6 +1519,7 @@
 ||buddhakind.com^
 ||budm.shop^
 ||burgershirt.com^
+||buydubuy.com^
 ||buylikes.se^
 ||bwpkizpfms.funnelish.com^
 ||by-emmamuller.de^
@@ -1532,6 +1545,7 @@
 ||cipustar.com^
 ||cityofdream.co.uk^
 ||cluckergifts.ecwid.com^
+||cma88.vip^
 ||cmoboy.com^
 ||cofdeal.com^
 ||cognatesyringe.com^
@@ -1554,6 +1568,7 @@
 ||cryptot.net^
 ||customizerbox.com^
 ||customurink.com^
+||cuteclub.org^
 ||cutty.app^
 ||cycle100percent.com^
 ||czasnakino.pl^
@@ -1590,7 +1605,6 @@
 ||drama-queen.cc^
 ||draxu.com^
 ||dreamgreenshoe.com^
-||dreamstees.com^
 ||dresseloves.com^
 ||dressesloves.com^
 ||dresseslovesootd.com^
@@ -1668,6 +1682,7 @@
 ||finnews7.wordpress.com^
 ||fishingdaily.shop^
 ||fitgirl-repacks-site.org^
+||fitgirl-repacks.vip^
 ||fiusps.com^
 ||fixpub.com^
 ||flattee.com^
@@ -1746,6 +1761,7 @@
 ||iagadvanced.com^
 ||iaqorwr.com^
 ||icelandclothing.myshopify.com^
+||igloaptopto.net^
 ||ikiha.com^
 ||iklrge.com^
 ||ikoee.com^
@@ -1791,6 +1807,7 @@
 ||iphone.quiztionnaire.biz^
 ||iqcreditcheck.com^
 ||italyworldbaseballclassic.com^
+||itq.cuteclub.org^
 ||itseasy.com^
 ||ivisa.com^
 ||j-natural.com^
@@ -1848,6 +1865,7 @@
 ||lucidtiger.com^
 ||luckyhomie.com^
 ||luxsgear.com^
+||m.coinexeu.vip^
 ||maebl.com^
 ||magnite.shop^
 ||mail-cytanet.pages.dev^
@@ -1897,12 +1915,12 @@
 ||navi20.ru^
 ||navi21.com^
 ||navi21.ru^
+||navi22.com^
 ||navi22.ru^
 ||navi23.com^
 ||navi23.ru^
 ||navi24.com^
 ||navi24.ru^
-||navi25.com^
 ||navi26.ru^
 ||navi27.ru^
 ||navi3.com^
@@ -1916,7 +1934,6 @@
 ||navi4.com^
 ||navi42.ru^
 ||navi45.ru^
-||navi48.com^
 ||navi5.com^
 ||navi52.com^
 ||navi53.com^
@@ -1932,7 +1949,6 @@
 ||navi77.com^
 ||navi78.ru^
 ||navi8.com^
-||navi85.com^
 ||navi86.ru^
 ||navi88.com^
 ||navi89.com^
@@ -1988,7 +2004,6 @@
 ||official.olymptrade-my.com^
 ||officialkmspico.com^
 ||oflike.com^
-||ojlkimed.vip^
 ||okdebrid.com^
 ||oldcube.com^
 ||olive121407.studio.site^
@@ -2016,6 +2031,7 @@
 ||pandzee.com^
 ||paradisevs.com^
 ||path2zillion.com^
+||paypays.shop^
 ||peekpok.com^
 ||penguinnow.com^
 ||peppatees.com^
@@ -2060,12 +2076,12 @@
 ||rjgriffith.com^
 ||robalmeister.workers.dev^
 ||robinmooreband.com^
-||robuxmenu.vip^
 ||rockchief.com^
 ||rosateeshop.com^
 ||royaldecorhome.store^
 ||royalhedgies.com^
 ||rozomii.info^
+||rsaonlinenow.com.au^
 ||rupiahsaku.com^
 ||rustdesk.co.nz^
 ||rustdesk.io^
@@ -2105,7 +2121,6 @@
 ||singleflirt.com^
 ||skincheap.com^
 ||skinszone.net^
-||skipped.vip^
 ||skyfollowerbridge.com^
 ||sligen.com^
 ||smartokids.com^
@@ -2113,7 +2128,6 @@
 ||smartproduct.site^
 ||smartuniswap.xyz^
 ||smtpget.com^
-||smtpwire.com^
 ||smvisa.co.il^
 ||sodipi.com^
 ||softgetpc.com^
@@ -2154,6 +2168,7 @@
 ||suitablepartner.life^
 ||summersale.online^
 ||supercutestuff.com^
+||superuniswap.xyz^
 ||supperbrand.company.site^
 ||survivalcatsupply.com^
 ||sweet-bonanza-demo.gr^
@@ -2163,7 +2178,6 @@
 ||tamed-exotics.com^
 ||tartannewzealand.myshopify.com^
 ||tbao684tryo.com^
-||tdgrop168.vip^
 ||teearrow.com^
 ||teezill.com^
 ||telegramweb.vercel.app^
@@ -2217,10 +2231,13 @@
 ||ultra-cda.pl^
 ||ultrasonica.info^
 ||unifully.com^
+||uniswap.click^
 ||uniswap.host^
 ||uniswap.ro^
 ||uniswapagent.com^
 ||uniswapai.xyz^
+||uniswapapp.xyz^
+||uniswapcapital.xyz^
 ||uniswapdao.xyz^
 ||uniswapdefi.xyz^
 ||uniswapetf.xyz^
@@ -2228,13 +2245,18 @@
 ||uniswaphub.xyz^
 ||uniswaplabs.xyz^
 ||uniswaplender.xyz^
+||uniswaplending.xyz^
+||uniswapnft.xyz^
+||uniswapstake.xyz^
 ||uniswapstaking.xyz^
+||uniswaptoken.xyz^
+||uniswaptrading.xyz^
 ||universityofqatarrectorate.godaddysites.com^
 ||updatesnow.click^
 ||uplevelreward.com^
-||upnews.me^
 ||uprising.kip.pro^
 ||ureashi.com^
+||us99.pro^
 ||uschse04.my03.com^
 ||uusilemmikki.com^
 ||valeofoodsgroup.com^
@@ -2278,7 +2300,6 @@
 ||w0-eg-d12-de-yd-nka-ne-rklkyazwo0.vercel.app^
 ||wadahlapak.top^
 ||wallpaperflare.com^
-||ware-bezahlt.info^
 ||warriordecor.com^
 ||watchmark.shop^
 ||watchseniorfit.com^
