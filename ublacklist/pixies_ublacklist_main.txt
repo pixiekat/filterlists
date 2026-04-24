@@ -26,6 +26,9 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.tesla.com/*
 *://*.x.ai/*
 
+# --- Fascist Regime Sites ---
+*://*.alexjoneslive.com/*
+
 # --- News Sites ---
 *://*.breitbart.com/*
 *://*.canadafreepress.com/*

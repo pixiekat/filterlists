@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 23April2026v1
+! Version: 23April2026v2
 ! Expires: 7 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -21,6 +21,7 @@
 ||conservative.ca^$document
 
 ! Corporate media news sites that contribute to fascism and evil
+||alexjoneslive.com^$document,all,domain=~its-a-fascist-domain.*
 ||breitbart.com^$document,all,domain=~its-a-fascist-domain.*
 ||businessinsider.com^$document,domain=~its-tabloid-gutter-trash.*
 ||canadafreepress.com^$document,all,domain=~its-a-fascist-domain.*
@@ -33,11 +34,15 @@
 ||gbnews.com^$document,all,domain=~its-a-fascist-domain.*
 ||greenwald.locals.com^$document,all,domain=~its-a-fascist-domain.*
 ||infowars.com^$document,all,domain=~its-a-fascist-domain.*
+||megynkelly.com^$document,all,domain=~its-a-fascist-domain.*
 ||nytimes.com^$document,all,domain=~its-a-fascist-domain.*
 ||rebelnews.com^$document,all,domain=~its-a-fascist-domain.*
 ||rsbnetwork.com^$document,all,domain=~its-a-fascist-domain.*
+||spectator.co.uk^$document,all,domain=~its-a-fascist-domain.*
+||spectator.com^$document,all,domain=~its-a-fascist-domain.*
 ||substack.com^$document,domain=~its-a-nazi-domain.*
 ||telegraph.co.uk^$document,domain=~its-a-fascist-domain.*
+||thefp.com^$document,all,domain=~its-a-fascist-domain.*
 ||thegatewaypundit.com^$document,all,domain=~its-a-fascist-domain.*
 ||thehill.com^$document,domain=~its-a-fascist-domain.*
 ||wabcradio.com^$document
@@ -45,7 +50,6 @@
 ||washingtonreporter.news$document,all,domain=~its-a-fascist-domain.*
 ||www.cbs.com/shows/video/JSfaBN2wbRxf2KJXbJwRBdZREI4a33Ig/$document,all,domain=~its-a-fascist-domain.*
 ||www.cbsnews.com^$document,all,domain=~its-a-fascist-domain.*
-||www.thefp.com^$document,all,domain=~its-a-fascist-domain.*
 ||www.youtube.com/c/CBSNews$document,domain=~its-a-fascist-domain.*
 
 ! PACs and Lobbyists
