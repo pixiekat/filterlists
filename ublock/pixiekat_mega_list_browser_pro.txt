@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-04-23T22:18:25Z
+! Version: 2026-05-01T16:07:25Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -64,6 +64,7 @@
 @@||giftee.biz^
 @@||gimmeporn.biz^
 @@||hb.biz^
+@@||ifext.biz^
 @@||iimwf.biz^
 @@||kioskcms.biz^
 @@||knuddels.biz^
@@ -204,6 +205,7 @@
 @@||daily.dad^
 @@||dear.dad^
 @@||gdflix.dad^
+@@||gdtot.dad^
 @@||rad.dad^
 @@||endoflife.date^
 @@||boo.dating^
@@ -580,6 +582,7 @@
 @@||raccoon.quest^
 @@||bunkr.red^
 @@||cdprojekt.red^
+@@||platone.red^
 @@||sci-hub.red^
 @@||xvideos.red^
 @@||srv.rent^
@@ -670,6 +673,7 @@
 @@||privacy-test-pages.site^
 @@||reddit-doesnt-like-this.site^
 @@||shopapps.site^
+@@||silvatica.site^
 @@||srht.site^
 @@||toast.site^
 @@||tst.site^
@@ -921,6 +925,7 @@
 @@||wetdry.world^
 @@||wiz.world^
 @@||akko.wtf^
+@@||bgp.wtf^
 @@||cyber.wtf^
 @@||fx.wtf^
 @@||ip.wtf^
@@ -951,8 +956,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 23 Apr 2026 16:37 UTC
-! Version: 2026.0423.1637.42
+! Last modified: 01 May 2026 09:32 UTC
+! Version: 2026.0501.0932.05
 ! Syntax: uBlock
 ! Number of latin TLDs: 286 - punycode TLDs: 151
 !
@@ -974,7 +979,7 @@
 ||bid^$doc
 ||bike^$doc,domain=~dat.bike|~lime.bike|~onlinesizing.bike|~rapido.bike
 ||bingo^$doc
-||biz^$doc,domain=~anonymurl.biz|~antiphishing.biz|~asana.biz|~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dailyinnovation.biz|~engelliler.biz|~epson.biz|~ette.biz|~figureit.biz|~gamesindustry.biz|~giftee.biz|~gimmeporn.biz|~hb.biz|~iimwf.biz|~kioskcms.biz|~knuddels.biz|~line.biz|~localise.biz|~luckysbarbershop.biz|~movabletype.biz|~mysubwaytoolbox.biz|~netcetera.biz|~notebookcheck.biz|~oe24cdn.biz|~ooshahwa.biz|~panasonic.biz|~slussen.biz|~surveycake.biz|~volvocars.biz|~wiz.biz|~wspay.biz|~wyborcza.biz|~yoox.biz
+||biz^$doc,domain=~anonymurl.biz|~antiphishing.biz|~asana.biz|~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dailyinnovation.biz|~engelliler.biz|~epson.biz|~ette.biz|~figureit.biz|~gamesindustry.biz|~giftee.biz|~gimmeporn.biz|~hb.biz|~ifext.biz|~iimwf.biz|~kioskcms.biz|~knuddels.biz|~line.biz|~localise.biz|~luckysbarbershop.biz|~movabletype.biz|~mysubwaytoolbox.biz|~netcetera.biz|~notebookcheck.biz|~oe24cdn.biz|~ooshahwa.biz|~panasonic.biz|~slussen.biz|~surveycake.biz|~volvocars.biz|~wiz.biz|~wspay.biz|~wyborcza.biz|~yoox.biz
 ||black^$doc
 ||blue^$doc,domain=~niim.blue
 ||boats^$doc
@@ -1015,7 +1020,7 @@
 ||courses^$doc
 ||credit^$doc
 ||cyou^$doc,domain=~hammertime.cyou|~prometko.cyou
-||dad^$doc,domain=~daily.dad|~dear.dad|~gdflix.dad|~rad.dad
+||dad^$doc,domain=~daily.dad|~dear.dad|~gdflix.dad|~gdtot.dad|~rad.dad
 ||dance^$doc
 ||date^$doc,domain=~endoflife.date
 ||dating^$doc,domain=~boo.dating|~breeze.dating|~gaudi.dating
@@ -1162,7 +1167,7 @@
 ||realtor^$doc
 ||realty^$doc
 ||recipes^$doc
-||red^$doc,domain=~bunkr.red|~cdprojekt.red|~sci-hub.red|~xvideos.red
+||red^$doc,domain=~bunkr.red|~cdprojekt.red|~platone.red|~sci-hub.red|~xvideos.red
 ||rehab^$doc
 ||ren^$doc
 ||rent^$doc,domain=~srv.rent
@@ -1184,7 +1189,7 @@
 ||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~deportelibres.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
 ||shopping^$doc
 ||show^$doc,domain=~camz.show|~j.show
-||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
+||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~silvatica.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
 ||skin^$doc
 ||solar^$doc,domain=~forecast.solar|~optimizer.solar
 ||soy^$doc
@@ -1234,7 +1239,7 @@
 ||wine^$doc,domain=~nostr.wine
 ||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work|~starlightnet.work
 ||world^$doc,domain=~bevisioneers.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
-||wtf^$doc,domain=~akko.wtf|~cyber.wtf|~fx.wtf|~ip.wtf|~jascha.wtf|~lemmy.wtf|~myip.wtf|~tigress.wtf|~wxx.wtf|~xo.wtf
+||wtf^$doc,domain=~akko.wtf|~bgp.wtf|~cyber.wtf|~fx.wtf|~ip.wtf|~jascha.wtf|~lemmy.wtf|~myip.wtf|~tigress.wtf|~wxx.wtf|~xo.wtf
 ||xin^$doc
 ||xx.kg^$doc
 ||yachts^$doc,domain=~sinking.yachts
@@ -1399,7 +1404,6 @@
 ! Contribute: https://github.com/durablenapkin/scamblocklist/issues
 ! License: MIT (https://mit-license.org/)
 ||1000fapvids.online^
-||1bmo-reactivemyaccount0.com^
 ||1stfinancefirm.wixsite.com^
 ||1stireland.com^
 ||1sttheworld.com^
@@ -1420,6 +1424,7 @@
 ||accbing.com^
 ||adflowtube.com^
 ||adidasko.com^
+||adminicesm.life^
 ||affordableforyouusa5.godaddysites.com^
 ||afiletoget.click^
 ||air-up-turkiye.com^
@@ -1456,6 +1461,7 @@
 ||audiosg.com.sg^
 ||augusthenri.be^
 ||aussiesportfashion.com^
+||austrioclo.com^
 ||avarik.web.app^
 ||azfancy.com^
 ||azsolver.com^
@@ -1472,6 +1478,7 @@
 ||beeaar.com^
 ||beecrave.com^
 ||benecharm.com^
+||benxi.info^
 ||bertasxt.com^
 ||best-torrents.com^
 ||billboardwring.com^
@@ -1545,7 +1552,6 @@
 ||cipustar.com^
 ||cityofdream.co.uk^
 ||cluckergifts.ecwid.com^
-||cma88.vip^
 ||cmoboy.com^
 ||cofdeal.com^
 ||cognatesyringe.com^
@@ -1568,7 +1574,6 @@
 ||cryptot.net^
 ||customizerbox.com^
 ||customurink.com^
-||cuteclub.org^
 ||cutty.app^
 ||cycle100percent.com^
 ||czasnakino.pl^
@@ -1593,7 +1598,6 @@
 ||dischargebackhanded.com^
 ||displaymovies.pl^
 ||distrochooser.snehit.dev^
-||diteringion.com^
 ||dkfodboldstore.com^
 ||dleggere.com^
 ||dogparadiseshop.com^
@@ -1621,6 +1625,7 @@
 ||edgeupgrade.com^
 ||edwardjhutley107375938786edwardjrhutley70205433153583usps.com^
 ||ekommmedia.com^
+||emberio.com^
 ||enchantestore.myshopify.com^
 ||envisiongear.com^
 ||eset.co.il^
@@ -1682,7 +1687,6 @@
 ||finnews7.wordpress.com^
 ||fishingdaily.shop^
 ||fitgirl-repacks-site.org^
-||fitgirl-repacks.vip^
 ||fiusps.com^
 ||fixpub.com^
 ||flattee.com^
@@ -1691,6 +1695,7 @@
 ||freebitcoin.pages.dev^
 ||friday89.com^
 ||friday99.com^
+||fridaylocalmanager.duckdns.org^
 ||fuehrungszeugnis-service.de^
 ||fullview.pl^
 ||fundanemt.org^
@@ -1702,13 +1707,11 @@
 ||fveco.com^
 ||gamedrive.org^
 ||gamingbuffs.com^
-||gamingtoolz.club^
 ||gcqcanada.com^
 ||gdzieobejrzec.com^
 ||gearanime.com^
 ||gearhomies.com^
 ||gearhuman.com^
-||gearstastic.com^
 ||gearver.com^
 ||geekupdates.notion.site^
 ||geldencosmeticos.com^
@@ -1807,7 +1810,6 @@
 ||iphone.quiztionnaire.biz^
 ||iqcreditcheck.com^
 ||italyworldbaseballclassic.com^
-||itq.cuteclub.org^
 ||itseasy.com^
 ||ivisa.com^
 ||j-natural.com^
@@ -1865,7 +1867,6 @@
 ||lucidtiger.com^
 ||luckyhomie.com^
 ||luxsgear.com^
-||m.coinexeu.vip^
 ||maebl.com^
 ||magnite.shop^
 ||mail-cytanet.pages.dev^
@@ -1892,9 +1893,6 @@
 ||ms-analytics.mywire.org^
 ||mslfgl434.pages.dev^
 ||mujib-store28.blogspot.com^
-||mulllvad.org^
-||mullvaad.net^
-||multifilmy.pl^
 ||muskusa.com^
 ||mybestautologin567.com^
 ||myblogshop.top^
@@ -1911,7 +1909,6 @@
 ||navi12.com^
 ||navi18.com^
 ||navi2.com^
-||navi20.com^
 ||navi20.ru^
 ||navi21.com^
 ||navi21.ru^
@@ -1924,7 +1921,6 @@
 ||navi26.ru^
 ||navi27.ru^
 ||navi3.com^
-||navi30.com^
 ||navi30.ru^
 ||navi33.com^
 ||navi35.com^
@@ -1933,11 +1929,10 @@
 ||navi39.ru^
 ||navi4.com^
 ||navi42.ru^
-||navi45.ru^
+||navi44.com^
 ||navi5.com^
 ||navi52.com^
 ||navi53.com^
-||navi55.com^
 ||navi56.com^
 ||navi59.ru^
 ||navi6.com^
@@ -2055,7 +2050,6 @@
 ||porkbunrr.web.app^
 ||post-nachsenden.de^
 ||powerboostup.com^
-||prawdziwefilmy.pl^
 ||premiumqualityblanket.com^
 ||primeleech.com^
 ||primevod.pl^
@@ -2065,6 +2059,7 @@
 ||pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com^
 ||punchonsol.top^
 ||qq51f.short.gy^
+||quitasueno.com^
 ||quoka.dk9zc9.pro^
 ||quotex.com.in^
 ||resources4gaming.com^
@@ -2178,7 +2173,6 @@
 ||tamed-exotics.com^
 ||tartannewzealand.myshopify.com^
 ||tbao684tryo.com^
-||teearrow.com^
 ||teezill.com^
 ||telegramweb.vercel.app^
 ||telemarktalk.com^
@@ -2212,6 +2206,7 @@
 ||travelexpress.us.com^
 ||travelvisabookings.com^
 ||travisa.com^
+||trendsharks.com^
 ||treverschmelerkris18.myshopify.com^
 ||tripinpremiumsnacks.com^
 ||trivo.uk^
@@ -2230,8 +2225,8 @@
 ||ultimate-tech-products.myshopify.com^
 ||ultra-cda.pl^
 ||ultrasonica.info^
+||uni-swap.online^
 ||unifully.com^
-||uniswap.click^
 ||uniswap.host^
 ||uniswap.ro^
 ||uniswapagent.com^
@@ -2305,7 +2300,6 @@
 ||watchseniorfit.com^
 ||wavetshirt.com^
 ||wazofurniture.com^
-||wealthsimple-zfmip.com^
 ||weathly.com^
 ||webvod.pl^
 ||whbinder.com^
@@ -2360,7 +2354,6 @@
 ||zedbubble.com^
 ||zerknij-tv.pl^
 ||zerorolex.com^
-||zerowasteinitiative.com^
 ||zhongda.info^
 ||zlibrary.to^
 ||zobaczfilm.com^
@@ -3059,7 +3052,7 @@ rakuten.tv###card-desert-jewel-dunhuang--0
 rakuten.tv###card-land-of-diversity--0
 ﻿[Adblock Plus 3.17]
 ! Title: 🏗 Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites
-! Version: 10April2026v1
+! Version: 24April2026v1
 ! Expires: 6 days
 ! Description: This list targets international websites that clutter search engine results with misinformation, unfounded articles, and/or contempt for humanity. While designed for use with «Google Hit Hider by Domain» to remove search results, it can also be used with other domains-list tools if you want more thorough blocking of them, incl. AdGuard Home, AdGuard for Windows/Android/Mac's DNS Filtering modes (_NOT_ their regular filtering modes) and uBlock Origin.
 ! Note: Using the list with AdGuard's browser extensions, desktop/Android programmes' regular filtering modes, or CLI tools is a REALLY freaking bad idea because they can't correctly handle raw-domains entries, and therefore look for text matches instead, so that for instance x•com blocks yandex•com.
@@ -3268,6 +3261,7 @@ frettin.is
 belaaz.com
 volksbeschermers.nl
 itv.ie
+joynews.co.za
 # Far-right/alt-right fringe "newssites" (Finland)
 rapsodia.fi
 mainland.press
@@ -4376,6 +4370,9 @@ heidistjohn.net
 reallifenetwork.com
 masshope.org
 stateoftheday.us
+nextnewsnetwork.com
+stream.org
+aguayonews.com
 # Domains looked up by various Apple TV apps that are owned by sites that are listed further up in this list
 api.foxnews.com
 api.p1.media
