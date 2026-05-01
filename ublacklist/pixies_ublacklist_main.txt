@@ -40,7 +40,6 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.foxweather.com/*
 *://*.gbnews.com/*
 *://*.greenwald.locals.com/*
-*://*.infowars.com/*
 *://*.megynkelly.com/*
 *://*.rebelnews.com/*
 *://*.spectator.co.uk/*
