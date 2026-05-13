@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 2026-04-18T10:38:03Z
+! Version: 2026-05-13T11:57:16Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
@@ -271,10 +271,8 @@
 @@|wps.apple.com^
 @@|wps.v.aaplimg.com^
 ! Title: 🌐 BadBlock - Browser Whitelist (ABP)
-! Version: 13April2026v1
+! Version: 03May2026v1
 ! Description: Unblock the Good! (Browser Edition)
-@@|go-updater*.bravesoftware.com^
-@@|go-updater*.amazonaws.com^
 @@|archive-01.torproject.org^
 @@|archive.torproject.org^
 @@|assets.celenity.dev^
@@ -790,24 +788,12 @@
 @@|apple.com^$important
 @@|trendmicro.com^$important
 @@|vodafone.com^$important
-@@||api.apple-cloudkit.*.apple-dns.net^$important
-@@|certs*.aaplimg.com^$important
-@@|certs*.apple.com.akadns.net^$important
-@@|crl*.aaplimg.com^$important
 @@|crl*.amazontrust.com^$important
-@@|crl*.apple.com.akadns.net^$important
-@@|crl*.digicert.com^$important
 @@|crt*.amazontrust.com^$important
 @@|e*.i.lencr.org^$important
 @@|e*.o.lencr.org^$important
-@@|ocsp*.aaplimg.com^$important
 @@|ocsp*.amazontrust.com^$important
-@@|ocsp*.apple.com^$important
-@@|ocsp*.apple.com.akadns.net^$important
-@@|ocsp*.digicert.com^$important
-@@|ocsp*.globalsign.com^$important
 @@|rootca*.amazontrust.com^$important
-@@||valid-apple.*.aaplimg.com^$important
 @@|1.ca.tian.science^
 @@|2.ca.tian.science^
 @@|2048crl.lawtrust.co.za^
@@ -2935,12 +2921,6 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|zenwifi.net^
 ! Title: 🐧 BadBlock - GNU/Linux Whitelist (ABP)
 ! Description: Unblock the Good! (GNU/Linux Edition)
-@@|ftpmirror*.infania.net^
-@@||mirror.*.cvut.cz^
-@@||mirror.fel.cvut.cz^
-@@||mirror.*.leaseweb.net^
-@@||mirror.wdc2.us.leaseweb.net^
-@@||mirrors.*.silicloud.com^
 @@|_http._tcp.security.ubuntu.com^
 @@|admin.fedoraproject.org^
 @@|alpha.gnu.org^
@@ -3328,7 +3308,6 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 ! Title: 🏠 BadBlock - Misc. Whitelist (ABP)
 ! Description: Unblock the Good! (Misc. Edition)
 @@|sourceforge.net^
-@@|updates*.signal.org^
 @@|360.qualtrics.com^
 @@|360.yul1.qualtrics.com^
 @@|91-228-167-25.ptr.eset.com^
@@ -3876,6 +3855,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|login.eset.com^
 @@|login.mynt.xyz^
 @@|login.mynt.xyz-v1.edgekey.net^
+@@|logseq.com^
 @@|lostrealm-my.sharepoint.com^
 @@|m.esa.eset.com^
 @@|maastrichtuniversity.eu.qualtrics.com^
@@ -3934,6 +3914,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|pico.gtm.eset.com^
 @@|ping.eu^
 @@|ping.nextdns.io^
+@@|ping.prod.colab.dev^
 @@|prestream.mov^
 @@|privacy.sexy^
 @@|protect.eset.com^
@@ -6311,12 +6292,6 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|windows.courier.push.apple.com^
 ! Title: 🔒 BadBlock - Safe Browsing Whitelist (ABP)
 ! Description: Unblock the Good! (Safe Browsing Edition)
-@@||android-safebrowsing.google.com^
-@@|safebrowsing*.brave.com^
-@@|safebrowsing*.brave.software^
-@@|safebrowsing*.bravesoftware.com^
-@@|safebrowsing*.aaplimg.com^
-@@||safebrowsing.*.google.com^
 @@|alt1-safebrowsing.google.com^
 @@|alt2-safebrowsing.google.com^
 @@|alt3-safebrowsing.google.com^
@@ -6353,11 +6328,6 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|websitereview.corp.apple.com^
 ! Title: ⏰ BadBlock - Time Servers Whitelist (ABP)
 ! Description: Unblock the Good! (Time Edition)
-@@||time*.apple.com^
-@@|time-*.apple.com^
-@@|time-*.g.aaplimg.com^
-@@|time*.google.com^
-@@|ptbtime*.ptb.de^
 ||0.datadog.pool.ntp.org^$important
 ||1.datadog.pool.ntp.org^$important
 ||2.datadog.pool.ntp.org^$important
