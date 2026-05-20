@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-05-13T11:57:33Z
+! Version: 2026-05-20T15:18:01Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -2115,6 +2115,7 @@ search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
 ||xz.fbcdn.net^
 ||z-m-graph.facebook.com^
 ! Title: 🎮 BadBlock - Gaming (ABP)
+! Version: 17May2026v1
 ! Description: Block gaming telemetry, analytics, advertising, tracking, & more!
 ||epicgames.com/epic-analytics-worker.js$script
 ||epicgames.com/id/api/analytics
@@ -2125,11 +2126,17 @@ pogo.com##.topAdHolder__2E0ls
 ||pogo.com/server/script/trustarc
 ||alb-prod-invenio-*.elb.amazonaws.com^
 ||roblox.com/upsellCard
+roblox.com##+js(set, Roblox.EnvironmentUrls.adConfigurationApi, undefined)
+roblox.com##+js(set, Roblox.EnvironmentUrls.adsApi, undefined)
+roblox.com##+js(set, Roblox.EnvironmentUrls.advertiseApi, undefined)
 ||roblox.com/*/cookie-policy
 ||roblox.com/guac-*/bundles/intl-auth-compliance
 ||backtrace-forwarder-*.amazonaws.com^
 roblox.com###group-announcements-upsell-container
-||roblox.com/product-experimentation
+||roblox.com/product-experimentation-platform/v*/projects/1/layers
+||roblox.com/product-experimentation-platform/v*/projects/1/values?
+roblox.com##+js(set, Roblox.EnvironmentUrls.abtestingApiSite, undefined)
+||rbxcdn.com/098e80c8e9f4dad5295663f4a79f9a64.js$script
 ||roblox.com/*/measurements
 ||roblox.com/*/metrics
 ||roblox.com/*/page-heartbeat
@@ -2137,9 +2144,23 @@ roblox.com###group-announcements-upsell-container
 ||roblox.com/*/report-stat
 ||roblox.com/*/user-heartbeat
 ||roblox.com/beacon-api
+||roblox.com/experience-signals-ingest
 ||roblox.com/js/Events
 ||roblox.com/js/utilities
 ||roblox.com/rotating-client-service
+roblox.com##+js(cookie-remover, RBXSessionTracker)
+roblox.com##+js(set, Roblox.AbuseReportPVMeta.desktopEnabled, false)
+roblox.com##+js(set, Roblox.AbuseReportPVMeta.inAppEnabled, false)
+roblox.com##+js(set, Roblox.AbuseReportPVMeta.phoneEnabled, false)
+roblox.com##+js(set, Roblox.BundleVerifierConstants.cdnLoggingEnabled, false)
+roblox.com##+js(set, Roblox.BundleVerifierConstants.eventStreamUrl, undefined)
+roblox.com##+js(set, Roblox.BundleVerifierConstants.isMetricsApiEnabled, false)
+roblox.com##+js(set, Roblox.EnvironmentUrls.beaconApi, undefined)
+roblox.com##+js(set, Roblox.EnvironmentUrls.metricsApi, undefined)
+roblox.com##+js(set, Roblox.EventStream, {})
+roblox.com##+js(set, Roblox.EventStream.TargetTypes, {})
+roblox.com##+js(set, Roblox.EventStream.SendEventWithTarget, noopFunc)
+roblox.com##+js(set, Roblox.PageHeartbeatEvent, undefined)
 ||roblox.com/js/RobloxEventStream.js$script
 ||roblox.com/worker-resources
 ||roblox.com/v*/catalog/sponsored-items
@@ -2230,6 +2251,7 @@ roblox.com##.recommendations-container.sponsored-layer
 ||lax2-128-116-116-3.roblox.com^
 ||lms-split.roblox.com^
 ||lms.roblox.com^
+||lms.simulpong.com^
 ||locale.roblox.com^
 ||loyalty-hub.rnps.dl.playstation.net^
 ||mercury.dl.playstation.net^
@@ -2340,6 +2362,8 @@ roblox.com##.recommendations-container.sponsored-layer
 ||zynga3-a.akamaihd.net^
 ! Title: 🔤 BadBlock - Google (ABP)
 ! Description: Block Google advertising, tracking, promotions, & more!
+||google.com/$rpc/google.internal.waa.v*.Waa/Ping
+||google.com/v*/experiments
 ||google.com/analytics
 ||gstatic.com/dialogflow-console/fast/df-messenger/prod/$script
 ||cengage.com/nb/service/googleAnalyticsConfig
@@ -6402,6 +6426,7 @@ userstyles.org##+js(set, window.google.accounts.id.prompt, noopFunc)
 ||youtubereporting.mtls.googleapis.com^
 ! Title: 🪟 BadBlock - Microsoft (ABP)
 ! Description: Close the Windows! Block M$ advertising, tracking, telemetry, promotions, & more!
+||cloud.microsoft/ows/v*/ActivityFeed
 ||live.com/ows/v*/ActivityFeed
 ||live.com/ows/beta/AdsIdServices/
 ||live.com/ows/beta/AdsTargetingOptOutController
@@ -6415,6 +6440,7 @@ userstyles.org##+js(set, window.google.accounts.id.prompt, noopFunc)
 ||live.com/API/ClientEvents
 ||live.com/API/ReportClientEvent
 ||live.com/GetExperimentAssignments
+||cloud.microsoft/ows/api/v*/EndpointTracker
 ||live.com/ows/api/v*/EndpointTracker
 ||office.net/owamail/hashed-v*/scripts/owa.Analytics$script
 ||office.net/owamail/hashed-v*/scripts/owa.worker.Analytics$script
@@ -6791,6 +6817,7 @@ github.com###wcpConsentBannerCtrl
 ||ris-prod.trafficmanager.net^
 ||ris.api.iris.microsoft.com^
 ||s-ring.msedge.net^
+||safelinks.protection.outlook.com^
 ||search.msn.com^
 ||self-events-data.trafficmanager.net^
 ||share.microsoft.com^
@@ -7813,7 +7840,6 @@ github.com###wcpConsentBannerCtrl
 ||zoneminder.github.io^
 ||zylo.com^
 ! Title: 📡 BadBlock - Radar (ABP)
-! Version: 04May2026v1
 ! Description: Block advertising, analytics, unwanted data collection, tracking, & more as they arise!
 ||ad.$all,domain=~ad.jp
 ||ad-*.$all
@@ -7991,7 +8017,7 @@ gitlab.com##+js(set, gl.snowplowStandardContext, undefined)
 gitlab.com##+js(set, snowplow, undefined)
 gitlab.com##+js(set, snowplowOptions, undefined)
 gitlab.com##+js(set, snowplowPlugins, undefined)
-@@||gitlab.com^$xhr,first-party,badfilter
+@@||gitlab.com^$xmlhttprequest,first-party,badfilter
 ||canva.com/_ajax/ae/createBatch
 ||canva.com/_online
 ||canva.com/v*/traces
@@ -14989,7 +15015,10 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||888-starz.co.tz^
 ||ac3filter.b-cdn.net^
 ||ac3filter.net^
+||access-authority-2fa45a8bcb.s3.ap-south-1.amazonaws.com^
+||access-authority-7586e00.s3.us-east-1.amazonaws.com^
 ||adinross.biz^
+||adnoc-uae.com^
 ||advancesolar.net^
 ||afraid.org^
 ||afterdawn.com^
@@ -15037,6 +15066,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||banks-presale.com^
 ||bapleu.com^
 ||betturkeycasinos.com^
+||biofi.run^
 ||bjscx.com^
 ||bjtlm.com^
 ||blogsyte.com^
@@ -15084,6 +15114,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||contactline740.xyz^
 ||convertersuite.com^
 ||couchpotatofries.org^
+||covacare.org^
 ||crax.tube^
 ||cutcaptcha.com^
 ||damnserver.com^
@@ -15152,6 +15183,8 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||fakeidvendors.com^
 ||fantasyleague.cc^
 ||fccusanetscci.site^
+||feathercdn.net^
+||feathermc.com^
 ||fecebook.com^
 ||fffa88kj.com^
 ||fiftenisraqitrffgh.blob.core.windows.net^
@@ -15165,6 +15198,8 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||flerap.com^
 ||fleraprt.com^
 ||flighttabpro.com^
+||fluence-network.digital^
+||fluence-security001.netlify.app^
 ||foodanddesire-com-au.mail.protection.outlook.com^
 ||foodanddesire.com.au^
 ||formally-up.com^
@@ -15185,6 +15220,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||genieosearch.com^
 ||gepy1cwl8i.blob.core.windows.net^
 ||germains.com^
+||getmeteora.live^
 ||gettheresult.net^
 ||global-gtg.com^
 ||gmx.us^
@@ -15205,6 +15241,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||googlerenewals.net^
 ||gotdns.ch^
 ||gov-xasdx.vip^
+||govnyd.mom^
 ||grabify.link^
 ||greenxf.com^
 ||grgrvrrfry.nyc3.digitaloceanspaces.com^
@@ -15212,6 +15249,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||hdocumentconverters.com^
 ||health-carereform.com^
 ||hfreetestnow.app^
+||hjgy68.com^
 ||hjzjy.com^
 ||homesecuritymac.com^
 ||homesecuritypc.com^
@@ -15220,6 +15258,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||hopto.me^
 ||hopto.org^
 ||howly.com^
+||hqfs1788.com^
 ||hsd1.ca.comcast.net^
 ||hsd1.co.comcast.net^
 ||hsd1.ct.comcast.net^
@@ -15328,6 +15367,8 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||ml.t-mobile.com^
 ||mlbfan.org^
 ||mmafan.biz^
+||mnl.io^
+||monad-network.com^
 ||mr-kraken.com^
 ||msgsafe.io^
 ||muckcoding.com^
@@ -15410,10 +15451,12 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||pg31.xyz^
 ||pgafan.net^
 ||photoscape.org^
+||plasmanet.work^
 ||point2this.com^
 ||pointto.us^
 ||poisism.com^
 ||pokalive.com^
+||polymarket.digital^
 ||portraitart4u.com^
 ||post.com^
 ||primakovreadings.info^
@@ -15424,6 +15467,9 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||ps3cfw.com^
 ||ptoahaistais.com^
 ||publpush.com^
+||pudgy-penguins.digital^
+||pudgy-penguins.shop^
+||pudgypenguins.com^
 ||pump.fun^
 ||push-signals.online^
 ||pushimg.com^
@@ -15520,8 +15566,12 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||tecno-mobile.com^
 ||thatstight.net^
 ||theamericapac.org^
+||thejavaconsultants.com^
+||thewebconsultant.net^
 ||thingaholics.com^
 ||tikipeter.github.io^
+||tiscali.it^
+||tke.io^
 ||tmedicine.org^
 ||tmweb.ru^
 ||trendingnews.com^
@@ -15565,6 +15615,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||viewrecipes.net^
 ||vparaiso.com^
 ||vujpo85d1g.blob.core.windows.net^
+||wahyu.org^
 ||warriorforum.com^
 ||wb-usdt.com^
 ||weatherauthority.co^
@@ -15573,6 +15624,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||webhop.me^
 ||webroot.me^
 ||webrootsafe.me^
+||websiteconsultantspro.com^
 ||whatsapp0.xyz^
 ||whatsapp7.xyz^
 ||wifidelta.com^
@@ -15604,8 +15656,8 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 [Adblock Plus 2.0]
 ! Title: NoCoin Filter List
 ! Expires: 7 days (update frequency)
-! Version: 227
-! Last modified: 10 November 2025
+! Version: 228
+! Last modified: 20 May 2026
 ! Homepage: https://github.com/hoshsadiq/adblock-nocoin-list/
 ! Contribute: https://github.com/hoshsadiq/adblock-nocoin-list/issues
 ! License: https://mit-license.org/
@@ -15697,7 +15749,6 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||g1thub.com^
 ||gay-hotvideo.net^
 ||go.bestmobiworld.com^$third-party
-||go.fastspot.io^$third-party
 ||go.megabanners.cf^$third-party
 ||go.megabanners.cf^$websocket
 ||gridiogrid.com^$third-party
@@ -20159,6 +20210,8 @@ console.cloud.google.com##.cfc-callout-bottom-end
 www.ixxx.com##+js(set-cookie, splashPageAccepted, 1)
 developer.mozilla.org##mdn-survey
 ||pnc.com/wba-ma-feedback-orchestrator
+||porkbun.com/css/support-widget.css
+||porkbun.com/js/support-widget.js$script
 pornhub.com##+js(set-cookie, accessAgeDisclaimerPH, 1)
 www.pornmd.com##+js(set-cookie, splashPageAccepted, 1)
 quizlet.com##+js(cookie-remover, set_num_visits_per_set)
@@ -20629,7 +20682,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thi
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=bubblr]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=PowerModerator]
 ! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
-! Version: 16March2026v1-Beta
+! Version: 19May2026v1-Beta
 ! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
 ! Note: This list does not intentionally try to remove links to websites' social accounts, or to third-party logins. However, there currently will be many de facto false positives that end up removing such buttons as well.
 ###add_like_bar
@@ -21118,6 +21171,7 @@ condoblues.com###milotree_box_wrap
 ~linkedin.com##.sp_article_share_linkedin:not(body,html,:empty)
 ##.sp_article_share_x:not(body,html,:empty)
 winstall.app##button[class*=singleApp_shareApp_]
+||vk.com/js/api/share.js^$3p
 ! reutersCOM
 ##button[aria-label^="Share article on "]
 ! rawstoryCOM (21/04/2025)

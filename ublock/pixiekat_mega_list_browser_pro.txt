@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-05-13T11:57:23Z
+! Version: 2026-05-20T15:17:51Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -116,6 +116,7 @@
 @@||imgus.cc^
 @@||is.cc^
 @@||itead.cc^
+@@||kktix.cc^
 @@||libstc.cc^
 @@||lilygo.cc^
 @@||lurl.cc^
@@ -615,6 +616,7 @@
 @@||buergerspital.shop^
 @@||chessvibes.shop^
 @@||cineorder.shop^
+@@||der-marmeladenladen.shop^
 @@||derweinladen.shop^
 @@||domainname.shop^
 @@||domene.shop^
@@ -688,6 +690,7 @@
 @@||forecast.solar^
 @@||optimizer.solar^
 @@||ariadne.space^
+@@||blinko.space^
 @@||cslogs.space^
 @@||dragonscave.space^
 @@||drgns.space^
@@ -745,6 +748,7 @@
 @@||rokomari.store^
 @@||shoplazza.store^
 @@||shopware.store^
+@@||sofascore.store^
 @@||stan.store^
 @@||tatemcraeeu.store^
 @@||tatemcrae.store^
@@ -834,6 +838,7 @@
 @@||yesporn.vip^
 @@||swing.vision^
 @@||arizona.vote^
+@@||esc.vote^
 @@||acro.website^
 @@||bestmotherfucking.website^
 @@||eddie.website^
@@ -938,9 +943,11 @@
 @@||akko.wtf^
 @@||bgp.wtf^
 @@||cyber.wtf^
+@@||e-mail.wtf^
 @@||fx.wtf^
 @@||ip.wtf^
 @@||jascha.wtf^
+@@||jsdate.wtf^
 @@||lemmy.wtf^
 @@||myip.wtf^
 @@||tigress.wtf^
@@ -968,8 +975,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 12 May 2026 19:47 UTC
-! Version: 2026.0512.1947.37
+! Last modified: 18 May 2026 16:39 UTC
+! Version: 2026.0518.1639.16
 ! Syntax: uBlock
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -1008,7 +1015,7 @@
 ||casa^$doc,domain=~keys.casa|~nabu.casa
 ||cash^$doc,domain=~doe.cash|~redtiger.cash|~vitunleija.cash
 ||casino^$doc
-||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~theradio.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
+||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~kktix.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~theradio.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
 ||center^$doc,domain=~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
 ||ceo^$doc
 ||cf^$doc,domain=~google.cf
@@ -1204,17 +1211,17 @@
 ||science^$doc,domain=~amazon.science|~canonn.science|~hal.science|~wander.science
 ||sew^$doc
 ||sexy^$doc,domain=~privacy.sexy|~terminal.sexy
-||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
+||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
 ||shopping^$doc
 ||show^$doc,domain=~camz.show|~j.show
 ||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~silvatica.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
 ||skin^$doc
 ||solar^$doc,domain=~forecast.solar|~optimizer.solar
 ||soy^$doc
-||space^$doc,domain=~ariadne.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
+||space^$doc,domain=~ariadne.space|~blinko.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
 ||sport^$doc,domain=~dyn.sport
 ||srl^$doc
-||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store
+||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~sofascore.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store
 ||studio^$doc,domain=~affinity.studio|~ai.studio|~firebase.studio|~flourish.studio|~starapps.studio|~woodsea.studio|~zenn.studio
 ||style^$doc,domain=~primer.style|~shiki.style
 ||su^$doc,domain=~encode.su|~jpg4.su|~jpg6.su|~promportal.su|~saint2.su
@@ -1247,7 +1254,7 @@
 ||vin^$doc
 ||vip^$doc,domain=~18comic.vip|~liberta.vip|~oldskool.vip|~posh.vip|~ryde.vip|~stream.vip|~trdiziizle.vip|~vidstream.vip|~wetv.vip|~yesporn.vip
 ||vision^$doc,domain=~swing.vision
-||vote^$doc,domain=~arizona.vote
+||vote^$doc,domain=~arizona.vote|~esc.vote
 ||voto^$doc
 ||voyage^$doc
 ||wang^$doc
@@ -1259,7 +1266,7 @@
 ||wine^$doc,domain=~nostr.wine
 ||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work|~starlightnet.work
 ||world^$doc,domain=~bevisioneers.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
-||wtf^$doc,domain=~akko.wtf|~bgp.wtf|~cyber.wtf|~fx.wtf|~ip.wtf|~jascha.wtf|~lemmy.wtf|~myip.wtf|~tigress.wtf|~wxx.wtf|~xo.wtf
+||wtf^$doc,domain=~akko.wtf|~bgp.wtf|~cyber.wtf|~e-mail.wtf|~fx.wtf|~ip.wtf|~jascha.wtf|~jsdate.wtf|~lemmy.wtf|~myip.wtf|~tigress.wtf|~wxx.wtf|~xo.wtf
 ||xin^$doc
 ||xx.kg^$doc
 ||yachts^$doc,domain=~sinking.yachts
@@ -1444,6 +1451,7 @@
 ||accbing.com^
 ||adflowtube.com^
 ||adidasko.com^
+||admin.ozon.id601294105.date^
 ||adminicesm.life^
 ||affordableforyouusa5.godaddysites.com^
 ||afiletoget.click^
@@ -1507,6 +1515,7 @@
 ||binomo.app^
 ||binomo.broker^
 ||binomo.com^
+||binomo.in^
 ||binomo.info^
 ||binomo.vip^
 ||binomo1.com^
@@ -1531,7 +1540,6 @@
 ||bnidigital.com^
 ||bolejug.us^
 ||bombardina.pl^
-||booking.transaction-processing.one^
 ||botsuanah.com^
 ||boutiqueondemand.com^
 ||bradcroninnapo82.myshopify.com^
@@ -1579,6 +1587,7 @@
 ||compoundexotics.com^
 ||confira.io^
 ||containably.com^
+||coolest3d.com^
 ||coolestpod.com^
 ||corg.co^
 ||couponxoo.com^
@@ -1591,7 +1600,6 @@
 ||cryptot.net^
 ||customizerbox.com^
 ||customurink.com^
-||cuteclub.org^
 ||cutty.app^
 ||cycle100percent.com^
 ||czasnakino.pl^
@@ -1714,6 +1722,7 @@
 ||freebitcoin.pages.dev^
 ||friday89.com^
 ||friday99.com^
+||fridaylocalmanager.duckdns.org^
 ||frostgoddess.com^
 ||fuehrungszeugnis-service.de^
 ||fullview.pl^
@@ -1756,7 +1765,6 @@
 ||govmedcareers.com^
 ||gsport.com^
 ||gtlinfrastructurelimited.com^
-||gunstee.com^
 ||habtoorloyal.com^
 ||hairyfy.com^
 ||happymod.cloud^
@@ -1819,7 +1827,7 @@
 ||indiavisa.com.sg^
 ||indiavisa.my^
 ||indiavisa.org^
-||indiavisaonline.org^
+||industower.org^
 ||infinityto.com^
 ||info-flirtme.com^
 ||info-milfroom.com^
@@ -1841,6 +1849,7 @@
 ||karanpcofficial.blogspot.com^
 ||kesug.com^
 ||kigurumi-usa.com^
+||killercharm.com^
 ||kingcampoutdoors.co.jp^
 ||kino-cda.pl^
 ||kinomaniak.cc^
@@ -1889,7 +1898,6 @@
 ||maebl.com^
 ||mail-cytanet.pages.dev^
 ||mail.zalukaj.cc^
-||malgorzataschlegel.click^
 ||mango-desert-09ebb4010.4.azurestaticapps.net^
 ||maxdebrid.com^
 ||mayor4london.com^
@@ -1909,6 +1917,7 @@
 ||modmobile24.com^
 ||monkstars.com^
 ||ms-analytics.mywire.org^
+||msgclick.top^
 ||mslfgl434.pages.dev^
 ||mujib-store28.blogspot.com^
 ||muskai.net^
@@ -1970,7 +1979,6 @@
 ||navi89.com^
 ||navi9.com^
 ||navi90.com^
-||navi95.com^
 ||navi98.com^
 ||navi99.com^
 ||nayatowerinstallation.in.net^
@@ -2002,7 +2010,6 @@
 ||nip9.com^
 ||nip98.com^
 ||nirvezal.com^
-||nobrerefino.com^
 ||nofotballshop.com^
 ||nonofy.com^
 ||norfotball.com^
@@ -2083,6 +2090,7 @@
 ||quitasueno.com^
 ||quoka.dk9zc9.pro^
 ||quotex.com.in^
+||re-captha-version-3-277.buzz^
 ||resources4gaming.com^
 ||revanced-extended.com^
 ||revancedmusic.com^
@@ -2182,6 +2190,7 @@
 ||successglossary.com^
 ||sugarandpearl.com^
 ||suitablepartner.life^
+||summersale.co^
 ||summersale.online^
 ||supercutestuff.com^
 ||superuniswap.xyz^
@@ -2194,7 +2203,6 @@
 ||tamed-exotics.com^
 ||tartannewzealand.myshopify.com^
 ||tbao684tryo.com^
-||tdgrop168.vip^
 ||teezill.com^
 ||telegramweb.vercel.app^
 ||telemarktalk.com^
@@ -2389,7 +2397,7 @@
 ||avito.avito.www.avito.
 ||booking.com-id*
 [Adblock Plus 3.13]
-! Version: 21March2026v1
+! Version: 16May2026v1
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -2928,6 +2936,9 @@ instagram.com##div[class]:first-of-type:not(.html-div) + div.html-div:has(+ div:
 ##div[class*=inlineAppUpsell-]
 ! live•peppes•no (03/03/2026)
 ##.app-branding-card:not(html,body,:empty)
+! An SNCF Connect E-mail when viewed in Thunderbird
+/pushApp/pushGooglePlay.png^
+/pushApp/pushAppStore.png^
 ! Below are entries that I borrowed from "I Don't Want Your App", which was maintained by https://github.com/lassekongo83 at https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/i-dont-want-your-app.txt, and which was licenced as GPLv3
 ! Generic
 ##a[href*=".app.link/"]
@@ -3070,7 +3081,6 @@ rakuten.tv###card-desert-jewel-dunhuang--0
 rakuten.tv###card-land-of-diversity--0
 ﻿[Adblock Plus 3.17]
 ! Title: 🏗 Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites
-! Version: 24April2026v1
 ! Expires: 6 days
 ! Description: This list targets international websites that clutter search engine results with misinformation, unfounded articles, and/or contempt for humanity. While designed for use with «Google Hit Hider by Domain» to remove search results, it can also be used with other domains-list tools if you want more thorough blocking of them, incl. AdGuard Home, AdGuard for Windows/Android/Mac's DNS Filtering modes (_NOT_ their regular filtering modes) and uBlock Origin.
 ! Note: Using the list with AdGuard's browser extensions, desktop/Android programmes' regular filtering modes, or CLI tools is a REALLY freaking bad idea because they can't correctly handle raw-domains entries, and therefore look for text matches instead, so that for instance x•com blocks yandex•com.
@@ -3294,6 +3304,7 @@ freeandopenaustralia.org
 binary.org.au
 covidtruths.co.uk
 gumshoenews.com
+yourdemocracy.net
 # Far-right/alt-right fringe "newssites" (United Kingdom)
 standpointmag.co.uk
 unitynewsnetwork.co.uk
@@ -3309,6 +3320,7 @@ britbong.com
 stevekirsch.substack.com
 doctoraseem.com
 dailysceptic.org
+unherd.com
 # Far-right/alt-right "newssites" (India)
 indianlibertyreport.com
 greatgameindia.com
@@ -3474,6 +3486,8 @@ dmcl.biz
 eadaily.com
 news-pravda.com
 noticiaslatam.lat
+mid.ru
+dzen.ru
 # Far-right/alt-right "newssites" (United States)
 100percentfedup.com
 10news.one
@@ -4602,7 +4616,7 @@ lematin.ma##.meteo-bloc span
 sveip.no##.wmsb_f
 gismeteo.de##.ifnoie
 ! Title: 🕳 Empty Padding Remover
-! Version: 14April2026v1-Beta
+! Version: 17May2026v1-Beta
 ! Description: Are you tired of having to scroll so much on websites, or you want to keep your eyes on more text and content at once? Or perhaps you're tired ot very large shadows on video sites when moving the mouse? If so, this list will help you a little extra bit with that.
 ! ——— Generic ———
 ##.skille:not(html, body)
@@ -4740,6 +4754,8 @@ www.twitch.tv##div[data-a-target=player-controls]:style(background:unset!importa
 www.twitch.tv##.top-bar:style(background:unset!important)
 ! DR TV
 dr.dk##.player-overlay:style(background:0!important)
+! ARD Mediathek
+de##.ardplayer-background
 ﻿! Title: 🖥️ Dandelion Sprout's Website Stretcher
 ! Version: 12May2026v1
 ! Expires: 3 days
