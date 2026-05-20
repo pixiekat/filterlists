@@ -41,14 +41,16 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.gbnews.com/*
 *://*.greenwald.locals.com/*
 *://*.megynkelly.com/*
+*://*.nymag.com/*
 *://*.rebelnews.com/*
 *://*.spectator.co.uk/*
 *://*.spectator.com/*
 *://*.thefp.com/*
 *://*.thegatewaypundit.com/*
 *://*.thewashingtonreporter.com/*
+*://*.vox.com/*
 *://*.wabcradio.com/*
-*://washingtonreporter.news/*
+*://*.washingtonreporter.news/*
 
 # --- Social Sites ---
 *://*.facebook.com/*
