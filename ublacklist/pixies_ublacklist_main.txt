@@ -76,11 +76,14 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.esspots.com/*
 *://*.geekpedia.com/*
 *://*.gitmemories.com/*
+*://*.guy4game.com/*
 *://*.jewornotjew.com/*
+*://*.mmosavor.com/*
 *://*.quizard.io/*
 *://*.sportskeeda.com/*
 *://access.redhat.com/search/knowledgebase
 *://access.redhat.com/solutions/*
+*://wowgoldfinder.com/*
 
 # --- Terf Apologia ---
 *://*.harrypotter.com/*
