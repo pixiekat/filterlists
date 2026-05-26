@@ -14,7 +14,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.topbusinesssoftware.com/*
 
 # --- Elon Affiliated ---
-*://*.grok.com
+*://*.grok.com/*
 *://*.grokipedia.com/*
 *://*.reddit.com/r/elonmusk/*
 *://*.reddit.com/r/spacex/*
