@@ -1,6 +1,6 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 23April2026v2
-! Expires: 24 hours
+! Version: 23May2026v1
+! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
 
@@ -70,6 +70,9 @@
 @@||netkitten.net^$document,all
 @@||spacecadetgrrl.me^$document,all
 @@||webkitten.net^$document,all
+
+! Open subtitles
+@@||www.opensubtitles.org/addons/landing/page.php
 
 ! Allow analytics from Google for my personal sites
 @@||www.googletagmanager.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
