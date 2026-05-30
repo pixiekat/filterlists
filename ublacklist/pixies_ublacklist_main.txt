@@ -62,6 +62,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.t.co/*
 *://*.threads.com/*
 *://*.threads.net/*
+*://*.tiktok.com/*
 *://*.truthsocial.com/*
 *://*.twimg.com/*
 *://*.twitter.com/*
