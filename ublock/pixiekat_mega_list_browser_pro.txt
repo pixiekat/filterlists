@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-05-20T15:17:51Z
+! Version: 2026-05-30T09:25:27Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -75,7 +75,6 @@
 @@||mysubwaytoolbox.biz^
 @@||netcetera.biz^
 @@||notebookcheck.biz^
-@@||oe24cdn.biz^
 @@||ooshahwa.biz^
 @@||panasonic.biz^
 @@||slussen.biz^
@@ -147,6 +146,7 @@
 @@||yipee.cc^
 @@||yz168.cc^
 @@||zcyph.cc^
+@@||found.center^
 @@||mein-kunden.center^
 @@||oh.center^
 @@||priv.center^
@@ -341,6 +341,7 @@
 @@||watcher.guru^
 @@||webcal.guru^
 @@||lunar.haus^
+@@||flo.health^
 @@||sca.health^
 @@||severance.healthcare^
 @@||crisp.help^
@@ -384,6 +385,7 @@
 @@||iboost.life^
 @@||lifetime.life^
 @@||loveinfaith.life^
+@@||opentix.life^
 @@||stepone.life^
 @@||via.life^
 @@||yiff.life^
@@ -488,6 +490,7 @@
 @@||coupa.ng^
 @@||google.com.ng^
 @@||clash.ninja^
+@@||giveaway.ninja^
 @@||poe.ninja^
 @@||protomedia.ninja^
 @@||tgtg.ninja^
@@ -630,6 +633,7 @@
 @@||geekchic.shop^
 @@||grnk.shop^
 @@||grog.shop^
+@@||gurkistan.shop^
 @@||henssler.shop^
 @@||kalypso.shop^
 @@||layers.shop^
@@ -638,6 +642,7 @@
 @@||music-merchant.shop^
 @@||myshopline.shop^
 @@||narpy.shop^
+@@||neue.shop^
 @@||neurosama.shop^
 @@||nocut.shop^
 @@||nordland.shop^
@@ -715,6 +720,7 @@
 @@||nuvioapp.space^
 @@||ocr.space^
 @@||oldbytes.space^
+@@||pod.space^
 @@||qwik.space^
 @@||roguecorp.space^
 @@||scurra.space^
@@ -731,6 +737,7 @@
 @@||bigtimerush.store^
 @@||bigtimerushuk.store^
 @@||cleanmasters.store^
+@@||cnckitchen.store^
 @@||ettoresoftware.store^
 @@||fbits.store^
 @@||g-h.store^
@@ -919,6 +926,7 @@
 @@||schueller.work^
 @@||spiegel.work^
 @@||starlightnet.work^
+@@||betterme.world^
 @@||bevisioneers.world^
 @@||boo.world^
 @@||calckey.world^
@@ -975,8 +983,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 18 May 2026 16:39 UTC
-! Version: 2026.0518.1639.16
+! Last modified: 28 May 2026 10:23 UTC
+! Version: 2026.0528.1023.30
 ! Syntax: uBlock
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -998,7 +1006,7 @@
 ||bid^$doc
 ||bike^$doc,domain=~dat.bike|~lime.bike|~onlinesizing.bike|~rapido.bike
 ||bingo^$doc
-||biz^$doc,domain=~anonymurl.biz|~antiphishing.biz|~asana.biz|~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dailyinnovation.biz|~engelliler.biz|~epson.biz|~ette.biz|~figureit.biz|~gamesindustry.biz|~giftee.biz|~gimmeporn.biz|~hb.biz|~ifext.biz|~iimwf.biz|~kioskcms.biz|~knuddels.biz|~line.biz|~localise.biz|~luckysbarbershop.biz|~movabletype.biz|~mysubwaytoolbox.biz|~netcetera.biz|~notebookcheck.biz|~oe24cdn.biz|~ooshahwa.biz|~panasonic.biz|~slussen.biz|~surveycake.biz|~turbify.biz|~volvocars.biz|~wiz.biz|~wspay.biz|~wyborcza.biz|~yoox.biz
+||biz^$doc,domain=~anonymurl.biz|~antiphishing.biz|~asana.biz|~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dailyinnovation.biz|~engelliler.biz|~epson.biz|~ette.biz|~figureit.biz|~gamesindustry.biz|~giftee.biz|~gimmeporn.biz|~hb.biz|~ifext.biz|~iimwf.biz|~kioskcms.biz|~knuddels.biz|~line.biz|~localise.biz|~luckysbarbershop.biz|~movabletype.biz|~mysubwaytoolbox.biz|~netcetera.biz|~notebookcheck.biz|~ooshahwa.biz|~panasonic.biz|~slussen.biz|~surveycake.biz|~turbify.biz|~volvocars.biz|~wiz.biz|~wspay.biz|~wyborcza.biz|~yoox.biz
 ||black^$doc
 ||blue^$doc,domain=~niim.blue
 ||boats^$doc
@@ -1016,7 +1024,7 @@
 ||cash^$doc,domain=~doe.cash|~redtiger.cash|~vitunleija.cash
 ||casino^$doc
 ||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~kktix.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~theradio.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
-||center^$doc,domain=~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
+||center^$doc,domain=~found.center|~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
 ||ceo^$doc
 ||cf^$doc,domain=~google.cf
 ||cfd^$doc
@@ -1106,7 +1114,7 @@
 ||guru^$doc,domain=~bahn.guru|~base64.guru|~crontab.guru|~greenlight.guru|~jav.guru|~ludwig.guru|~mags.guru|~tilde.guru|~watcher.guru|~webcal.guru
 ||hair^$doc
 ||haus^$doc,domain=~lunar.haus
-||health^$doc,domain=~sca.health
+||health^$doc,domain=~flo.health|~sca.health
 ||healthcare^$doc,domain=~severance.healthcare
 ||help^$doc,domain=~crisp.help|~fastmail.help|~gorgias.help|~intercom.help|~kustomer.help|~pixiv.help
 ||hl.cn^$doc,domain=~lzk.hl.cn
@@ -1127,7 +1135,7 @@
 ||lat^$doc
 ||legal^$doc,domain=~doctolib.legal|~wbs.legal
 ||lgbt^$doc,domain=~lex.lgbt|~mint.lgbt|~tech.lgbt
-||life^$doc,domain=~2ch.life|~billo.life|~circles.life|~colorgame.life|~digitalcitizen.life|~fami.life|~iboost.life|~lifetime.life|~loveinfaith.life|~stepone.life|~via.life|~yiff.life
+||life^$doc,domain=~2ch.life|~billo.life|~circles.life|~colorgame.life|~digitalcitizen.life|~fami.life|~iboost.life|~lifetime.life|~loveinfaith.life|~opentix.life|~stepone.life|~via.life|~yiff.life
 ||lifestyle^$doc
 ||living^$doc
 ||llc^$doc,domain=~ratcloud.llc
@@ -1159,7 +1167,7 @@
 ||navy^$doc
 ||new^$doc,domain=~bolt.new|~doc.new|~drawing.new|~form.new|~git.new|~lecture.new|~postgres.new|~sheet.new|~site.new|~slide.new
 ||ng^$doc,domain=~coupa.ng|~google.com.ng
-||ninja^$doc,domain=~clash.ninja|~poe.ninja|~protomedia.ninja|~tgtg.ninja
+||ninja^$doc,domain=~clash.ninja|~giveaway.ninja|~poe.ninja|~protomedia.ninja|~tgtg.ninja
 ||observer^$doc,domain=~project2025.observer
 ||okinawa^$doc
 ||ong^$doc
@@ -1211,17 +1219,17 @@
 ||science^$doc,domain=~amazon.science|~canonn.science|~hal.science|~wander.science
 ||sew^$doc
 ||sexy^$doc,domain=~privacy.sexy|~terminal.sexy
-||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
+||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~gurkistan.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neue.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
 ||shopping^$doc
 ||show^$doc,domain=~camz.show|~j.show
 ||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~silvatica.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
 ||skin^$doc
 ||solar^$doc,domain=~forecast.solar|~optimizer.solar
 ||soy^$doc
-||space^$doc,domain=~ariadne.space|~blinko.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
+||space^$doc,domain=~ariadne.space|~blinko.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~pod.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
 ||sport^$doc,domain=~dyn.sport
 ||srl^$doc
-||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~sofascore.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store
+||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~cnckitchen.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~sofascore.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store
 ||studio^$doc,domain=~affinity.studio|~ai.studio|~firebase.studio|~flourish.studio|~starapps.studio|~woodsea.studio|~zenn.studio
 ||style^$doc,domain=~primer.style|~shiki.style
 ||su^$doc,domain=~encode.su|~jpg4.su|~jpg6.su|~promportal.su|~saint2.su
@@ -1265,7 +1273,7 @@
 ||win^$doc,domain=~activated.win|~communities.win|~debloat.win|~ios-countdown.win|~patriots.win|~vaultcord.win
 ||wine^$doc,domain=~nostr.wine
 ||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work|~starlightnet.work
-||world^$doc,domain=~bevisioneers.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
+||world^$doc,domain=~betterme.world|~bevisioneers.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
 ||wtf^$doc,domain=~akko.wtf|~bgp.wtf|~cyber.wtf|~e-mail.wtf|~fx.wtf|~ip.wtf|~jascha.wtf|~jsdate.wtf|~lemmy.wtf|~myip.wtf|~tigress.wtf|~wxx.wtf|~xo.wtf
 ||xin^$doc
 ||xx.kg^$doc
@@ -1451,7 +1459,6 @@
 ||accbing.com^
 ||adflowtube.com^
 ||adidasko.com^
-||admin.ozon.id601294105.date^
 ||adminicesm.life^
 ||affordableforyouusa5.godaddysites.com^
 ||afiletoget.click^
@@ -1464,7 +1471,6 @@
 ||airupnederlands.com^
 ||airupsrbija.com^
 ||aizipai.cn^
-||akulaku.me^
 ||alindflepkaty14.pages.dev^
 ||aliyaoberbrunnergreg21.myshopify.com^
 ||all-tube.pl^
@@ -1483,6 +1489,7 @@
 ||arthoodie.com^
 ||arvetellefsen.no^
 ||atlaspvs.com^
+||atoins.com^
 ||atrendsz.com^
 ||audiosg.com.sg^
 ||augusthenri.be^
@@ -1507,6 +1514,7 @@
 ||benxi.info^
 ||bertasxt.com^
 ||best-torrents.com^
+||bestvod.pl^
 ||billboardwring.com^
 ||binom0-web.com^
 ||binomo-brokers.com^
@@ -1559,6 +1567,7 @@
 ||c0nt4ct-me.pages.dev^
 ||caly-film.cc^
 ||campingsurfshop.com^
+||canadapost-service.info^
 ||candlesbymadison.com^
 ||canjaume.com^
 ||caraci.it^
@@ -1597,6 +1606,7 @@
 ||cracksway.com^
 ||crocssalenz.com^
 ||crypto030.online^
+||cryptolnvest.com^
 ||cryptot.net^
 ||customizerbox.com^
 ||customurink.com^
@@ -1617,12 +1627,10 @@
 ||deergift.com^
 ||dein-rundfunkbeitrag.de^
 ||deluxdoll.com^
-||designbyus.online^
 ||desiupload.in^
 ||devifoodgrains.com^
 ||dezpez.com^
 ||dieserbenni.ru^
-||dischargebackhanded.com^
 ||displaymovies.pl^
 ||distrochooser.snehit.dev^
 ||dkfodboldstore.com^
@@ -1657,14 +1665,12 @@
 ||envisiongear.com^
 ||eset.co.il^
 ||esl-gaming.com^
-||eslgrandscup.com^
 ||estiloserena.com.br^
 ||etaindia.org^
 ||etaindiaonline.com^
 ||etv-in.com^
 ||eudoraz.com^
 ||eudshop.shop^
-||eventmusk-x.com^
 ||eviralstore.com^
 ||evisa-india-online.com^
 ||evisa-indian.com^
@@ -1717,15 +1723,16 @@
 ||fiusps.com^
 ||fixpub.com^
 ||flattee.com^
+||flwzen.com^
 ||folkrbvi.pages.dev^
 ||food-network.fwh.is^
 ||freebitcoin.pages.dev^
 ||friday89.com^
 ||friday99.com^
-||fridaylocalmanager.duckdns.org^
 ||frostgoddess.com^
 ||fuehrungszeugnis-service.de^
 ||fullview.pl^
+||fumekart.com^
 ||fundanemt.org^
 ||funfilenow.com^
 ||furnishmyhome.ca^
@@ -1740,6 +1747,7 @@
 ||gearanime.com^
 ||gearhomies.com^
 ||gearhuman.com^
+||gearstastic.com^
 ||gearver.com^
 ||geekupdates.notion.site^
 ||geldencosmeticos.com^
@@ -1782,11 +1790,13 @@
 ||hotbignews.com^
 ||hotdebrid.com^
 ||hotmod.eu^
+||houselar.com.br^
 ||hubfiles.ws^
 ||hudson-bay.com^
 ||hushlove.com^
 ||hyndtren25.pages.dev^
 ||i-visaindia.com^
+||i.fundatingquest.fun^
 ||iagadvanced.com^
 ||iaqorwr.com^
 ||icelandclothing.myshopify.com^
@@ -1836,6 +1846,7 @@
 ||iphone.quiztionnaire.biz^
 ||iqcreditcheck.com^
 ||italyworldbaseballclassic.com^
+||itq.cuteclub.org^
 ||itseasy.com^
 ||ivisa.com^
 ||j-natural.com^
@@ -1847,6 +1858,7 @@
 ||jsdimmigrations.com^
 ||karan-pc.com^
 ||karanpcofficial.blogspot.com^
+||keenfootwearsale.com^
 ||kesug.com^
 ||kigurumi-usa.com^
 ||killercharm.com^
@@ -1882,6 +1894,7 @@
 ||lifestyletrading.co.za^
 ||ligerking.com^
 ||likenu.se^
+||linaromney.za.com^
 ||linkshe.com^
 ||linostee.com^
 ||lisabuddy.com^
@@ -1891,6 +1904,7 @@
 ||look-like-star.myshopify.com^
 ||lorenzettibrasil-vendas.com^
 ||lozly.com^
+||lp.voucheras.com^
 ||lucatee.com^
 ||lucidtiger.com^
 ||luckyhomie.com^
@@ -1905,7 +1919,6 @@
 ||meaningift.com^
 ||mega-heritage.com^
 ||mega-kino.pl^
-||megoindonesia.com^
 ||microngroup.pro^
 ||microsoft-notifcation.com^
 ||microsoft.teams-live.com^
@@ -1931,12 +1944,14 @@
 ||nalzahqp.page.link^
 ||natilove.com^
 ||nationaladvancegroup.com^
+||natistorez.com^
 ||natvisa.com^
 ||navi1.com^
 ||navi10.com^
 ||navi100.com^
 ||navi11.com^
 ||navi12.com^
+||navi16.ru^
 ||navi18.com^
 ||navi2.com^
 ||navi20.ru^
@@ -1976,7 +1991,6 @@
 ||navi8.com^
 ||navi86.ru^
 ||navi88.com^
-||navi89.com^
 ||navi9.com^
 ||navi90.com^
 ||navi98.com^
@@ -2031,7 +2045,6 @@
 ||oldcube.com^
 ||olive121407.studio.site^
 ||olymptrade-qid.com^
-||online-binomo.com^
 ||online-eta.com^
 ||onlinecda.pl^
 ||onlinefilmy.pl^
@@ -2054,7 +2067,6 @@
 ||pandzee.com^
 ||paradisevs.com^
 ||path2zillion.com^
-||paypays.shop^
 ||peekpok.com^
 ||penguinnow.com^
 ||peppatees.com^
@@ -2088,7 +2100,6 @@
 ||punchonsol.top^
 ||qq51f.short.gy^
 ||quitasueno.com^
-||quoka.dk9zc9.pro^
 ||quotex.com.in^
 ||re-captha-version-3-277.buzz^
 ||resources4gaming.com^
@@ -2203,6 +2214,8 @@
 ||tamed-exotics.com^
 ||tartannewzealand.myshopify.com^
 ||tbao684tryo.com^
+||tdgrop168.vip^
+||tee24h.com^
 ||teezill.com^
 ||telegramweb.vercel.app^
 ||telemarktalk.com^
@@ -2211,7 +2224,6 @@
 ||terverystaio.info^
 ||teslatime.net^
 ||the-north-face.gr^
-||thebayonline.shop^
 ||theeaglebrand.company.site^
 ||themountainwarehouse.com^
 ||theneurobalancetherapy.org^
@@ -2219,6 +2231,7 @@
 ||theshirtyouneed.com^
 ||thevitic.com^
 ||thevitic.onshopbase.com^
+||thewindowsactivator.com^
 ||thuthuatxiaomi.com^
 ||tikgeeker.com^
 ||tinkleo.com^
@@ -2254,6 +2267,7 @@
 ||ultimate-tech-products.myshopify.com^
 ||ultra-cda.pl^
 ||ultrasonica.info^
+||um-bs.com^
 ||uni-swap.online^
 ||unifully.com^
 ||uniswap.host^
@@ -2292,8 +2306,6 @@
 ||verfun.com^
 ||vessisdeutschland.com^
 ||vider-cda.online^
-||vider-pl.pl^
-||vider.cc^
 ||vider.com.pl^
 ||vider.info.pl^
 ||vider.online^
@@ -2320,13 +2332,12 @@
 ||vodfix.pl^
 ||vodlist.com^
 ||volcomofficial.com^
+||voucheras.com^
 ||w0-eg-d12-de-yd-nka-ne-rklkyazwo0.vercel.app^
 ||wadahlapak.top^
 ||wallpaperflare.com^
 ||warriordecor.com^
 ||watchmark.shop^
-||watchseniorfit.com^
-||wavetshirt.com^
 ||wazofurniture.com^
 ||weathly.com^
 ||webvod.pl^
@@ -2380,6 +2391,7 @@
 ||zedbubble.com^
 ||zerknij-tv.pl^
 ||zerorolex.com^
+||zerowasteinitiative.com^
 ||zhongda.info^
 ||zlibrary.to^
 ||zobaczfilm.com^
@@ -2397,7 +2409,7 @@
 ||avito.avito.www.avito.
 ||booking.com-id*
 [Adblock Plus 3.13]
-! Version: 16May2026v1
+! Version: 21May2026v1
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -2921,8 +2933,6 @@ deviantart.com##body.mobile > .ReactModalPortal + aside:last-of-type
 ##.footer__appButtonContainer:not(html,body,:empty)
 ! accuweatherCOM (Early 2020's)
 ###app-store-links
-! https://www•panewslab•com/en/articles/ea07bd02-7f93-47af-8d31-0e067a0c5de4 (22/09/2025)
-##div[data-reka-popper-content-wrapper]
 ! https://www•instagram•com/what_the_house_/ (16/10/2025, "Open app" button and page opening overlay respectively; I was however unable to remove the baffling "intent://" overlay)
 instagram.com##.html-div + div:not(.html-div) + .html-div:has(> [role=link][href^="intent://instagram.com"])
 instagram.com##div[class]:first-of-type:not(.html-div) + div.html-div:has(+ div:last-of-type:not([class])):has(a[href^="intent://"])
@@ -3081,6 +3091,7 @@ rakuten.tv###card-desert-jewel-dunhuang--0
 rakuten.tv###card-land-of-diversity--0
 ﻿[Adblock Plus 3.17]
 ! Title: 🏗 Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites
+! Version: 16May2026v1
 ! Expires: 6 days
 ! Description: This list targets international websites that clutter search engine results with misinformation, unfounded articles, and/or contempt for humanity. While designed for use with «Google Hit Hider by Domain» to remove search results, it can also be used with other domains-list tools if you want more thorough blocking of them, incl. AdGuard Home, AdGuard for Windows/Android/Mac's DNS Filtering modes (_NOT_ their regular filtering modes) and uBlock Origin.
 ! Note: Using the list with AdGuard's browser extensions, desktop/Android programmes' regular filtering modes, or CLI tools is a REALLY freaking bad idea because they can't correctly handle raw-domains entries, and therefore look for text matches instead, so that for instance x•com blocks yandex•com.
