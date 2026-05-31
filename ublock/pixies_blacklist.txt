@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 20May2026v1
+! Version: 31May2026v1
 ! Expires: 7 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -154,6 +154,7 @@ www.youtube.com##.ryd-premium-teaser
 ||kennedy-center.org^$document,all,domain=~its-a-fascist-domain.*
 ||play.google.com/store/apps/details?id=gov.whitehouse.app^$document,all,domain=~its-a-fascist-domain.*
 ||realfood.gov^$document,all,domain=~its-a-fascist-domain.*
+||regulations.gov^$document,all,domain=~its-a-fascist-domain.*
 ||rnc.org^$document,all,domain=~its-a-fascist-domain.*
 ||state.gov^$document,all,domain=~its-a-fascist-domain.*
 ||trump.com^$document,all,domain=~its-a-fascist-domain.*

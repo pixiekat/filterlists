@@ -21,6 +21,7 @@
 ||justice.gov^$important
 ||kennedy-center.org^$important
 ||realfood.gov^$important
+||regulations.gov^$important
 ||rnc.org^$important
 ||state.gov^$important
 ||trump.com^$important
