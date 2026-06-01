@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 23May2026v1
+! Version: 1June2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -90,6 +90,9 @@
 @@||gocomics.com^$document
 @@||mst3k.fandom.com^$document
 @@||www.theverge.com^$document
+
+! Unbreaks Youtube history
+@@||https://www.youtube.com/api/stats/qoe^$important
 
 ! Unbreaks Autostraddle email links
 @@||ctrk.klclick1.com^$document
