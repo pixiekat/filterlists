@@ -26,6 +26,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.commerce.gov/*
 *://*.dei.gov/*
 *://*.doge.gov/*
+*://*.dol.gov/*
 *://*.donaldjtrump.com/*
 *://*.fbi.gov/*
 *://*.fcc.gov/*
