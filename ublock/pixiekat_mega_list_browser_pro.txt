@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-05-30T09:25:27Z
+! Version: 2026-06-03T14:41:07Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -357,6 +357,7 @@
 @@||nature.house^
 @@||mond.how^
 @@||notrace.how^
+@@||fastdl.icu^
 @@||intervals.icu^
 @@||lunar.icu^
 @@||mon.icu^
@@ -413,6 +414,7 @@
 @@||social.lol^
 @@||status.lol^
 @@||techaro.lol^
+@@||vcloud.lol^
 @@||weblog.lol^
 @@||wpp.lol^
 @@||football.london^
@@ -631,6 +633,7 @@
 @@||frontiers.shop^
 @@||funk-dichtungstechnik.shop^
 @@||geekchic.shop^
+@@||gourmet-kochmanufaktur.shop^
 @@||grnk.shop^
 @@||grog.shop^
 @@||gurkistan.shop^
@@ -695,6 +698,7 @@
 @@||forecast.solar^
 @@||optimizer.solar^
 @@||ariadne.space^
+@@||azccriminal.space^
 @@||blinko.space^
 @@||cslogs.space^
 @@||dragonscave.space^
@@ -983,8 +987,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 28 May 2026 10:23 UTC
-! Version: 2026.0528.1023.30
+! Last modified: 03 Jun 2026 05:38 UTC
+! Version: 2026.0603.0538.08
 ! Syntax: uBlock
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -1122,7 +1126,7 @@
 ||hot^$doc,domain=~minecraft.hot
 ||house^$doc,domain=~lanparty.house|~nature.house
 ||how^$doc,domain=~mond.how|~notrace.how
-||icu^$doc,domain=~intervals.icu|~lunar.icu|~mon.icu
+||icu^$doc,domain=~fastdl.icu|~intervals.icu|~lunar.icu|~mon.icu
 ||immo^$doc
 ||ink^$doc,domain=~filepress.ink|~ishortn.ink|~mez.ink|~next.ink|~rdl.ink|~shrinkme.ink|~simple.ink|~spaceforce.ink|~sumerian.ink|~work.ink
 ||insure^$doc
@@ -1143,7 +1147,7 @@
 ||loan^$doc
 ||loans^$doc
 ||locker^$doc
-||lol^$doc,domain=~adsb.lol|~ags.lol|~animevietsub.lol|~browser.lol|~dankmemer.lol|~fmhy.lol|~guns.lol|~hubcloud.lol|~io.lol|~kizuki.lol|~lemy.lol|~library.lol|~nexdrive.lol|~nos.lol|~noted.lol|~objection.lol|~omg.lol|~paste.lol|~proven.lol|~sibellavia.lol|~social.lol|~status.lol|~techaro.lol|~weblog.lol|~wpp.lol
+||lol^$doc,domain=~adsb.lol|~ags.lol|~animevietsub.lol|~browser.lol|~dankmemer.lol|~fmhy.lol|~guns.lol|~hubcloud.lol|~io.lol|~kizuki.lol|~lemy.lol|~library.lol|~nexdrive.lol|~nos.lol|~noted.lol|~objection.lol|~omg.lol|~paste.lol|~proven.lol|~sibellavia.lol|~social.lol|~status.lol|~techaro.lol|~vcloud.lol|~weblog.lol|~wpp.lol
 ||london^$doc,domain=~football.london
 ||love^$doc
 ||ltd^$doc,domain=~digitalize.ltd|~homebrew.ltd|~picsee.ltd|~swizzin.ltd
@@ -1219,14 +1223,14 @@
 ||science^$doc,domain=~amazon.science|~canonn.science|~hal.science|~wander.science
 ||sew^$doc
 ||sexy^$doc,domain=~privacy.sexy|~terminal.sexy
-||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~grnk.shop|~grog.shop|~gurkistan.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neue.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
+||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~gourmet-kochmanufaktur.shop|~grnk.shop|~grog.shop|~gurkistan.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neue.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
 ||shopping^$doc
 ||show^$doc,domain=~camz.show|~j.show
 ||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~silvatica.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
 ||skin^$doc
 ||solar^$doc,domain=~forecast.solar|~optimizer.solar
 ||soy^$doc
-||space^$doc,domain=~ariadne.space|~blinko.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~pod.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
+||space^$doc,domain=~ariadne.space|~azccriminal.space|~blinko.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~pod.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
 ||sport^$doc,domain=~dyn.sport
 ||srl^$doc
 ||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~cnckitchen.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~sofascore.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store
@@ -1466,7 +1470,6 @@
 ||airteltower.com^
 ||airtoff.com^
 ||airup-romania.com^
-||airupbulgaria.com^
 ||airupgreece.net^
 ||airupnederlands.com^
 ||airupsrbija.com^
@@ -1565,7 +1568,6 @@
 ||by-emmamuller.de^
 ||c.dreamdating1.fun^
 ||c0nt4ct-me.pages.dev^
-||caly-film.cc^
 ||campingsurfshop.com^
 ||canadapost-service.info^
 ||candlesbymadison.com^
@@ -1588,8 +1590,8 @@
 ||ckkebt.shop^
 ||cluckergifts.ecwid.com^
 ||cmoboy.com^
+||cnhadverti.co^
 ||cognatesyringe.com^
-||coiincmi.com^
 ||coinaps.com^
 ||coinreq.com^
 ||colorandcotton.com^
@@ -1604,6 +1606,7 @@
 ||covex.it^
 ||crackedpc.org^
 ||cracksway.com^
+||creizeystore.com^
 ||crocssalenz.com^
 ||crypto030.online^
 ||cryptolnvest.com^
@@ -1720,12 +1723,15 @@
 ||finnews7.wordpress.com^
 ||fishingdaily.shop^
 ||fitgirl-repacks-site.org^
+||fitgirl-repacks.vip^
 ||fiusps.com^
 ||fixpub.com^
 ||flattee.com^
+||fleecejacketsshop.com^
 ||flwzen.com^
 ||folkrbvi.pages.dev^
 ||food-network.fwh.is^
+||forksbike.com^
 ||freebitcoin.pages.dev^
 ||friday89.com^
 ||friday99.com^
@@ -1742,6 +1748,7 @@
 ||fveco.com^
 ||gamedrive.org^
 ||gamingbuffs.com^
+||gamingtoolz.club^
 ||gcqcanada.com^
 ||gdzieobejrzec.com^
 ||gearanime.com^
@@ -1813,6 +1820,7 @@
 ||india-visas.org^
 ||india.evisa-agency.com^
 ||india.travisa.com^
+||indiae-visa.com^
 ||indiaeta.com^
 ||indiaevisas.org^
 ||indiaevisaservice.com^
@@ -1846,7 +1854,6 @@
 ||iphone.quiztionnaire.biz^
 ||iqcreditcheck.com^
 ||italyworldbaseballclassic.com^
-||itq.cuteclub.org^
 ||itseasy.com^
 ||ivisa.com^
 ||j-natural.com^
@@ -1899,7 +1906,6 @@
 ||linostee.com^
 ||lisabuddy.com^
 ||litcomplex.com^
-||liverepsae.adeftsolutions.com^
 ||load.365analytics.xyz^
 ||look-like-star.myshopify.com^
 ||lorenzettibrasil-vendas.com^
@@ -1933,6 +1939,7 @@
 ||msgclick.top^
 ||mslfgl434.pages.dev^
 ||mujib-store28.blogspot.com^
+||multifilmy.pl^
 ||muskai.net^
 ||muskusa.com^
 ||mybestautologin567.com^
@@ -1944,14 +1951,12 @@
 ||nalzahqp.page.link^
 ||natilove.com^
 ||nationaladvancegroup.com^
-||natistorez.com^
 ||natvisa.com^
 ||navi1.com^
 ||navi10.com^
 ||navi100.com^
 ||navi11.com^
 ||navi12.com^
-||navi16.ru^
 ||navi18.com^
 ||navi2.com^
 ||navi20.ru^
@@ -1974,7 +1979,6 @@
 ||navi39.ru^
 ||navi4.com^
 ||navi42.ru^
-||navi44.com^
 ||navi5.com^
 ||navi52.com^
 ||navi53.com^
@@ -2045,6 +2049,7 @@
 ||oldcube.com^
 ||olive121407.studio.site^
 ||olymptrade-qid.com^
+||online-binomo.com^
 ||online-eta.com^
 ||onlinecda.pl^
 ||onlinefilmy.pl^
@@ -2111,6 +2116,7 @@
 ||rjgriffith.com^
 ||robalmeister.workers.dev^
 ||robinmooreband.com^
+||robuxmenu.vip^
 ||rockchief.com^
 ||rosateeshop.com^
 ||royaldecorhome.store^
@@ -2158,6 +2164,7 @@
 ||skinszone.net^
 ||skyfollowerbridge.com^
 ||sligen.com^
+||slimsyrups.ca^
 ||smartokids.com^
 ||smartpower4all.org^
 ||smartproduct.site^
@@ -2214,8 +2221,6 @@
 ||tamed-exotics.com^
 ||tartannewzealand.myshopify.com^
 ||tbao684tryo.com^
-||tdgrop168.vip^
-||tee24h.com^
 ||teezill.com^
 ||telegramweb.vercel.app^
 ||telemarktalk.com^
@@ -2254,7 +2259,6 @@
 ||trivo.uk^
 ||trkucibqy.com^
 ||tromselementbygg.no^
-||trusltwcllet.com^
 ||turtleclient.xyz^
 ||twiiiter.com^
 ||twinsbio.com^
@@ -2267,7 +2271,6 @@
 ||ultimate-tech-products.myshopify.com^
 ||ultra-cda.pl^
 ||ultrasonica.info^
-||um-bs.com^
 ||uni-swap.online^
 ||unifully.com^
 ||uniswap.host^
@@ -2300,7 +2303,6 @@
 ||validsteamkeys.com^
 ||vanced-official.com^
 ||vanced.to^
-||velmaglendenning.ru.com^
 ||vencord.app^
 ||venezuelabaseballjerseys.com^
 ||verfun.com^
@@ -2380,7 +2382,6 @@
 ||zalukaj-vip.pl^
 ||zalukaj.app^
 ||zalukaj.cc^
-||zalukaj.co^
 ||zalukaj.co.pl^
 ||zalukaj.eu^
 ||zalukaj.film^
@@ -2409,7 +2410,7 @@
 ||avito.avito.www.avito.
 ||booking.com-id*
 [Adblock Plus 3.13]
-! Version: 21May2026v1
+! Version: 30May2026v1
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -2879,6 +2880,8 @@ panewslab.com##button[data-grace-area-trigger]
 panewslab.com##div.leading-none ~ div:not([class]):last-of-type
 foodora.*##.bds-c-sticky-banner
 novosti.rs##.mobile-app
+threads.com###has-finished-comet-page + div[class^=__fb-][class*="-mode "]
+zalando.*##div[style="display:contents"]:not([data-trckng-component]):has(> div[style="display:contents"] > div[style^="min-height:"]:last-child:only-of-type)
 ! https://github.com/DandelionSprout/adfilt/issues/1047
 @@/jquery.smartbanner.js^
 ! (https://github.com/DandelionSprout/adfilt/issues/1065)
@@ -2949,6 +2952,8 @@ instagram.com##div[class]:first-of-type:not(.html-div) + div.html-div:has(+ div:
 ! An SNCF Connect E-mail when viewed in Thunderbird
 /pushApp/pushGooglePlay.png^
 /pushApp/pushAppStore.png^
+! zalandoNO (30/05/2026)
+/app-download-banner/*.js|
 ! Below are entries that I borrowed from "I Don't Want Your App", which was maintained by https://github.com/lassekongo83 at https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/i-dont-want-your-app.txt, and which was licenced as GPLv3
 ! Generic
 ##a[href*=".app.link/"]
@@ -2966,7 +2971,7 @@ linkedin.com#?#html:style(overflow: auto !important)
 linkedin.com#?#body:style(overflow: auto !important)
 ﻿[Adblock Plus 3.10]
 ! Title: 🤺 Anti-'Manifest V3' List
-! Version: 11April2026v1-Alpha
+! Version: 01June2026v1-Alpha
 ! Expires: 4 days
 ! Licence: https://github.com/DandelionSprout/adfilt/blob/master/LICENSE.md
 ! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md
@@ -2979,6 +2984,7 @@ linkedin.com#?#body:style(overflow: auto !important)
 ||perplexity.ai/rest/browser/download^$all,reason="MV3-only web browser."
 ||srware.net/downloads/srware_iron$all,reason="MV3-only web browser."
 /^((https?|tcp|udp|i?quic|s?ftp)://)?ulaa\.zoho\.com(/.*)?$/$all
+://dl.google.com/*/UpdaterSetup.exe^$all,reason="Update tool for an MV3-only web browser."
 ! ——— "We give up"-type alleged extensions ———
 ||chrome.google.com/webstore/detail/adguard-adblocker-mv3^$important
 ||chrome.google.com/webstore/detail/ublock-origin-lite^$important
@@ -3091,7 +3097,6 @@ rakuten.tv###card-desert-jewel-dunhuang--0
 rakuten.tv###card-land-of-diversity--0
 ﻿[Adblock Plus 3.17]
 ! Title: 🏗 Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites
-! Version: 16May2026v1
 ! Expires: 6 days
 ! Description: This list targets international websites that clutter search engine results with misinformation, unfounded articles, and/or contempt for humanity. While designed for use with «Google Hit Hider by Domain» to remove search results, it can also be used with other domains-list tools if you want more thorough blocking of them, incl. AdGuard Home, AdGuard for Windows/Android/Mac's DNS Filtering modes (_NOT_ their regular filtering modes) and uBlock Origin.
 ! Note: Using the list with AdGuard's browser extensions, desktop/Android programmes' regular filtering modes, or CLI tools is a REALLY freaking bad idea because they can't correctly handle raw-domains entries, and therefore look for text matches instead, so that for instance x•com blocks yandex•com.
@@ -3301,6 +3306,13 @@ belaaz.com
 volksbeschermers.nl
 itv.ie
 joynews.co.za
+sag-nein-zu-drogen.de
+vitahealth.co.nz
+shincheonji.kr
+vmisrael.co.il
+neinzudrogen.ch
+destinychurch.org.nz
+dianetics.ch
 # Far-right/alt-right fringe "newssites" (Finland)
 rapsodia.fi
 mainland.press
@@ -3316,6 +3328,7 @@ binary.org.au
 covidtruths.co.uk
 gumshoenews.com
 yourdemocracy.net
+bodyyoga.com.au
 # Far-right/alt-right fringe "newssites" (United Kingdom)
 standpointmag.co.uk
 unitynewsnetwork.co.uk
@@ -3332,6 +3345,7 @@ stevekirsch.substack.com
 doctoraseem.com
 dailysceptic.org
 unherd.com
+gelc.org.uk
 # Far-right/alt-right "newssites" (India)
 indianlibertyreport.com
 greatgameindia.com
@@ -3389,6 +3403,10 @@ kritikken.no
 utenfilter.no
 redde-verden.com
 subjekt.no
+visjonnorge.com
+vssvisjonnorge.wordpress.com
+bibel-skolen.com
+bibel-skolen.org
 # Far-right/alt-right fringe "newssites" (Denmark)
 denkorteavis.dk
 snaphanen.dk
@@ -3429,6 +3447,7 @@ peteryoungdk.blog
 kontrast.dk
 document.dk
 modstroemmen.dk
+frivilligpraest.dk
 # Far-right/alt-right fringe "newssites" (Sweden)
 friatider.se
 samnytt.se
@@ -3436,6 +3455,7 @@ uvell.se
 nyheteridag.se
 detgodasamhallet.com
 bartoll.se
+frivilligpastorer.se
 # Far-right/alt-right fringe "newssites" (Canada)
 canadafreepress.com
 lifesitenews.com
@@ -3463,6 +3483,7 @@ vasarnap.hu
 demokrata.hu
 hungarianconservative.com
 szmm.substack.com
+xn--nknteslelkszek-ckbi3s.hu
 # Far-right/alt-right "newssites" (Russia)
 rt.com
 91.215.41.4
@@ -4416,6 +4437,321 @@ stateoftheday.us
 nextnewsnetwork.com
 stream.org
 aguayonews.com
+19justinbrown88.yolasite.com
+2peter3.com
+9165619.com
+9marks.org
+able.org
+adflegal.org
+afr.net
+aggressivechristianity.net
+alamoministries.com
+allanccarlson.com
+allscripturebaptist.com
+alphaomegalabs.com
+altcancer.com
+americanevangelicals.com
+americanpastorsnetwork.net
+americansfortruth.org
+animalhomeopathy.org.tripod.com
+answersingenesis.org
+aolabs.is
+appliedscholastics.org
+appliedscholasticsonline.com
+askdrbrown.org
+bcs-uk.org
+bdsda.com
+beginningandend.com
+bethelredding.com
+boards.christogenea.org
+bossierchurchofchrist.com
+briarwood.org
+bulldogministries.com
+calvaryoftampa.org
+cbn.com
+cchr.ie
+cchr.org
+cchr.org.za
+cdautism.org
+cdaybell.com
+charismamag.com
+charismanews.com
+chick.com
+childrenshousenursery.com
+christianidentityministries.com
+christianscience.com
+christinthewild.com
+christiscoming777.com
+christogenea.com
+christogenea.net
+christogenea.org
+churchint.org
+churchofisrael.org
+citizenscommissiononhumanrights.ca
+clearbird.org
+coachdavelive.com
+cog-pkg.org
+coyotesnaturalmedicine.com
+craigjames.com
+creation.com
+creators.com
+criminon.org
+crosspolitic.com
+d1en0cs4s0ez90.cloudfront.net
+d1svpt9wxixxsr.cloudfront.net
+d2b7dvhy31wn1l.cloudfront.net
+deannalorraine.com
+deinemenschenrechte.de
+delphian.org
+demonicharassment.wordpress.com
+desiringgod.org
+discovermms.com
+divinetruth.com
+drdino.com
+dreammentors.org
+drhotze.com
+drstella.org
+drugfreeworld.org
+effectiveeducation.net
+elijahlist.com
+ericmetaxas.com
+ethnos360.org
+evangelicalsforbiblicalimmigration.com
+ewellnessmag.com
+ewjackson.com
+exposingsatanism.org
+faim.org
+faithbaptistchalmette.com
+faithfulwordbaptist.org
+fgcp.org
+firepowerministry.org
+flagandcross.com
+focusonthefamily.com
+freeandable.com
+freedom.de
+freedom.dk
+freedom.org.mx
+freedom.org.nz
+freedomdestiny.org
+freedommag.at
+freedommag.be
+freedommag.ca
+freedommag.es
+freedommag.fr
+freedommag.ie
+freedommag.it
+freedommag.jp
+freedommag.nl
+freedommag.no
+freedommag.org
+freedommag.org.uk
+freedommag.org.za
+freedommag.ru
+freedommag.se
+freegospeltracts.org
+g2sacraments.org
+generals.org
+generations.org
+genesis2chile.cl
+genesis2church.ch
+genesis2church.is
+genesis2church297.com
+genesis6conspiracy.com
+globalvisionbc.com
+gloriavale.org.nz
+god.tv
+godencounters.com
+godspeak.com
+godsvoice.us
+gracefamilybaptist.net
+greenfieldsschool.com
+hankandbrenda.org
+harvestbiblechapel.org
+healingfromcrossdressing.org
+healthnwealthltd.com
+heavens-vision.com
+heiscomingblog.wordpress.com
+helplearn.org
+herbhealers.com
+humanrights.com
+idenics.com
+ifapray.org
+inspiration.org
+inspirationcampmeeting.com
+internationalfreezone.net
+itsgoodtobeaman.com
+ivantuttle.com
+jamespayneministries.com
+jamesrobison.net
+jenniferleclaire.org
+jeremiahproject.com
+jesustruthdeliverance.com
+jimbakkershow.com
+jimhumble.biz
+jordens-allersidstetid.com
+jugend-fuer-menschenrechte.de
+jw-api.org
+jw.org
+katkerr.com
+kcm.org
+ketokerri.com
+keyofdavidcc.com
+keytolife.com
+kimmillerconcernedchristians.com
+kingidentity.com
+ksb.org.za
+kvlab.com
+lancewallnau.com
+lifetoday.org
+lindenpres.org
+liveaction.org
+livingwaters.com
+louengle.com
+lronhubbard.org
+ltcbr.com
+mandelabiblechanges.com
+mariomurillo.org
+mariomurilloministries.wordpress.com
+marycolbert.us
+mattysparadigm.org
+mercola.com
+mhfm.store
+mikemurdockbooks.com
+ministrovoluntario.mx
+miraclemineral.org
+miraclerevivalchannel.com
+mms-healthyliving.com
+mmsaustralia.com.au
+mmsforum.io
+mmsnews.is
+mmstestimonials.co
+mmswiki.is
+morningstar.tv
+morningstarfortmill.com
+morningstarministries.org
+mostholyfamilymonastery.com
+mountainbaptist.org
+myfaithvotes.org
+narconon.org
+ncpastors.net
+obeyjesus.org
+olivetreeviews.org
+ondemandhosting.info
+oneplace.com
+onevoiceprayermovement.com
+ourspiritualquest.com
+ovm.org
+paigepatterson.org
+paulawhite.org
+peacefmonline.com
+perrystone.org
+poorpennycarson.net
+prepareforchange.net
+preparingapeople.com
+progmedia.edgesuite.net
+prolifewhistleblower.com
+ptv.org
+purewordsbaptist.com
+quartercrusade.com
+rachelnstephens.com
+rapturewatch.net
+rayviolet.blogspot.com
+rayviolet2.blogspot.com
+realkerririvera.com
+reformationchurch.com
+repentancecry.com
+restore7.org
+returntoorder.org
+revealingheaven.com
+revelationtv.com
+revival.com
+revivaltoday.com
+roberthenderson.org
+robindbullock.com
+rodofironministries.org
+schoolofthespirit.tv
+scientolipedia.org
+scientologi.no
+scientologi.se
+scientologie.fr
+scientology-basel.org
+scientology.ch
+scientology.de
+scientology.dk
+scientology.es
+scientology.gr
+scientology.it
+scientology.jp
+scientology.nl
+scientology.org
+scientology.org.il
+scientology.org.mx
+scientology.org.tw
+scientology.pt
+scientology.ru
+scientology.tv
+scientologycourses.org
+scientologynews.org
+scientologyreligion.de
+scientologyreligion.dk
+scientologyreligion.es
+scientologyreligion.gr
+scientologyreligion.it
+scientologyreligion.nl
+scientologyreligion.org
+scientologyreligion.org.il
+scientologyreligion.org.mx
+scientologyreligion.org.tw
+scientologyreligion.ru
+scientologyreligion.se
+scientologyvallas.hu
+scionofzion.com
+ses.edu
+sga.org
+sga.org.uk
+shininglight7ministries.com
+sidroth.org
+solidrockchurch.org
+sord.us
+standardadmin.org
+standleague.org
+szcientologia.org.hu
+tbn.org
+tbn.tv
+tearsforchildren.org
+teenrescue.com
+themcfiles.live
+thetransformedwife.com
+thetrumpprophecymovie.com
+thevillagechurch.net
+thewaytohappiness.org
+thirdeaglemedia.com
+tira.org
+toddstarnes.com
+tradcatfem.com
+twelvetribes.com
+urbanfamilytalk.com
+vaccinesandchristianity.org
+vcyamerica.org
+victoryaltar.org
+volunteerminister.tw
+volunteerministers.ca
+volunteerministers.ie
+volunteerministers.jp
+volunteerministers.org
+volunteerministers.org.au
+volunteerministers.org.nz
+volunteerministers.org.uk
+volunteerministers.ru
+w3school.com
+wallbuilders.com
+wayofthemaster.com
+weed-crew.net
+whatisscientology.org
+wisdomonline.com
+yahweh.com
+youthforhumanrights.org
+zetatalk.com
 # Domains looked up by various Apple TV apps that are owned by sites that are listed further up in this list
 api.foxnews.com
 api.p1.media
@@ -5878,7 +6214,7 @@ logrocket.com##div.code-block:-abp-has(> a div.metrics-banner)
 logrocket.com##div[class*="-plug"]
 logrocket.com##div[class*="-cta"]
 ! Title: 🔮 I Don't Want to Download Your Browser
-! Version: 05May2026v1-Beta
+! Version: 30May2026v1-Beta
 ! Description: Do you already have a favourite browser or PDF reader? Are you tired of seeing "Try out [some browser] now!" on some websites? Then this is a list for you!
 ! Note: The list doesn't block browser download buttons on first-party site pages solely dedicated to downloads, if the browser is made by that same first-party. For instance https://www•ccleaner•com/ccleaner/download
 ! ——— Chrome ———
@@ -5952,6 +6288,12 @@ supermicro.com##.boxHome.textA:has([href*="products/acrobat/"])
 signform.no#?##signformheader + div > p:has-text(Adobe Reader)
 ! No active example pages
 /images/acrobat.gif|
+! ——— Brave Browser ———
+! I at least don't think Brave's search engine counts as being solely dedicated to downloads.
+! https://github.com/DandelionSprout/adfilt/issues/1227
+search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##.download-cta
+search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##banner
+search.brave.com,search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion##+js(set-local-storage-item, app.browserPromoDisabled, true)
 ! ——— Desktop app versions of websites ———
 deezer.com##.page-alerts:has(a[href$="/download"])
 ! ——— Self-promoting but somewhat annoying links ———
