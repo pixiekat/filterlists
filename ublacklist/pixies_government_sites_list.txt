@@ -30,6 +30,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.donaldjtrump.com/*
 *://*.fbi.gov/*
 *://*.fcc.gov/*
+*://*.federalregister.gov/*
 *://*.freedom.gov/*
 *://*.gop.com/*
 *://*.heritage.org/*
