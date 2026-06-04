@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 3June2026v1
+! Version: 4June2026v1
 ! Expires: 7 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -33,6 +33,7 @@
 ||foxweather.com^$document,all,domain=~its-a-fascist-domain.*
 ||gbnews.com^$document,all,domain=~its-a-fascist-domain.*
 ||greenwald.locals.com^$document,all,domain=~its-a-fascist-domain.*
+||kenklippenstein.com^$document,domain=~its-a-fascist-domain.*
 ||megynkelly.com^$document,all,domain=~its-a-fascist-domain.*
 ||nymag.com$document,domain=~murdochs.rags.*
 ||nytimes.com^$document,all,domain=~its-a-fascist-domain.*

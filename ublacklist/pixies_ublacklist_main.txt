@@ -40,6 +40,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.foxweather.com/*
 *://*.gbnews.com/*
 *://*.greenwald.locals.com/*
+*://*.kenklippenstein.com/*
 *://*.megynkelly.com/*
 *://*.nymag.com/*
 *://*.rebelnews.com/*
@@ -51,6 +52,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.vox.com/*
 *://*.wabcradio.com/*
 *://*.washingtonreporter.news/*
+*://open.substack.com/pub/kenklippenstein/*
 
 # --- Social Sites ---
 *://*.facebook.com/*
