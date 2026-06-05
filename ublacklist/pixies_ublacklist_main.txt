@@ -30,10 +30,14 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.cbssports.com/ufc/*
 *://*.espn.co.uk/mma/*
 *://*.espn.com/mma/*
+*://*.independent.co.uk/sport/ufc/*
 *://*.mmafighting.com/*
+*://*.mmafighting.com/*
+*://*.mmamania.com/*
 *://*.msn.com/en-us/sports/mma/*
 *://*.msn.com/en-us/sports/mma_ufc/*
 *://*.si.com/fannation/mma/*
+*://*.tntsports.co.uk/mixed-martial-arts/ufc/*
 *://*.ufc.com/*
 *://*.ufcfightpass.com/*
 *://*.wikipedia.org/wiki/List_of_UFC_events*
