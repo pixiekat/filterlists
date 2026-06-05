@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 4June2026v1
+! Version: 5June2026v1
 ! Expires: 7 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -64,8 +64,11 @@
 ||manifold.markets^$document,all,domain=~scourge-of-society.*
 
 ! General evil sites
-||www.realamericanfreestyle.com^$document
+||cbssports.com/ufc/^$document,all,domain=~its-a-fascist-domain.*
 ||rumble.com^$document,all,domain=~its-a-fascist-domain.*
+||ufc.com^$document,all,domain=~its-a-fascist-domain.*
+||ufcfightpass.com^$document,all,domain=~its-a-fascist-domain.*
+||www.realamericanfreestyle.com^$document
 
 ! Probably fine but I just don't like to see
 ||adpizzapub.com^$document

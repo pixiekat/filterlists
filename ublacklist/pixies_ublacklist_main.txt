@@ -26,6 +26,19 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.tesla.com/*
 *://*.x.ai/*
 
+# --- Sites that contribute to fascism ---
+*://*.cbssports.com/ufc/*
+*://*.espn.co.uk/mma/*
+*://*.espn.com/mma/*
+*://*.msn.com/en-us/sports/mma/*
+*://*.si.com/fannation/mma/*
+*://*.ufc.com/*
+*://*.ufcfightpass.com/*
+*://*.wikipedia.org/wiki/List_of_UFC_events*
+*://*.wikipedia.org/wiki/Ultimate_Fighting_Championship*
+*://sports.yahoo.com/mma/*
+*://www.youtube.com/@ufc/*
+
 # --- Fascist Regime Sites ---
 *://*.alexjoneslive.com/*
 
@@ -42,6 +55,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.greenwald.locals.com/*
 *://*.kenklippenstein.com/*
 *://*.megynkelly.com/*
+*://*.mirror.co.uk/*
 *://*.nymag.com/*
 *://*.rebelnews.com/*
 *://*.spectator.co.uk/*
