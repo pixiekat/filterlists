@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 2026-05-13T11:57:16Z
+! Version: 2026-06-10T11:50:53Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
@@ -271,12 +271,13 @@
 @@|wps.apple.com^
 @@|wps.v.aaplimg.com^
 ! Title: 🌐 BadBlock - Browser Whitelist (ABP)
-! Version: 03May2026v1
+! Version: 06June2026v1
 ! Description: Unblock the Good! (Browser Edition)
 @@|archive-01.torproject.org^
 @@|archive.torproject.org^
 @@|assets.celenity.dev^
 @@|assets.ironfoxoss.org^
+@@|aus.waterfox.com^
 @@|aus1.torproject.org^
 @@|aus2.torproject.org^
 @@|brave-browser-apt-beta.s3.brave.com^
@@ -335,11 +336,13 @@
 @@|updates-cdn.bravesoftware.com^
 @@|updates.brave.com^
 @@|updates.bravesoftware.com^
+@@|updates.helium.computer^
 @@|updates.zen-browser.app^
 @@|versions.brave.com^
 @@|www.cromite.org^
 @@|www.palemoon.org^
 ! Title: 🛜 BadBlock - Captive Whitelist (ABP)
+! Version: 03May2026v1
 ! Description: Unblock domains required for Captive Portals & Connectivity Checks!
 @@||aainflight.com^$important
 @@|204.ecloud.global^
@@ -3306,6 +3309,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|www1.dell-cidr.akadns.net^
 @@|wwwfile.realtek.com^
 ! Title: 🏠 BadBlock - Misc. Whitelist (ABP)
+! Version: 04June2026v1
 ! Description: Unblock the Good! (Misc. Edition)
 @@|sourceforge.net^
 @@|360.qualtrics.com^
@@ -3852,6 +3856,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|lion.nod.sk^
 @@|livegrid.eset.systems^
 @@|livegrid.gtm.eset.systems^
+@@|logging.apache.org^
 @@|login.eset.com^
 @@|login.mynt.xyz^
 @@|login.mynt.xyz-v1.edgekey.net^
@@ -3959,6 +3964,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|socialize.gigya.com.edgekey.net^
 @@|ssl-download.adobe.com.edgekey.net^
 @@|stat.columbia.edu^
+@@|statistics.kavakci.dev^
 @@|stats.labs.apnic.net^
 @@|steamcdn-a.akamaihd.net^
 @@|storage.signal.org^
@@ -5969,6 +5975,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|ads-track-digest256.dummytracker.org^
 @@|amo-test-1048344596.us-west-2.elb.amazonaws.com^
 @@|analytics-track-digest256.dummytracker.org^
+@@|archive.mozilla-backup.org^
 @@|archive.mozilla.org^
 @@|attachments.prod.remote-settings.prod.webservices.mozgcp.net^
 @@|aus-api.mozilla.org^
@@ -5976,6 +5983,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|aus3.mozilla.org^
 @@|aus4-admin.mozilla.org^
 @@|aus4.mozilla.org^
+@@|aus5.mozilla-backup.org^
 @@|aus5.mozilla.org^
 @@|autoconfig.thunderbird.net^
 @@|autograph.services.mozaws.net^
@@ -5995,6 +6003,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|blocklist.addons.mozilla.org^
 @@|blocklists.settings.services.mozilla.com^
 @@|ciscobinary.openh264.org^
+@@|content-signature-2-cdn.mozilla-backup.org^
 @@|content-signature-2.cdn.mozilla.net^
 @@|content-signature-chains.nonprod.webservices.mozgcp.net^
 @@|content-signature-chains.prod.autograph.services.mozaws.net^
@@ -6006,10 +6015,13 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|download-installer.cdn.mozilla.net^
 @@|download-origin.cdn.mozilla.net^
 @@|download.cdn.mozilla.net^
+@@|download.mozilla-backup.org^
 @@|download.mozilla.org^
 @@|extension-finder.thunderbird.net^
 @@|fennec-catalog-cdn.prod.mozaws.net^
 @@|firefox-settings-attachments.cdn.mozilla.net^
+@@|firefox-settings-attachments.mozilla-backup.org^
+@@|firefox-settings.mozilla-backup.org^
 @@|firefox.etp^
 @@|firefox.settings.services.allizom.org^
 @@|firefox.settings.services.mozilla.com^
@@ -6075,6 +6087,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|updater.allizom.org^
 @@|updates.mozilla.org^
 @@|updates.push.services.mozilla.com^
+@@|versioncheck-addons.mozilla-backup.org^
 @@|versioncheck-bg.addons.mozilla.org^
 @@|versioncheck-bg.addons.thunderbird.net^
 @@|versioncheck-dev.allizom.org^
