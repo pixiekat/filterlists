@@ -51,6 +51,9 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 # --- Fascist Regime Sites ---
 *://*.alexjoneslive.com/*
 
+# --- Fascists ---
+*://*.stevehiltonforgovernor.com/*
+
 # --- News Sites ---
 *://*.breitbart.com/*
 *://*.canadafreepress.com/*
