@@ -6,3 +6,5 @@ ctv.ca
 ctvnews.ca
 tsn.ca
 sportsnet.ca
+cbcca.hb.omtrdc.net
+radiocanada.hb.omtrdc.net
