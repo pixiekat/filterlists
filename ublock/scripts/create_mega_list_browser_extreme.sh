@@ -16,6 +16,9 @@ URLS=(
   "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/specific/AntiAPKMirrorCountdown.txt"
   #"https://raw.githubusercontent.com/WhyIsEvery4thYearAlwaysBad/anti-cancer-filter-lists/master/anti_trash_youtube.txt"
   "https://tetrax-10.github.io/imdb-clean-as-fuck/imdb-clean-as-fuck-with-better-styles.txt"
+  "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt"
+  "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/clean_reading_experience.txt"
+  "https://github.com/yokoffing/filterlists/raw/refs/heads/main/privacy_essentials.txt"
 )
 
 for url in "${URLS[@]}"; do

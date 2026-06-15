@@ -29,6 +29,7 @@ URLS=(
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Android%20Scum%20Class%20%E2%80%94%20Fake%20notification%20counters.txt"
   "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/SurvivedTrackingLinkWarning.txt"
   "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/MiscAnnoyance.txt"
+  "https://github.com/yokoffing/filterlists/raw/refs/heads/main/annoyance_list.txt"
 )
 
 for url in "${URLS[@]}"; do
