@@ -103,6 +103,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.dev.to/*
 *://*.drupalize.me/*
 *://*.esspots.com/*
+*://*.factually.co/*
 *://*.geekpedia.com/*
 *://*.gitmemories.com/*
 *://*.guy4game.com/*
