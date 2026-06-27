@@ -20,6 +20,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 # --- US ---
 *://*.ai.gov/*
 *://*.aliens.gov/*
+*://*.america250.org/*
 *://*.americabydesign.gov/*
 *://*.cdc.gov/*
 *://*.cia.gov/*
