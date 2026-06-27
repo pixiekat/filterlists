@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-06-15T10:02:14Z
+! Version: 2026-06-27T20:37:57Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -159,6 +159,7 @@
 @@||online.church^
 @@||bypass.city^
 @@||ops.city^
+@@||sem.city^
 @@||technical.city^
 @@||am-videos.click^
 @@||buybox.click^
@@ -227,6 +228,7 @@
 @@||ze.delivery^
 @@||clear.dental^
 @@||xhamster45.desi^
+@@||xhamster46.desi^
 @@||xhamster.desi^
 @@||2fa.directory^
 @@||cursor.directory^
@@ -309,6 +311,7 @@
 @@||eneba.games^
 @@||erkul.games^
 @@||gxcorner.games^
+@@||mycafe.games^
 @@||skystone.games^
 @@||file.garden^
 @@||cst.gdn^
@@ -345,6 +348,7 @@
 @@||watcher.guru^
 @@||webcal.guru^
 @@||lunar.haus^
+@@||tri.haus^
 @@||flo.health^
 @@||sca.health^
 @@||severance.healthcare^
@@ -386,6 +390,7 @@
 @@||circles.life^
 @@||colorgame.life^
 @@||digitalcitizen.life^
+@@||enerjoy.life^
 @@||fami.life^
 @@||iboost.life^
 @@||lifetime.life^
@@ -508,6 +513,7 @@
 @@||argon2.online^
 @@||bebraver.online^
 @@||blink.online^
+@@||bodyreset.online^
 @@||cf-equality.online^
 @@||dancewave.online^
 @@||discuss.online^
@@ -524,6 +530,7 @@
 @@||instructions.online^
 @@||manuals.online^
 @@||mastodon.online^
+@@||mijnslimhuis.online^
 @@||mrprice.online^
 @@||open.online^
 @@||order.online^
@@ -545,6 +552,7 @@
 @@||ducks.party^
 @@||mstdn.party^
 @@||ntc.party^
+@@||searchengine.party^
 @@||spankbang.party^
 @@||wmars.party^
 @@||kickthespy.pet^
@@ -625,7 +633,9 @@
 @@||30grad.shop^
 @@||4id.shop^
 @@||aloedent.shop^
+@@||appchance.shop^
 @@||axisms.shop^
+@@||brothersinarms.shop^
 @@||buergerspital.shop^
 @@||chessvibes.shop^
 @@||cineorder.shop^
@@ -659,6 +669,7 @@
 @@||nordland.shop^
 @@||owl-dampfer.shop^
 @@||oxiline.shop^
+@@||papaplatte.shop^
 @@||prohibited.shop^
 @@||redbrain.shop^
 @@||scayle.shop^
@@ -765,6 +776,7 @@
 @@||myshopline.store^
 @@||pbshop.store^
 @@||peugeot.store^
+@@||pyrocynical.store^
 @@||roble.store^
 @@||rokomari.store^
 @@||shoplazza.store^
@@ -774,6 +786,7 @@
 @@||tatemcraeeu.store^
 @@||tatemcrae.store^
 @@||timberjacks.store^
+@@||xqc.store^
 @@||affinity.studio^
 @@||ai.studio^
 @@||firebase.studio^
@@ -781,6 +794,7 @@
 @@||starapps.studio^
 @@||woodsea.studio^
 @@||zenn.studio^
+@@||nebula.style^
 @@||primer.style^
 @@||shiki.style^
 @@||encode.su^
@@ -944,6 +958,7 @@
 @@||starlightnet.work^
 @@||betterme.world^
 @@||bevisioneers.world^
+@@||bk.world^
 @@||boo.world^
 @@||calckey.world^
 @@||camhub.world^
@@ -999,8 +1014,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 15 Jun 2026 07:30 UTC
-! Version: 2026.0615.0730.36
+! Last modified: 27 Jun 2026 19:03 UTC
+! Version: 2026.0627.1903.19
 ! Syntax: uBlock
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -1049,7 +1064,7 @@
 ||cheap^$doc
 ||christmas^$doc
 ||church^$doc,domain=~host.church|~life.church|~online.church
-||city^$doc,domain=~bypass.city|~ops.city|~technical.city
+||city^$doc,domain=~bypass.city|~ops.city|~sem.city|~technical.city
 ||claims^$doc
 ||click^$doc,domain=~am-videos.click|~buybox.click|~fibra.click|~popcat.click|~popdog.click|~porsche.click|~qr-code.click|~ravelin.click|~wmg.click
 ||clothing^$doc
@@ -1073,7 +1088,7 @@
 ||degree^$doc,domain=~opf.degree|~three60.degree
 ||delivery^$doc,domain=~meucarrinho.delivery|~push.delivery|~return-my.delivery|~wedos.delivery|~ze.delivery
 ||dental^$doc,domain=~clear.dental
-||desi^$doc,domain=~xhamster45.desi|~xhamster.desi
+||desi^$doc,domain=~xhamster45.desi|~xhamster46.desi|~xhamster.desi
 ||directory^$doc,domain=~2fa.directory|~cursor.directory|~fedi.directory|~ooh.directory|~passkeys.directory|~reactnative.directory
 ||discount^$doc,domain=~real.discount
 ||diy^$doc,domain=~cal.diy
@@ -1112,7 +1127,7 @@
 ||futbol^$doc
 ||fyi^$doc,domain=~apollo.fyi|~better.fyi|~crypt.fyi|~genderdysphoria.fyi|~iusearchlinux.fyi|~laelaps.fyi|~levels.fyi|~lunar.fyi|~notbyai.fyi|~ost2.fyi|~poyoanon.fyi|~recollect.fyi|~vercel.fyi|~wpt.fyi
 ||ga^$doc,domain=~google.ga|~mmo.ga
-||games^$doc,domain=~crazypanda.games|~embark.games|~eneba.games|~erkul.games|~gxcorner.games|~skystone.games
+||games^$doc,domain=~crazypanda.games|~embark.games|~eneba.games|~erkul.games|~gxcorner.games|~mycafe.games|~skystone.games
 ||garden^$doc,domain=~file.garden
 ||gdn^$doc,domain=~cst.gdn
 ||gent^$doc,domain=~stad.gent
@@ -1129,7 +1144,7 @@
 ||guide^$doc,domain=~bedandbreakfast.guide|~cfw.guide|~discordjs.guide|~goodtravel.guide|~hacks.guide|~homebrew.guide|~opensource.guide|~ripped.guide|~site.guide|~slowfood.guide|~thebook.guide|~wii.guide|~wisely.guide|~zig.guide
 ||guru^$doc,domain=~bahn.guru|~base64.guru|~crontab.guru|~greenlight.guru|~jav.guru|~ludwig.guru|~mags.guru|~tilde.guru|~watcher.guru|~webcal.guru
 ||hair^$doc
-||haus^$doc,domain=~lunar.haus
+||haus^$doc,domain=~lunar.haus|~tri.haus
 ||health^$doc,domain=~flo.health|~sca.health
 ||healthcare^$doc,domain=~severance.healthcare
 ||help^$doc,domain=~crisp.help|~fastmail.help|~gorgias.help|~intercom.help|~kustomer.help|~pixiv.help
@@ -1151,7 +1166,7 @@
 ||lat^$doc
 ||legal^$doc,domain=~doctolib.legal|~wbs.legal
 ||lgbt^$doc,domain=~lex.lgbt|~mint.lgbt|~tech.lgbt
-||life^$doc,domain=~2ch.life|~billo.life|~circles.life|~colorgame.life|~digitalcitizen.life|~fami.life|~iboost.life|~lifetime.life|~loveinfaith.life|~opentix.life|~stepone.life|~via.life|~yiff.life
+||life^$doc,domain=~2ch.life|~billo.life|~circles.life|~colorgame.life|~digitalcitizen.life|~enerjoy.life|~fami.life|~iboost.life|~lifetime.life|~loveinfaith.life|~opentix.life|~stepone.life|~via.life|~yiff.life
 ||lifestyle^$doc
 ||living^$doc
 ||llc^$doc,domain=~ratcloud.llc
@@ -1188,11 +1203,11 @@
 ||okinawa^$doc
 ||ong^$doc
 ||onl^$doc,domain=~gc.onl
-||online^$doc,domain=~2kweb.online|~adguard-vpn.online|~argon2.online|~bebraver.online|~blink.online|~cf-equality.online|~dancewave.online|~discuss.online|~dnslookup.online|~dnsspeedtest.online|~eufh.online|~fireshinegames.online|~flexilead.online|~forceofwind.online|~geoigarape.online|~grapheneos.online|~incdn.online|~infomax.online|~instructions.online|~manuals.online|~mastodon.online|~mrprice.online|~open.online|~order.online|~owncast.online|~photostore24.online|~radarpayment.online|~randemretail.online|~ravendawn.online|~shueisha.online|~vmwesa.online|~zander.online
+||online^$doc,domain=~2kweb.online|~adguard-vpn.online|~argon2.online|~bebraver.online|~blink.online|~bodyreset.online|~cf-equality.online|~dancewave.online|~discuss.online|~dnslookup.online|~dnsspeedtest.online|~eufh.online|~fireshinegames.online|~flexilead.online|~forceofwind.online|~geoigarape.online|~grapheneos.online|~incdn.online|~infomax.online|~instructions.online|~manuals.online|~mastodon.online|~mijnslimhuis.online|~mrprice.online|~open.online|~order.online|~owncast.online|~photostore24.online|~radarpayment.online|~randemretail.online|~ravendawn.online|~shueisha.online|~vmwesa.online|~zander.online
 ||ooo^$doc,domain=~term.ooo|~toast.ooo
 ||partners^$doc,domain=~1password.partners|~nvidia.partners|~stripe.partners|~xh.partners
 ||parts^$doc,domain=~r.parts
-||party^$doc,domain=~ducks.party|~mstdn.party|~ntc.party|~spankbang.party|~wmars.party
+||party^$doc,domain=~ducks.party|~mstdn.party|~ntc.party|~searchengine.party|~spankbang.party|~wmars.party
 ||pet^$doc,domain=~kickthespy.pet|~kuma.pet
 ||pharmacy^$doc,domain=~safe.pharmacy
 ||phd^$doc,domain=~rafael.phd
@@ -1235,7 +1250,7 @@
 ||science^$doc,domain=~amazon.science|~canonn.science|~hal.science|~wander.science
 ||sew^$doc
 ||sexy^$doc,domain=~privacy.sexy|~terminal.sexy
-||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~axisms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~gourmet-kochmanufaktur.shop|~grnk.shop|~grog.shop|~gurkistan.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neue.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~prohibited.shop|~redbrain.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~waldhaus.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
+||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~appchance.shop|~axisms.shop|~brothersinarms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~gourmet-kochmanufaktur.shop|~grnk.shop|~grog.shop|~gurkistan.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neue.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~papaplatte.shop|~prohibited.shop|~redbrain.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~waldhaus.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
 ||shopping^$doc
 ||show^$doc,domain=~camz.show|~j.show
 ||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~silvatica.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
@@ -1245,9 +1260,9 @@
 ||space^$doc,domain=~ariadne.space|~azccriminal.space|~blinko.space|~cslogs.space|~dragonscave.space|~drgns.space|~embed-player.space|~filesafe.space|~hf.space|~httpjames.space|~hullseals.space|~hyper.space|~infosec.space|~ippen.space|~jetbrains.space|~keyboard-test.space|~latent.space|~link.space|~mapstodon.space|~melmac.space|~mempool.space|~metahub.space|~momonster.space|~nitter.space|~nuvioapp.space|~ocr.space|~oldbytes.space|~pod.space|~qwik.space|~roguecorp.space|~scurra.space|~searx.space|~slashtw.space|~takeb1nzyto.space|~tapframe.space|~telegram.space|~truepeople.space|~uexcorp.space
 ||sport^$doc,domain=~dyn.sport
 ||srl^$doc
-||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~cnckitchen.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~sofascore.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store
+||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~cnckitchen.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~pyrocynical.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~sofascore.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store|~xqc.store
 ||studio^$doc,domain=~affinity.studio|~ai.studio|~firebase.studio|~flourish.studio|~starapps.studio|~woodsea.studio|~zenn.studio
-||style^$doc,domain=~primer.style|~shiki.style
+||style^$doc,domain=~nebula.style|~primer.style|~shiki.style
 ||su^$doc,domain=~encode.su|~jpg4.su|~jpg6.su|~promportal.su|~saint2.su
 ||support^$doc,domain=~ada.support|~jitsi.support|~windrose.support
 ||surf^$doc,domain=~s-wings.surf
@@ -1289,7 +1304,7 @@
 ||win^$doc,domain=~activated.win|~communities.win|~debloat.win|~ios-countdown.win|~patriots.win|~vaultcord.win
 ||wine^$doc,domain=~nostr.wine
 ||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work|~starlightnet.work
-||world^$doc,domain=~betterme.world|~bevisioneers.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
+||world^$doc,domain=~betterme.world|~bevisioneers.world|~bk.world|~boo.world|~calckey.world|~camhub.world|~edgecdn.world|~heated.world|~ift.world|~juice.world|~lemmings.world|~lemmy.world|~mastodon.world|~maxwellcat.world|~meming.world|~mnetplus.world|~mnr.world|~shitposter.world|~unidays.world|~userstyles.world|~welocal.world|~wetdry.world|~wiz.world
 ||wtf^$doc,domain=~akko.wtf|~bgp.wtf|~cyber.wtf|~e-mail.wtf|~fx.wtf|~ip.wtf|~jascha.wtf|~jsdate.wtf|~lemmy.wtf|~myip.wtf|~tigress.wtf|~wxx.wtf|~xo.wtf
 ||xin^$doc
 ||xx.kg^$doc
@@ -1491,6 +1506,7 @@
 ||allergyfl.com^
 ||allnewsready.com^
 ||allstarshirt.com^
+||allupdatenow.com^
 ||altruetech.com^
 ||altwi-zgs.com^
 ||amorpulse.com^
@@ -1577,7 +1593,6 @@
 ||by-emmamuller.de^
 ||c0nt4ct-me.pages.dev^
 ||campingsurfshop.com^
-||canadapost-service.info^
 ||candlesbymadison.com^
 ||canjaume.com^
 ||caraci.it^
@@ -1699,6 +1714,7 @@
 ||familybestgifts.com^
 ||familygiftlove.myshopify.com^
 ||familygiftville.com^
+||familyshark.com^
 ||familystore.com^
 ||fapst.com^
 ||faunugraipt.com^
@@ -1717,7 +1733,6 @@
 ||field-garnet-duckling.glitch.me^
 ||filedenzu.com^
 ||filexstorage.site^
-||fili-cc.tv^
 ||filman-hd.cc^
 ||filmersi.pl^
 ||filmhit.pl^
@@ -1740,6 +1755,7 @@
 ||folkrbvi.pages.dev^
 ||food-network.fwh.is^
 ||freebitcoin.pages.dev^
+||freedom-5g.com^
 ||friday89.com^
 ||friday99.com^
 ||frostgoddess.com^
@@ -1747,7 +1763,6 @@
 ||fullview.pl^
 ||fumekart.com^
 ||fundanemt.org^
-||funfilenow.com^
 ||furnishmyhome.ca^
 ||furoshop.com^
 ||furykms.com^
@@ -1806,9 +1821,9 @@
 ||hotmod.eu^
 ||houselar.com.br^
 ||hubfiles.ws^
-||hudson-bay.com^
 ||hushlove.com^
 ||hyndtren25.pages.dev^
+||i-grade.online^
 ||i-visaindia.com^
 ||i.fundatingquest.fun^
 ||iagadvanced.com^
@@ -1919,6 +1934,7 @@
 ||lucatee.com^
 ||lucidtiger.com^
 ||luckyhomie.com^
+||lucysstyle.com^
 ||luxsgear.com^
 ||maebl.com^
 ||magnite.shop^
@@ -1952,7 +1968,6 @@
 ||myfunfarm.com^
 ||myhandshops.myshopify.com^
 ||mypuregaming.com^
-||nabaza.shop^
 ||nalzahqp.page.link^
 ||natilove.com^
 ||nationaladvancegroup.com^
@@ -2011,6 +2026,7 @@
 ||new.piratedrive.com^
 ||new2.gdtot.sbs^
 ||newfootwearshop.com^
+||newgstore.com^
 ||newoutdoorsale.com^
 ||newpipe.app^
 ||nextstephire.net^
@@ -2065,7 +2081,6 @@
 ||orderquilt.com^
 ||outel.abmarketworks.com^
 ||outlet-alfresco.com^
-||owlala.com^
 ||own3d.tv^
 ||p.arty2night.com^
 ||p8ydfra.lvditoys.com^
@@ -2118,6 +2133,7 @@
 ||rjgriffith.com^
 ||robalmeister.workers.dev^
 ||robinmooreband.com^
+||robuxmenu.vip^
 ||rockchief.com^
 ||rosateeshop.com^
 ||royaldecorhome.store^
@@ -2277,6 +2293,7 @@
 ||uniswapagent.com^
 ||uniswapai.xyz^
 ||uniswapapp.xyz^
+||uniswapbot.xyz^
 ||uniswapcapital.xyz^
 ||uniswapdao.xyz^
 ||uniswapdefi.xyz^
@@ -2302,11 +2319,11 @@
 ||validsteamkeys.com^
 ||vanced-official.com^
 ||vanced.to^
-||vencord.app^
 ||venezuelabaseballjerseys.com^
 ||verfun.com^
 ||vessisdeutschland.com^
 ||vider-cda.online^
+||vider-pl.pl^
 ||vider.com.pl^
 ||vider.info.pl^
 ||vider.online^
@@ -2335,7 +2352,6 @@
 ||w0-eg-d12-de-yd-nka-ne-rklkyazwo0.vercel.app^
 ||wadahlapak.top^
 ||wallpaperflare.com^
-||warriordecor.com^
 ||watchmark.shop^
 ||wazofurniture.com^
 ||weathly.com^
@@ -3097,6 +3113,7 @@ rakuten.tv###card-desert-jewel-dunhuang--0
 rakuten.tv###card-land-of-diversity--0
 ﻿[Adblock Plus 3.17]
 ! Title: 🏗 Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites
+! Version: 25June2026v1
 ! Expires: 6 days
 ! Description: This list targets international websites that clutter search engine results with misinformation, unfounded articles, and/or contempt for humanity. While designed for use with «Google Hit Hider by Domain» to remove search results, it can also be used with other domains-list tools if you want more thorough blocking of them, incl. AdGuard Home, AdGuard for Windows/Android/Mac's DNS Filtering modes (_NOT_ their regular filtering modes) and uBlock Origin.
 ! Note: Using the list with AdGuard's browser extensions, desktop/Android programmes' regular filtering modes, or CLI tools is a REALLY freaking bad idea because they can't correctly handle raw-domains entries, and therefore look for text matches instead, so that for instance x•com blocks yandex•com.
@@ -4752,6 +4769,8 @@ wisdomonline.com
 yahweh.com
 youthforhumanrights.org
 zetatalk.com
+thepostmillennial.com
+ngocomment.com
 # Domains looked up by various Apple TV apps that are owned by sites that are listed further up in this list
 api.foxnews.com
 api.p1.media
