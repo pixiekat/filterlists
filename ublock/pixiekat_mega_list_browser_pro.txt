@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-06-27T20:37:57Z
+! Version: 2026-07-04T09:36:16Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -108,6 +108,7 @@
 @@||datapump.cc^
 @@||dhilosnetworks.cc^
 @@||dict.cc^
+@@||dns36.cc^
 @@||fanbox.cc^
 @@||fiedler.cc^
 @@||fito.cc^
@@ -264,6 +265,7 @@
 @@||bahn.expert^
 @@||booking.expert^
 @@||malware.expert^
+@@||ktr.fan^
 @@||lemmy.fan^
 @@||os.fan^
 @@||haal.fashion^
@@ -296,6 +298,7 @@
 @@||genderdysphoria.fyi^
 @@||iusearchlinux.fyi^
 @@||laelaps.fyi^
+@@||layoffs.fyi^
 @@||levels.fyi^
 @@||lunar.fyi^
 @@||notbyai.fyi^
@@ -708,6 +711,7 @@
 @@||platformsh.site^
 @@||privacy-test-pages.site^
 @@||reddit-doesnt-like-this.site^
+@@||saily.site^
 @@||shopapps.site^
 @@||silvatica.site^
 @@||srht.site^
@@ -864,9 +868,11 @@
 @@||platform.uno^
 @@||18comic.vip^
 @@||liberta.vip^
+@@||nabzclan.vip^
 @@||oldskool.vip^
 @@||posh.vip^
 @@||ryde.vip^
+@@||sidelix.vip^
 @@||stream.vip^
 @@||trdiziizle.vip^
 @@||vidstream.vip^
@@ -900,6 +906,7 @@
 @@||fallout.wiki^
 @@||gbf.wiki^
 @@||getindie.wiki^
+@@||gta.wiki^
 @@||hacktricks.wiki^
 @@||hollowknight.wiki^
 @@||hololive.wiki^
@@ -1014,8 +1021,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 27 Jun 2026 19:03 UTC
-! Version: 2026.0627.1903.19
+! Last modified: 03 Jul 2026 14:40 UTC
+! Version: 2026.0703.1440.31
 ! Syntax: uBlock
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -1054,7 +1061,7 @@
 ||casa^$doc,domain=~keys.casa|~nabu.casa
 ||cash^$doc,domain=~doe.cash|~redtiger.cash|~vitunleija.cash
 ||casino^$doc
-||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~kktix.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~theradio.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
+||cc^$doc,domain=~10gen.cc|~adguard-vpn.cc|~akami-solutions.cc|~arduino.cc|~clashofmagic.cc|~coolkit.cc|~coopoo.cc|~crcon.cc|~datapump.cc|~dhilosnetworks.cc|~dict.cc|~dns36.cc|~fanbox.cc|~fiedler.cc|~fito.cc|~forestapp.cc|~frontrow.cc|~godoflove.cc|~imgus.cc|~is.cc|~itead.cc|~kktix.cc|~libstc.cc|~lilygo.cc|~lurl.cc|~mydaddy.cc|~myppt.cc|~nssm.cc|~postimg.cc|~ppt.cc|~pravatar.cc|~pretendo.cc|~ptt.cc|~pttweb.cc|~rapha.cc|~rapidcdn.cc|~reurl.cc|~road.cc|~rutracker.cc|~shottr.cc|~silca.cc|~sneakpeek.cc|~theradio.cc|~toxicland.cc|~ultra.cc|~ultracloud.cc|~vern.cc|~vocus.cc|~wallhaven.cc|~yipee.cc|~yz168.cc|~zcyph.cc
 ||center^$doc,domain=~found.center|~mein-kunden.center|~oh.center|~priv.center|~relaxx.center
 ||ceo^$doc
 ||cf^$doc,domain=~google.cf
@@ -1108,7 +1115,7 @@
 ||exposed^$doc
 ||faith^$doc
 ||family^$doc
-||fan^$doc,domain=~lemmy.fan|~os.fan
+||fan^$doc,domain=~ktr.fan|~lemmy.fan|~os.fan
 ||fans^$doc
 ||fashion^$doc,domain=~haal.fashion
 ||finance^$doc,domain=~raster.finance|~xynth.finance
@@ -1125,7 +1132,7 @@
 ||fun^$doc,domain=~cdn.fun|~chinaq.fun|~disasterpr.fun|~enza.fun|~neal.fun|~patterncraft.fun|~strem.fun
 ||fund^$doc
 ||futbol^$doc
-||fyi^$doc,domain=~apollo.fyi|~better.fyi|~crypt.fyi|~genderdysphoria.fyi|~iusearchlinux.fyi|~laelaps.fyi|~levels.fyi|~lunar.fyi|~notbyai.fyi|~ost2.fyi|~poyoanon.fyi|~recollect.fyi|~vercel.fyi|~wpt.fyi
+||fyi^$doc,domain=~apollo.fyi|~better.fyi|~crypt.fyi|~genderdysphoria.fyi|~iusearchlinux.fyi|~laelaps.fyi|~layoffs.fyi|~levels.fyi|~lunar.fyi|~notbyai.fyi|~ost2.fyi|~poyoanon.fyi|~recollect.fyi|~vercel.fyi|~wpt.fyi
 ||ga^$doc,domain=~google.ga|~mmo.ga
 ||games^$doc,domain=~crazypanda.games|~embark.games|~eneba.games|~erkul.games|~gxcorner.games|~mycafe.games|~skystone.games
 ||garden^$doc,domain=~file.garden
@@ -1253,7 +1260,7 @@
 ||shop^$doc,domain=~11ts.shop|~30grad.shop|~4id.shop|~aloedent.shop|~appchance.shop|~axisms.shop|~brothersinarms.shop|~buergerspital.shop|~chessvibes.shop|~cineorder.shop|~der-marmeladenladen.shop|~derweinladen.shop|~domainname.shop|~domene.shop|~durst.shop|~elbsand.shop|~epicdesk.shop|~eventix.shop|~freshtorge.shop|~frontiers.shop|~funk-dichtungstechnik.shop|~geekchic.shop|~gourmet-kochmanufaktur.shop|~grnk.shop|~grog.shop|~gurkistan.shop|~henssler.shop|~kalypso.shop|~layers.shop|~majblomman.shop|~munu.shop|~music-merchant.shop|~myshopline.shop|~narpy.shop|~neue.shop|~neurosama.shop|~nocut.shop|~nordland.shop|~owl-dampfer.shop|~oxiline.shop|~papaplatte.shop|~prohibited.shop|~redbrain.shop|~scayle.shop|~schweden.shop|~scorpions.shop|~sentry.shop|~seyffer.shop|~swedish-supplements.shop|~terminal.shop|~urlbluemedia.shop|~waldhaus.shop|~weinbibliothek.shop|~weinwunder.shop|~wielrenner.shop|~winefactory.shop|~xn--dnemark-5wa.shop
 ||shopping^$doc
 ||show^$doc,domain=~camz.show|~j.show
-||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~shopapps.site|~silvatica.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
+||site^$doc,domain=~additive-apps.site|~aftermath.site|~anonimayzer.site|~bio.site|~canva.site|~claude.site|~edgeone.site|~fbsmarthome.site|~gov-img.site|~heimdall.site|~heyflow.site|~i5i.site|~kaylees.site|~leafbrowser.site|~miteru.site|~notion.site|~onrocket.site|~platformsh.site|~privacy-test-pages.site|~reddit-doesnt-like-this.site|~saily.site|~shopapps.site|~silvatica.site|~srht.site|~toast.site|~tst.site|~wishonly.site|~wolow.site|~wpdns.site
 ||skin^$doc
 ||solar^$doc,domain=~forecast.solar|~optimizer.solar
 ||soy^$doc
@@ -1291,7 +1298,7 @@
 ||vegas^$doc
 ||ventures^$doc
 ||vin^$doc
-||vip^$doc,domain=~18comic.vip|~liberta.vip|~oldskool.vip|~posh.vip|~ryde.vip|~stream.vip|~trdiziizle.vip|~vidstream.vip|~wetv.vip|~yesporn.vip
+||vip^$doc,domain=~18comic.vip|~liberta.vip|~nabzclan.vip|~oldskool.vip|~posh.vip|~ryde.vip|~sidelix.vip|~stream.vip|~trdiziizle.vip|~vidstream.vip|~wetv.vip|~yesporn.vip
 ||vision^$doc,domain=~swing.vision
 ||vote^$doc,domain=~arizona.vote|~esc.vote
 ||voto^$doc
@@ -1300,7 +1307,7 @@
 ||webcam^$doc
 ||website^$doc,domain=~acro.website|~bestmotherfucking.website|~eddie.website|~noclip.website|~thatsup.website|~tilde.website|~tiny.tilde.website|~uphold.website
 ||wedding^$doc
-||wiki^$doc,domain=~avid.wiki|~bakugan.wiki|~bg3.wiki|~blazblue.wiki|~burnout.wiki|~chibi-robo.wiki|~consumerrights.wiki|~cooked.wiki|~datei.wiki|~deadlock.wiki|~deltarune.wiki|~dragalialost.wiki|~drawntolife.wiki|~falcom.wiki|~fallout.wiki|~gbf.wiki|~getindie.wiki|~hacktricks.wiki|~hollowknight.wiki|~hololive.wiki|~klingon.wiki|~kodi.wiki|~koeitecmo.wiki|~kometa.wiki|~lain.wiki|~lhlab.wiki|~libreelec.wiki|~manson.wiki|~mediaclients.wiki|~minecraft.wiki|~moddedmc.wiki|~modding.wiki|~mtg.wiki|~namu.wiki|~nixos.wiki|~notifiarr.wiki|~osrs.wiki|~pizzatower.wiki|~rs.wiki|~runescape.wiki|~saintsrow.wiki|~severance.wiki|~survivors.wiki|~tajrobe.wiki|~tardis.wiki|~thedivisionresurgence.wiki|~thefitness.wiki|~thehomelab.wiki|~tilde.wiki|~twewy.wiki|~umamusu.wiki|~undertale.wiki|~usermanual.wiki|~vaporwave.wiki|~w.wiki|~yume.wiki|~zeldawiki.wiki|~zeppelin.wiki
+||wiki^$doc,domain=~avid.wiki|~bakugan.wiki|~bg3.wiki|~blazblue.wiki|~burnout.wiki|~chibi-robo.wiki|~consumerrights.wiki|~cooked.wiki|~datei.wiki|~deadlock.wiki|~deltarune.wiki|~dragalialost.wiki|~drawntolife.wiki|~falcom.wiki|~fallout.wiki|~gbf.wiki|~getindie.wiki|~gta.wiki|~hacktricks.wiki|~hollowknight.wiki|~hololive.wiki|~klingon.wiki|~kodi.wiki|~koeitecmo.wiki|~kometa.wiki|~lain.wiki|~lhlab.wiki|~libreelec.wiki|~manson.wiki|~mediaclients.wiki|~minecraft.wiki|~moddedmc.wiki|~modding.wiki|~mtg.wiki|~namu.wiki|~nixos.wiki|~notifiarr.wiki|~osrs.wiki|~pizzatower.wiki|~rs.wiki|~runescape.wiki|~saintsrow.wiki|~severance.wiki|~survivors.wiki|~tajrobe.wiki|~tardis.wiki|~thedivisionresurgence.wiki|~thefitness.wiki|~thehomelab.wiki|~tilde.wiki|~twewy.wiki|~umamusu.wiki|~undertale.wiki|~usermanual.wiki|~vaporwave.wiki|~w.wiki|~yume.wiki|~zeldawiki.wiki|~zeppelin.wiki
 ||win^$doc,domain=~activated.win|~communities.win|~debloat.win|~ios-countdown.win|~patriots.win|~vaultcord.win
 ||wine^$doc,domain=~nostr.wine
 ||work^$doc,domain=~doesmycode.work|~elphago.work|~frame.work|~koding.work|~mirror.work|~schueller.work|~spiegel.work|~starlightnet.work
@@ -1469,7 +1476,6 @@
 ! Home: https://github.com/durablenapkin/scamblocklist
 ! Contribute: https://github.com/durablenapkin/scamblocklist/issues
 ! License: MIT (https://mit-license.org/)
-||1000fapvids.online^
 ||1stfinancefirm.wixsite.com^
 ||1stireland.com^
 ||1sttheworld.com^
@@ -1497,7 +1503,6 @@
 ||airtoff.com^
 ||airup-romania.com^
 ||airupgreece.net^
-||airupnederlands.com^
 ||airupsrbija.com^
 ||aizipai.cn^
 ||alindflepkaty14.pages.dev^
@@ -1518,6 +1523,7 @@
 ||arnoldgloverruss58.myshopify.com^
 ||arthoodie.com^
 ||arvetellefsen.no^
+||assassinfitness.com^
 ||atlaspvs.com^
 ||atoins.com^
 ||atrendsz.com^
@@ -1540,7 +1546,6 @@
 ||beecrave.com^
 ||benecharm.com^
 ||benxi.info^
-||bertasxt.com^
 ||best-torrents.com^
 ||bestvod.pl^
 ||billboardwring.com^
@@ -1588,7 +1593,6 @@
 ||buddhakind.com^
 ||burgershirt.com^
 ||buydubuy.com^
-||buylikes.se^
 ||bwpkizpfms.funnelish.com^
 ||by-emmamuller.de^
 ||c0nt4ct-me.pages.dev^
@@ -1622,7 +1626,6 @@
 ||confira.io^
 ||containably.com^
 ||coolest3d.com^
-||coolestpod.com^
 ||corg.co^
 ||couponxoo.com^
 ||courier-tracking.com^
@@ -1657,6 +1660,7 @@
 ||devifoodgrains.com^
 ||dezpez.com^
 ||dieserbenni.ru^
+||dischargebackhanded.com^
 ||displaymovies.pl^
 ||distrochooser.snehit.dev^
 ||dkfodboldstore.com^
@@ -1666,7 +1670,6 @@
 ||doh-gov.ph^
 ||dohealths.com^
 ||dolystore.com^
-||dopestore.pl^
 ||drama-queen.cc^
 ||draxu.com^
 ||dreamgreenshoe.com^
@@ -1680,7 +1683,6 @@
 ||e-visa.ie^
 ||e-visaindia.com^
 ||e-visaindiaonline.com^
-||e-visums.nl^
 ||earnpets.com^
 ||ecomicrolab.com^
 ||ecs-online.ffm.to^
@@ -1699,7 +1701,6 @@
 ||eudoraz.com^
 ||eudshop.shop^
 ||eviralstore.com^
-||evisa-india-online.com^
 ||evisa-indian.com^
 ||evisa.express^
 ||evisaindia.com^
@@ -1776,7 +1777,6 @@
 ||gearhomies.com^
 ||gearhuman.com^
 ||gearstastic.com^
-||gearver.com^
 ||geekupdates.notion.site^
 ||geldencosmeticos.com^
 ||gemlis.com^
@@ -1831,7 +1831,6 @@
 ||icelandclothing.myshopify.com^
 ||igloaptopto.net^
 ||ikiha.com^
-||iklrge.com^
 ||ikoee.com^
 ||imagemotorcycles.co.nz^
 ||imlb2c.com^
@@ -1934,8 +1933,8 @@
 ||lucatee.com^
 ||lucidtiger.com^
 ||luckyhomie.com^
-||lucysstyle.com^
 ||luxsgear.com^
+||m.coinexeu.vip^
 ||maebl.com^
 ||magnite.shop^
 ||mail-cytanet.pages.dev^
@@ -1997,7 +1996,6 @@
 ||navi36.ru^
 ||navi38.ru^
 ||navi39.ru^
-||navi4.com^
 ||navi5.com^
 ||navi52.com^
 ||navi53.com^
@@ -2065,6 +2063,7 @@
 ||official.olymptrade-my.com^
 ||officialkmspico.com^
 ||oflike.com^
+||ojlkimed.vip^
 ||okdebrid.com^
 ||oldcube.com^
 ||olive121407.studio.site^
@@ -2079,7 +2078,6 @@
 ||onrunningshop.com^
 ||ontario-energy.com^
 ||orderquilt.com^
-||outel.abmarketworks.com^
 ||outlet-alfresco.com^
 ||own3d.tv^
 ||p.arty2night.com^
@@ -2091,6 +2089,7 @@
 ||paradisevs.com^
 ||path2zillion.com^
 ||peekpok.com^
+||pekanbaru.one^
 ||penguinnow.com^
 ||peppatees.com^
 ||perlatoshoe.com^
@@ -2098,6 +2097,7 @@
 ||pharaohstore.com^
 ||phgliders.com^
 ||philsshorthairorientalkittens.com^
+||phirussacmush.net^
 ||pinjamanelit.top^
 ||pinjamanrupiah.xyz^
 ||pinjamteman.top^
@@ -2117,7 +2117,6 @@
 ||primeleech.com^
 ||primevod.pl^
 ||promo-offer.com^
-||promoalfresco.com^
 ||promotion40-form.com^
 ||pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com^
 ||punchonsol.top^
@@ -2133,14 +2132,12 @@
 ||rjgriffith.com^
 ||robalmeister.workers.dev^
 ||robinmooreband.com^
-||robuxmenu.vip^
 ||rockchief.com^
 ||rosateeshop.com^
 ||royaldecorhome.store^
 ||royalhedgies.com^
 ||rozomii.info^
 ||rsaonlinenow.com.au^
-||rupiahsaku.com^
 ||rustdesk.co.nz^
 ||rustdesk.io^
 ||rustdesk.pl^
@@ -2178,6 +2175,7 @@
 ||singleflirt.com^
 ||skincheap.com^
 ||skinszone.net^
+||skipped.vip^
 ||skyfollowerbridge.com^
 ||sligen.com^
 ||slimsyrups.ca^
@@ -2186,6 +2184,7 @@
 ||smartproduct.site^
 ||smartuniswap.xyz^
 ||smtpget.com^
+||smtpwire.com^
 ||smvisa.co.il^
 ||sodipi.com^
 ||softgetpc.com^
@@ -2259,11 +2258,11 @@
 ||tlstoreonline.com^
 ||toko999.net^
 ||tomadamsenergy.com^
+||torrenty-pl.cc^
 ||touristvisaonline.com^
 ||toweragency.in^
 ||toyrube.com^
 ||tpqcywcx.page.link^
-||trade-skins.net^
 ||traveldocs.com^
 ||travelexpress.us.com^
 ||travelvisabookings.com^
@@ -2313,7 +2312,6 @@
 ||uprising.kip.pro^
 ||ureashi.com^
 ||us99.pro^
-||uschse04.my03.com^
 ||uusilemmikki.com^
 ||valeofoodsgroup.com^
 ||validsteamkeys.com^
@@ -2388,7 +2386,6 @@
 ||youtubee.com^
 ||youtunbe.com^
 ||youutube.com^
-||ytvancedpro.com^
 ||yuaonew.com^
 ||z-lib.id^
 ||z-lib.is^
@@ -2413,7 +2410,6 @@
 ||zlibrary.to^
 ||zobaczfilm.com^
 ||zolrqw.palatlaldate.com^
-||zooger.space^
 ! Optimized Expressions, thx DandelionSprout
 ||avito.avito.avito.
 .com-id*.info^
@@ -2426,7 +2422,7 @@
 ||avito.avito.www.avito.
 ||booking.com-id*
 [Adblock Plus 3.13]
-! Version: 30May2026v1
+! Version: 03July2026v1
 ! Title: 📱 Staying On The Phone Browser
 ! Expires: 10 days
 ! Description: Created as a proof of concept, and for the benefit of people who really like their phone's web browsers and who are less keen on using various apps.
@@ -2898,6 +2894,7 @@ foodora.*##.bds-c-sticky-banner
 novosti.rs##.mobile-app
 threads.com###has-finished-comet-page + div[class^=__fb-][class*="-mode "]
 zalando.*##div[style="display:contents"]:not([data-trckng-component]):has(> div[style="display:contents"] > div[style^="min-height:"]:last-child:only-of-type)
+duck.ai###app form[data-chat-footer] > div:has(a:is([href*="://play.google.com/"],[href*="://apps.apple.com/"]))
 ! https://github.com/DandelionSprout/adfilt/issues/1047
 @@/jquery.smartbanner.js^
 ! (https://github.com/DandelionSprout/adfilt/issues/1065)
@@ -3113,7 +3110,7 @@ rakuten.tv###card-desert-jewel-dunhuang--0
 rakuten.tv###card-land-of-diversity--0
 ﻿[Adblock Plus 3.17]
 ! Title: 🏗 Remover for Far-Right Tabloid, Alt-Right, Ultranationalist, and Anti-Vaxx Sites
-! Version: 25June2026v1
+! Version: 28June2026v1
 ! Expires: 6 days
 ! Description: This list targets international websites that clutter search engine results with misinformation, unfounded articles, and/or contempt for humanity. While designed for use with «Google Hit Hider by Domain» to remove search results, it can also be used with other domains-list tools if you want more thorough blocking of them, incl. AdGuard Home, AdGuard for Windows/Android/Mac's DNS Filtering modes (_NOT_ their regular filtering modes) and uBlock Origin.
 ! Note: Using the list with AdGuard's browser extensions, desktop/Android programmes' regular filtering modes, or CLI tools is a REALLY freaking bad idea because they can't correctly handle raw-domains entries, and therefore look for text matches instead, so that for instance x•com blocks yandex•com.
@@ -3330,6 +3327,7 @@ vmisrael.co.il
 neinzudrogen.ch
 destinychurch.org.nz
 dianetics.ch
+robscholtemuseum.nl
 # Far-right/alt-right fringe "newssites" (Finland)
 rapsodia.fi
 mainland.press
@@ -3424,6 +3422,7 @@ visjonnorge.com
 vssvisjonnorge.wordpress.com
 bibel-skolen.com
 bibel-skolen.org
+saksyndig.com
 # Far-right/alt-right fringe "newssites" (Denmark)
 denkorteavis.dk
 snaphanen.dk
@@ -4771,6 +4770,12 @@ youthforhumanrights.org
 zetatalk.com
 thepostmillennial.com
 ngocomment.com
+arutzshevatuzarapost.substack.com
+rumormillnews.com
+pamphlets.blog
+altcensored.com
+lionelmedia.com
+fandompulse.com
 # Domains looked up by various Apple TV apps that are owned by sites that are listed further up in this list
 api.foxnews.com
 api.p1.media
@@ -7184,7 +7189,7 @@ imgur.com#?#.get-app-block
 ! Description: Hide annoyances and extraneous page elements ("related articles", "read more", etc.) not covered by other lists
 ! Homepage: https://github.com/yokoffing/filterlists
 ! Expires: 4 days (update frequency)
-! Version: 16 May 2026b
+! Version: 30 May 2026
 ! Syntax: AdBlock
 form.jotform.com##.formFooter-wrapper
 vulture.com##.podcast-subscribe
@@ -7240,7 +7245,7 @@ forbes.com##.link-embed.color-body-border.color-body.embed-base
 citationmachine.net###--ucf-upload-widget-modal-container
 grammarist.com##.inside-right-sidebar, div.wp-block-column-is-layout-flow.is-layout-flow.wp-block-column
 tomshardware.com##.hawk-main-editorial-container
-macrumors.com##.noskim
+macrumors.com##div.noskim
 infoworld.com##h4, .end-note
 techreviewteam.com##.wp-widget-group__inner-blocks
 medium.com##.adm.adl.abi.m, .bg.adn.abg.adp

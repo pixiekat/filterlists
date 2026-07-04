@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-06-15T10:02:08Z
+! Version: 2026-07-04T09:36:10Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -802,7 +802,7 @@ zdnet.com##p strong:has-text(/^SEE/):upward(p)
 zdnet.com##p strong:has-text(/^Also/):upward(p)
 ! Title: 🔒 Privacy Essentials
 ! Description: An opinionated list for advanced hardening. Minimize connections to third-party sites.
-! Version: 29 May 2026
+! Version: 30 June 2026
 ! Syntax: AdBlock
 ! GENERAL BLOCKLIST
 ! https://github.com/uBlock-user/uBO-Personal-Filters/blob/master/uPF.txt
@@ -979,7 +979,7 @@ zdnet.com##p strong:has-text(/^Also/):upward(p)
 ||knowyourapps.com^$3p
 ||kount.com^$3p
 ||kount.net^$3p
-||kustomerapp.com^$3p
+||kustomerapp.com^$3p,domain=~kustomer.help
 ||leadsdome.com^
 ||letspin.io^$3p
 ||limelight.com^$3p,script

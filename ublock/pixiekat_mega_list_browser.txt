@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-06-27T20:38:06Z
+! Version: 2026-07-04T09:36:26Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -7,7 +7,7 @@
 
 
 ! Title: 💌 BadBlock - Click Tracking/Referral Domains Whitelist (ABP)
-! Version: 02April2026v1
+! Version: 02July2026v1
 ! Expires: 1 hour
 ! Description: Unblock click tracking!
 ! Homepage: https://badblock.celenity.dev
@@ -24,6 +24,7 @@
 @@|amplitude-studios.us12.list-manage.com^
 @@|amzn.eu^
 @@|amzn.to^
+@@|apkudo.navattic.com^
 @@|apple.news^
 @@|autolinkmaker.itunes.apple.com^
 @@|awstrack.me^
@@ -56,6 +57,7 @@
 @@|click.virt.s4.exacttarget.com^
 @@|clicks.cameo.com^
 @@|clicks.cameo.com.cdn.cloudflare.net^
+@@|clicks.eventbrite.com^
 @@|clicks.mozilla.org^
 @@|cmail19.com^
 @@|cname.createsend.com^
@@ -1326,9 +1328,6 @@ apple.com##+js(cookie-remover, analytics)
 ||radarsubmissions.apple.com.akadns.net^
 ||sdkintg-iad.apple.com^
 ||sdkintgiad.apple.com^
-||se2-cdn.itunes-apple.com.akadns.net^
-||se2.itunes.apple.com^
-||se2.itunes.apple.com.edgesuite.net^
 ||searchads.apple.com^
 ||searchads.apple.com.edgesuite.net^
 ||searchads.lb-apple.com.akadns.net^
@@ -2019,6 +2018,7 @@ search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
 ||zoominfo.com^
 ||zosearch.com^
 ! Title: 🔒 BadBlock - DRM (ABP)
+! Version: 02April2026v1
 ! Description: Stop Digital Restrictions Management!
 ||anticheatexpert.com^
 ||appsealing.com^
@@ -7856,7 +7856,7 @@ github.com###wcpConsentBannerCtrl
 ||beacon.$all
 ||beacon*.$all,domain=~beacondb.derpingu.in|~beacondb.net|~beacondb.pngn.cc
 ||collect.$all
-||collect*.$all,domain=~collection.sciencemuseumgroup.org.uk|~collector-otp-prod.camsys-apps.com|~collector-otp-qa.camsys-apps.com|~www.mta.info
+||collect*.$all,domain=~collection.sciencemuseumgroup.org.uk|~collector.se|~collector-otp-prod.camsys-apps.com|~collector-otp-qa.camsys-apps.com|~www.mta.info
 ||csp.$all,domain=~csp.minienm.nl|~csp.rcsc.lt
 ||cstat.$all
 ||cstat*.$all
@@ -7915,7 +7915,7 @@ github.com###wcpConsentBannerCtrl
 ||beacon.
 ||beacon*.$denyallow=beacondb.derpingu.in|beacondb.net|beacondb.pngn.cc
 ||collect.
-||collect*.$denyallow=collection.sciencemuseumgroup.org.uk|collector-otp-prod.camsys-apps.com|collector-otp-qa.camsys-apps.com
+||collect*.$denyallow=collection.sciencemuseumgroup.org.uk|collector.se|collector-otp-prod.camsys-apps.com|collector-otp-qa.camsys-apps.com
 ||csp.$denyallow=csp.minienm.nl|csp.rcsc.lt
 ||cstat.
 ||cstat*.
@@ -8003,6 +8003,9 @@ github.com###wcpConsentBannerCtrl
 /fraud-detect.js$script
 /z_stat.php
 /stormcaster.js$script
+||navattic.com^$badfilter
+||navattic.com^$domain=~apkudo.navattic.com
+||navattic.com^$denyallow=apkudo.navattic.com
 ||franciscanmychart.org/MyChart/Analytics/
 ||chase.com/content/pq/cxo/cxo-recent-activity
 ||chase.com/events/analytics/

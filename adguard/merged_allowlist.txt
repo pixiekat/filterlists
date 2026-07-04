@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 2026-06-10T11:50:53Z
+! Version: 2026-07-04T09:36:08Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
@@ -57,6 +57,7 @@
 @@|store.nethunter.com^
 @@|vas.samsungapps.com^
 ! Title: 🍎 BadBlock - Apple Whitelist (ABP)
+! Version: 02July2026v1
 ! Description: Unblock the Good! (Apple Edition)
 @@|itunes.com^
 @@|itunes.apple.com^
@@ -220,6 +221,9 @@
 @@|se-edge.itunes-apple.com.akadns.net^
 @@|se-edge.itunes.apple.com^
 @@|se-edge.itunes.apple.com.edgekey.net^
+@@|se2-cdn.itunes-apple.com.akadns.net^
+@@|se2.itunes.apple.com^
+@@|se2.itunes.apple.com.edgesuite.net^
 @@|search-cdn.itunes-apple.com.akadns.net^
 @@|search.itunes.apple.com^
 @@|sequoia.cdn-apple.com^
@@ -271,10 +275,10 @@
 @@|wps.apple.com^
 @@|wps.v.aaplimg.com^
 ! Title: 🌐 BadBlock - Browser Whitelist (ABP)
-! Version: 06June2026v1
 ! Description: Unblock the Good! (Browser Edition)
 @@|archive-01.torproject.org^
 @@|archive.torproject.org^
+@@|artifacts.ironfoxoss.org^
 @@|assets.celenity.dev^
 @@|assets.ironfoxoss.org^
 @@|aus.waterfox.com^
@@ -3309,7 +3313,6 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|www1.dell-cidr.akadns.net^
 @@|wwwfile.realtek.com^
 ! Title: 🏠 BadBlock - Misc. Whitelist (ABP)
-! Version: 04June2026v1
 ! Description: Unblock the Good! (Misc. Edition)
 @@|sourceforge.net^
 @@|360.qualtrics.com^
@@ -3337,6 +3340,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|analytics.hatenadiary.com^
 @@|api.mynt.xyz^
 @@|api.radar.io^
+@@|app.growave.io^
 @@|aramark.co1.qualtrics.com^
 @@|ardownload.adobe.com^
 @@|ardownload.adobe.com.edgesuite.net^
@@ -3412,6 +3416,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|collection.sciencemuseumgroup.org.uk^
 @@|collector-otp-prod.camsys-apps.com^
 @@|collector-otp-qa.camsys-apps.com^
+@@|collector.se^
 @@|community-comcastxfinity.sprinklr.com^
 @@|community.qualtrics.com^
 @@|consent.google.ac^
@@ -3682,6 +3687,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|download.oracle.com.edgekey.net^
 @@|downloads.plex.tv^
 @@|ds-edelivery.oracle.com.edgekey.net^
+@@|eardance.earjoy.cn^
 @@|eba.eset.com^
 @@|eba.gtm.eset.com^
 @@|ecp.eset.systems^
@@ -3905,6 +3911,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|omt.garmin.com.cdn.cloudflare.net^
 @@|open-vsx.org^
 @@|openvsxorg.blob.core.windows.net^
+@@|order.online^
 @@|oshkosh.qualtrics.com^
 @@|oshkoshcorporation.qualtrics.com^
 @@|ouhsc.qualtrics.com^
@@ -3927,6 +3934,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|proxy-detection.eset.com^
 @@|qau1.au1.qualtrics.com^
 @@|qmulbusiness.eu.qualtrics.com^
+@@|qrcodes.pro^
 @@|quoting.devolutions.com^
 @@|r.edtd.eset.com^
 @@|racgp.au1.qualtrics.com^
@@ -3964,6 +3972,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|socialize.gigya.com.edgekey.net^
 @@|ssl-download.adobe.com.edgekey.net^
 @@|stat.columbia.edu^
+@@|static.growave.io^
 @@|statistics.kavakci.dev^
 @@|stats.labs.apnic.net^
 @@|steamcdn-a.akamaihd.net^
@@ -4051,6 +4060,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|www.alipayplus.com^
 @@|www.asuswrt-merlin.net^
 @@|www.cmswire.com^
+@@|www.collector.se^
 @@|www.hugedomains.com^
 @@|www.mynt.xyz^
 @@|www.newsbreak.com^
@@ -5965,6 +5975,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|ziggo.dataxs.mobi^
 @@|zonamovil.com.pa^
 ! Title: 🦖 BadBlock - Mozilla Whitelist (ABP)
+! Version: 06June2026v1
 ! Description: Unblock the Good! (Mozilla Edition)
 @@|addons-stage.thunderbird.net^
 @@|addons.allizom.org^
