@@ -116,14 +116,16 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://access.redhat.com/solutions/*
 *://wowgoldfinder.com/*
 *://*.bitcoin.com/*
+*://news.bitcoin.com/*
 *://*.decrypt.co/*
-*://*.tradersunion.com/*
-*://*.bitbo.io/*
+*://tradersunion.com/*
+*://bitbo.io/*
 *://*.coinmarketcap.com/*
+*://coinmarketcap.com/*
 *://*.cryptovate.io/*
 *://*.benzinga.com/*
 *://*.cryptocruize.com/*
-*://*.icoholder.com/*
+*://icoholder.com/*
 *://*.bitmart.com/*
 *://*.bitcoinfoundation.org/*
 *://*.benzinga.com/*
@@ -132,6 +134,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.thecryptobasic.com/*
 *://*.coincentral.com/*
 *://*.coinedition.com/*
+*://cryptocruize.com/*
 
 # --- Terf Apologia ---
 *://*.harrypotter.com/*
