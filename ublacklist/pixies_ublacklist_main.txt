@@ -47,6 +47,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://www.wheresthematch.com/live-ufc-on-tv/*
 *://www.youtube.com/@ufc/*
 *://www.youtube.com/ufc
+*://*.steaknshake.com/*
 
 # --- Fascist Regime Sites ---
 *://*.alexjoneslive.com/*
@@ -114,6 +115,23 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://access.redhat.com/search/knowledgebase
 *://access.redhat.com/solutions/*
 *://wowgoldfinder.com/*
+*://*.bitcoin.com/*
+*://*.decrypt.co/*
+*://*.tradersunion.com/*
+*://*.bitbo.io/*
+*://*.coinmarketcap.com/*
+*://*.cryptovate.io/*
+*://*.benzinga.com/*
+*://*.cryptocruize.com/*
+*://*.icoholder.com/*
+*://*.bitmart.com/*
+*://*.bitcoinfoundation.org/*
+*://*.benzinga.com/*
+*://*.cryptotimes.io/*
+*://*.99bitcoins.com/*
+*://*.thecryptobasic.com/*
+*://*.coincentral.com/*
+*://*.coinedition.com/*
 
 # --- Terf Apologia ---
 *://*.harrypotter.com/*

@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 27June2026v1
+! Version: 7July2026v1
 ! Expires: 7 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -59,9 +59,26 @@
 ||aipacpac.org^$document,all
 
 ! Garbage Gambling Markets
-||polymarket.com^$document,all,domain=~scourge-of-society.*
+||99bitcoins.com^$document,all,domain=~scourge-of-society.*
+||benzinga.com^$document,all,domain=~scourge-of-society.*
+||benzinga.com^$document,all,domain=~scourge-of-society.*
+||bitbo.io^$document,all,domain=~scourge-of-society.*
+||bitcoin.com^$document,all,domain=~scourge-of-society.*
+||bitcoinfoundation.org^$document,all,domain=~scourge-of-society.*
+||bitmart.com^$document,all,domain=~scourge-of-society.*
+||coincentral.com^$document,all,domain=~scourge-of-society.*
+||coinedition.com^$document,all,domain=~scourge-of-society.*
+||coinmarketcap.com^$document,all,domain=~scourge-of-society.*
+||cryptocruize.com^$document,all,domain=~scourge-of-society.*
+||cryptotimes.io^$document,all,domain=~scourge-of-society.*
+||cryptovate.io^$document,all,domain=~scourge-of-society.*
+||decrypt.co^$document,all,domain=~scourge-of-society.*
+||icoholder.com^$document,all,domain=~scourge-of-society.*
 ||kalshi.com^$document,all,domain=~scourge-of-society.*
 ||manifold.markets^$document,all,domain=~scourge-of-society.*
+||polymarket.com^$document,all,domain=~scourge-of-society.*
+||thecryptobasic.com^$document,all,domain=~scourge-of-society.*
+||tradersunion.com^$document,all,domain=~scourge-of-society.*
 
 ! General evil sites
 ||cbssports.com/ufc/^$document,all,domain=~its-a-fascist-domain.*
@@ -101,6 +118,7 @@ www.youtube.com##.ryd-premium-teaser
 ||reddit.com/r/xai^$document,domain=~its-a-fascist-subreddit.*
 ||spacex.com^$document
 ||starlink.com^$document
+||steaknshake.com^$document,all,domain=~its-a-fascist-domain.*
 ||tesla.com^$document
 ||twitter.com^$document,all,domain=~its-a-fascist-domain.*
 ||x.com^$document,all,domain=~its-a-fascist-domain.*
