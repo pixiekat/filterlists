@@ -135,6 +135,20 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.coincentral.com/*
 *://*.coinedition.com/*
 *://cryptocruize.com/*
+*://web3.gate.com/*
+*://*.ainvest.com/*
+*://*.invezz.com/*
+*://*.cryptoninjas.net/*
+*://*.cryptohead.io/*
+*://*.cryptobriefing.com/*
+*://*.fullycrypto.com/*
+*://*.tradingview.com/*
+*://*.blockonomi.com/*
+*://*.cryptoslate.com/*
+*://*.cryptonews.com/*
+*://*.vtrader.io/*
+*://*.bitcoinnews.com/*
+*://*.coinlaw.io/*
 
 # --- Terf Apologia ---
 *://*.harrypotter.com/*
