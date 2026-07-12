@@ -12,6 +12,7 @@ afd-a-acdc-direct.office.com
 africancancerstars.org
 alb-podcast-api-production-969323618.us-east-1.elb.amazonaws.com
 alicantobidmc.org
+android.l.google.com
 api.hetzner.cloud
 api.pocketcasts.com
 archive.is
@@ -20,6 +21,7 @@ archive.org
 archive.ph
 archive.today
 assets.htvapps.com
+atm.outlook.mira.tm.svc.cloud.microsoft
 authentication.cardinalcommerce.com
 bankofamerica.com
 barclaysus.com
@@ -35,7 +37,9 @@ cache.pocketcasts.com
 cdn-gl.imrworldwide.com
 cdn-wgbh-live1.streamguys1.com
 citiretailservices.citibankonline.com
+clients6.google.com
 codium.b-cdn.net
+connectivitycheck.grapheneos.network
 csp.microsoft.com
 cvs.com
 cwtv.com
@@ -65,6 +69,7 @@ downloads.1password.com
 downloads.vivaldi.com
 drive.usercontent.google.com
 drivefrontend-pa.clients6.google.com
+dualstack.reddit.map.fastly.net
 e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com
 ec2-3-227-209-244.compute-1.amazonaws.com
 ec2-35-170-165-158.compute-1.amazonaws.com
@@ -122,7 +127,10 @@ nvidia.github.io
 office.com
 ogads-pa.clients6.google.com
 onedscolprdcus17.centralus.cloudapp.azure.com
+order.foodtecsolutions.com
+ordering-latte-cdn.foodtecsolutions.com
 outlook.cloud.microsoft
+outlook.com
 outlook.office.com
 outlook.office365.com
 packages.cloud.google.com
@@ -145,11 +153,13 @@ publixcdn.com
 qcc.edu
 qdoba.com
 reddit.com
+reddit.map.fastly.net
 redditmedia.com
 redditstatic.com
 registry.ollama.ai
 relay.dropout.tv
 release-assets.githubusercontent.com
+releases.grapheneos.org
 releases.ironfoxoss.org
 rentpayment.com
 repo.jellyfin.org
@@ -187,6 +197,7 @@ syf.com
 teams.cloud.microsoft
 teams.microsoft.com
 ticketmaster.com
+tuta.com
 tv.youtube.com
 ubuntu.com
 updates.drupal.org
@@ -200,3 +211,5 @@ wcvb.com
 weareher.com
 www.qdoba.com.cdn.cloudflare.net
 your-storagebox.de
+zoom.com
+zoom.us

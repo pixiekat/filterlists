@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extended and Paranoid)
-! Version: 2026-07-04T09:36:16Z
+! Version: 2026-07-12T15:26:50Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -28,6 +28,7 @@
 @@||rainviewer.asia^
 @@||shopdisney.asia^
 @@||flying-circus.band^
+@@||bestell.bar^
 @@||bolero.bar^
 @@||brexx.bar^
 @@||einhorn.bar^
@@ -87,6 +88,7 @@
 @@||wspay.biz^
 @@||wyborcza.biz^
 @@||yoox.biz^
+@@||yougame.biz^
 @@||niim.blue^
 @@||spook.boo^
 @@||sideb.buzz^
@@ -796,6 +798,7 @@
 @@||firebase.studio^
 @@||flourish.studio^
 @@||starapps.studio^
+@@||tivio.studio^
 @@||woodsea.studio^
 @@||zenn.studio^
 @@||nebula.style^
@@ -1021,8 +1024,8 @@
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
 ! Disclaimer: https://github.com/hagezi/dns-blocklists/blob/main/README.md#disclaimer
 ! Expires: 1 day
-! Last modified: 03 Jul 2026 14:40 UTC
-! Version: 2026.0703.1440.31
+! Last modified: 10 Jul 2026 10:55 UTC
+! Version: 2026.0710.1055.59
 ! Syntax: uBlock
 ! Number of latin TLDs: 294 - punycode TLDs: 151
 !
@@ -1036,7 +1039,7 @@
 ||autos^$doc
 ||baby^$doc
 ||band^$doc,domain=~flying-circus.band
-||bar^$doc,domain=~bolero.bar|~brexx.bar|~einhorn.bar|~ethics.bar|~fap.bar|~hai.bar|~herz.bar|~mavie.bar|~metro.bar|~reit.bar|~strem.bar|~voi.bar
+||bar^$doc,domain=~bestell.bar|~bolero.bar|~brexx.bar|~einhorn.bar|~ethics.bar|~fap.bar|~hai.bar|~herz.bar|~mavie.bar|~metro.bar|~reit.bar|~strem.bar|~voi.bar
 ||beauty^$doc
 ||beer^$doc,domain=~amphi.beer
 ||best^$doc,domain=~catboy.best|~epg.best|~xhamster.best
@@ -1044,7 +1047,7 @@
 ||bid^$doc
 ||bike^$doc,domain=~dat.bike|~lime.bike|~onlinesizing.bike|~rapido.bike
 ||bingo^$doc
-||biz^$doc,domain=~anonymurl.biz|~antiphishing.biz|~asana.biz|~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dailyinnovation.biz|~engelliler.biz|~epson.biz|~ette.biz|~figureit.biz|~gamesindustry.biz|~giftee.biz|~gimmeporn.biz|~hb.biz|~ifext.biz|~iimwf.biz|~kioskcms.biz|~knuddels.biz|~line.biz|~localise.biz|~luckysbarbershop.biz|~meetbot.biz|~movabletype.biz|~mysubwaytoolbox.biz|~netcetera.biz|~notebookcheck.biz|~ooshahwa.biz|~panasonic.biz|~slussen.biz|~surveycake.biz|~turbify.biz|~volvocars.biz|~wiz.biz|~wspay.biz|~wyborcza.biz|~yoox.biz
+||biz^$doc,domain=~anonymurl.biz|~antiphishing.biz|~asana.biz|~beiniz.biz|~bonial.biz|~cloudns.biz|~cyberciti.biz|~dailyinnovation.biz|~engelliler.biz|~epson.biz|~ette.biz|~figureit.biz|~gamesindustry.biz|~giftee.biz|~gimmeporn.biz|~hb.biz|~ifext.biz|~iimwf.biz|~kioskcms.biz|~knuddels.biz|~line.biz|~localise.biz|~luckysbarbershop.biz|~meetbot.biz|~movabletype.biz|~mysubwaytoolbox.biz|~netcetera.biz|~notebookcheck.biz|~ooshahwa.biz|~panasonic.biz|~slussen.biz|~surveycake.biz|~turbify.biz|~volvocars.biz|~wiz.biz|~wspay.biz|~wyborcza.biz|~yoox.biz|~yougame.biz
 ||black^$doc
 ||blue^$doc,domain=~niim.blue
 ||boats^$doc
@@ -1268,7 +1271,7 @@
 ||sport^$doc,domain=~dyn.sport
 ||srl^$doc
 ||store^$doc,domain=~adidashardware.store|~beyondagency.store|~bigtimerush.store|~bigtimerushuk.store|~cleanmasters.store|~cnckitchen.store|~ettoresoftware.store|~fbits.store|~g-h.store|~glitchproductions.store|~hacksmith.store|~heavysaurus.store|~hom.store|~immich.store|~iqunix.store|~myexpresscarwash.store|~myshopline.store|~pbshop.store|~peugeot.store|~pyrocynical.store|~roble.store|~rokomari.store|~shoplazza.store|~shopware.store|~sofascore.store|~stan.store|~tatemcraeeu.store|~tatemcrae.store|~timberjacks.store|~xqc.store
-||studio^$doc,domain=~affinity.studio|~ai.studio|~firebase.studio|~flourish.studio|~starapps.studio|~woodsea.studio|~zenn.studio
+||studio^$doc,domain=~affinity.studio|~ai.studio|~firebase.studio|~flourish.studio|~starapps.studio|~tivio.studio|~woodsea.studio|~zenn.studio
 ||style^$doc,domain=~nebula.style|~primer.style|~shiki.style
 ||su^$doc,domain=~encode.su|~jpg4.su|~jpg6.su|~promportal.su|~saint2.su
 ||support^$doc,domain=~ada.support|~jitsi.support|~windrose.support
@@ -1499,6 +1502,7 @@
 ||affordableforyouusa5.godaddysites.com^
 ||afiletoget.click^
 ||air-up-turkiye.com^
+||aircgd.shop^
 ||airteltower.com^
 ||airtoff.com^
 ||airup-romania.com^
@@ -1515,6 +1519,7 @@
 ||altruetech.com^
 ||altwi-zgs.com^
 ||amorpulse.com^
+||animeshoppers.com^
 ||anydebrid.com^
 ||aoptee.com^
 ||appdrive.info^
@@ -1546,6 +1551,7 @@
 ||beecrave.com^
 ||benecharm.com^
 ||benxi.info^
+||bertasxt.com^
 ||best-torrents.com^
 ||bestvod.pl^
 ||billboardwring.com^
@@ -1626,6 +1632,8 @@
 ||confira.io^
 ||containably.com^
 ||coolest3d.com^
+||coolestpod.com^
+||copymyfx.com^
 ||corg.co^
 ||couponxoo.com^
 ||courier-tracking.com^
@@ -1660,19 +1668,19 @@
 ||devifoodgrains.com^
 ||dezpez.com^
 ||dieserbenni.ru^
-||dischargebackhanded.com^
 ||displaymovies.pl^
 ||distrochooser.snehit.dev^
 ||dkfodboldstore.com^
 ||dleggere.com^
-||dogparadiseshop.com^
 ||dogparadisestore.com^
 ||doh-gov.ph^
 ||dohealths.com^
 ||dolystore.com^
+||dopestore.pl^
 ||drama-queen.cc^
 ||draxu.com^
 ||dreamgreenshoe.com^
+||dreamstee.com^
 ||dresseloves.com^
 ||dressesloves.com^
 ||dresseslovesootd.com^
@@ -1699,7 +1707,6 @@
 ||etaindiaonline.com^
 ||etv-in.com^
 ||eudoraz.com^
-||eudshop.shop^
 ||eviralstore.com^
 ||evisa-indian.com^
 ||evisa.express^
@@ -1776,7 +1783,7 @@
 ||gearanime.com^
 ||gearhomies.com^
 ||gearhuman.com^
-||gearstastic.com^
+||gearver.com^
 ||geekupdates.notion.site^
 ||geldencosmeticos.com^
 ||gemlis.com^
@@ -1853,7 +1860,6 @@
 ||indianevisaonline.com^
 ||indianimmigration.org^
 ||indianonlinevisas.org^
-||indiantravelvisa.com^
 ||indianvisa.online^
 ||indianvisagov.com^
 ||indianvisaonline.org^
@@ -1882,6 +1888,7 @@
 ||jasper-lilac-van.glitch.me^
 ||jellystores.com^
 ||jewellvanmarter.za.com^
+||jne-express.my.id^
 ||jsdimmigration.com^
 ||jsdimmigrations.com^
 ||karan-pc.com^
@@ -1912,10 +1919,13 @@
 ||kuyhaa.cc^
 ||lasercutjewelry.net^
 ||lds.xyz^
+||ledgers.network^
 ||lemstore.com^
 ||leonoremanry.sa.com^
 ||lericettedifrancy74.com^
 ||lesliespracklen.sa.com^
+||letteringift.com^
+||levath.com^
 ||levelbash.com^
 ||levelupstore.xyz^
 ||lifestyletrading.co.za^
@@ -1933,8 +1943,8 @@
 ||lucatee.com^
 ||lucidtiger.com^
 ||luckyhomie.com^
+||lucysstyle.com^
 ||luxsgear.com^
-||m.coinexeu.vip^
 ||maebl.com^
 ||magnite.shop^
 ||mail-cytanet.pages.dev^
@@ -1996,6 +2006,7 @@
 ||navi36.ru^
 ||navi38.ru^
 ||navi39.ru^
+||navi42.ru^
 ||navi5.com^
 ||navi52.com^
 ||navi53.com^
@@ -2063,7 +2074,6 @@
 ||official.olymptrade-my.com^
 ||officialkmspico.com^
 ||oflike.com^
-||ojlkimed.vip^
 ||okdebrid.com^
 ||oldcube.com^
 ||olive121407.studio.site^
@@ -2071,11 +2081,11 @@
 ||online-binomo.com^
 ||online-eta.com^
 ||onlinecda.pl^
+||onlinefilmy.pl^
 ||onlinekino.pl^
 ||onlinevisa.com^
 ||onlinewideo.pl^
 ||onlyfanstake.pro^
-||onrunningshop.com^
 ||ontario-energy.com^
 ||orderquilt.com^
 ||outlet-alfresco.com^
@@ -2089,7 +2099,6 @@
 ||paradisevs.com^
 ||path2zillion.com^
 ||peekpok.com^
-||pekanbaru.one^
 ||penguinnow.com^
 ||peppatees.com^
 ||perlatoshoe.com^
@@ -2117,6 +2126,7 @@
 ||primeleech.com^
 ||primevod.pl^
 ||promo-offer.com^
+||promoalfresco.com^
 ||promotion40-form.com^
 ||pslcpdfhjmxpldvfrhttxxdqzgr2.godaddysites.com^
 ||punchonsol.top^
@@ -2138,6 +2148,7 @@
 ||royalhedgies.com^
 ||rozomii.info^
 ||rsaonlinenow.com.au^
+||rupiahsaku.com^
 ||rustdesk.co.nz^
 ||rustdesk.io^
 ||rustdesk.pl^
@@ -2175,7 +2186,6 @@
 ||singleflirt.com^
 ||skincheap.com^
 ||skinszone.net^
-||skipped.vip^
 ||skyfollowerbridge.com^
 ||sligen.com^
 ||slimsyrups.ca^
@@ -2235,6 +2245,7 @@
 ||t-post.com^
 ||tamed-exotics.com^
 ||tartannewzealand.myshopify.com^
+||tatatowers.com^
 ||tbao684tryo.com^
 ||teezill.com^
 ||telegramweb.vercel.app^
@@ -2257,6 +2268,7 @@
 ||tiranaaquapark-eg.com^
 ||tlstoreonline.com^
 ||toko999.net^
+||toko999.shop^
 ||tomadamsenergy.com^
 ||torrenty-pl.cc^
 ||touristvisaonline.com^
@@ -2312,6 +2324,7 @@
 ||uprising.kip.pro^
 ||ureashi.com^
 ||us99.pro^
+||uschse04.my03.com^
 ||uusilemmikki.com^
 ||valeofoodsgroup.com^
 ||validsteamkeys.com^
@@ -2340,6 +2353,7 @@
 ||visasimple.com^
 ||visatoindia.org^
 ||visumbuitenland.nl^
+||vizjer-pl.pl^
 ||vizjer.eu^
 ||vod-tv.pl^
 ||vod.film^
@@ -2351,6 +2365,7 @@
 ||wadahlapak.top^
 ||wallpaperflare.com^
 ||watchmark.shop^
+||wavetshirt.com^
 ||wazofurniture.com^
 ||weathly.com^
 ||webvod.pl^
@@ -2386,6 +2401,7 @@
 ||youtubee.com^
 ||youtunbe.com^
 ||youutube.com^
+||ytvancedpro.com^
 ||yuaonew.com^
 ||z-lib.id^
 ||z-lib.is^

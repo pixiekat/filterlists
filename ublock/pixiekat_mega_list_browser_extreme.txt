@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-07-04T09:36:10Z
+! Version: 2026-07-12T15:26:46Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -9,6 +9,15 @@
 # SPDX-FileCopyrightText: 2025 Ross A. Baker <ross@rossabaker.com>
 #
 # SPDX-License-Identifier: CC0-1.0
+! Title: GitHub Copilot Filters
+! Description: Removes Copliot features from github.com
+! Expires: 7 days
+! Homepage: https://codeberg.org/rossabaker/github-copilot-filters
+! License: https://creativecommons.org/publicdomain/zero/1.0/
+# Exempt Copilot settings.  This is a conscious choice, and we
+# should let users opt out.
+@@||github.com/settings/copilot^$document,generichide,specifichide,elemhide
+@@||github.com/settings/copilot/*$document,generichide,specifichide,elemhide
 # General blunt force rules.  Use :not when the generic rules are
 # wrapping content that we do need to see.
 github.com##[href^="https://copilot-workspace.githubnext.com"]
@@ -20,6 +29,8 @@ github.com##[data-value="Chat with Copilot"]
 github.com##[data-hovercard-type="copilot"]
 # Hides the "Agents" button in the repo navigation panel
 github.com##nav[aria-label="Repository"] span[data-content="Agents"]:upward(2)
+# Hides the "Models" button in the repo navigation panel
+github.com##nav[aria-label="Repository"] span[data-content="Models"]:upward(2)
 # Hides Copilot as a suggested reviewer on PRs and issues.  The typo
 # in the id is intentional, and the ID is a magic number.
 github.com##[id="suggested-reviewier-175728472"]
