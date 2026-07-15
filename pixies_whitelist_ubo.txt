@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 1June2026v1
+! Version: 15July2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -35,9 +35,6 @@
 @@|https://www.google.com/maps^$document
 @@|https://www.google.com/search^$document
 
-! Taxes
-@@||www.hrblock.com^$document
-
 ! YouTube - watch history and account settings
 @@||www.youtube.com/api/stats/playback^
 @@||www.youtube.com/youtubei/v1/account/get_setting_values^
@@ -55,9 +52,6 @@
 @@||a.disquscdn.com^$document
 @@||c.disquscdn.com^$domain=disqus.com
 @@||mediaite.disqus.com^$domain=mediaite.com
-
-! Fixes social media
-@@||events.bsky.app^$domain=bsky.app|deck.blue
 
 ! Radio
 @@||www.siriusxm.com^$document
@@ -192,6 +186,22 @@
 
 ! Fixes some sites blocked elsewhere that I personally view
 @@||www.neowin.net^$document
+
+! Fixes Bsky/Mu.social Age Assurance
+! Remember to check 'Allow custom filters requiring trust' in UBO options
+||ip.bsky.app/config$replace=/(?<="countryCode":").+?(?=")/US/
+||ip.bsky.app/config$replace=/(?<="regionCode":").+?(?=")/WA/
+||ip.bsky.app/config$replace=/(?<="isAgeRestrictedGeo":)true/false/
+||ip.bsky.app/config$replace=/(?<="isAgeBlockedGeo":)true/false/
+||ip.mu.social/geolocation$replace=/(?<="countryCode":").+?(?=")/US/
+||ip.mu.social/geolocation$replace=/(?<="regionCode":").+?(?=")/WA/
+||ip.mu.social/geolocation$replace=/(?<="isAgeRestrictedGeo":)true/false/
+||ip.mu.social/geolocation$replace=/(?<="isAgeBlockedGeo":)true/false/
+@@||bsky.app^$domain=mu.social|deck.blue
+@@||bsky.network^$domain=mu.social|deck.blue
+
+! Trans fucking rights; fuck Joanne Karen Rowling
+@@||jkrowlingcensoredthis.online
 
 ! Work
 @@||acquia.com^$document,all
