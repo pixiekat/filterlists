@@ -89,7 +89,9 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.instagram.com/*
 *://*.meta.ai/*
 *://*.meta.com/*
-*://*.pinterest.*/*
+*://*.pinterest.com/*
+*://*.pinterest.co.uk/*
+*://*.pinterest.ca/*
 *://*.rumble.com/*
 *://*.t.co/*
 *://*.threads.com/*
