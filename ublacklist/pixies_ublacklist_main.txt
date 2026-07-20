@@ -37,7 +37,10 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.mmamania.com/*
 *://*.msn.com/en-us/sports/mma/*
 *://*.msn.com/en-us/sports/mma_ufc/*
+*://*.nypost.com/*
 *://*.si.com/fannation/mma/*
+*://*.steaknshake.com/*
+*://*.thetimes.com/*
 *://*.tntsports.co.uk/mixed-martial-arts/ufc/*
 *://*.ufc.com/*
 *://*.ufcfightpass.com/*
@@ -48,7 +51,6 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://www.wheresthematch.com/live-ufc-on-tv/*
 *://www.youtube.com/@ufc/*
 *://www.youtube.com/ufc
-*://*.steaknshake.com/*
 
 # --- Fascist Regime Sites ---
 *://*.alexjoneslive.com/*
@@ -97,6 +99,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.twimg.com/*
 *://*.twitter.com/*
 *://*.x.com/*
+*://*.reddit.com/*
 
 # --- Spammy Sites ---
 *://*.1sixty8.ai/*
