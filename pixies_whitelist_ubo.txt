@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 15July2026v1
+! Version: 23July2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -45,7 +45,11 @@
 @@||ogads-pa.clients6.google.com^$document,domain=google.com
 
 ! Fixes cost breakdowns on AWS reports
-@@||ce.us-east-1.amazonaws.com^$domain=console.aws.amazon.com
+@@||ce.us-east-1.amazonaws.com^$document,all,domain=console.aws.amazon.com
+
+! Fixes Mozilla donation pages
+@@||cdn.fundraiseup.com^$document,all,domain=supporter.thunderbird.net|donor.mozilla.org
+@@||static.fundraiseup.com^$document,all,domain=supporter.thunderbird.net|donor.mozilla.org
 
 ! Fixes comments
 @@||disqus.com^$document
@@ -54,7 +58,7 @@
 @@||mediaite.disqus.com^$domain=mediaite.com
 
 ! Radio
-@@||www.siriusxm.com^$document
+@@||www.siriusxm.com/player$document,all
 @@||www.wbur.org^$document,all
 @@||www.wgbh.org^$document,all
 
