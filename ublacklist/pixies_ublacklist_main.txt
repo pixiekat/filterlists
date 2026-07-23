@@ -12,6 +12,15 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.packagecontrol.io/packages/AssistantAI/*
 *://*.pieces.app/*
 *://*.topbusinesssoftware.com/*
+*://*.perplexityai.app/*
+*://*.perplexity.ai/*
+*://*.chatgpt.com/*
+*://*.openai.com/*
+*://*.anthropic.com/*
+*://*.claude.ai/*
+*://gemini.google.com/*
+*://*.mistral.ai/*
+*://copilot.microsoft.com/*
 
 # --- Elon Affiliated ---
 *://*.grok.com/*
