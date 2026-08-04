@@ -11,6 +11,8 @@ URLS=(
   # cosmetic
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/filters.txt"
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/non-copilot-filters.txt"
+  "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt"
+  "https://github.com/Stevoisiak/Stevos-AI-Blocklist/raw/refs/heads/main/GenAI-Blocklist-Extra.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/none-of-your-bezos.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/good-sports.txt"
   "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/specific/AntiAPKMirrorCountdown.txt"

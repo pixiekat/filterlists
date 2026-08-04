@@ -30,6 +30,7 @@ URLS=(
   "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/SurvivedTrackingLinkWarning.txt"
   "https://raw.githubusercontent.com/kowith337/PersonalFilterListCollection/master/filterlist/other/MiscAnnoyance.txt"
   "https://github.com/yokoffing/filterlists/raw/refs/heads/main/annoyance_list.txt"
+  "https://codeberg.org/ArrayPirate/ShittyAiBlocklist/raw/branch/main/shittyAiBlocklist"
 )
 
 for url in "${URLS[@]}"; do
