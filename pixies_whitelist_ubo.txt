@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 23July2026v1
+! Version: 04August2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -16,22 +16,20 @@
 
 ! Google Apps
 @@||analytics.google.com^$domain=analytics.google.com
-@@||calendar.google.com^$document
-@@||docs.google.com^$document
-@@||drive.google.com^$document
-@@||gemini.google.com^$document
+@@||calendar.google.com^$document,all
+@@||docs.google.com^$document,all
+@@||drive.google.com^$document,all
 @@||groups.google.com^$document
 @@||history.google.com^$document
 @@||keep.google.com^$document
-@@||mail.google.com^$document
 @@||maps.googleapis.com^$document
 @@||maps.gstatic.com^$document
-@@||messages.google.com^$document
-@@||myaccount.google.com^$document
-@@||myactivity.google.com^$document
-@@||photos.google.com^$document
+@@||messages.google.com^$document,all
+@@||myaccount.google.com^$document,all
+@@||myactivity.google.com^$document,all
+@@||photos.google.com^$document,all
 @@||remotedesktop.google.com^$document
-@@||translate.google.com^$document
+@@||translate.google.com^$document,all
 @@|https://www.google.com/maps^$document
 @@|https://www.google.com/search^$document
 
@@ -88,6 +86,14 @@
 @@||gocomics.com^$document
 @@||mst3k.fandom.com^$document
 @@||www.theverge.com^$document
+
+! In real life local places
+@@||aldersgatene.campbrainregistration.com^$document
+
+! Unbreaks Mozilla donor portal
+! (but they're on the shitlist right now for running back to Twitter)
+@@||cdn.fundraiseup.com^$document,all,domain=supporter.thunderbird.net|donor.mozilla.org
+@@||static.fundraiseup.com^$document,all,domain=supporter.thunderbird.net|donor.mozilla.org
 
 ! Unbreaks Youtube history
 @@||https://www.youtube.com/api/stats/qoe^$important
@@ -214,10 +220,12 @@
 @@||bilh-my.sharepoint.com^$document,all
 @@||bilh.org^$document,all
 @@||certbot.eff.org^$document
+@@||cloud.acquia.com^$document
 @@||codeberg.org^$document
 @@||id.acquia.com^$document,all
 @@||login.microsoftonline.com^$document,all
 @@||onedrive.live.com^$document,all
+@@||outlook.cloud.microsoft^$document,all
 @@||outlook.office.com^$document,all
 @@||outlook.office365.com^$document,all
 @@||profile.acquia.com^$document,all
