@@ -17,10 +17,8 @@ URLS=(
   #"https://github.com/AFNIL-AntiFakeNewsInternationalList/AFNIL/raw/refs/heads/master/AFNIL-ABP-uBO.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/TabloidRemover.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/TabloidRemover-MastodonCategoryForImports.csv"
+  "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt"
   # cosmetic
-  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Imperial%20Units%20Remover.txt"
-  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/EmptyPaddingRemover.txt"
-  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Dandelion%20Sprout's%20Website%20Stretcher.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/fi-nuance.txt"
   "https://raw.githubusercontent.com/taylr/linkedinsanity/refs/heads/master/linkedinsanity.txt"
   "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/I%20Don't%20Want%20to%20Download%20Your%20Browser.txt"

@@ -11,7 +11,6 @@ URLS=(
   # cosmetic
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/filters.txt"
   "https://codeberg.org/rossabaker/github-copilot-filters/raw/branch/main/non-copilot-filters.txt"
-  "https://raw.githubusercontent.com/Stevoisiak/Stevos-GenAI-Blocklist/refs/heads/main/GenAI-Blocklist.txt"
   "https://github.com/Stevoisiak/Stevos-AI-Blocklist/raw/refs/heads/main/GenAI-Blocklist-Extra.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/none-of-your-bezos.txt"
   "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/good-sports.txt"
@@ -21,6 +20,10 @@ URLS=(
   "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/adult_annoyance_list.txt"
   "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/clean_reading_experience.txt"
   "https://github.com/yokoffing/filterlists/raw/refs/heads/main/privacy_essentials.txt"
+  # cosmetic
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Imperial%20Units%20Remover.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/EmptyPaddingRemover.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Dandelion%20Sprout's%20Website%20Stretcher.txt"
 )
 
 for url in "${URLS[@]}"; do
