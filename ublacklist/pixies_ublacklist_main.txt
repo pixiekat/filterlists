@@ -177,3 +177,10 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/*
 *://*.wbstudiotour.co.uk/*
 *://*.stonewall.org.uk/*
+
+# --- Fascists ---
+*://*.labour.org.uk/*
+*://*.conservatives.com/*
+*://*.reformparty.org/*
+*://*.reformparty.uk/*
+*://*.restorebritain.org.uk/*

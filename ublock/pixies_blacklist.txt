@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 12July2026v1
+! Version: 07August2026v1
 ! Expires: 7 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -116,10 +116,10 @@ www.youtube.com##.ryd-premium-teaser
 ||reddit.com/r/teslamotors^$document,domain=~its-a-fascist-subreddit.*
 ||reddit.com/r/ukpolitics^$document,domain=~its-a-racist-subreddit.*
 ||reddit.com/r/xai^$document,domain=~its-a-fascist-subreddit.*
-||spacex.com^$document
-||starlink.com^$document
+||spacex.com^$document,all,domain=~its-a-fascist-domain.*
+||starlink.com^$document,all,domain=~its-a-fascist-domain.*
 ||steaknshake.com^$document,all,domain=~its-a-fascist-domain.*
-||tesla.com^$document
+||tesla.com^$document,all,domain=~its-a-fascist-domain.*
 ||twitter.com^$document,all,domain=~its-a-fascist-domain.*
 ||x.com^$document,all,domain=~its-a-fascist-domain.*
 ||xai.com^$document,all,domain=~its-a-fascist-domain.*
@@ -130,16 +130,16 @@ www.youtube.com##.ryd-premium-teaser
 ||geekpedia.com^$document
 
 ! Terf sites
-||jkrowling.com^$document,all
+||jkrowling.com^$document,all,domain=~its-a-terf-apologia-site.*
 ||stonewall.org.uk^$document,all,domain=~its-a-terf-apologia-site.*
-||mumsnet.com^$document,all
+||mumsnet.com^$document,all,domain=~its-a-terf-apologia-site.*
 ||reddit.com/r/harry_potter^$document,domain=~its-a-terf-apologia-subreddit.*
 ||reddit.com/r/harrypotter^$document,domain=~its-a-terf-apologia-subreddit.*
 ||reddit.com/r/harrypotterbooks^$document,domain=~its-a-terf-apologia-subreddit.*
 ||reddit.com/r/HarryPotteronHBO^$document,domain=~its-a-terf-apologia-subreddit.*
-||www.harrypotter.com^$document
-||www.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/$document
-||www.wbstudiotour.co.uk^$document
+||www.harrypotter.com^$document,all,domain=~its-a-terf-apologia-site.*
+||www.universalorlando.com/web/en/us/universal-orlando-resort/the-wizarding-world-of-harry-potter/$document,domain=~its-a-terf-apologia-site.*
+||www.wbstudiotour.co.uk^$document,domain=~its-a-terf-apologia-site.*
 
 ! Twitter is garbage, get rid of it
 ##.twitter-tweet
@@ -150,7 +150,8 @@ www.youtube.com##.ryd-premium-teaser
 ##.truthsocial-embed
 
 ! UK Government and Political Parties
-||conservatives.com^$document
+||labour.org.uk^$document,all,domain=~its-a-fascist-domain.*
+||conservatives.com^$document,all,domain=~its-a-fascist-domain.*
 ||reformparty.org^$document,all,domain=~its-a-fascist-domain.*
 ||reformparty.uk^$document,all,domain=~its-a-fascist-domain.*
 ||restorebritain.org.uk^$document,all,domain=~its-a-fascist-domain.*
