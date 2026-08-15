@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-08-04T17:29:06Z
+! Version: 2026-08-15T12:31:14Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
@@ -2361,7 +2361,7 @@ roblox.com##.recommendations-container.sponsored-layer
 ||zynga2-a.akamaihd.net^
 ||zynga3-a.akamaihd.net^
 ! Title: 🔤 BadBlock - Google (ABP)
-! Version: 06June2026v1
+! Version: 27July2026v1
 ! Description: Block Google advertising, tracking, promotions, & more!
 ||opensource.google/v*/logging
 ||google.com/$rpc/google.internal.waa.v*.Waa/Ping
@@ -4549,6 +4549,7 @@ userstyles.org##+js(set, window.google.accounts.id.prompt, noopFunc)
 ||appenginereporting.googleapis.com^
 ||appsactivity.googleapis.com^
 ||appsenterprisecustomers.com^
+||appsgenaiserver-pa.clients6.google.com^
 ||appsgenaiserver-pa.googleapis.com^
 ||appsgrowthpromo-pa.clients6.google.com^
 ||appsgrowthpromo-pa.googleapis.com^
@@ -7843,7 +7844,6 @@ github.com###wcpConsentBannerCtrl
 ||zoneminder.github.io^
 ||zylo.com^
 ! Title: 📡 BadBlock - Radar (ABP)
-! Version: 23July2026v1
 ! Description: Block advertising, analytics, unwanted data collection, tracking, & more as they arise!
 ||ad.$all,domain=~ad.jp
 ||ad-*.$all
@@ -11885,6 +11885,7 @@ www.aainflight.com##._sponsorContainer_pfqu5_1
 ||markedmeasure.com^
 ||marker.io^
 ||marketcast.com^
+||marketing-config.api.my.chick-fil-a.com^
 ||marketing-web-api.snap.com^
 ||marketing.figma.com^
 ||marketing.rakuten.com^
@@ -12543,6 +12544,7 @@ www.aainflight.com##._sponsorContainer_pfqu5_1
 ||prodregistryv2.org^
 ||profitrumour.com^
 ||profusesupport.com^
+||promo.api.my.chick-fil-a.com^
 ||promotekit.com^
 ||propertypotato.com^
 ||proprofschat.com^

@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-08-05T11:01:40Z
+! Version: 2026-08-15T12:30:48Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -34,6 +34,8 @@ github.com##nav[aria-label="Repository"] span[data-content="Models"]:upward(2)
 # Hides Copilot as a suggested reviewer on PRs and issues.  The typo
 # in the id is intentional, and the ID is a magic number.
 github.com##[id="suggested-reviewier-175728472"]
+# Remove Copilot from Suggestions in reviewer dropdown
+github.com##label:has(input[value="175728472"])
 # Hide the "explain error" on the Actions details mennu
 github.com##li[aria-keyshortcuts="e"]:has(svg[class*="copilot"])
 # Button below text area on New Issue page
@@ -66,6 +68,8 @@ github.com##a:has-text("Copilot Autofix for CodeQL"):upward(3)
 ||github.com/github-copilot/chat^
 # The "Fix with Copilot" button on broken Actions logs
 github.com##div[data-test-id="copilot-actions-fix-button"]
+# Remove the "Request Copilot review" button
+github.com##:has(> #suggested-reviewer-175728472)
 # These filters are unrelated to Copilot, but improve the experience
 # on GitHub in other ways.
 # Block achievements gamification
@@ -80,6 +84,13 @@ github.com##[href$="?tab=achievements"]:upward(2)
 ! * AI customer support chatbots that need to be used before sending requests to a real human support member
 ! * Posts from subreddits that focus on AI generated content
 ! * Filters that may catch non-ai content
+! ===============
+! == 1Password ==
+! -- https://www.1password.dev/ssh
+! Navbar - Security for AI
+www.1password.dev##.nav-tabs-item[href="/security-for-ai"]
+! Copy Page button
+www.1password.dev###page-context-menu
 ! ===========
 ! == Adobe ==
 ! ============
@@ -92,22 +103,42 @@ www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://
 ! == Ars Technica ==
 ! AI category in header
 arstechnica.com###site-header [href="https://arstechnica.com/ai/"]
+! ================
+! == Astronomer ==
+! -- https://www.astronomer.io/docs/learn/overview
+! Sidebar items
+www.astronomer.io##[data-title="Common AI"]
+www.astronomer.io##[data-title="Data engineering with AI"]
+www.astronomer.io##[data-title="GenAI"]
+! Copy markdown button
+www.astronomer.io###page-context-menu
+! =======================
+! == AWS Documentation ==
+! -- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
+! Navbar - AI resources
+docs.aws.amazon.com##.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
+! Related & highly rated pages
+! * Seemingly only the article descriptions are AI. Should look into more targeted filter for main list.
+docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
+! == Cribl Docs ==
+! -- https://docs.cribl.io/stream/destinations-s3/
+! Copy as markdown button
+docs.cribl.io##.markdown-view-toggle__container
 ! =====================
 ! == Cloudflare Blog ==
 ! AI category in navbar
 blog.cloudflare.com##.nav-item[data-tag="ai"]
 ! == Docker ==
-! -- https://docs.docker.com/desktop/setup/install/windows-install/
+! -- https://docs.docker.com/get-started/docker-overview/
 ! AI article category in sidebar
 docs.docker.com##.navbar-group-font-title:has-text(AI and agents):upward(1)
-! Gordon & Markdown buttons
-docs.docker.com##article > .lg\:block > .not-prose > .flex
+! Copy as Markdown buttons
+docs.docker.com##article > .lg\:block:has([marlin-action="copy-markdown-button"])
 ! == Fox Business ==
 ! Navbar > Tech > AI
 www.foxbusiness.com##.dropdown-item--ai
 ! Footer > Tech > AI
 www.foxbusiness.com##.nav-item--ai
-! ===============
 ! == Futuruism ==
 futurism.com##.menu-item:has([href="https://futurism.com/category/artificial-intelligence"])
 ! ===================
@@ -127,13 +158,15 @@ github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"
 ! == GitHub Blog ==
 ! Navbar - AI & ML category
 github.blog##li:has(> [href="https://github.blog/ai-and-ml/"])
-! ================
 ! == GitHub Dev ==
 ! Copilot icon on status bar (Regardless of whether Copilot is enabled or not)
 github.dev###chat\.statusBarEntry
 ! == GitHub Docs ==
 ! AI Disclaimer below search results
 docs.github.com##.SearchOverlay_footer__45kw_
+! -- https://docs.github.com/en/get-started/using-github/hello-world
+! Copy as Markdown button
+docs.github.com##[data-container="toc"] > .mb-3.ml-3:has([class*="ViewMarkdownButton_button__"])
 ! == GitLab ==
 ! -- https://gitlab.com/universalamateur1/reclaim-mcp-server/-/merge_requests/1
 ! Reviewer is GitLab Duo (right sidebar)
@@ -179,6 +212,11 @@ design.google##[data-testid="search-bar"]:has(> [name="ai"])
 ! * Can be used without AI, but heavily encourages using AI tools
 docs.google.com##.goog-menuitem:has([aria-label^="Convert to video"])
 docs.google.com###content-library-rail-convert-to-video-element
+! == Google Drive ==
+! -- https://drive.google.com/drive/my-drive
+! "Type" filter > Gemini files
+drive.google.com##[role="menuitemcheckbox"][name="gem"]
+drive.google.com##[role="menuitemcheckbox"][name="conversation"]
 ! == Google Labs ==
 ! -- https://labs.google.com/search
 ! "Meet AI Mode" promo banner.
@@ -230,6 +268,11 @@ www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 ! * Does not apply if selecting one of the auto-fill options that appears when typing
 ! * Causes error message
 ||app.kiwihealth.com/patient-server/public/klarity/llm/search$xhr,domain=www.helloklarity.com
+! ==========
+! == Hevo ==
+! -- https://hevodata.com/learn/airflow-sql-server/
+! Article summary (Unsure if this is actually AI)
+hevodata.com##.post-summary
 ! == How-To Geek ==
 www.howtogeek.com##.subheader-menu-item:has(> [href="/category/ai-amp-machine-learning/"]):remove()
 ! ======================
@@ -245,6 +288,11 @@ www.livescience.com##.meganav-item__link[data-before-rewrite-localise="/technolo
 ! Floating Mylow button in bottom right
 ! * Needed to contact human customer support. 
 www.lowes.com##.ChatInviteButton
+! =========================
+! == Meta for Developers ==
+! -- https://developers.facebook.com/documentation/instagram-platform
+! View as Markdown buttons
+developers.facebook.com##[class="x1xmf6yo"]
 ! ====================
 ! == Microsoft Blog ==
 blogs.microsoft.com###AI.uhf-nav-link
@@ -258,6 +306,14 @@ learn.microsoft.com##.table-of-contents > .tree-item:has(> .tree-expander:has-te
 ! -- https://teams.microsoft.com/v2/ (logged in)
 ! Sparkle icon indicating an app has AI features (Apps tab)
 teams.microsoft.com##svg[aria-label="Includes an agent and uses AI"]
+! == MinIO ==
+! -- https://www.min.io/
+min.io##.new-section:has-text(Every enterprise AI depends on trusted data and long-term memory.)
+min.io##.new-section-title-wrapper:has-text(Built for Enterprise AI Workloads.)
+min.io##.new-section:has-text(One Foundation. Every AI Workflow.)
+! -- https://docs.min.io/aistor/
+! Unknown
+||cloud.google.com/ai/gen-app-builder/client$script,domain=docs.min.io
 ! ==============
 ! == PC Guide ==
 www.pcguide.com##.menu-item-150141
@@ -299,6 +355,14 @@ old.reddit.com##.search-result-listing > .search-result-group > .contents > .sea
 old.reddit.com##.search-result-listing > .search-result-group > .contents > .search-result:has(> div > .search-result-meta > span:not([class]) > a.search-subreddit-link:has-text("/^r\/(3amAI|ADULT_ART_AI|AgentsOfAI|AI_Agents|Ai_and_Digital_arts|AI_ART|AI_Art_Department|AI_Art_Requests|AI_Art_Series|ai_artworld|AI_developers|Ai_Dragons|Ai_HarryPotter|Ai_Husbando_Art|Ai_PeopleOfColor_Art|Ai_Pokemon|Ai_StarWars_Art|AIAliveSentient|aiArt|AiArt_Psych|AIartbattle|AiArtChallenge|aiartcodex|AIArtCreator|aiARTistsUNITE|AIArtistWorkflows|AiArtLounge|AIArtPorn|AiArtShow|AIArtwork|AiArtWow|AIArtZone|aibeingstupid|AiCarArt|AICatgirls|AICharacterDrawing|AiChatGPT|aiCoffeeArt|AiComicBookArt|AiComicBookArt|AIEscher|aifails|AIfreakout|aigamedev|AIGameOfThrones|aiGayArt|AIGenArt|AiGenCarporn|AIGeneratedArt|aigeneratedmemes|AIgeneratednightmares|AIGeneratedPokemon|AIGirlfriend|AiGirlsSexyArt|aigoddesses|AIGrinding|AiHentaiArtwork|Aihotgirl|aiHub|AIisfuckinglit|ailookbook|AImsorryjon|aiMusic|AIpornhub|aipromptprogramming|AIRetrofuturism|aisettings|aispacegirls|aitoolsupdate|AiUncensored|aivideo|AIVideo4all|AiVideoGameArt|AIVisibile|aiwars|AiWholesome|aiyiff|AmazingAI|AnimeAIArt|anyaiart|Art_of_AI|Arthemy|artificial|ArtificialInteligence|ArtIsForEveryone|bard|bigsleep|Celebrity_Ai_Photos|CharacterAI|CharacterAI_No_Filter|Chatbots|ChatGPT|ChatGPTCoding|ChatGPTPro|civitai|claude|ClaudeAI|comfyui|Copilot|craiyon|CursedAI|cursedAIpics|dalle2|dallemini|dawnAi|deepdream|DeepFloydIF|deeplearning|DefendingAIArt|DimensionTraveler|DiscoDiffusion|dndai|DragonDiffusion|DreamArchitecture|DreamBooth|dreamcasting|DreamstudioAI|DumbAI|DuneAI|DungeonoftheMadMage|EternalAI_org|FanArtAI|FiddlartAi|FurAI|GarfieldAI_art|GeminiAI|GenAI4all|generateforme|generative|generativeAI|GenTube|GithubCopilot|GoogleAIGoneWild|GoogleGeminiAI|GPT3|hellaflyai|HighEndAI|HQ_AI_Ecchi|ImageGenerators|Indian_AI_Girls|IndianArtAI|indie_games_and_ai|invokeai|JustOneWord|layla_ai|Lensa|LensaFails|leonardoai|lotr_ai_art|lotr_ai_art|LOTRAI|LovingOpenSourceAI|MachineLearning|MBVirtualVixens|MediaSynthesis|microsoft_365_copilot|midjourney|MidJourney2Dalle|midjourney_imagine|MidjourneyArtworks|MidJourneyDiscussions|MidjourneyFails|MidJourneyFantasy|MidjourneyPrompts|momaia|narrative_ai_art|nightcafe|nijijourney|nonutsnightmare|NovelAi|OpenAI|perplexity_ai|Pixai_Official|ProductHunters|PromptArt|promptcraft|PromptDesign|PromptEngineering|PromptSharing|promptsideas|RenaissanceArt_AI|riffusion|sdforall|sdnsfw|SeaArtAI|sexbotlovers|shittyAiArt|SillyTavernAI|singularity|SoraAi|StableDiffusion|StableDiffusionInfo|StableDiffusionUI|starryai|StarWarsAIArt|stupidAI|SukiAI|SunoAI|te_diffusion|TheAIBrain|WaifuDiffusion|weirddalle|WomboArt|Wombodream|wonderAI|WorldbuildingWithAI)$/"))
 ! -- Search subreddits (https://old.reddit.com/subreddits/search?q=aiart)
 old.reddit.com##body.subreddits-page > .content > #siteTable > .thing.subreddit:has(> div.midcol > .subscribe-button:matches-attr(data-sr_name="/^(3amAI|ADULT_ART_AI|AgentsOfAI|AI_Agents|Ai_and_Digital_arts|AI_ART|AI_Art_Department|AI_Art_Requests|AI_Art_Series|ai_artworld|AI_developers|Ai_Dragons|Ai_HarryPotter|Ai_Husbando_Art|Ai_PeopleOfColor_Art|Ai_Pokemon|Ai_StarWars_Art|AIAliveSentient|aiArt|AiArt_Psych|AIartbattle|AiArtChallenge|aiartcodex|AIArtCreator|aiARTistsUNITE|AIArtistWorkflows|AiArtLounge|AIArtPorn|AiArtShow|AIArtwork|AiArtWow|AIArtZone|aibeingstupid|AiCarArt|AICatgirls|AICharacterDrawing|AiChatGPT|aiCoffeeArt|AiComicBookArt|AiComicBookArt|AIEscher|aifails|AIfreakout|aigamedev|AIGameOfThrones|aiGayArt|AIGenArt|AiGenCarporn|AIGeneratedArt|aigeneratedmemes|AIgeneratednightmares|AIGeneratedPokemon|AIGirlfriend|AiGirlsSexyArt|aigoddesses|AIGrinding|AiHentaiArtwork|Aihotgirl|aiHub|AIisfuckinglit|ailookbook|AImsorryjon|aiMusic|AIpornhub|aipromptprogramming|AIRetrofuturism|aisettings|aispacegirls|aitoolsupdate|AiUncensored|aivideo|AIVideo4all|AiVideoGameArt|AIVisibile|aiwars|AiWholesome|aiyiff|AmazingAI|AnimeAIArt|anyaiart|Art_of_AI|Arthemy|artificial|ArtificialInteligence|ArtIsForEveryone|bard|bigsleep|Celebrity_Ai_Photos|CharacterAI|CharacterAI_No_Filter|Chatbots|ChatGPT|ChatGPTCoding|ChatGPTPro|civitai|claude|ClaudeAI|comfyui|Copilot|craiyon|CursedAI|cursedAIpics|dalle2|dallemini|dawnAi|deepdream|DeepFloydIF|deeplearning|DefendingAIArt|DimensionTraveler|DiscoDiffusion|dndai|DragonDiffusion|DreamArchitecture|DreamBooth|dreamcasting|DreamstudioAI|DumbAI|DuneAI|DungeonoftheMadMage|EternalAI_org|FanArtAI|FiddlartAi|FurAI|GarfieldAI_art|GeminiAI|GenAI4all|generateforme|generative|generativeAI|GenTube|GithubCopilot|GoogleAIGoneWild|GoogleGeminiAI|GPT3|hellaflyai|HighEndAI|HQ_AI_Ecchi|ImageGenerators|Indian_AI_Girls|IndianArtAI|indie_games_and_ai|invokeai|JustOneWord|layla_ai|Lensa|LensaFails|leonardoai|lotr_ai_art|lotr_ai_art|LOTRAI|LovingOpenSourceAI|MachineLearning|MBVirtualVixens|MediaSynthesis|microsoft_365_copilot|midjourney|MidJourney2Dalle|midjourney_imagine|MidjourneyArtworks|MidJourneyDiscussions|MidjourneyFails|MidJourneyFantasy|MidjourneyPrompts|momaia|narrative_ai_art|nightcafe|nijijourney|nonutsnightmare|NovelAi|OpenAI|perplexity_ai|Pixai_Official|ProductHunters|PromptArt|promptcraft|PromptDesign|PromptEngineering|PromptSharing|promptsideas|RenaissanceArt_AI|riffusion|sdforall|sdnsfw|SeaArtAI|sexbotlovers|shittyAiArt|SillyTavernAI|singularity|SoraAi|StableDiffusion|StableDiffusionInfo|StableDiffusionUI|starryai|StarWarsAIArt|stupidAI|SukiAI|SunoAI|te_diffusion|TheAIBrain|WaifuDiffusion|weirddalle|WomboArt|Wombodream|wonderAI|WorldbuildingWithAI)$/"))
+! == Render ==
+! -- https://render.com/docs/your-first-deploy
+! Copy page button
+render.com##.relative.inline-flex.items-stretch.mb-20:has([d="M4,18H2V4A2,2,0,0,1,4,2H18V4H4Z"])
+! == Salesforce ==
+! -- https://developer.salesforce.com/docs/platform/lightning-component-reference/guide
+! Copy as markdown
+developer.salesforce.com##doc-content-action-toolbar
 ! == Semrush ==
 ! -- https://www.semrush.com/blog/google-tag-manager/
 ! "Semrush One" promo in sidebar that mentions AI
@@ -316,11 +380,17 @@ sourceforge.net##.m-sidebar-widget:has(.main-image:is([alt="Build Agents and Mod
 ! AI Sales Rep chat box
 ! * Allows booking an appointment, so may be needed to contact a human
 squareup.com###q-messenger-frame[title="Qualified Messenger"]
-! =========================
+! == Stack Overflow ==
+! AI Assist requests
+||stackoverflow.com/ai-assist/$xhr,1p
 ! == Stack Overflow Blog ==
 ! -- https://stackoverflow.blog/
 ! "AI/ML" category on left sidebar
 stackoverflow.blog##.my4:has(> a[href="/ai/"])
+! == Stripe ==
+! -- https://docs.stripe.com/api
+! View as markdown buttons
+docs.stripe.com##.⚙x1uodc[role="toolbar"]
 ! == TechCrunch ==
 ! -- https://techcrunch.com/
 ! AI news category in navbar
@@ -335,10 +405,12 @@ www.theverge.com##[aria-label="Top Navigation"] li:has(> [href="https://www.thev
 www.theverge.com##[aria-label="Drawer Navigation"] li:has(> [aria-label="Collapse 'AI' Section"])
 ! "Latest from AI" section
 www.theverge.com##.duet--homepage--category-shelf:has(.sh1kne0[href="/ai-artificial-intelligence"])
-! ==========
 ! == Time ==
 ! -- https://time.com/
 time.com##li:has(div > [href="#id-ai-0"])
+! == Twilio ==
+! -- https://www.twilio.com/docs/sendgrid/api-reference
+www.twilio.com##.css-11p3jof[data-paste-element="BUTTON_GROUP"]
 ! == Valnet ==
 ! Sites found via https://www.valnetinc.com/en/our-brands
 ! -- https://www.howtogeek.com/repurposed-old-router-saved-20-dollars/
@@ -346,6 +418,14 @@ time.com##li:has(div > [href="#id-ai-0"])
 androidpolice.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,fextralife.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,movieweb.com,pocket-lint.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.i-sensa
 ! ========================
 ! == Visual Studio Code ==
+! -- https://code.visualstudio.com/docs
+! AI related topic boxes
+code.visualstudio.com##.docs-get-started-card[href="/docs/agents/agents-tutorial"]
+code.visualstudio.com##[role="listitem"]:has(> .feature-card[href^="/docs/agents/"])
+code.visualstudio.com##[role="listitem"]:has(> .feature-card[href^="/docs/agent-customization/"])
+code.visualstudio.com##.docs-latest-item[href^="/docs/agents/"]
+! Sidebar topic
+code.visualstudio.com###main-nav [href="#agentic-articles"]
 ! -- https://code.visualstudio.com/docs/remote/wsl
 ! View as markdown
 code.visualstudio.com##.docs-markdown-actions
@@ -360,6 +440,7 @@ tech.yahoo.com##.group\/mega-nav-item:has([aria-controls="submenu-ai"])
 www.youtube.com##+js(trusted-replace-node-text, script, (function serverContract(), if("object"===typeof window.ytInitialPlayerResponse){window.ytInitialPlayerResponse=JSON.parse(JSON.stringify(window.ytInitialPlayerResponse));}(function serverContract(), sedCount, 1)
 ! -- https://www.youtube.com/watch?v=l5NntXg1zOg
 ! Add "Made with AI" notice if AI disclaimer is in description
+! * Based on https://www.reddit.com/r/uBlockOrigin/comments/1umdeuf/comment/ovgtopr/
 www.youtube.com##.ytwHowThisWasMadeSectionViewModelBodyHeader:has-text("Made with AI"):upward(ytd-watch-flexy):style(--new-text-1:"Made with AI")
 www.youtube.com##.ytwHowThisWasMadeSectionViewModelBodyHeader:has-text("Made with AI"):upward(ytd-watch-flexy):style(--new-text-2:"Disclosed in video description")
 www.youtube.com###movie_player::before:style(content:var(--new-text-1); position:absolute; top:12px; right:12px; background:#ff0033; color:#fff; padding:6px 12px 15px; border-radius:6px; font-size:40px; font-weight:700; z-index:999; box-shadow:0 2px 10px rgba(0,0,0,0.6); border:2px solid #fff;)
