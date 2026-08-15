@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 09August2026v1
+! Version: 15August2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -206,8 +206,8 @@
 ||ip.mu.social/geolocation$replace=/(?<="regionCode":").+?(?=")/WA/
 ||ip.mu.social/geolocation$replace=/(?<="isAgeRestrictedGeo":)true/false/
 ||ip.mu.social/geolocation$replace=/(?<="isAgeBlockedGeo":)true/false/
-@@||bsky.app^$domain=mu.social|deck.blue
-@@||bsky.network^$domain=mu.social|deck.blue
+@@||bsky.app^$domain=mu.social|deck.blue|blacksky.community
+@@||bsky.network^$domain=mu.social|deck.blue|blacksky.community
 
 ! Trans fucking rights; fuck Joanne Karen Rowling
 @@||jkrowlingcensoredthis.online
