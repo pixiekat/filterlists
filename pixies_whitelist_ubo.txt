@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 15August2026v1
+! Version: 22August2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -152,6 +152,9 @@
 @@||player.stv.tv^$document
 @@||pocketcasts.com^$document
 @@||www.itv.com^$document
+
+! Fixes NWA Powerrr on Comet TV
+@@||bitmovin.com^$document,xmlhttprequest,all,domain=comettv.com
 
 ! News sites that are OK
 @@||www.404media.co^$document
