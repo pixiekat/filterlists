@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-08-15T12:30:48Z
+! Version: 2026-08-23T18:09:28Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -86,19 +86,39 @@ github.com##[href$="?tab=achievements"]:upward(2)
 ! * Filters that may catch non-ai content
 ! ===============
 ! == 1Password ==
+! -- https://1password.com/
+! AI promo
+1password.com##[data-testid="text-lockup"] .w-full.space-y-6.text-balance:has-text(Secure access for every human and AI agent)
 ! -- https://www.1password.dev/ssh
 ! Navbar - Security for AI
 www.1password.dev##.nav-tabs-item[href="/security-for-ai"]
 ! Copy Page button
 www.1password.dev###page-context-menu
+! ======================
+! == Addend Analytics ==
+! Header items
+addendanalytics.com##.addend-nav-list [href="https://addendanalytics.com/ai-consulting-services"]
+addendanalytics.com##.addend-nav-list [href="https://addendanalytics.com/services-applied-ai-consulting"]
+! Footer items
+addendanalytics.com##.addend-footer-grid [href="https://addendanalytics.com/services-applied-ai-consulting"]
 ! ===========
 ! == Adobe ==
-! ============
-! -- https://www.adobe.com/home (Adobe Home - logged in)
+! -- https://www.adobe.com/apps/all/all-platforms (logged in)
 ! "Chat with us" icon to open "Adobe Virtual Assistant"
 www.adobe.com###adbmsgCta
 ! "Adobe Virtual Asssistant" chatbox
 www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://cdn.prod.assistant.adobe.com/production/static/"])
+! Adobe Firefly card
+www.adobe.com##.appCard.FFC_FIREFLY_1\.0
+! =============
+! == Android ==
+! -- https://www.android.com/
+! AI promos in carousel
+www.android.com###create-and-share-jaw-dropping-images-straight-from-your-phone-4:upward(1)
+www.android.com###remix-any-photo-right-in-your-messages:upward(1)
+! AI Promo sections
+www.android.com###create-your-own-unique-android-bot
+www.android.com###ai-on-android
 ! ==================
 ! == Ars Technica ==
 ! AI category in header
@@ -112,6 +132,25 @@ www.astronomer.io##[data-title="Data engineering with AI"]
 www.astronomer.io##[data-title="GenAI"]
 ! Copy markdown button
 www.astronomer.io###page-context-menu
+! == Atlassian ==
+! -- https://<yourdomain>.atlassian.net/browse/SUP-1 (Support - Task)
+! Right sidebar - Suggestions
+! * Needs more testing before going in main filters
+||*.atlassian.net/gateway/api/graphql/pq/*?operation=graphqlContextPanelQuery
+! -- https://<yourdomain>.atlassian.net/jira/software/projects/KAN/development
+! -- Spaces - Development
+! Spaces - Development - Buttons to connect AI coding tools
+atlassian.net##[data-testid="page-layout.main"] div:has(> div > button [fill="url(#pattern0_9035_42065)"])
+atlassian.net##[data-testid="page-layout.main"] div:has(> div > button [fill="url(#pattern0_10681_12670)"])
+atlassian.net##[data-testid="page-layout.main"] div:has(> div > button [d^="M9.92107 20.9249L13.8523 18.7189L13.918 18.5267L13.8523 18.4205H13.66L13.0023 18.3799L10.7559"])
+atlassian.net##[data-testid="page-layout.main"] button:has([d="m4.28 4.72 2.75 2.75a.75.75 0 0 1 0 1.06l-2.75 2.75-1.06-1.06L5.44 8 3.22 5.78zM12.5 9.5V11H8V9.5z"])
+! -- https://<yourdomain>.atlassian.net/wiki/admin/automation
+! Popup modal "Exciting changes have come to automation"
+atlassian.net##.atlaskit-portal:has([role="dialog"][aria-label="New features in Automation"])
+! -- https://<yourdomain>.atlassian.net/wiki/admin/automation#/tab/rule-library
+! Automation - Templates - Rovio AI Agents
+atlassian.net##[data-testid="rule-categories-grid"] > [class^="rule-library-category-list__CategoryHeader"]:has-text(Rovo AI Agents)
+atlassian.net##[data-testid="rule-categories-grid"] > [class^="rule-library-category-list__CategoryHeader"]:has-text(Rovo AI Agents) + [class^="rule-library-card-list__CategoriesListWrapper"]
 ! =======================
 ! == AWS Documentation ==
 ! -- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
@@ -128,6 +167,7 @@ docs.cribl.io##.markdown-view-toggle__container
 ! == Cloudflare Blog ==
 ! AI category in navbar
 blog.cloudflare.com##.nav-item[data-tag="ai"]
+! ============
 ! == Docker ==
 ! -- https://docs.docker.com/get-started/docker-overview/
 ! AI article category in sidebar
@@ -161,6 +201,14 @@ github.blog##li:has(> [href="https://github.blog/ai-and-ml/"])
 ! == GitHub Dev ==
 ! Copilot icon on status bar (Regardless of whether Copilot is enabled or not)
 github.dev###chat\.statusBarEntry
+! Part of user authentication for Copilot. Affects login status shown via Copilot icon in bottom status bar.
+||api.github.com/copilot_internal/$xhr,domain=github.dev
+! Unsure. Returns list of AI chat models.
+! Initially thoought this would break sidebar chat.
+||main.vscode-cdn.net/extensions/chat.json$xhr,domain=github.dev
+! Not sure what this does ¯\_(ツ)_/¯
+! It gets called when codespace page is opened. Copilot Chat is still listed in extensions list.
+||marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot-chat/$xhr,domain=github.dev
 ! == GitHub Docs ==
 ! AI Disclaimer below search results
 docs.github.com##.SearchOverlay_footer__45kw_
@@ -176,7 +224,6 @@ gitlab.com##.timeline-entry:has(.note-header-info [data-original="@GitLabDuo"])
 gitlab.com##.timeline-entry:has(.note-header-info [data-username="GitLabDuo"])
 ! Participants - GitLab Duo
 gitlab.com##.participants [data-username="GitLabDuo"]
-! =============
 ! == Gizmodo ==
 ! Navbar AI category
 gizmodo.com##[aria-label="Quick Links"] [href="https://gizmodo.com/tech/artificial-intelligence"]
@@ -275,7 +322,11 @@ www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 hevodata.com##.post-summary
 ! == How-To Geek ==
 www.howtogeek.com##.subheader-menu-item:has(> [href="/category/ai-amp-machine-learning/"]):remove()
-! ======================
+! == Humble Bundle ==
+! -- https://www.humblebundle.com/bundles
+! Bundles involving AI
+! * Exclude the "The Cybersecurity & AI Defense" bundle
+www.humblebundle.com##.bundle:is([href*="/ai-"], [href*="-ai-"], [href*="claude-code"], [href*="genai-"]):not([href*="cybersecurity"])
 ! == Insight Software ==
 ! -- https://central.insightsoftware.com/ (Main page - logged in)
 ! "Ask Max" Virtual Assistant
@@ -293,6 +344,10 @@ www.lowes.com##.ChatInviteButton
 ! -- https://developers.facebook.com/documentation/instagram-platform
 ! View as Markdown buttons
 developers.facebook.com##[class="x1xmf6yo"]
+! == Microsoft ==
+! -- https://www.microsoft.com/en-us/microsoft-teams/log-in
+! Partner apps - Copilot
+www.microsoft.com##.cross-sell-main .layout__col:has([data-bi-ehn="Copilot"])
 ! ====================
 ! == Microsoft Blog ==
 blogs.microsoft.com###AI.uhf-nav-link
