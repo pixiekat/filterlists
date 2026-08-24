@@ -12,6 +12,9 @@ URLS=(
   "https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt"
   "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt"
   "https://raw.githubusercontent.com/yokoffing/filterlists/refs/heads/main/enhanced_site_protection.txt"
+  "https://github.com/DevSpen/scam-links/raw/refs/heads/master/src/trailing-slashes.txt"
+  "https://github.com/DevSpen/scam-links/raw/refs/heads/master/src/malicious-terms.txt"
+  "https://github.com/DevSpen/scam-links/raw/refs/heads/master/src/links.txt"
 )
 
 for url in "${URLS[@]}"; do

@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-08-23T18:09:28Z
+! Version: 2026-08-24T09:43:07Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -153,6 +153,9 @@ atlassian.net##[data-testid="rule-categories-grid"] > [class^="rule-library-cate
 atlassian.net##[data-testid="rule-categories-grid"] > [class^="rule-library-category-list__CategoryHeader"]:has-text(Rovo AI Agents) + [class^="rule-library-card-list__CategoriesListWrapper"]
 ! =======================
 ! == AWS Documentation ==
+! -- https://docs.aws.amazon.com/
+! Kiro AI documentation
+docs.aws.amazon.com##.fLDVpm2fNtOFGVs9hPFgMA\=\=:has(> [alt="Kiro icon"])
 ! -- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 ! Navbar - AI resources
 docs.aws.amazon.com##.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
