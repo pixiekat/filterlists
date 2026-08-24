@@ -9,6 +9,7 @@ URLS=(
   # whitelists
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/refs/heads/main/adblock/spam-tlds-adblock-allow.txt"
   # blocklists
+  "https://github.com/taylr/linkedinsanity/raw/refs/heads/master/spies-dislike-us.txt"
   "https://codeberg.org/hagezi/mirror2/raw/branch/main/dns-blocklists/adblock/spam-tlds-ublock.txt"
   "https://raw.githubusercontent.com/durablenapkin/scamblocklist/master/adguard.txt"
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/stayingonbrowser/Staying%20On%20The%20Phone%20Browser"
