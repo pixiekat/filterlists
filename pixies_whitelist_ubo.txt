@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 22August2026v1
+! Version: 27August2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -32,6 +32,7 @@
 @@||translate.google.com^$document,all
 @@|https://www.google.com/maps^$document
 @@|https://www.google.com/search^$document
+@@||www.googletagmanager.com^$document,all,domain=play.google.com
 
 ! YouTube - watch history and account settings
 @@||www.youtube.com/api/stats/playback^
@@ -153,8 +154,9 @@
 @@||pocketcasts.com^$document
 @@||www.itv.com^$document
 
-! Fixes NWA Powerrr on Comet TV
-@@||bitmovin.com^$document,xmlhttprequest,all,domain=comettv.com
+! Fixes streaming on CometTV and MyAEW
+@@||bitmovin.com^$document,xmlhttprequest,all,domain=comettv.com|myaew.com
+@@||kiswe.com^$document,xmlhttprequest,all,domain=myaew.com
 
 ! News sites that are OK
 @@||www.404media.co^$document
