@@ -4,6 +4,10 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 OUTPUT="$SCRIPT_DIR/../pixiekat_mega_list_browser_pro.txt"
 TMPFILE=$(mktemp)
 
+# Shared fetch/clean helpers - see lib/filterlist_helpers.sh for why upstream
+# header blocks have to be stripped (Chromium uBO picks the LAST "! Title:").
+source "$SCRIPT_DIR/../../lib/filterlist_helpers.sh"
+
 # List of whitelist URLs to fetch
 URLS=(
   # whitelists
@@ -33,17 +37,15 @@ URLS=(
 )
 
 for url in "${URLS[@]}"; do
-  echo "Fetching $url..."
-  echo "" >> "$TMPFILE"
-  echo "" >> "$TMPFILE"
-  curl -fsSL "$url" >> "$TMPFILE"
-  echo "" >> "$TMPFILE"
-  echo "" >> "$TMPFILE"
+  # Fetches, strips the upstream "! Title: ... ! Description: ..." block and
+  # any !#include lines, then appends the rules under a plain credit comment.
+  fetch_filterlist "$url" "$TMPFILE"
 done
 
-# Strip only !#include lines (leave !#if, !#else, !#endif intact)
-grep -v '^!#include' "$TMPFILE" > "${TMPFILE}.clean"
-mv "${TMPFILE}.clean" "$TMPFILE"
+# Safety net: remove any list-level metadata that survived further down in a
+# source file, so ours is the only "! Title:"/"! Expires:" in the merged output.
+echo "Removing leftover upstream metadata..."
+strip_list_metadata "$TMPFILE"
 
 # $(date -u +"%d%b%Yv1")
 # $(date -u +"%Y-%m-%dT%H:%M:%SZ")
@@ -64,8 +66,8 @@ echo "" >> "$OUTPUT"
 #echo "Sorting list..."
 #sort -u "$TMPFILE" >> "$OUTPUT"
 
-echo "Removing duplicates while preserving order..."
-awk '!seen[$0]++' "$TMPFILE" >> "$OUTPUT"
+echo "Removing duplicate rules while preserving order..."
+dedupe_rules "$TMPFILE" >> "$OUTPUT"
 
 echo "Removing temp file..."
 rm "$TMPFILE"

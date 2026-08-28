@@ -1,14 +1,15 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 2026-07-04T09:36:08Z
+! Version: 2026-08-28T00:59:14Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
-! Title: 🤖 BadBlock - Android Whitelist (ABP)
-! Version: 02April2026v1
-! Expires: 1 hour
-! Description: Unblock the Good! (Android Edition)
-! Homepage: https://badblock.celenity.dev
 
+! ===========================================================================
+! Source list: 🤖 BadBlock - Android Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/android_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|accrescent.app^
 @@|android.clients.google.com^
 @@|app.futo.org^
@@ -56,9 +57,14 @@
 @@|stats.izzysoft.de^
 @@|store.nethunter.com^
 @@|vas.samsungapps.com^
-! Title: 🍎 BadBlock - Apple Whitelist (ABP)
-! Version: 02July2026v1
-! Description: Unblock the Good! (Apple Edition)
+
+
+! ===========================================================================
+! Source list: 🍎 BadBlock - Apple Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/apple_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|itunes.com^
 @@|itunes.apple.com^
 @@|activateiphone-usw2-cx01.apple.com^
@@ -274,8 +280,14 @@
 @@|wkms-public.v.aaplimg.com^
 @@|wps.apple.com^
 @@|wps.v.aaplimg.com^
-! Title: 🌐 BadBlock - Browser Whitelist (ABP)
-! Description: Unblock the Good! (Browser Edition)
+
+
+! ===========================================================================
+! Source list: 🌐 BadBlock - Browser Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/browser_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|archive-01.torproject.org^
 @@|archive.torproject.org^
 @@|artifacts.ironfoxoss.org^
@@ -345,9 +357,14 @@
 @@|versions.brave.com^
 @@|www.cromite.org^
 @@|www.palemoon.org^
-! Title: 🛜 BadBlock - Captive Whitelist (ABP)
-! Version: 03May2026v1
-! Description: Unblock domains required for Captive Portals & Connectivity Checks!
+
+
+! ===========================================================================
+! Source list: 🛜 BadBlock - Captive Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/captive_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@||aainflight.com^$important
 @@|204.ecloud.global^
 @@|204.pop-os.org^
@@ -790,8 +807,14 @@
 @@|yoda2-public-device-nlb-8343995ce4714f6f.elb.us-west-2.amazonaws.com^
 @@|yoda2-rcs-nlb-0c9df3882f3f7416.elb.us-west-2.amazonaws.com^
 @@|zugportal.de^
-! Title: 🖆 BadBlock - Certificate Validation Whitelist (ABP)
-! Description: Unblock the Good! (Certificate Validation Edition)
+
+
+! ===========================================================================
+! Source list: 🖆 BadBlock - Certificate Validation Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/certs_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|apple.com^$important
 @@|trendmicro.com^$important
 @@|vodafone.com^$important
@@ -1883,8 +1906,14 @@
 @@|x1.c.lencr.org^
 @@|x1.i.lencr.org^
 @@|yandex.ocsp-responder.com^
-! Title: 📞 BadBlock - Helpline Whitelist (ABP)
-! Description: Unblock the Good! (Helpline Edition)
+
+
+! ===========================================================================
+! Source list: 📞 BadBlock - Helpline Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/emergency_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|080020100.bg^
 @@|103ecoute.be^
 @@|112.gov.in^
@@ -2646,8 +2675,14 @@
 @@|zenskapomocsada.hr^
 @@|zenskasoba.hr^
 @@|zestni.org^
-! Title: 😇 BadBlock - Ethical Whitelist (ABP)
-! Description: Unblock Ethical Data Collection!
+
+
+! ===========================================================================
+! Source list: 😇 BadBlock - Ethical Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/ethical_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 search.brave.com#@#+js(set-local-storage-item, app.usageMetricsOptOut, true)
 cobalt.tools#@#+js(set-local-storage-item, plausible_ignore, true)
 duckduckgo.com#@#+js(set-cookie, 1, -1)
@@ -2848,8 +2883,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|uxintgiad.apple.com^
 @@|www.anonymco.com^
 @@|www.qwapi.com^
-! Title: 🛜 BadBlock - LAN Whitelist (ABP)
-! Description: Unblock the Good! (LAN Edition)
+
+
+! ===========================================================================
+! Source list: 🛜 BadBlock - LAN Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/lan_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|airbox.home^
 @@|airport^
 @@|ap.asus.com^
@@ -2926,8 +2967,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|www.routerlogin.net^
 @@|www.zenwifi.net^
 @@|zenwifi.net^
-! Title: 🐧 BadBlock - GNU/Linux Whitelist (ABP)
-! Description: Unblock the Good! (GNU/Linux Edition)
+
+
+! ===========================================================================
+! Source list: 🐧 BadBlock - GNU/Linux Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/linux_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|_http._tcp.security.ubuntu.com^
 @@|admin.fedoraproject.org^
 @@|alpha.gnu.org^
@@ -3200,8 +3247,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|volico.mm.fcix.net^
 @@|www.linuxmint.com^
 @@|yourlabs.org^
-! Title: 🪟 BadBlock - Microsoft Whitelist (ABP)
-! Description: Unblock the Good! (Microsoft Edition)
+
+
+! ===========================================================================
+! Source list: 🪟 BadBlock - Microsoft Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/microsoft_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|activated.win^
 @@|adl.windows.com^
 @@|adl.windows.com.edgesuite.net^
@@ -3312,8 +3365,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|www.realtek.com^
 @@|www1.dell-cidr.akadns.net^
 @@|wwwfile.realtek.com^
-! Title: 🏠 BadBlock - Misc. Whitelist (ABP)
-! Description: Unblock the Good! (Misc. Edition)
+
+
+! ===========================================================================
+! Source list: 🏠 BadBlock - Misc. Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/misc_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|sourceforge.net^
 @@|360.qualtrics.com^
 @@|360.yul1.qualtrics.com^
@@ -4069,8 +4128,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|yalesurvey.ca1.qualtrics.com^
 @@|yalesurvey.qualtrics.com^
 @@|yul1.qualtrics.com^
-! Title: 📶 BadBlock - Mobile Whitelist (ABP)
-! Description: Unblock the Good! (Mobile Edition)
+
+
+! ===========================================================================
+! Source list: 📶 BadBlock - Mobile Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/mobile_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|02.co.uk^
 @@|1und1-mobilfunk.de^
 @@|2degreesmobile.net.nz^
@@ -5974,9 +6039,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|zap.vivo.com.br^
 @@|ziggo.dataxs.mobi^
 @@|zonamovil.com.pa^
-! Title: 🦖 BadBlock - Mozilla Whitelist (ABP)
-! Version: 06June2026v1
-! Description: Unblock the Good! (Mozilla Edition)
+
+
+! ===========================================================================
+! Source list: 🦖 BadBlock - Mozilla Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/mozilla_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|addons-stage.thunderbird.net^
 @@|addons.allizom.org^
 @@|addons.mozilla-backup.org^
@@ -6109,8 +6179,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|versioncheck.dev.mozaws.net^
 @@|versioncheck.prod.mozaws.net^
 @@|versioncheck.stage.mozaws.net^
-! Title: ⭐ BadBlock - Nintendo Whitelist (ABP)
-! Description: Unblock the Good! (Nintendo Edition)
+
+
+! ===========================================================================
+! Source list: ⭐ BadBlock - Nintendo Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/nintendo_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|aqua.p01.dd1.d4c.srv.nintendo.net^
 @@|aqua.p01.dp1.d4c.srv.nintendo.net^
 @@|aqua.p01.jd1.d4c.srv.nintendo.net^
@@ -6154,8 +6230,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|sun.p01.sd1.d4c.srv.nintendo.net^
 @@|sun.p01.sp1.d4c.srv.nintendo.net^
 @@|sun.p01.td1.d4c.srv.nintendo.net^
-! Title: 🔔 BadBlock - Push Notifications Whitelist (ABP)
-! Description: Never miss a message!
+
+
+! ===========================================================================
+! Source list: 🔔 BadBlock - Push Notifications Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/push_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@||courier-push-apple.com.akadns.net^
 @@||courier-sandbox-push-apple.com.akadns.net^
 @@||courier2-push-apple.com.akadns.net^
@@ -6314,8 +6396,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|us-nw-courier-4.push-apple.com.akadns.net^
 @@|us-sandbox-courier-4.push-apple.com.akadns.net^
 @@|windows.courier.push.apple.com^
-! Title: 🔒 BadBlock - Safe Browsing Whitelist (ABP)
-! Description: Unblock the Good! (Safe Browsing Edition)
+
+
+! ===========================================================================
+! Source list: 🔒 BadBlock - Safe Browsing Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/safe-browsing_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|alt1-safebrowsing.google.com^
 @@|alt2-safebrowsing.google.com^
 @@|alt3-safebrowsing.google.com^
@@ -6350,8 +6438,14 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|token.safebrowsing.apple^
 @@|token.safebrowsing.apple.com^
 @@|websitereview.corp.apple.com^
-! Title: ⏰ BadBlock - Time Servers Whitelist (ABP)
-! Description: Unblock the Good! (Time Edition)
+
+
+! ===========================================================================
+! Source list: ⏰ BadBlock - Time Servers Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/time_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||0.datadog.pool.ntp.org^$important
 ||1.datadog.pool.ntp.org^$important
 ||2.datadog.pool.ntp.org^$important
@@ -6517,3 +6611,4 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|ubuntu.pool.ntp.org^
 @@|us.pool.ntp.org^
 @@|virginia.time.system76.com^
+

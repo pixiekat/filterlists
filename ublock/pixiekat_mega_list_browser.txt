@@ -1,16 +1,17 @@
 ! Title: Pixiekat's Mega List
-! Version: 2026-08-15T12:31:14Z
+! Version: 2026-08-28T00:59:45Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List
 
 
 
-! Title: 💌 BadBlock - Click Tracking/Referral Domains Whitelist (ABP)
-! Version: 02July2026v1
-! Expires: 1 hour
-! Description: Unblock click tracking!
-! Homepage: https://badblock.celenity.dev
+! ===========================================================================
+! Source list: 💌 BadBlock - Click Tracking/Referral Domains Whitelist (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/click-tracking_whitelist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 @@|7tiv.net^
 @@|7z9g.mjt.lu^
 @@|aan.amazon.com^
@@ -154,9 +155,14 @@
 @@|your.cvs.com^
 @@|z5-pauw.phreesia.net^
 @@|z5-sns.phreesia.net^
-! Title: 📦 BadBlock - Amazon (ABP)
-! Version: 03May2026v1
-! Description: Block Amazon advertising, tracking, telemetry, promotions, & more!
+
+
+! ===========================================================================
+! Source list: 📦 BadBlock - Amazon (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/amazon.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||twitch.tv/assets/errors
 twitch.tv##+js(set, _sentryDebugIdIdentifier, undefined)
 twitch.tv##+js(set, _sentryDebugIds, undefined)
@@ -174,146 +180,305 @@ twitch.tv##+js(set, _sentryDebugIds, undefined)
 ||aan.amazon.
 !#endif
 ||adsqtungsten*.amazon.dev^
+!#if ext_ublock
 ||advertising.amazon.$all
+!#else
 ||advertising.amazon.
+!#endif
 ||advertising*.amazon.com^
+!#if ext_ublock
 ||aviary.amazon.$all
+!#else
 ||aviary.amazon.
+!#endif
 ||aax-*.amazon.com^$important
+!#if ext_ublock
 ||affiliate-program.amazon.$all
+!#else
 ||affiliate-program.amazon.
+!#endif
 ||assoc-amazon.com^$important
+!#if ext_ublock
 ||aws-partner-central*.amazonaws.$all
+!#else
 ||aws-partner-central*.amazonaws.
+!#endif
 ||awswaf.com/*/report
 ||awswaf.com/*/telemetry
+!#if ext_ublock
 ||completion.amazon.$all
 ||origin-completion.amazon.$all
+!#else
 ||completion.amazon.
 ||origin-completion.amazon.
+!#endif
+!#if ext_ublock
 ||abs-lod*.amazonaws.$all
 ||quicksight*.amazonaws.$all
+!#else
 ||abs-lod*.amazonaws.
 ||quicksight*.amazonaws.
+!#endif
+!#if ext_ublock
 ||amazonpersonalizeruntime*.amazonaws.$all
+!#else
 ||amazonpersonalizeruntime*.amazonaws.
+!#endif
+!#if ext_ublock
 ||aos*.api.amazonwebservices.$all
+!#else
 ||aos*.api.amazonwebservices.
+!#endif
+!#if ext_ublock
 ||applicationinsights*.amazonaws.$all
+!#else
 ||applicationinsights*.amazonaws.
+!#endif
+!#if ext_ublock
 ||athena*.amazonaws.$all
+!#else
 ||athena*.amazonaws.
+!#endif
+!#if ext_ublock
 ||aws-insights*.amazonaws.$all
+!#else
 ||aws-insights*.amazonaws.
+!#endif
+!#if ext_ublock
 ||ce.*.amazonaws.$all
+!#else
 ||ce.*.amazonaws.
+!#endif
+!#if ext_ublock
 ||clarify*.amazonaws.$all
 ||sagemaker*.amazonaws.$all
 ||yavapai*.amazonaws.$all
+!#else
 ||clarify*.amazonaws.
 ||sagemaker*.amazonaws.
 ||yavapai*.amazonaws.
+!#endif
+!#if ext_ublock
 ||cloudtrail*.amazonaws.$all
+!#else
 ||cloudtrail*.amazonaws.
+!#endif
+!#if ext_ublock
 ||cloudwatchlogs*.amazonaws.$all
+!#else
 ||cloudwatchlogs*.amazonaws.
+!#endif
+!#if ext_ublock
 ||codeguru-profiler*.amazonaws.$all
 ||codeguru-reviewer*.amazonaws.$all
+!#else
 ||codeguru-profiler*.amazonaws.
 ||codeguru-reviewer*.amazonaws.
+!#endif
+!#if ext_ublock
 ||comprehend*.amazonaws.$all
+!#else
 ||comprehend*.amazonaws.
+!#endif
+!#if ext_ublock
 ||compute-optimizer*.amazonaws.$all
+!#else
 ||compute-optimizer*.amazonaws.
+!#endif
+!#if ext_ublock
 ||config.*.amazonaws.$all
+!#else
 ||config.*.amazonaws.
+!#endif
+!#if ext_ublock
 ||cur.*.amazonaws.$all
+!#else
 ||cur.*.amazonaws.
+!#endif
+!#if ext_ublock
 ||dynamodb-kai*.amazonaws.$all
+!#else
 ||dynamodb-kai*.amazonaws.
+!#endif
+!#if ext_ublock
 ||elasticbeanstalk-health*.amazonaws.$all
+!#else
 ||elasticbeanstalk-health*.amazonaws.
+!#endif
+!#if ext_ublock
 ||elasticmapreduce*.amazonaws.$all
 ||elasticmapreduce*.api.amazonwebservices.$all
+!#else
 ||elasticmapreduce*.amazonaws.
 ||elasticmapreduce*.api.amazonwebservices.
+!#endif
+!#if ext_ublock
 ||eventbridge*.amazonaws.$all
+!#else
 ||eventbridge*.amazonaws.
+!#endif
+!#if ext_ublock
 ||events*.amazonaws.$all
+!#else
 ||events*.amazonaws.
+!#endif
+!#if ext_ublock
 ||execute-api.*.amazonaws.$all
+!#else
 ||execute-api.*.amazonaws.
+!#endif
 @@||rss.libsyn.com^
 @@||fw-api.lp1.nso.nintendo.net^
 @@||execute-api.*.amazonaws.$all,domain=zeenews.india.com
+!#if ext_ublock
 ||fls-*.amazon.$all
+!#else
 ||fls-*.amazon.
+!#endif
+!#if ext_ublock
 ||glue-statistics*.amazonaws.$all
+!#else
 ||glue-statistics*.amazonaws.
+!#endif
+!#if ext_ublock
 ||health.amazonaws.$all
 ||health*.amazonaws.$all
 ||phd.amazonaws.$all
 ||status.amazonaws.$all
+!#else
 ||health.amazonaws.
 ||health*.amazonaws.
 ||phd.amazonaws.
 ||status.amazonaws.
+!#endif
 ||history-events-*.amazonaws.com^
+!#if ext_ublock
 ||internetmonitor*.amazonaws.$all
+!#else
 ||internetmonitor*.amazonaws.
+!#endif
+!#if ext_ublock
 ||iotevents*.amazonaws.$all
+!#else
 ||iotevents*.amazonaws.
+!#endif
+!#if ext_ublock
 ||iotsitewise*.amazonaws.$all
+!#else
 ||iotsitewise*.amazonaws.
+!#endif
+!#if ext_ublock
 ||iottwinmaker*.amazonaws.$all
+!#else
 ||iottwinmaker*.amazonaws.
+!#endif
+!#if ext_ublock
 ||kinesis*.amazonaws.$all
+!#else
 ||kinesis*.amazonaws.
+!#endif
+!#if ext_ublock
 ||lakeformation*.amazonaws.$all
+!#else
 ||lakeformation*.amazonaws.
+!#endif
+!#if ext_ublock
 ||log*.amazonaws.$all
+!#else
 ||log*.amazonaws.
 ||log*.api.aws^
+!#endif
+!#if ext_ublock
 ||monitoring*.amazonaws.$all
+!#else
 ||monitoring*.amazonaws.
+!#endif
+!#if ext_ublock
 ||oam.*.amazonaws.$all
+!#else
 ||oam.*.amazonaws.
+!#endif
+!#if ext_ublock
 ||personalize*.amazonaws.$all
+!#else
 ||personalize*.amazonaws.
+!#endif
+!#if ext_ublock
 ||pi.*.amazonaws.$all
+!#else
 ||pi.*.amazonaws.
+!#endif
+!#if ext_ublock
 ||ping*.amazonaws.$all
+!#else
 ||ping*.amazonaws.
+!#endif
 @@||vto-advanced-feature-flipping.s3.eu-west-1.amazonaws.com/config.json^$xmlhttprequest,domain=vto-advanced.fittingbox.com
+!#if ext_ublock
 ||pipes*.amazonaws.$all
+!#else
 ||pipes*.amazonaws.
+!#endif
 ||profile*.cloudfront.net^
+!#if ext_ublock
 ||redshift*.amazonaws.$all
 ||redshift*.api.amazonwebservices.$all
+!#else
 ||redshift*.amazonaws.
 ||redshift*.api.amazonwebservices.
+!#endif
+!#if ext_ublock
 ||route53resolver-vpc-querylogs.*.amazonaws.$all
+!#else
 ||route53resolver-vpc-querylogs.*.amazonaws.
+!#endif
+!#if ext_ublock
 ||rtc.*.amazonaws.$all
+!#else
 ||rtc.*.amazonaws.
+!#endif
+!#if ext_ublock
 ||rum.*.amazonaws.$all
+!#else
 ||rum.*.amazonaws.
+!#endif
+!#if ext_ublock
 ||analytics*.amazonaws.$all
+!#else
 ||analytics*.amazonaws.
+!#endif
+!#if ext_ublock
 ||snowball*.amazonaws.$all
+!#else
 ||snowball*.amazonaws.
+!#endif
+!#if ext_ublock
 ||synthetics*.amazonaws.$all
+!#else
 ||synthetics*.amazonaws.
+!#endif
+!#if ext_ublock
 ||trafficmirroring*.amazonaws.$all
+!#else
 ||trafficmirroring*.amazonaws.
+!#endif
+!#if ext_ublock
 ||unagi.amazon.$all
 ||unagi-*.amazon.$all
+!#else
 ||unagi.amazon.
 ||unagi-*.amazon.
+!#endif
+!#if ext_ublock
 ||xray*.amazonaws.$all
+!#else
 ||xray*.amazonaws.
+!#endif
+!#if ext_ublock
 ||voiceid*.amazonaws.$all
+!#else
 ||voiceid*.amazonaws.
+!#endif
 ||aan.amazon.co.jp^
 ||aan.amazon.co.uk^
 ||aan.amazon.com^
@@ -1133,8 +1298,14 @@ twitch.tv##+js(set, _sentryDebugIds, undefined)
 ||xray.cn-north-1.amazonaws.com.cn^
 ||xray.cn-northwest-1.amazonaws.com.cn^
 ||yavapai.cn-northwest-1.amazonaws.com.cn^
-! Title:  BadBlock - Apple (ABP)
-! Description: Block Apple advertising, telemetry, promotions, & more!
+
+
+! ===========================================================================
+! Source list:  BadBlock - Apple (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/apple.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||xp.apple.com^$important
 ||xp.apple.com.edgekey.net^$important
 ||xp.itunes-apple.com.akadns.net^$important
@@ -1385,8 +1556,14 @@ apple.com##+js(cookie-remover, analytics)
 ||xp.apple.com.edgekey.net^
 ||xp.itunes-apple.com.akadns.net^
 ||xp.v.aaplimg.com^
-! Title: 🦁 BadBlock - Brave (ABP)
-! Description: Block Brave telemetry, analytics, advertising, sponsored content, & more!
+
+
+! ===========================================================================
+! Source list: 🦁 BadBlock - Brave (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/brave.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 search.brave.com##.download-cta
 search.brave.com##.premium-cta
 search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
@@ -1449,11 +1626,20 @@ search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
 ||variations.brave.com^
 ||variations.bravesoftware.com^
 ||wdp.brave.com^
-! Title: 💰 BadBlock - Data Brokers (ABP)
-! Description: Stop the People Search!
+
+
+! ===========================================================================
+! Source list: 💰 BadBlock - Data Brokers (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/data-brokers.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 /zi-tag.js$script
+!#if ext_ublock
 ||neustar^$all
+!#else
 ||neustar^
+!#endif
 ||192.com^
 ||1and1.com^
 ||411.ca^
@@ -2017,9 +2203,14 @@ search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
 ||zi-scripts.com^
 ||zoominfo.com^
 ||zosearch.com^
-! Title: 🔒 BadBlock - DRM (ABP)
-! Version: 02April2026v1
-! Description: Stop Digital Restrictions Management!
+
+
+! ===========================================================================
+! Source list: 🔒 BadBlock - DRM (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/drm.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||anticheatexpert.com^
 ||appsealing.com^
 ||axinom.com^
@@ -2073,11 +2264,18 @@ search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
 ||widevine.com^
 ||widevineprovisioning.grapheneos.org^
 ||wmlalicensing.com^
-! Title: 📕 BadBlock - Facebook (ABP)
-! Description: Block Facebook (Meta) advertising, tracking, promotions, & more!
+
+
+! ===========================================================================
+! Source list: 📕 BadBlock - Facebook (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/facebook.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||facebook.com/tr?
 !#if !env_firefox
 ||instagram.com/embed.js$script
+!#endif
 ||connect.facebook.com^$important
 ||connect.facebook.net^$important
 /fbevents.js$script
@@ -2114,9 +2312,14 @@ search.brave.com##+js(set-local-storage-item, app.usageMetricsOptOut, true)
 ||xy.fbcdn.net^
 ||xz.fbcdn.net^
 ||z-m-graph.facebook.com^
-! Title: 🎮 BadBlock - Gaming (ABP)
-! Version: 17May2026v1
-! Description: Block gaming telemetry, analytics, advertising, tracking, & more!
+
+
+! ===========================================================================
+! Source list: 🎮 BadBlock - Gaming (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/gaming.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||epicgames.com/epic-analytics-worker.js$script
 ||epicgames.com/id/api/analytics
 ||tracking-website-prod*.elb.amazonaws.com^
@@ -2360,9 +2563,14 @@ roblox.com##.recommendations-container.sponsored-layer
 ||zynga1-a.akamaihd.net^
 ||zynga2-a.akamaihd.net^
 ||zynga3-a.akamaihd.net^
-! Title: 🔤 BadBlock - Google (ABP)
-! Version: 27July2026v1
-! Description: Block Google advertising, tracking, promotions, & more!
+
+
+! ===========================================================================
+! Source list: 🔤 BadBlock - Google (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/google.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||opensource.google/v*/logging
 ||google.com/$rpc/google.internal.waa.v*.Waa/Ping
 ||google.com/v*/experiments
@@ -2412,10 +2620,13 @@ music.youtube.com##ytmusic-player-bar:style(bottom:0px !important;)
 ||youtube.com/*/get_survey
 ||youtube.com/*/promotions
 /doubleclick/ads.js$script
+!#if ext_ublock
 ||gtm.$all,domain=~gtm.eset.com|~gtm.iddg.io|~gtm.secure.chase.com.akadns.net|~gtm.www.chase.com.akadns.net
 ||sgtm.*$all
+!#else
 ||gtm.$denyallow=gtm.eset.com|gtm.iddg.io|gtm.secure.chase.com.akadns.net|gtm.www.chase.com.akadns.net
 ||sgtm.
+!#endif
 /gtag/js
 /gtag.js$script
 /gtm-snippet$script
@@ -2468,14 +2679,23 @@ music.youtube.com##ytmusic-player-bar:style(bottom:0px !important;)
 ||static.doubleclick.net^$important
 ||survey.g.doubleclick.net^$important
 ||doubleclick-cn.net^$important
+!#if ext_ublock
 ||doubleclick.$all,important
+!#else
 ||doubleclick.$important
+!#endif
+!#if ext_ublock
 ||admob.$all,important
+!#else
 ||admob.$important
+!#endif
+!#if ext_ublock
 ||ads.google.$all
 ||adwords.$all,important
+!#else
 ||ads.google.
 ||adwords.$important
+!#endif
 ||ads.google.cn^$important
 ||ads.google.com^$important
 ||adservice.google.$important
@@ -2734,26 +2954,44 @@ music.youtube.com##ytmusic-player-bar:style(bottom:0px !important;)
 ||googletraveladservices.com^$important
 ||googletraveladservices-cn.com^$important
 ||imasdk.googleapis.com^$important
+!#if ext_ublock
 ||adsense.$all,important
+!#else
 ||adsense.$important
+!#endif
+!#if ext_ublock
 ||jmt17.google.$all
+!#else
 ||jmt17.google.
+!#endif
+!#if ext_ublock
 ||marketingplatform.google.$all
+!#else
 ||marketingplatform.google.
+!#endif
 ||play.google.com/log
+!#if ext_ublock
 ||ampcid.google.$all
+!#else
 ||ampcid.google.
+!#endif
+!#if ext_ublock
 ||labs.google.$all
+!#else
 ||labs.google.
+!#endif
 ||fundingchoices.google.com^$important
 ||fundingchoicesmessages.google.com^$important
 ||jnn-pa.googleapis.com^$domain=~youtube.com|~youtube.googleapis.com|~youtube-nocookie.com
 ||gstatic.com/glue/cookienotificationbar/
 ||accounts.google.com/gsi/
+!#if ext_ublock
 ||gg.google.$all
 ||id.google.$all
+!#else
 ||gg.google.
 ||id.google.
+!#endif
 userstyles.org##+js(set, window.google, {})
 userstyles.org##+js(set, window.google.accounts, {})
 userstyles.org##+js(set, window.google.accounts.id, {})
@@ -2778,8 +3016,11 @@ userstyles.org##+js(set, window.google.accounts.id.prompt, noopFunc)
 ||tagmanager.google.com^$important
 ||plus.google.com^$important
 ||plus.googleapis.com^$important
+!#if ext_ublock
 ||assistant.google.$all
+!#else
 ||assistant.google.
+!#endif
 ||0emn.com^
 ||0fmm.com^
 ||2mdn-cn.net^
@@ -6428,8 +6669,14 @@ userstyles.org##+js(set, window.google.accounts.id.prompt, noopFunc)
 ||youtubemediaconnect.googleapis.com^
 ||youtubereporting.googleapis.com^
 ||youtubereporting.mtls.googleapis.com^
-! Title: 🪟 BadBlock - Microsoft (ABP)
-! Description: Close the Windows! Block M$ advertising, tracking, telemetry, promotions, & more!
+
+
+! ===========================================================================
+! Source list: 🪟 BadBlock - Microsoft (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/microsoft.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||cloud.microsoft/ows/v*/ActivityFeed
 ||live.com/ows/v*/ActivityFeed
 ||live.com/ows/beta/AdsIdServices/
@@ -6900,17 +7147,26 @@ github.com###wcpConsentBannerCtrl
 ||xpay-edgetipping-api-atm-prod.trafficmanager.net^
 ||xpay-edgetipping-gateway.centralus.cloudapp.azure.com^
 ||xpay-int.microsoft.com^
-! Title: 🔎 BadBlock - Anti-Monitoring (ABP)
-! Description: Stop the spying!
+
+
+! ===========================================================================
+! Source list: 🔎 BadBlock - Anti-Monitoring (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/monitoring.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||devolutions.com^$badfilter
 ||devolutions.net^$badfilter
 ||devolutions.net.cdn.cloudflare.net^$badfilter
+!#if ext_ublock
 ||devolutions.com^$domain=~quoting.devolutions.com
 ||devolutions.net^$domain=~cdnfonts.devolutions.net
 ||devolutions.net.cdn.cloudflare.net^$domain=~cdnfonts.devolutions.net.cdn.cloudflare.net
+!#else
 ||devolutions.com^$denyallow=quoting.devolutions.com
 ||devolutions.net^$denyallow=cdnfonts.devolutions.net
 ||devolutions.net.cdn.cloudflare.net^$denyallow=cdnfonts.devolutions.net.cdn.cloudflare.net
+!#endif
 ||glider-*.amazonaws.com^
 ||01com.com^
 ||247connect.cloud^
@@ -7843,8 +8099,15 @@ github.com###wcpConsentBannerCtrl
 ||zoneminder.com^
 ||zoneminder.github.io^
 ||zylo.com^
-! Title: 📡 BadBlock - Radar (ABP)
-! Description: Block advertising, analytics, unwanted data collection, tracking, & more as they arise!
+
+
+! ===========================================================================
+! Source list: 📡 BadBlock - Radar (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/radar.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
+!#if ext_ublock
 ||ad.$all,domain=~ad.jp
 ||ad-*.$all
 ||ads.$all
@@ -7904,6 +8167,7 @@ github.com###wcpConsentBannerCtrl
 ||trace.$all,domain=~trace.moe
 ||tracing.$all
 ||tracing*.$all
+!#else
 ||ad.$denyallow=ad.jp
 ||ad-*.
 ||ads.
@@ -7962,12 +8226,17 @@ github.com###wcpConsentBannerCtrl
 ||trace.$denyallow=trace.moe
 ||tracing.
 ||tracing*.
+!#endif
+!#if ext_ublock
 ||geoapify.com^$badfilter
 ||geoapify.com^$domain=~www.lokjo.com
+!#endif
+!#if ext_ublock
 ||ui-portal.de^$badfilter
 ||uicdn.com^$badfilter
 ||ui-portal.de^$domain=~www.gmx.com
 ||uicdn.com^$domain=~www.gmx.com
+!#endif
 /advertisement.js$script
 /ads.js$script
 /ad-provider.js$script
@@ -8007,8 +8276,11 @@ github.com###wcpConsentBannerCtrl
 /z_stat.php
 /stormcaster.js$script
 ||navattic.com^$badfilter
+!#if ext_ublock
 ||navattic.com^$domain=~apkudo.navattic.com
+!#else
 ||navattic.com^$denyallow=apkudo.navattic.com
+!#endif
 ||kick.com/flagd
 ||kick.com/*?ci=js
 ||kick.com/*/A?
@@ -8228,8 +8500,11 @@ weather.com###WxuContentMedia-sidebar-538bd276-9594-4851-b9be-71596634526e
 ||toiimg.com/affiliates
 ||qualtrics.com^$badfilter
 ||qualtrics.com^$important,badfilter
+!#if ext_ublock
 ||qualtrics.com^$domain=~360.qualtrics.com|~acsurvey.qualtrics.com|~adelaide.qualtrics.com|~adelaideuniwide.qualtrics.com|~akron.qualtrics.com|~amazon1.qualtrics.com|~au1.qualtrics.com|~az1.qualtrics.com|~baylor.qualtrics.com|~bersin.qualtrics.com|~bostonu.qualtrics.com|~brandeis.qualtrics.com|~bryant.qualtrics.com|~ca1.qualtrics.com|~cmu.qualtrics.com|~co1.qualtrics.com|~community.qualtrics.com|~eu.qualtrics.com|~federation.syd1.qualtrics.com|~iad1.qualtrics.com|~ircc.qualtrics.com|~nhprovidersurvey.qualtrics.com|~northropgrumman360.qualtrics.com|~nupsych.qualtrics.com|~nus.syd1.qualtrics.com|~oshkosh.qualtrics.com|~oshkoshcorporation.qualtrics.com|~ouhsc.qualtrics.com|~ousurvey.qualtrics.com|~oxy.qualtrics.com|~pace.qualtrics.com|~rmit.qualtrics.com|~smuniversity.qualtrics.com|~smusg.asia.qualtrics.com|~survey.qualtrics.com|~surveys.qualtrics.com|~swissre.qualtrics.com|~syracuseuniversity.qualtrics.com|~unisasurveys.qualtrics.com|~washu.qualtrics.com|~waynestate.qualtrics.com|~wvu.qualtrics.com|~xerox.qualtrics.com|~yalesurvey.qualtrics.com|~yul1.qualtrics.com
+!#else
 ||qualtrics.com^$denyallow=360.qualtrics.com|acsurvey.qualtrics.com|adelaide.qualtrics.com|adelaideuniwide.qualtrics.com|akron.qualtrics.com|amazon1.qualtrics.com|au1.qualtrics.com|az1.qualtrics.com|baylor.qualtrics.com|bersin.qualtrics.com|bostonu.qualtrics.com|brandeis.qualtrics.com|bryant.qualtrics.com|ca1.qualtrics.com|cmu.qualtrics.com|co1.qualtrics.com|community.qualtrics.com|eu.qualtrics.com|federation.syd1.qualtrics.com|iad1.qualtrics.com|ircc.qualtrics.com|nhprovidersurvey.qualtrics.com|northropgrumman360.qualtrics.com|nupsych.qualtrics.com|nus.syd1.qualtrics.com|oshkosh.qualtrics.com|oshkoshcorporation.qualtrics.com|ouhsc.qualtrics.com|ousurvey.qualtrics.com|oxy.qualtrics.com|pace.qualtrics.com|rmit.qualtrics.com|smuniversity.qualtrics.com|smusg.asia.qualtrics.com|survey.qualtrics.com|surveys.qualtrics.com|swissre.qualtrics.com|syracuseuniversity.qualtrics.com|unisasurveys.qualtrics.com|washu.qualtrics.com|waynestate.qualtrics.com|wvu.qualtrics.com|xerox.qualtrics.com|yalesurvey.qualtrics.com|yul1.qualtrics.com
+!#endif
 /qualtrics.js$script
 /outbrain.js$script
 /com.snowplowanalytics.snowplow/
@@ -9047,8 +9322,11 @@ www.aainflight.com##._sponsorContainer_pfqu5_1
 ||www.statcounter.com^$important
 ||gs.statcounter.com^$important
 ||statsig.com^$important
+!#if ext_ublock
 ||surveymonkey.$all
+!#else
 ||surveymonkey.
+!#endif
 ||tapfiliate.com^$important
 ||taplytics.com^$important
 ||tealiumiq.com^$important
@@ -14006,8 +14284,14 @@ www.aainflight.com##._sponsorContainer_pfqu5_1
 ||zuora.com^
 ||zuora.life^
 ||zxcvads.com^
-! Title: 🎵 BadBlock - TikTok (ABP)
-! Description: Block TikTok (Bytedance) advertising, tracking, telemetry, & more!
+
+
+! ===========================================================================
+! Source list: 🎵 BadBlock - TikTok (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/tiktok.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||tiktok.com/aweme/v*/report
 ||tiktok.com/i18n/pixel
 ||tiktokv.eu/monitor_browser
@@ -14937,8 +15221,14 @@ www.aainflight.com##._sponsorContainer_pfqu5_1
 ||xlog16-platform-ycru.tiktokv.com.edgekey.net^
 ||xlog16-tmp-normal-useast1a.tiktokv.com^
 ||xlog16-tmp-normal-useast1a.tiktokv.com.edgekey.net^
-! Title: 🐦 BadBlock - Twitter (ABP)
-! Description: Block Twitter (X) advertising, tracking, telemetry, & more!
+
+
+! ===========================================================================
+! Source list: 🐦 BadBlock - Twitter (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/twitter.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||ads.twitter.com^$important
 ||ads.x.com^$important
 ||ads-api.twitter.com^$important
@@ -14997,11 +15287,17 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||syndication.twitter.com^
 ||syndication.x.com^
 ||xadsacademy.com^
-! Title: ⚠️ BadBlock - Unsafe (ABP)
-! Version: 04June2026v1
-! Description: Block dangerous & malicious domains!
+
+
+! ===========================================================================
+! Source list: ⚠️ BadBlock - Unsafe (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/unsafe.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||hsd1*.comcast.net^
 # We don't want to set these IP rules for AdGuard, see: https://github.com/celenityy/BadBlock/issues/83
+!#if ext_ublock
 ||[::ffff:b98f:f00d]
 ||[::ffff:2501:d8c8]
 ||[::ffff:a3ac:db6f]
@@ -15032,6 +15328,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||[::ffff:6bac:c999]
 ||[::ffff:feb:6f53]
 ||[::ffff:c77f:9804]
+!#endif
 ||mov^$document,domain=~david.mov|~peerflix.mov|~pstream.mov|~spankbang.mov
 ||zip^$document,domain=~community.zip|~financialstatement.zip|~krunker.zip|~lemmy.zip|~makea.zip|~piefed.zip|~transfer.zip|~uploaded-files.zip|~voron.zip
 ||xn--$document,domain=~xn----7sbb3acajbee5aggvnq.xn--90ais|~xn--80a2abbdd.xn--j1amh|~xn--gckvb8fzb.com
@@ -15700,17 +15997,14 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||zolvemruk.org^
 ||zoneedit.com^
 ||zwbufziw6o4q92.s3.amazonaws.com^
-[Adblock Plus 2.0]
-! Title: NoCoin Filter List
-! Expires: 7 days (update frequency)
-! Version: 228
-! Last modified: 20 May 2026
-! Homepage: https://github.com/hoshsadiq/adblock-nocoin-list/
-! Contribute: https://github.com/hoshsadiq/adblock-nocoin-list/issues
-! License: https://mit-license.org/
-! Description: This filter disables browser based miners
-!-------------------------------------------------------------------------------
-! Third Party blocking ---------------------------------------------------------
+
+
+! ===========================================================================
+! Source list: NoCoin Filter List
+! Provided by: https://github.com/hoshsadiq/adblock-nocoin-list/
+! Fetched from: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||23.83.114.131^$third-party
 ||2miners.com^$third-party
 ||35.194.26.233^$third-party
@@ -15888,6 +16182,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||wtm.monitoringservice.co^$third-party
 ||xmr.cool^$third-party
 ||zlx.com.br^$third-party
+
 ! coinimp.com
 ||freecontent.date
 ||freecontent.live
@@ -15900,6 +16195,7 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ||flightzy.date
 ||hashing.win
 ||webassembly.stream
+
 ! General blocking -------------------------------------------------------------
 -coin-hive.js
 -crypto-miner/*
@@ -15985,22 +16281,31 @@ x.com##+js(set-cookie, twtr_pixel_opt_in, N)
 ?proxy=*?pools=
 ?proxy=ws://$script,websocket
 ?proxy=wss://$script,websocket
+
 ! TLD blocking -----------------------------------------------------------------
 /^(https?|wss?):\/\/([0-9a-z\-]+\.)?([0-9a-z\-]+\.)(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|site|space(?!(/socket\/websocket\?vsn\=))|stream|tk|top|trade|webcam|win|xyz|zone)(\.)?\/(.*)/$third-party,websocket,domain=~arium.events|~file.pizza|~instant.io|~kli.one|~mellivora.pro|~mellivora.trade|~myinterview.com|~polkadot.js.org|~proctoredu.com|~proctoredu.ru|~spaceship.media.mit.edu|~webtorrent.io|~yorbbackend.xyz|~redirect-ads.com|~robong.me
 /^https?:\/\/([0-9a-z\.-_]+)\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|science|sh|site|space|stream|tk|top|trade|webcam|win|xyz|zone)(\.)\/(.*)/$script,third-party
 .info^$domain=sleeptimer.org
 .website/lib/*.wasm$xmlhttprequest,third-party
+
+
 ! Regex blocking ---------------------------------------------------------------
 /^((?!(^https?):\/\/((www\.)?(dailymotion\.com|google\.com|gstatic\.com|rapidvideo\.com|recaptcha\.net|youtube\.com)|clipwatching\.com|docs\.google\.com|content\.googleapis\.com|ebd\.cda\.pl|estream\.to|freedisc\.pl|gamedor\.usermd\.net|gounlimited\.to|harajuku\.pl|hqq\.tv|myvi\.ru|nowvideo\.sx|ok\.ru|rutube\.ru|sendvid\.com|st\.chatango\.com|staty\.portalradiowy\.pl|supervideo\.tv|tune\.pk|upstream\.to|uptostream\.com|video\.sibnet\.ru|vidfile\.net|vidoza\.net)\/).)*$/$subdocument,domain=123telugu.com|centrum-dramy.pl|love-drama.pl|netiap.com|funtik.tv|vev.io|vidfile.net|vidoza.co|vidoza.net
+
 /^((?!(^https?):\/\/((www\.)?(recaptcha\.net)|ajax\.googleapis\.com|cdn\.jsdelivr\.net|cdn\.vidoza\.(co|net)|cdnjs\.cloudflare\.com|code\.jquery\.com|code\.responsivevoice\.org|codeorigin\.jquery\.com|connect\.facebook\.net|content\.jwplatform\.com|dualstack\.f3\.shared\.global\.fastly\.net|embed\.tawk\.to|(maxcdn|netcdn|stackpath)\.bootstrapcdn\.com|p\.jwpcdn\.com|platform\.twitter\.com|player\.twitch\.tv|player\.vimeo\.com|releases\.flowplayer\.org|s\.ytimg\.com|static\.escdn\.co|vjs\.zencdn\.net|vk\.com|(www\.)(google\.com|gstatic\.com))\/).)*$/$script,third-party,domain=animeteatr.ru|arnaques-internet.info|atk-exotics.com|atkebony.com|babyjav.com|btstors.com|bustrain.net|chemikino.ru|cinemafacil.com|citypaintsupplyghana.com|clipwatching.com|coinfaucet.eu|coinhub.win|cracklists.com|deltabit.co|descargas2020.com|domnuleprimar.ro|dragonballzpolo.blogspot.com|filmovix.com|filmovix.net|filmovix.org|filmstreamvk.site|filmyhd.cz|firstone.tv|firstonetv.eu|firstonetv.live|fruithosts.net|funtik.tv|genashowalter.com|hdvid.tv|ianimes.co|javdl.co|kinokong.cc|kinokrad.co|lafmacun.net|neurozinzin.com|novator.az|novoscrb.ru|openload.cc|pelisplus.online|pezeshk.us|powvideo.cc|powvideo.net|protect-iframe.com|protect-link.biz|rednubes.de|seriesenlinea.net|severita-service.ru|sleeptimer.org|studio100.it|tapemovie.com|thepiratebay.org|torrentrapid.com|vev.io|vidoza.co|vidtudu.com|voirfilms.mx|wallpoper.com|wearesaudis.net|yourjav.com
+
 /^https?:\/\/([0-9a-z\.-_]+)\.(accountant|bid|cf|club|cricket|date|download|faith|fun|ga|gdn|gq|loan|men|ml|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|webcam|win|xyz|zone)\.\/(.*)/$script,third-party
+
 ! Websocket blocking -----------------------------------------------------------
 $websocket,domain=123telugu.com|300mbfilms.co|ajplugins.com|animeteatr.ru|arnaques-internet.info|atk-exotics.com|atkebony.com|babyjav.com|bigspeeds.com|btstors.com|bustrain.net|centrum-dramy.pl|chemikino.ru|cinemafacil.com|citypaintsupplyghana.com|clipwatching.com|coinfaucet.eu|coinhub.win|cracklists.com|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|domnuleprimar.ro|dragonballzpolo.blogspot.com|eduardolegatti.blogspot.com|fileone.tv|filmonet.com|filmovix.com|filmovix.net|filmovix.org|filmstreamvk.me|filmstreamvk.net|filmstreamvk.org|filmstreamvk.site|filmyhd.cz|firstone.tv|firstonetv.eu|firstonetv.live|fruithosts.net|funtik.tv|genashowalter.com|hdvid.tv|hqq.tv|ianimes.co|inside-out.xyz|javdl.co|jkanime.net|kickass.cd|kinohabr.net|kinokongo.cc|kinoprofi.org|kinosha.cc|lafmacun.net|leitor.net|lewd.ninja|love-drama.pl|mladipodnikatelia.sk|movie4k.is|mrunlock.icu|myfeed4u.net|nahnoji.cz|netiap.com|neurozinzin.com|novator.az|novoscrb.ru|onlinevideoconverter.com|openload.cc|pebx.pl|peliculas24.me|pelisplus.online|pezeshk.us|potomy.ru|powvideo.cc|powvideo.net|protect-iframe.com|protect-link.biz|rapidvideo.com|reactor.cc|rednubes.de|salon.com|seriesenlinea.net|severita-service.ru|sherlockonline.ru|shrink-service.it|shush.se|sickrage.ca|sleeptimer.org|sorteosrd.com|studio100.it|tapemovie.com|tarntercum.ru|theappguruz.com|tomadivx.tv|torrentrapid.com|tubetitties.com|tugaanimado.net|uptobox.com|uptobox.fr|uptobox.link|uptostream.com|uptostream.fr|uptostream.link|uptostream.eu|vev.io|vidfile.net|vidoza.co|vidoza.net|vidtudu.com|vidup.me|void.cat|voirfilms.mx|wallpoper.com|wearesaudis.net|yourjav.com|zona.plus
+
 ! XMLHttpRequest blocking ------------------------------------------------------
 $xmlhttprequest,domain=auroravid.to|dekoder.ws|powvideo.cc|powvideo.net|sorteosrd.com|vidfile.net
+
 ! CSP blocking -----------------------------------------------------------------
 $csp=worker-src 'none',domain=123telugu.com|300mbfilms.co|agp.com.pk|ajplugins.com|animeteatr.ru|arnaques-internet.info|atk-exotics.com|atkebony.com|aulaplus.com.br|babyjav.com|bigspeeds.com|btstors.com|bustrain.net|centrum-dramy.pl|chemikino.ru|cinemafacil.com|citypaintsupplyghana.com|clicktabs.net|clipwatching.com|coinfaucet.eu|coinhub.win|cracklists.com|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|domnuleprimar.ro|dragonballzpolo.blogspot.com|eduardolegatti.blogspot.com|empirenews.org|esudog.top|fileone.tv|filmonet.com|filmovix.com|filmovix.net|filmovix.org|filmstreamvk.me|filmstreamvk.net|filmstreamvk.org|filmstreamvk.site|filmyhd.cz|firstone.tv|firstonetv.eu|firstonetv.live|fruithosts.net|funtik.tv|genashowalter.com|hdvid.tv|ianimes.co|inside-out.xyz|javdl.co|jkanime.net|jpdress.com|kickass.cd|kinohabr.net|kinokongo.cc|kinoprofi.org|kinosha.cc|lafmacun.net|leitor.net|lewd.ninja|love-drama.pl|mladipodnikatelia.sk|movie4k.is|mozakrah.com|mrunlock.icu|myfeed4u.net|nahnoji.cz|netiap.com|neurozinzin.com|novator.az|novoscrb.ru|onlinevideoconverter.com|openload.cc|pebx.pl|peliculas24.me|pelisplus.online|pezeshk.us|potomy.ru|powvideo.cc|powvideo.net|protect-iframe.com|protect-link.biz|rapidvideo.com|reactor.cc|rednubes.de|rahunas.org|salon.com|seriesenlinea.net|severita-service.ru|sherlockonline.ru|shrink-service.it|shush.se|sickrage.ca|sleeptimer.org|sorteosrd.com|studio100.it|tapemovie.com|tarntercum.ru|theappguruz.com|tomadivx.tv|torrentrapid.com|tubetitties.com|tugaanimado.net|uptobox.com|uptobox.fr|uptobox.link|uptostream.com|uptostream.fr|uptostream.link|uptostream.eu|vidfile.net|vidoza.co|vidoza.net|vidtudu.com|vidup.me|void.cat|voirfilms.mx|wallpoper.com|wearesaudis.net|yourjav.com|zona.plus
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=kickass.cd|myfeed4u.net|vidoza.co|vidoza.net|vidup.me
+
 ! Specific blocking ------------------------------------------------------------
 ||dekoder.ws^*?proxy=
 ||cryptobara.com/client/worker.js
@@ -16022,13 +16327,16 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=kickass.cd|myfeed4u
 ||wallpoper.com^*/c.js
 ||shush.se/loader/load.js
 ||uptostream.*/assets/$subdocument
+
 ! TPB
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=pirateproxy.mx|thepiratebay.by|thepiratebay.org|thepiratebay.rocks|thepiratebay10.org|unblocktheship.org
 $script,websocket,domain=pirateproxy.mx|thepiratebay.by|thepiratebay.org|thepiratebay.rocks|thepiratebay10.org|unblocktheship.org
+
 ! Pools
 ||pool.supportxmr.com^
 ||grf.easyhash.io^
 ||minexmr.com^$third-party
+
 ! Whitelists to fix broken sites -----------------------------------------------
 @@||api.nyda.pro^$websocket
 @@||ws.webcaster.pro^$websocket
@@ -16038,19 +16346,28 @@ $script,websocket,domain=pirateproxy.mx|thepiratebay.by|thepiratebay.org|thepira
 @@||live.api.stream^$websocket
 @@||quiknode.pro^$websocket
 @@||aptal.pro^$websocket
+
 ! Filters optimized for uBlock -------------------------------------------------
+!-------------------------------------------------------------------------------
+
+
+! ===========================================================================
+! Source list: (untitled upstream list)
+! Provided by: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! Fetched from: https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiRacismList.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ﻿! Title: 🌞 Dandelion Sprout's Anti-Racism List
-! Version: 07February2025v1-Beta-Compilation
-! Expires: 5 days
-! Description: I have been of the ideas that humans should respect each other, help each other and base their activities on actual facts. Sadly, several hundred million internetizens out there did not catch that memo. This list aims to remove such disruptive, hateful and bewilderingly aggressive factors from certain crucial parts of the internet.
 ! Note: There's also many Twitch users who are convinced that Pepe the Frog is not racist, at least not when used for Twitch emotion reactions. I do however not believe them on their claims.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 !#if !adguard
+!#endif
 !!! !#include MeWeHappyTimeFunClub.txt
+
 !#if !env_mv3
 !#if !ext_ubol
 !#if !adguard_ext_android_cb
 ! ————— Entries that are currently specific to this compilation —————
+
 ! Music streaming services' podcast search results
 deezer.com#?#div[role=rowgroup] > div[draggable=false]:has-text(Louder with Crowder)
 deezer.com#?#div[role=rowgroup] > div[draggable=false]:has-text(Vortex Apologetic)
@@ -16058,9 +16375,11 @@ deezer.com#?#div[role=rowgroup] > div[draggable=false]:has-text(WAKE UP!)
 deezer.com#?#div[role=rowgroup] > div[draggable=false]:has-text(/\sGl[oо]bal\is[t]s?\s/)
 deezer.com#?#div[role=rowgroup] > div[draggable=false]:has-text(Gabfest)
 deezer.com#?#div[role=rowgroup] > div[draggable=false]:has-text(WRONG OPINION)
+
 ! I received a tip on Discord that this was a problem on YouTube
 www.youtube.com,35.190.94.206,206.94.190.35.bc.googleusercontent.com#?#:is(#dismissable,[lockup],#dismissible > .ytd-grid-video-renderer,.watchable-tile):has-text(/卍|卐/):not(:has-text(/H\indu|Bud{2}h\is/i))
 m.youtube.com#?#.compact-media-item:has-text(/卍|卐/):not(:has-text(/H\indu|Bud{2}h\is/i))
+
 ! Tumblr (I should make a spinoff list of this section at an unknown future point in time)
 tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/khaza[r]\i/i)
 !!!tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/z\ion\is/i)
@@ -16091,6 +16410,7 @@ tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),di
 tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/rf\id/i):has-text(/sa[t]an|beas[t]/i)
 tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/j(e|е)wd\ism/i)
 tumblr.com#?#:is(.post,div[data-cell-id][style]:not([data-cell-id*=carousel]),div[tabindex]:is([style^=m],[data-id]:not([class*=" "]),:not([style],[class]))):has-text(/#f[r]e{2}\mason/i)
+
 ! YouTube
 www.youtube.com,35.190.94.206,206.94.190.35.bc.googleusercontent.com#?#:is(#dismissable,#dismissible):has-text(/Sw\i[t][сc]hPla\yed/)
 www.youtube.com,35.190.94.206,206.94.190.35.bc.googleusercontent.com#?#:is(#dismissable,#dismissible):has-text(/ W(\О|\O)K\E! /)
@@ -16104,28 +16424,44 @@ www.youtube.com,35.190.94.206,206.94.190.35.bc.googleusercontent.com#?#:is(#dism
 www.youtube.com,35.190.94.206,206.94.190.35.bc.googleusercontent.com#?#:is(#dismissable,#dismissible):has-text(/ne[r]d[r]\ot\ic/i)
 www.youtube.com,35.190.94.206,206.94.190.35.bc.googleusercontent.com#?#:is(#dismissable,#dismissible):has-text(/end\y\m\i[оo]n[t]v/i)
 www.youtube.com,35.190.94.206,206.94.190.35.bc.googleusercontent.com#?#:is(#dismissable,#dismissible):has-text(/w\orld[cс]las{2}bul{2}sh\i[t]/i)
+
 ! Though it's up for debate whether all of these shows themselves are racist, every single person I've EVER met who liked these animes, were EXTREMELY sexist, racist, and anti-feminist.
 crunchyroll.com#?#div:is([class^=carousel-scroller__card--],[class^=single-show-card--],[class^=release-episode-card-base--],.browse-card):has-text(/S\ister|G\i[r]lf[r]\iends|Dat\ing|O[t]aku|Senpa\i|W[r]ong\sto\s.*g\i[r]l|\sl\ight\snov(e|е)ls?\s|H(e|е)av(e|е)n\'s\sLost\sP[r]ope[r][t]\y|Ro\man[t]\ic\sCo\med\y|\sab[r]eas[t]\s|\j\ig{2}l\ing/i)
 osu.ppy.sh#?#.beatmapsets__item:has-text(/ブレンド・?S/)
 osu.ppy.sh#?#.beatmapsets__item:has-text(Blend S)
+
 ! Hate symbols (People older than 20 who stan Slytherin are either illiterate or have never watched a single documentary about 1930's Germany)
 obs.no#?#div[id^=product-card-Obs-]:has-text(/Sm\yga[r]d|Sl\y[t]he[r]\in/)
+
 ! Nelson Mandela would roll in his grave if he saw how mahy people in 2024 that still believed in the 1930's extremely racist stereotypes about Africans being invading savage beasts
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title*=black-skinned_ma][title*=light-skinned_female]:is([title*=rape],[title*=raping]))
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,rule34hentai.net,tentaclerape.net##.thumb:has(img[title~=blacked])
+
 ! Entire sites
 /^(.*\.|.*//)?n[eе]rdr\ot\ic\.c\om/?.*$/$all
 /^(.*\.|.*//)?p[aа]tre\on\.c\om/[eе]nd\ym\i\ontv/?.*$/$all
+!#endif
+!#endif
+!#endif
+
+
+! ===========================================================================
+! Source list: 🦨 Anti-Pepe List
+! Provided by: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! Fetched from: https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/AntiPepeList.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ﻿[Adblock Plus 3.13]
-! Title: 🦨 Anti-Pepe List
-! Version: 12September2024v2-Deprecated
-! Expires: 4 days
-! Description: Pepe the Frog, while beloved by many internet memers, has also become the go-to symbol of many horrendous alt-right movements, culminating in Frenworld and Clown World. If you're worried that people who use him do not have the best intentions, this is how to avoid both him and them.
 ! Note: Due to me (The list maintainer) running into mental health problems after looking through heaps of horrendous "artpieces", my lists can no longer deal with deviantART or Inkbunny.
 ! Note 2: (Un)fortunately, this is not about the Real Madrid player called Pepe, even if he does dive like he was acting in a Saving Private Ryan theater play, and that I hate him for it.
 ! Note 3: After the amount of blocked emotes reached into the quad-digits, Twitch's video feeds would quite frequently stutter and freeze for me, even on an Intel i5-4460 desktop. Thus it was no longer feasible to remove blocked-emote-using comments entirely. Sure I was also using Folding@Home at the time of the stuttering, which took up 85% of my CPU power, but still.
+
+!#if !env_mv3
+!#if !ext_ubol
+!#if !adguard_ext_android_cb
 ! ——— Twitch ———
 ! Note: BTTV emote support is targeted towards the «FFZ:AP BetterTTV Emotes» FFZ add-on. Support for the regular BTTV extension is not in my plans.
+
 ! Multi-channel entries that revolve around a Pepe name
 ! ——Pepe——
 twitch.tv##.message > div > img[alt*=Pepe i]
@@ -16321,6 +16657,7 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name*=Pepe i]
 ||cdn.betterttv.net/emote/5e94fa2ace7cbf62fe14b130^
 ||cdn.betterttv.net/emote/5db8569150952f47dbdee737^
 ||cdn.betterttv.net/emote/5ee675b010aaa55e2948ce71^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1237386^
 ||static-cdn.jtvnw.net/emoticons/v*/118774^
 ||static-cdn.jtvnw.net/emoticons/v*/301776709^
@@ -16329,6 +16666,7 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name*=Pepe i]
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_baeb429b443147868776be37904072d7^
 ! ——Peepo——
 twitch.tv##.message > div > img[alt*=Peepo i]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=Peepo i]
 www.twitch.tv##button[data-tooltip-type=emote][data-name*=Peepo i]
 ||cdn.frankerfacez.com/emot*/228449^
@@ -16661,9 +16999,11 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name*=Peepo i]
 ||cdn.betterttv.net/emote/5e11ddb63267f72103fd5ab9^
 ||cdn.betterttv.net/emote/5e3460c75ea23e51ed8c9400^
 ||cdn.betterttv.net/emote/602d9debee839b1e5ec6dd31^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300716042^
 ||static-cdn.jtvnw.net/emoticons/v*/303842414^
 ! ——Pepo——
+!#if !env_mobile
 twitch.tv##.message > div > img[alt^=Pepo i]
 www.twitch.tv##.emote-button__link[name^=Pepo i]
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=Pepo i]
@@ -16698,13 +17038,17 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name^=Pepo i]
 ||cdn.betterttv.net/emote/5d63e543375afb1da9a68a5a^
 ||cdn.betterttv.net/emote/5abd3bd7ed4c6323d5047e2e^
 ||cdn.betterttv.net/emote/61d0abee06fd6a9f5bdeea18^
+!#endif
 ! ——Peepee——
 twitch.tv##.message > div > img[alt*=Peepee i]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=Peepee i]
 www.twitch.tv##button[data-tooltip-type=emote][data-name*=Peepee i]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1776306^
 ! ——Emotes that begin with "pp"——
 twitch.tv##.message > div > img[alt^=pp]
+!#if !env_mobile
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=pp]
 ||cdn.frankerfacez.com/emot*/397089^
 ||cdn.frankerfacez.com/emot*/229544^
@@ -16740,18 +17084,23 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name^=pp]
 ||cdn.betterttv.net/emote/5ce6e1d031373227cbbd88c9^
 ||cdn.betterttv.net/emote/5dec61de515a2a77bc9e9c23^
 ||cdn.betterttv.net/emote/5e0e461e3267f72103fd2175^
+!#endif
 ! ——Donk——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=Donk]:not([Donkey])
 www.twitch.tv##button[data-tooltip-type=emote][data-name*=Donk]:not([Donkey])
 ||cdn.frankerfacez.com/emot*/554947^
 ||cdn.betterttv.net/emote/5f908ed040eb9502e222a249^
 ||cdn.betterttv.net/emote/60e4700f8ed8b373e421e81b^
 ||cdn.betterttv.net/emote/5edce33b924aa35e32a73586^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_2713fbf222464cafa0de0c27c036ab06^
+
 ! Multi-channel entries (Other)
 www.twitch.tv##span[data-a-target=emote-name] .tw-placeholder
 ! ——Monka/Monk——
 twitch.tv##.message > div > img[alt*=Monk i]:not([alt*=Monkey i])
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=Monk i]:not([name*=Monkey i])
 www.twitch.tv##button[data-tooltip-type=emote][data-name*=Monk i]:not([data-name*=Monkey i])
 ||cdn.frankerfacez.com/emot*/214681^
@@ -16852,39 +17201,49 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name*=Monk i]:not([data-name
 ||cdn.betterttv.net/emote/5cb7212adc35c51617f46ef4^
 ||cdn.betterttv.net/emote/5d8d80e4d2458468c1f49aa0^
 ||cdn.betterttv.net/emote/5f133c6d6a65270522169b73^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/168930^
 ||static-cdn.jtvnw.net/emoticons/v*/997344^
 ||static-cdn.jtvnw.net/emoticons/v*/300274168^
 ||static-cdn.jtvnw.net/emoticons/v*/301922518^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_4b86dc7605f34fb6a2ec3c96cafb5d7b^
 ! ——*Monak——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=Monak i]
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=Monak i]
 ||cdn.frankerfacez.com/emot*/184836^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301348819^
 ! ——Kek——
 twitch.tv##.message > div > img[alt$=Kek]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=Kek]
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=Kek]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/684688^
 ||static-cdn.jtvnw.net/emoticons/v*/1742318^
 ||static-cdn.jtvnw.net/emoticons/v*/300629967^
 ||static-cdn.jtvnw.net/emoticons/v*/300195317^
 ! ——Dank——
 twitch.tv##.message > div > img[alt$=Dank]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=Dank]
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=Dank]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300715981^
 ||static-cdn.jtvnw.net/emoticons/v*/934643^
 ||static-cdn.jtvnw.net/emoticons/v*/301246985^
 ! ——HONK——
+!#if !env_mobile
 !!!twitch.tv##.emote-button__link[name$=HONK i]:not([name^=HONK i])
 !!!twitch.tv##button[data-tooltip-type=emote][data-name$=HONK i]:not([data-name^=HONK i])
 ||cdn.betterttv.net/emote/5c75ef7c41600b0832ab41e7^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1850242^
 ! ——Feels*Man——
 twitch.tv##.message > div > img[alt*=Feels i][alt*=Man i]
 twitch.tv#@#.message > div > img[alt*=landoFeelsgoodman]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=Feels i][name*=Man i]
 www.twitch.tv#@#.emote-button__link[name=landoFeelsgoodman]
 www.twitch.tv##button[data-tooltip-type=emote][data-name*=Feels i][data-name*=Man i]
@@ -16969,12 +17328,15 @@ www.twitch.tv#@#button[data-tooltip-type=emote][data-name=landoFeelsgoodman]
 ||cdn.betterttv.net/emote/5e2be9301df9195f1a4cf2c3^
 ||cdn.betterttv.net/emote/5e6a62f6d6581c3724c051f7^
 ||cdn.betterttv.net/emote/5990ad5f6782b936bdeaf2cf^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/62793^
 ||static-cdn.jtvnw.net/emoticons/v*/300139037^
 ! ——*Feels (Non-FFZ)——
 twitch.tv##.message > div > img[alt$=Feels i]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=Feels i]
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=Feels i]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/176211^
 ||static-cdn.jtvnw.net/emoticons/v*/122429^
 ||static-cdn.jtvnw.net/emoticons/v*/300482085^
@@ -16986,6 +17348,7 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name$=Feels i]
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_bf58aa58623d45a28fba48cb01e9c504^
 ! ——EZ——
 twitch.tv##.message > div > img[alt$=EZ]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=EZ]
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=EZ]
 ||cdn.frankerfacez.com/emot*/260058^
@@ -16993,6 +17356,7 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name$=EZ]
 ||cdn.betterttv.net/emote/5e412e2008b4447d56a89d61^
 ||cdn.betterttv.net/emote/5b524634ddc3a6297dd9fc7b^
 ||cdn.betterttv.net/emote/5d421741e371c44491eecb05^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/2050023^
 ||static-cdn.jtvnw.net/emoticons/v*/1161742^
 ||static-cdn.jtvnw.net/emoticons/v*/300138832^
@@ -17000,18 +17364,22 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name$=EZ]
 ||static-cdn.jtvnw.net/emoticons/v*/1271027^
 ! ——*Ga——
 twitch.tv##.message > div > img[alt$=Ga]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=Ga]
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=Ga]
 ||cdn.betterttv.net/emote/5be39667176166148ab8c908^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300755176^
 ||static-cdn.jtvnw.net/emoticons/v*/1863384^
 ||static-cdn.jtvnw.net/emoticons/v*/300632173^
 ! ——*Hands——
 twitch.tv##.message > div > img[alt$=Hands]:not([alt*=wash i], [alt*=woke i])
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=Hands]:not([name*=wash i], [name*=woke i])
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=Hands]:not([data-name*=wash i], [data-name*=woke i])
 ||cdn.betterttv.net/emote/5ee626c110aaa55e2948c840^
 ||cdn.betterttv.net/emote/5bae91e1c825191f6340f608^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1910598^
 ||static-cdn.jtvnw.net/emoticons/v*/300217335^
 ||static-cdn.jtvnw.net/emoticons/v*/1153770^
@@ -17019,6 +17387,7 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name$=Hands]:not([data-name*
 ||static-cdn.jtvnw.net/emoticons/v*/858224^
 ! ——Emotes ending with a capital S (Yes, it really got that bad!)——
 twitch.tv##.message > div > img[alt$=S]:not([alt$=BASS], [alt$=NHS], [alt$=MODS], [alt$=KISS])
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=S]:not([name$=BASS], [name$=NHS], [name$=MODS], [name$=KIDS])
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=S]:not([data-name$=BASS], [data-name$=NHS], [data-name$=MODS], [name$=KIDS])
 ||cdn.frankerfacez.com/emot*/214129^
@@ -17095,6 +17464,7 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name$=S]:not([data-name$=BAS
 ||cdn.betterttv.net/emote/5ed53a75f54be95e2a839d1e^
 ||cdn.betterttv.net/emote/5eadf40074046462f7687d0f^
 ||cdn.betterttv.net/emote/601fc4eeed21d86c89e5eeff^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1097623^
 ||static-cdn.jtvnw.net/emoticons/v*/1192584^
 ||static-cdn.jtvnw.net/emoticons/v*/1194873^
@@ -17133,11 +17503,13 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name$=S]:not([data-name$=BAS
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_4b63e3eb9792489fb26db9f2d6fce072^
 ! ——Emotes that end with REE——
 twitch.tv##.message > div > img[alt*=REE]:not([alt*=BREEH])
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=REE]:not([name*=BREEH])
 www.twitch.tv##button[data-tooltip-type=emote][data-name*=REE]:not([data-name*=BREEH])
 ||cdn.frankerfacez.com/emot*/116831^
 ||cdn.betterttv.net/emote/59936d9b19eb2036bf418137^
 ||cdn.betterttv.net/emote/5e2c82ebbca2995f13fc1b88^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/69541^
 ||static-cdn.jtvnw.net/emoticons/v*/682227^
 ||static-cdn.jtvnw.net/emoticons/v*/1038561^
@@ -17145,6 +17517,7 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name*=REE]:not([data-name*=B
 ! ——Hmm(m)——
 twitch.tv##.message > div > img[alt$=Hmm]
 twitch.tv##.message > div > img[alt$=Hmmm]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=Hmm]
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=Hmm]
 www.twitch.tv##.emote-button__link[name$=Hmmm]
@@ -17154,12 +17527,14 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name$=Hmmm]
 ||cdn.frankerfacez.com/emot*/366564^
 ||cdn.betterttv.net/emote/5ecc59db10aaa55e2946c4fe^
 ||cdn.betterttv.net/emote/5a8e0e8d86cbeb5bd31abb8b^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1775408^
 ||static-cdn.jtvnw.net/emoticons/v*/300006106^
 ||static-cdn.jtvnw.net/emoticons/v*/300190826^
 ||static-cdn.jtvnw.net/emoticons/v*/1641053^
 ||static-cdn.jtvnw.net/emoticons/v*/306504338^
 ! ——*BOOBA——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name$=BOOBA i]
 www.twitch.tv##button[data-tooltip-type=emote][data-name$=BOOBA i]
 ||cdn.betterttv.net/emote/604e8119306b602acc59cfa1^
@@ -17172,76 +17547,113 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name$=BOOBA i]
 ||cdn.betterttv.net/emote/603a06427c74605395f35316^
 ||cdn.betterttv.net/emote/60a82d0567644f1d67e8a8c0^
 ||cdn.betterttv.net/emote/61c31001002cdeedc2204ae3^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305006283^
+
+
 ! ——|——|——|—— Single-emote or -channel entries ——|——|——|——
 ! ——moon2WUT (moonmoon_ow)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=moon2WUT]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=moon2WUT]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1564343^
 ! ——moon2VERYSCARED——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=moon2VERYSCARED]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=moon2VERYSCARED]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1817217^
 ! ——moon2SPIN (MOONMOON)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=moon2SPIN]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=moon2SPIN]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_447df256f3b1412b9fa0dfd3e9b6d84c^
 ! ——moon2WOKE——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=moon2WOKE]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=moon2WOKE]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_cfc050751aec41a9854b86786d96f6f9^
 ! ——forsenL (forsen)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=forsenL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=forsenL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/684692^
 ! ——forsenThink——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=forsenThink]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=forsenThink]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/239535^
 ! ——forsenY——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=forsenY]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=forsenY]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/173372^
 ! ——bogaP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=bogaP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=bogaP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1049095^
 ! ——m60PP (m60_)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m60PP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m60PP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300132056^
 ! ——m60H——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m60H]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m60H]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1577516^
 ! ——clintSuave (clintstevens)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=clintSuave]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=clintSuave]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300049749^
 ! ——clintB——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=clintB]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=clintB]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/114166^
 ! ——clintHD——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=clintHD]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=clintHD]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300034362^
 ! ——boatyDead (B0aty)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=boatyDead]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=boatyDead]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/696953^
 ! ——boatyCLANG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=boatyCLANG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=boatyCLANG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1826736^
 ! ——boatyM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=boatM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=boatM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/170957^
 ! ——Multiple RATIRL emotes——
 ||twitch.tv/RATIRL^$document
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name^=ratirl]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=ratirl]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301188423^
 ||static-cdn.jtvnw.net/emoticons/v*/1439104^
 ||static-cdn.jtvnw.net/emoticons/v*/1544413^
@@ -17347,321 +17759,475 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name=ratirl]
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_d948668005db41a88878e54cb7f7cf5d^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_d9ef8266c9344cf0b2d91fce0081205a^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_fb47c06173d344c1a0203b8a2f0166dc^
+!#if !env_mobile
 ||cdn.betterttv.net/emote/5d8ceaa9b58d1868c286163f^
 ||cdn.betterttv.net/emote/5d844701b58d1868c285edf2^
 ||cdn.betterttv.net/emote/5d844736b58d1868c285edf3^
 ||cdn.betterttv.net/emote/5ed4dee7fdee545e3065e14b^
+!#endif
 ! ——aleksMbee (ImmortalHD)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=aleksMbee]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=aleksMbee]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300482074^
 ! ——oatsDamp (Oatsngoats)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=oatsDamp]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=oatsDamp]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/405230^
 ! ——oatsHey——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=oatsHey]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=oatsHey]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/107657^
 ! ——oatsL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=oatsL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=oatsL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/212831^
 ! ——oatsZ——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=oatsZ]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=oatsZ]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/209396^
 ! ——nymn2x (NymN)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymn2x]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymn2x]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1439894^
 ! ——nymnCC——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnCC]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnCC]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300608650^
 ! ——nymnCry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1341098^
 ! ——nymnKing——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnKing]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnKing]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1428924^
 ! ——nymnOk*y——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name^=nymnOk]
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=nymnOk]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/934675^
 ||static-cdn.jtvnw.net/emoticons/v*/300740045^
 ! ——nymnP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/962798^
 ! ——nymnPickle——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnPickle]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnPickle]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300373455^
 ! ——nymnPuke——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnPuke]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnPuke]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1560947^
 ||static-cdn.jtvnw.net/emoticons/v*/304348342^
 ! ——nymnSleeper——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnSleeper]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnSleeper]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1340759^
 ! ——nymnSmug——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnSmug]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnSmug]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/96304^
 ||static-cdn.jtvnw.net/emoticons/v*/302784766^
 ! ——nymnStrong——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnStrong]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnStrong]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300191882^
 ! ——nymnWeird——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnWeird]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnWeird]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300616198^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_4aa6f3b1b38f4ca09ca3f7426e198b66^
 ! ——nymnBridge——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnBridge]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnBridge]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1093347^
 ! ——nymnL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304106402^
 ! ——nymnSubs——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnSubs]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnSubs]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303697026^
 ! ——nymnEgg——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnEgg]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnEgg]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302928619^
 ! ——nymnDrip——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnDrip]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnDrip]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302928597^
 ! ——nymnCoin——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnCoin]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnCoin]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302928562^
 ! ——nymnWow——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnWow]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnWow]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_1dc614097d1a48a0b8636cc75187beee^
 ! ——nymnPag——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnPag]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnPag]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_ab50f9d1207049b0b49f19c8a34611ec^
 ! ——nymnREE——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnREE]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnREE]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_8cc3bf98f5554fe6a19f78bdfa34b95b^
 ! ——nymnZ——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nymnZ]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nymnZ]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_93245d33c58f421db3ba44ccaaef9d84^
 ! ——lacTEGGEN (lacari)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lacTEGGEN]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lacTEGGEN]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300813080^
 ! ——lacM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lacM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lacM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300808358^
 ! ——lacOkay——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lacOkay]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lacOkay]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300229581^
 ! ——lacStrong——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lacStrong]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lacStrong]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1886611^
 ! ——lacLaugh——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lacLaugh]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lacLaugh]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1867181^
 ! ——lacSW——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lacSW]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lacSW]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1796429^
 ! ——lacWeird——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lacWeird]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lacWeird]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1441382^
 ! ——lacF——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lacF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lacF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/578235^
 ! ——selDerp (selvek)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=selDerp]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=selDerp]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1783144^
 ! ——selG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=selG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=selG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1563914^
 ! ——selF——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=selF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=selF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1563913^
 ! ——selM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=selM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=selM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1452330^
 ! ——selFF——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=selFF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=selFF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/194843^
 ! ——redsYo (redshell)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsYo]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsYo]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300682416^
 ||static-cdn.jtvnw.net/emoticons/v*/302111064^
 ! ——redsStrong——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsStrong]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsStrong]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300774218^
 ! ——redsShh——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsShh]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsShh]
 ||cdn.betterttv.net/emote/5d8c0d95d2458468c1f491f6^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300682446^
 ! ——redsShrug——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsShrug]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsShrug]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300646755^
 ||static-cdn.jtvnw.net/emoticons/v*/301266764^
 ! ——redsM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300646693^
 ! ——redsLook——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsLook]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsLook]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300646689^
 ! ——redsGlad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsGlad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsGlad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300834509^
 ! ——redsF——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301183194^
 ! ——redsCozy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsCozy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsCozy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301266758^
 ! ——redsWTF——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsWTF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsWTF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301266759^
 ! ——redsGj——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsGj]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsGj]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301340526^
 ! ——redsHug——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsHug]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsHug]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301420063^
 ! ——redsSmart——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsSmart]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsSmart]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301442581^
 ! ——redsL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301470456^
 ! ——redsHey——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsHey]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsHey]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301491362^
 ||static-cdn.jtvnw.net/emoticons/v*/301603016^
 ! ——redsJotaro——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsJotaro]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsJotaro]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301626487^
 ! ——redsMods——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsMods]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsMods]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302214516^
 ! ——redsCrayon——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsCrayon]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsCrayon]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300935867^
 ! ——redsDenk——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsDenk]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsDenk]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300935875^
 ! ——redsChad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsChad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsChad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304940370^
 ! ——redsBless——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsBless]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsBless]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304137105^
 ! ——redsCute——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsCute]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsCute]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304039308^
 ! ——redsCry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303850196^
 ! ——redsWeird——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsWeird]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsWeird]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305610407^
 ! ——redsBased——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsBased]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsBased]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305718633^
 ! ——redsG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306366031^
 ! ——redsY——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsY]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsY]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306383621^
 ! ——redsNotSure——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=redsNotSure]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=redsNotSure]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304177244^
 ! ——elaIQ (elajjaz)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elaIQ]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elaIQ]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300869816^
 ! ——elaFella——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elaFella]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elaFella]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300744716^
 ! ——elaMad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elaMad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elaMad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300331310^
 ! ——elaWeird——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elaWeird]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elaWeird]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300244960^
 ! ——elaOk——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elaOk]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elaOk]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300244684^
 ! ——elaD——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elaD]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elaD]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1781179^
 ! ——elaHYUG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elaHYUG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elaHYUG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1775534^
 ! ——elaHYUK——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elaHYUK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elaHYUK]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1775409^
 ! Multiple 'ring' emotes
 !!!twitch.tv##.emote-button__link[name=ring36Archer]
@@ -17671,494 +18237,730 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name=elaHYUK]
 ||static-cdn.jtvnw.net/emoticons/v*/300390495^
 ||static-cdn.jtvnw.net/emoticons/v*/300292479^
 ! ——m0xyCry (m0xyy)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300748356^
 ! ——m0xyWC——
 twitch.tv##.message > div > img[alt*=m0xyWC]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyWC]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyWC]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300528669^
 ||static-cdn.jtvnw.net/emoticons/v*/301332866^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_e684c36c916645c7ae487290150bd63c^
 ! ——m0xyLaugh——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyLaugh]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyLaugh]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300528664^
 ! ——m0xyOkay——
 twitch.tv##.message > div > img[alt*=m0xyOkay]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyOkay]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyOkay]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/2120033^
 ||static-cdn.jtvnw.net/emoticons/v*/301332881^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_8c9cd44b93e84853bb6b57c5385dab2a^
 ! ——m0xyG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1831663^
 ! ——m0xyZ——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyZ]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyZ]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1831609^
 ! ——m0xyShrug——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyShrug]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyShrug]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1831503^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_2a3147af4e4243089f902f7c237e7c27^
 ! ——m0xyTired——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyTired]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyTired]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1829621^
 ! ——m0xySmile——
 twitch.tv##.message > div > img[alt*=m0xySmile]
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xySmile]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xySmile]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1746704^
 ||static-cdn.jtvnw.net/emoticons/v*/301332885^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_70ef9300ff8b4429b796ed74eaf22e10^
 ! ——m0xyClassic——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyClassic]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyClassic]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1742327^
 ! ——m0xySangwich——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xySangwich]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xySangwich]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301332888^
 ! ——m0xyYEP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyYEP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyYEP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301380998^
 ! ——m0xyL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301774303^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_73b47c0a40ae414ca89870e4a7b3cf3a^
 ! ——m0xyCozy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyCozy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyCozy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301865199^
 ! ——m0xyBusiness——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyBusiness]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyBusiness]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301865225^
 ! ——m0xyHolup——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyHolup]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyHolup]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302267057^
 ! ——m0xyDevil——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyDevil]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyDevil]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301394316^
 ! ——m0xyC——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyC]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyC]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301909355^
 ! ——m0xyM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302206880^
 ! ——m0xyBonk——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyBonk]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyBonk]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302267054^
 ! ——m0xyCoffee——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyCoffee]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyCoffee]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302982015^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_508f775564614e848680e708e4cf9e78^
 ! ——m0xyGreed——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyGreed]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyGreed]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302982022^
 ! ——m0xyBlush——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyBlush]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyBlush]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303196050^
 ! ——m0xyNerd——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyNerd]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyNerd]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303653908^
 ! ——m0xyGift——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyGift]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyGift]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303660952^
 ! ——m0xyGrumpy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyGrumpy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyGrumpy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303661031^
 ! ——m0xyDink——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyDink]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyDink]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_e9508daa3e16420493c8df80e1486e15^
 ! ——m0xyBased——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyBased]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyBased]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/307936147^
 ! ——zwagNice——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=zwagNice]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=zwagNice]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300015786^
 ! ——dlmIwantmygem (duellinksmeta)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dlmIwantmygem]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dlmIwantmygem]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1260112^
 ! ——dlmPogofGreed——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dlmPogofGreed]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dlmPogofGreed]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1816561^
 ! ——mclandPog (Mc_lando)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mclandPog]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mclandPog]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300437338^
 ! ——emoneyWONKY (erobb221)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=emoneyWONKY]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=emoneyWONKY]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/2064399^
 ! ——emoneyL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=emoneyL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=emoneyL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1786090^
 ! ——emoneySIP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=emoneySIP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=emoneySIP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1786198^
 ! ——emoneyF——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=emoneyF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=emoneyF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300219212^
 ! ——emoneyP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=emoneyP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=emoneyP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300302611^
 ! ——emoneyCozy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=emoneyCozy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=emoneyCozy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301010307^
 ! ——tyler1N (loltyler1)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=tyler1N]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tyler1N]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/821920^
 ! ——zfgAnyway (Zfg1)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=zfgAnyway]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=zfgAnyway]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1666871^
 ! ——lilyPOG (LilyPichu)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name*=lilyPOG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lilyPOG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1176025^
 ! ——pokeBOOMER (pokelawls)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokeBOOMER]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokeBOOMER]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1880971^
 ! ——pokeGun——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokeGun]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokeGun]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1647903^
 ! ——pokeSip——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokeSip]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokeSip]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1647904^
 ! ——pokeWTF——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokeWTF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokeWTF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1845212^
 ! ——pokeSellout——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokeSellout]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokeSellout]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1880983^
 ! ——pokeZOOMER——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokeZOOMER]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokeZOOMER]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1880989^
 ! ——pokeM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokeM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokeM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1881006^
 ! ——pokeSoon——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokeSoon]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokeSoon]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1892264^
 ! ——xqcOld (xQcOW)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=xqcOld]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=xqcOld]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/932293^
 ! ——xqcSkip——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=xqcSkip]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=xqcSkip]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300320354^
 ! ——xqcC——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=xqcC]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=xqcC]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301614364^
 ! ——xqcTL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=xqcTL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=xqcTL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302334343^
 ! ——pokiUWU——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=pokiUWU]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=pokiUWU]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1923591^
 ! ——deviousHcim (Devious)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=deviousHcim]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=deviousHcim]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/477669^
 ! ——daeGood (TSM_Daequan)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=daeGood]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=daeGood]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/762599^
 ! ——daeMats——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=daeMats]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=daeMats]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1096464^
 ! ——daeSad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=daeSad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=daeSad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/762597^
 ! ——sodaA (sodapoppin)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=sodaA]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=sodaA]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1949173^
 ! ——sodaSad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=sodaSad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=sodaSad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1949105^
 ! ——sodapoppin's subscriber logos
 www.twitch.tv##div[data-room=sodapoppin] span[data-badge=subscriber]
 ! ——sktfakerT1sweat (Faker)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=sktfakerT1sweat]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=sktfakerT1sweat]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300138835^
 ! ——sktfakerT1tears——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=sktfakerT1tears]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=sktfakerT1tears]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300138834^
 ! ——monte6 (MontanaBlack88)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=monte6]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=monte6]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1876863^
 ! ——monteDULLI——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=monteDULLI]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=monteDULLI]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1885894^
 ! ——monteLO——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=monteLO]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=monteLO]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/2109243^
 ! ——monteML——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=monteML]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=monteML]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1840411^
 ! ——monteO——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=monteO]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=monteO]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300666412^
 ! ——monteTELE——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=monteTELE]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=monteTELE]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/2109231^
 ! ——monteWOW——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=monteWOW]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=monteWOW]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1648517^
 ! ——gosuP^ (Gosu)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gosuP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gosuP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1558883^
 ||static-cdn.jtvnw.net/emoticons/v*/1558990^
 ||static-cdn.jtvnw.net/emoticons/v*/1558991^
 ||static-cdn.jtvnw.net/emoticons/v*/1558992^
 ! ——dangPOG (DanGheesling)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dangPOG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dangPOG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300595256^
 ! ——dangMinkus——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dangMinkus]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dangMinkus]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301118077^
 ! ——dangG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dangG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dangG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_0c4c7f1505d3415abc932f815ac250a5^
 ! ——mizkifPoke (Mizkif)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mizkifPoke]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mizkifPoke]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1926249^
 ! ——greekDitch (greekgodx)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=greekDitch]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=greekDitch]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1037295^
 ! ——greekReed——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=greekReed]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=greekReed]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1970233^
 ! ——dafranLife (dafran)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranLife]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranLife]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300042837^
 ! ——dafranKEK——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranKEK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranKEK]
+!#endif
 https://static-cdn.jtvnw.net/emoticons/v*/300042845^
 ! ——dafranWow——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranWow]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranWow]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300042849^
 ! ——dafranSmoke——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranSmoke]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranSmoke]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300042854^
 ! ——dafranRage——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranRage]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranRage]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300042863^
 ! ——dafranThink——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranThink]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranThink]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300042877^
 ! ——dafranTip——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranTip]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranTip]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300046621^
 ! ——dafranYea——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranYea]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranYea]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300046624^
 ! ——dafranStruggle——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dafranStruggle]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dafranStruggle]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300046678^
 ! ——ludwigPants (ludwig)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=ludwigPants]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=ludwigPants]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300864395^
 ! ——ludwigFarm——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=ludwigFarm]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=ludwigFarm]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301278301^
 ! ——ludwigWow——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=ludwigWow]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=ludwigWow]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301880105^
 ! ——fggOaky (FullGrownGaming)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=fggOaky]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=fggOaky]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1170737^
 ! ——colpeaL (ColPeanut)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=colpeaL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=colpeaL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1569238^
 ! ——daphSmile (39daph)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=daphSmile]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=daphSmile]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300787311^
 ! ——daphArt——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=daphArt]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=daphArt]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300674527^
 ! ——daphSlep——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=daphSlep]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=daphSlep]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300675011^
 ! ——daphBlush——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=daphBlush]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=daphBlush]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301173694^
 ! ——nb3angry (Nightblue3)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3angry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3angry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301387695^
 ! ——nb3TRUE——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3TRUE]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3TRUE]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301388354^
 ! ——nb3Gib——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Gib]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Gib]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301388361^
 ! ——nb3FALSE——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3FALSE]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3FALSE]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301388363^
 ! ——nb3Diff——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Diff]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Diff]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301413154^
 ! ——nb3Cringe——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Cringe]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Cringe]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301413160^
 ! ——nb3Cookie——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Cookie]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Cookie]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301490759^
 ! ——nb3Mental——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Mental]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Mental]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301490762^
 ! ——nb3Open——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Open]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Open]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301490763^
 ! ——nb3INT——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3INT]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3INT]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301491295^
 ! ——nb3OK——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3OK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3OK]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301491299^
 ! ——nb3Smile——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Smile]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Smile]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301515608^
 ! ——nb3Boomer——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Boomer]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Boomer]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301576045^
 ! ——nb3Gift——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Gift]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Gift]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301576048^
 ! ——nb3Wave——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Wave]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Wave]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301576052^
 ! ——nb3Welcome——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Welcome]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Welcome]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301577827^
 ! ——nb3Weird——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Weird]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Weird]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301590667^
 ! ——nb3Sip——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Sip]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Sip]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301590670^
 ! ——nb3ME——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3ME]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3ME]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301590672^
 ! ——nb3Gasm——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Gasm]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Gasm]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301590810^
 ! ——nb3Clean——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Clean]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Clean]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301590811^
 ! ——nb3Rainbow——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Rainbow]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Rainbow]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301413281^
 ! ——nb3Bling——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nb3Bling]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nb3Bling]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301590817^
 ! ——THump——
 ||twitch.tv/thump^$document
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name^=thump]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=thump]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1029893^
 ||static-cdn.jtvnw.net/emoticons/v*/1029894^
 ||static-cdn.jtvnw.net/emoticons/v*/125383^
@@ -18205,959 +19007,1433 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name=thump]
 ||static-cdn.jtvnw.net/emoticons/v*/302810174^
 ||static-cdn.jtvnw.net/jtv_user_pictures/thump-profile_image-72be91649a0d360e*.png^
 ! ——senpF (SenpaiSomething)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=senpF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=senpF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1277500^
 ! ——senpSad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=senpSad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=senpSad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1872583^
 ! ——senpP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=senpP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=senpP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1914025^
 ! ——vadiL (VADIKUS007)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=vadiL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=vadiL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/2020479^
 ! ——vadiG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=vadiG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=vadiG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301941016^
 ! ——knutSmoke (knut)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=knutSmoke]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=knutSmoke]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1271988^
 ! ——knutCross——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=knutCross]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=knutCross]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1532730^
 ! ——knutAmazing——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=knutAmazing]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=knutAmazing]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301616676^
 ! ——knutBald——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=knutBald]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=knutBald]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301637049^
 ! ——bukM (Bucklington)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=bukM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=bukM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1584400^
 ! ——bukWK——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=bukWK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=bukWK]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301187600^
 ! ——yogBarry (Yogscast)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yogBarry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yogBarry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/137855^
 ! ——yogLove——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yogLove]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yogLove]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1368412^
 ! ——yogOkay——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yogOkay]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yogOkay]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1368414^
 ! ——yogR——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yogR]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yogR]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1368416^
 ! ——yogO——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yogO]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yogO]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1673028^
 ! ——yogPpg——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yogPpg]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yogPpg]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300687366^
 ! ——yogGIGA——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yogGIGA]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yogGIGA]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301357176^
 ! ——jubiotSpeed (jubioTV)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=jubiotSpeed]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=jubiotSpeed]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302183931^
 ! ——jubiotHydrate——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=jubiotHydrate]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=jubiotHydrate]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302206588^
 ! ——jubiotHYPER——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=jubiotHYPER]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=jubiotHYPER]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302075876^
 ! ——jubiotCruise——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=jubiotCruise]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=jubiotCruise]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302075954^
 ! ——lzyadSad (Lzyad)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lzyadSad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lzyadSad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302543542^
 ! ——lzyadCool——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lzyadCool]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lzyadCool]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302543601^
 ! ——yetzPrime (yetz)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yetzPrime]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yetzPrime]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302229976^
 ! ——lolathonArts (Lolathon)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lolathonArts]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lolathonArts]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301668139^
 ! ——mathilP (mathil1)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mathilP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mathilP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1000866^
 ! ——nanHm (nani)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanHm]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanHm]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/544600^
 ! ——nanNight——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanNight]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanNight]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/552075^
 ! ——nanNotSure——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanNotSure]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanNotSure]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1415463^
 ! ——nanLaugh——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanLaugh]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanLaugh]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1428939^
 ! ——nanNo——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanNo]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanNo]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1518737^
 ! ——nanPill——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanPill]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanPill]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1769344^
 ! ——nanJAOK——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanJAOK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanJAOK]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1771030^
 ! ——nan3D——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nan3D]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nan3D]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1771086^
 ! ——nanCute——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanCute]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanCute]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1775677^
 ! ——nanTemporary——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanTemporary]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanTemporary]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1780609^
 ! ——nanPents——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanPents]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanPents]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1910364^
 ! ——nanPiece——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanPiece]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanPiece]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300448615^
 ! ——nanZ——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanZ]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanZ]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300397364^
 ! ——nanQ——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nanQ]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nanQ]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300395444^
 ! ——wokeTrippy (WOKE)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=wokeTrippy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=wokeTrippy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300318844^
 ! ——quinPray (quin69)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=quinPray]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=quinPray]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302682298^
 ! ——quinUHMYA——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=quinUHMYA]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=quinUHMYA]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302790288^
 ! ——quinBeliever——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=quinBeliever]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=quinBeliever]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304552507^
 ! ——quinDoubter——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=quinDoubter]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=quinDoubter]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304558142^
 ! ——quinSit——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=quinSit]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=quinSit]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305291817^
 ! ——quinKiwi——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=quinKiwi]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=quinKiwi]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_ea04f20b289f438ba8e1e13e8e7ec09b^
 ! ——mrflooWeird (Mr_Floobis)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mrflooWeird]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mrflooWeird]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1903617^
 ! ——mrflooSucc——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mrflooSucc]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mrflooSucc]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/2028352^
 ! ——cubiel1Cringe (CubieLive)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cubiel1Cringe]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cubiel1Cringe]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303192280^
 ! ——cubiel1Silver——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cubiel1Silver]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cubiel1Silver]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303192271^
 ! ——cubiel1Gold——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cubiel1Gold]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cubiel1Gold]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303195570^
 ! ——gloryKeK (arcadum)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gloryKeK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gloryKeK]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302326287^
 ! ——t90Pog (t90official)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=t90Pog]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=t90Pog]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303487632^
 ! ——asakuraFeelsTrunks (LotusAsakura)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=asakuraFeelsTrunks]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=asakuraFeelsTrunks]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1944908^
 ! ——asakuraWack——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=asakuraWack]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=asakuraWack]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303689922^
 ! ——kobeCry (Kobe0802)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kobeCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kobeCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/145421^
 ! ——softuDab (Softu)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=softuDab]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=softuDab]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300209599^
 ! ——softuSubs——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=softuSubs]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=softuSubs]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303615271^
 ! ——vile35K (Vile35)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=vile35K]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=vile35K]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304374783^
 ! ——idogeRemo (Doge)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=idogeRemo]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=idogeRemo]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/207885^
 ! ——elinaLaff (Elina)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elinaLaff]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elinaLaff]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303552544^
 ! ——elinaWow——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elinaWow]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elinaWow]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304919471^
 ! ——elinaRage——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elinaRage]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elinaRage]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304928100^
 ! ——elinaFlush——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elinaFlush]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elinaFlush]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305125633^
 ! ——elinaThink——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elinaThink]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elinaThink]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305126072^
 ! ——elinaEZY——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elinaEZY]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elinaEZY]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305126152^
 ! ——elinaL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elinaL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elinaL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305128020^
 ! ——elinaArt——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=elinaArt]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=elinaArt]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305034453^
 ! ——aim1Weirdga (Aim)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=aim1Weirdga]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=aim1Weirdga]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304254619^
 ! ——aim1COPE——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=aim1COPE]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=aim1COPE]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304391639^
 ! ——aim1TOOBASED——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=aim1TOOBASED]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=aim1TOOBASED]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304963348^
 ! ——tastelessMask (TastelessTV)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessMask]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessMask]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922474^
 ! ——tastelessPoggers——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessPoggers]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessPoggers]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922486^
 ! ——tastelessCry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922501^
 ! ——tastelessRage——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessRage]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessRage]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922529^
 ! ——tastelessWink——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessWink]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessWink]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922536^
 ! ——tastelessBlush——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessBlush]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessBlush]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922542^
 ! ——tastelessTired——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessTired]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessTired]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922630^
 ! ——tastelessStare——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessStare]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessStare]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922636^
 ! ——tastelessNogusta——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessNogusta]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessNogusta]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301922644^
 ! ——tastelessWAHHH——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessWAHHH]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessWAHHH]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302124824^
 ! ——tastelessRIP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessRIP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessRIP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302125059^
 ! ——tastelessClown——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessClown]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessClown]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302366187^
 ! ——tastelessCyberKeanu——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessCyberKeanu]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessCyberKeanu]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304858791^
 ! ——tastelessDay9——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=tastelessDay9]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=tastelessDay9]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302709298^
 ! ——drozLava (Dowsky)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=drozLava]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=drozLava]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304043687^
 ! ——drozGamba——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=drozGamba]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=drozGamba]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305102263^
 ! ——drozFish——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=drozFish]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=drozFish]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305103119^
 ! ——drozOcean——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=drozOcean]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=drozOcean]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305115220^
 ! ——herSit (Herdyn)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=herSit]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=herSit]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301419257^
 ! ——herWurf——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=herWurf]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=herWurf]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301419646^
 ! ——herBlind——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=herBlind]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=herBlind]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301419730^
 ! ——herKulicky——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=herKulicky]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=herKulicky]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301419951^
 ! ——adalNee (Adal)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=adalNee]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=adalNee]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302364293^
 ! ——zerzerSad (zerzerthesaint)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=zerzerSad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=zerzerSad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305694948^
 ! ——shawirMad (Shawir)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=shawirMad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=shawirMad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300376352^
 ! ——shawirKEK——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=shawirKEK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=shawirKEK]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300404385^
 ! ——shawirBoomer——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=shawirBoomer]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=shawirBoomer]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300404445^
 ! ——shawirCiz——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=shawirCiz]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=shawirCiz]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305735076^
 ! ——shawirRAD——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=shawirRAD]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=shawirRAD]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305907146^
 ! ——shawirWir——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=shawirWir]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=shawirWir]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305735085^
 ! ——dootHappy* (Bandoot)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name^=dootHappy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=dootHappy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301290092^
 ||static-cdn.jtvnw.net/emoticons/v*/301290090^
 ||static-cdn.jtvnw.net/emoticons/v*/301290088^
 ||static-cdn.jtvnw.net/emoticons/v*/301290085^
 ! ——mkoEarly (codemiko)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mkoEarly]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mkoEarly]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303417350^
 ! ——mkoSit——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mkoSit]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mkoSit]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304917984^
 ! ——mkoYESH——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mkoYESH]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mkoYESH]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306386100^
 ! ——Peacep1* (PeacePeopleJr)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name^=Peacep1]
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=Peacep1]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306030613^
 ||static-cdn.jtvnw.net/emoticons/v*/304342945^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_d46a7e2921c340b6885d424af832240f^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_b9dd03a527ea4586aa7ff40b69ed1ffb^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_003a5d2cbc294198b51486e8d7e5c375^
 ! ——ojhypeP (OJ_Hype)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name^=ojhypeP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=ojhypeP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300366490^
 ! ——kragieCozy (kragiee)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieCozy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieCozy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300024906^
 ! ——kragieB——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieB]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieB]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300024773^
 ! ——kragieCarry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieCarry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieCarry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300019222^
 ! ——kragieTracer——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieTracer]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieTracer]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1314902^
 ! ——kragieGrav——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieGrav]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieGrav]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1314526^
 ! ——kragieRage——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieRage]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieRage]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1298051^
 ! ——kragiePrime——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragiePrime]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragiePrime]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1265650^
 ! ——kragieCute——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieCute]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieCute]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1265538^
 ! ——kragie1——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragie1]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragie1]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1198589^
 ! ——kragie2——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragie2]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragie2]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1198552^
 ! ——kragieLurk——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieLurk]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieLurk]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1175276^
 ! ——kragieThinking——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieThinking]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieThinking]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1175235^
 ! ——kragieW——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieW]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieW]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1175189^
 ! ——kragieDanish——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieDanish]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieDanish]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1175183^
 ! ——kragieHype——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieHype]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieHype]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1175152^
 ! ——kragieHi——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=kragieHi]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=kragieHi]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1172062^
 ! ——fencebMic (fencebarcode)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=fencebMic]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=fencebMic]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303054095^
 ! ——fencebPain——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=fencebPain]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=fencebPain]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302064841^
 ! ——fencebBroke——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=fencebBroke]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=fencebBroke]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301816503^
 ! ——fencebStuck——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=fencebStuck]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=fencebStuck]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301644277^
 ! ——fencebDuck——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=fencebDuck]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=fencebDuck]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303344534^
 ! ——dovyLuck (afriendRS)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dovyLuck]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dovyLuck]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306999924^
 ! ——dovyShambles——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dovyShambles]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dovyShambles]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/307027321^
 ! ——hrySir (hrry)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hrySir]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hrySir]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302226143^
 ! ——hryPog——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryPog]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryPog]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302369241^
 ! ——hryLaf——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryLaf]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryLaf]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305325152^
 ! ——hryLafExceptInPain——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryLafExceptInPain]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryLafExceptInPain]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306884218^
 ! ——hryCry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303186900^
 ! ——hryFlex——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryFlex]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryFlex]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305324867^
 ! ——hryYep——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryYep]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryYep]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303185490^
 ! ——hryM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306884581^
 ! ——hryPogO——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryPogO]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryPogO]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303185199^
 ! ——hryBrime——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryBrime]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryBrime]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306883799^
 ! ——hryGoogle——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryGoogle]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryGoogle]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302701591^
 ! ——hryClown——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hryClown]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hryClown]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304777830^
 ! ——hry8L——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=hry8L]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=hry8L]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_6fc310fff3384d92adeb785ea0231077^
 ! ——bakerxOk (bakerXderek_)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=bakerxOk]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=bakerxOk]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304450203^
 ! ——bakerxFish——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=bakerxFish]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=bakerxFish]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302800103^
 ! ——bakerxWhoa——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=bakerxWhoa]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=bakerxWhoa]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300934682^
 ! ——bakerxHehe——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=bakerxHehe]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=bakerxHehe]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/300445106^
 ! ——mrolle1L (MrOlle_)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mrolle1L]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mrolle1L]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306865372^
 ! ——mrolle1Blush——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mrolle1Blush]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mrolle1Blush]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306291812^
 ! ——mrolle1Que——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mrolle1Que]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mrolle1Que]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_9d649557be554fa0a4c33d14cdc230ef^
 ! ——mrolle1Flower——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mrolle1Flower]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mrolle1Flower]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_6a4e30273bf4438ab4d5b7105d5b3b0f^
 ! ——mrolle1Cozy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mrolle1Cozy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mrolle1Cozy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_9715349d60c5464ab308867359384c03^
 ! ——takaD (Takarita)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=takaD]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=takaD]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/1033792^
 ! ——lisabbHappy (lisabby)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbHappy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbHappy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305342667^
 ! ——lisabbSad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbSad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbSad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301994278^
 ! ——lisabbBad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbBad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbBad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303621864^
 ! ——lisabbCozy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbCozy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbCozy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305342692^
 ! ——lisabbSus——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbSus]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbSus]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302155828^
 ! ——lisabbZzz——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbZzz]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbZzz]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302779747^
 ! ——lisabbBlush——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbBlush]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbBlush]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304761103^
 ! ——lisabbTired——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbTired]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbTired]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301992829^
 ! ——lisabbPout——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbPout]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbPout]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303747979^
 ! ——lisabbTeddy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbTeddy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbTeddy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303511054^
 ! ——lisabbL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301998347^
 ! ——lisabbFlag——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbFlag]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbFlag]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301992622^
 ! ——lisabbFine——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbFine]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbFine]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301992901^
 ! ——lisabbShrug——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=lisabbShrug]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=lisabbShrug]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303665967^
 ! ——mayahiPains (Maya)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiPains]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiPains]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304133855^
 ! ——mayahiSafari——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiSafari]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiSafari]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304133762^
 ! ——mayahiSmile——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiSmile]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiSmile]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304133743^
 ! ——mayahiFancy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiFancy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiFancy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304133738^
 ! ——mayahiCry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304133733^
 ! ——mayahiHappy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiHappy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiHappy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302545233^
 ! ——mayahiFreeze——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiFreeze]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiFreeze]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302545228^
 ! ——mayahiL——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiL]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiL]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301346897^
 ! ——mayahiHug——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiHug]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiHug]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301290236^
 ! ——mayahiG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301263104^
 ! ——mayahiLook——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiLook]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiLook]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306655362^
 ! ——mayahiCozy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mayahiCozy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mayahiCozy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306655379^
 ! ——cslickWOW (CrazySlick)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cslickWOW]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cslickWOW]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304517326^
 ! ——cslickWat——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cslickWat]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cslickWat]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304226472^
 ! ——cslickNote——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cslickNote]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cslickNote]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304174391^
 ! ——cslickKEK——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cslickKEK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cslickKEK]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304174316^
 ! ——cslickPains——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cslickPains]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cslickPains]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303781935^
 ! ——cslickSus——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cslickSus]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cslickSus]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/307858900^
 ! ——cslickSmug——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=cslickSmug]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=cslickSmug]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/307858914^
 ! ——dangPOGX (DanGheesling)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dangPOGX]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dangPOGX]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_de06618ddac84ecfadfaaabcdd617d27^
 ! ——chiefm7L (ChiefMustafaTV)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chiefm7L]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chiefm7L]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306974239^
 ! ——chiefm7Weird——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chiefm7Weird]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chiefm7Weird]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/308038340^
 ! ——chiefm7Oiler——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chiefm7Oiler]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chiefm7Oiler]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_45c43fb32cbe4270a14b6707140d9fa7^
 ! ——gv8Bumpy (GrandVice8)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Bumpy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Bumpy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_273b3d2da5cf4df1a8761e1eb9184a85^
 ! ——gv8Phone——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Phone]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Phone]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304240081^
 ! ——gv8Bam——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Bam]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Bam]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303920102^
 ! ——gv8Mad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Mad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Mad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303867324^
 ! ——gv8Build——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Build]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Build]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303867322^
 ! ——gv8Chef——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Chef]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Chef]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303867303^
 ! ——gv8Scout——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Scout]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Scout]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303793120^
 ! ——gv8Water——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Water]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Water]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/303793117^
 ! ——gv8Phone2——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=gv8Phone2]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=gv8Phone2]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305189606^
 ! ——mangoSuave (mang0)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=mangoSuave]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=mangoSuave]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/304229221^
 ! ——dsaCOPIUM (Central_Committee)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=dsaCOPIUM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=dsaCOPIUM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305599649^
 ! ——demeHYPE (deme)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeHYPE]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeHYPE]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_6276ab2a36f047a5bbe82ee77e1189f8^
 ! ——demeWTF——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeWTF]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeWTF]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_0aec60d30ce04d24a3e81be578e96108^
 ! ——demeG——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeG]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeG]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305196630^
 ! ——demeScuf——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeScuf]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeScuf]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/301274616^
 ! ——demeMad——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeMad]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeMad]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_e0201310efbc430b8127d357ab7bed32^
 ! ——demeHappy——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeHappy]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeHappy]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302400923^
 ! ——demeCry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305903726^
 ! ——demeKing——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeKing]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeKing]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306298941^
 ! ——demeEat——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=demeEat]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=demeEat]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302590960^
 ! ——moists1JasdflkhwWOIHFqskdfj (MoistSalt)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=moists1JasdflkhwWOIHFqskdfj]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=moists1JasdflkhwWOIHFqskdfj]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_4fcca9a1341545069a1e1dd0a7debaf7
 ! ——Moists1Cry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=Moists1Cry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=Moists1Cry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305278681
 ! ——Moists1Hug——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=Moists1Hug]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=Moists1Hug]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306410485
 ! ——Moists1Weird——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=Moists1Weird]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=Moists1Weird]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_eba55d910f474df1b3df6738a9c251e8
 ! ——plupYEPTAR (Plup)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=plupYEPTAR]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=plupYEPTAR]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v2/emotesv2_ca5df63a3fd9431cb3b1494bb17f3b61^
 ! ——plupFridge——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=plupFridge]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=plupFridge]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v2/emotesv2_3ddea8c6983246e889b56ea0d345daab^
 ! ——zoilBlush (Zoil)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=zoilBlush]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=zoilBlush]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305933337^
 ! ——zoilOdd——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=zoilOdd]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=zoilOdd]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305933481^
 ! ——zoilM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=zoilM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=zoilM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305972950^
 ! ——zoilSweat——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=zoilSweat]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=zoilSweat]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306426291^
 ! ——zoilDown——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=zoilDown]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=zoilDown]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306505627^
 ! ——m0xyKing——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=m0xyKing]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=m0xyKing]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305383400^
 ! ——nightm301Detect (NightmareDetective)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=nightm301Detect]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=nightm301Detect]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_31e2c7fbd09f4f89af1e3e44c021fc45^
 ! ——rexgPog (RexGunderson)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgPog]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgPog]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_830b036e749f47eeb762276be7417ea9^
 ! ——rexgJam——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgJam]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgJam]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_7e5b93ef1e5f460e9089dbefaea2fc2e^
 ! ——rexgSpeed——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgSpeed]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgSpeed]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_2855eb431e4e4685b35d6c3763f63ff9^
 ! ——rexgEz——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgEz]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgEz]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_aa58f5c44b9d43db945711a2ba4970e9^
 ! ——rexgLaugh——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgLaugh]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgLaugh]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_8078ec5126ca48e6872734b4690bc07f^
 ! ——rexgDumb——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgDumb]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgDumb]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_d9940c5599e743388fa1e4abb189ef43^
 ! ——rexgRage——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgRage]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgRage]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_07ef409582464996a68d521027856c5b^
 ! ——rexgCringe——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgCringe]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgCringe]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_1b10c9cb629944609b66c6ea245c9341^
 ! ——rexgInnit——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgInnit]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgInnit]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_73fae29bcf1c45ed95b41cda12bf0c66^
 ! ——rexgNice——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=rexgNice]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=rexgNice]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_85a12b363b95439fb775be96d37f99a6^
 ! ——davekaPoopo (DaveKap)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=davekaPoopo]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=davekaPoopo]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_035fe347bf544563be56edd2cf31cede^
 ! ——All handgunhartz emotes——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name^=handgu3]
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=handgu3]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_3620fda2b7004425b7fdd2e810a9c820^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_05f1d055c825499c9efefe193f79d04a^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_8f3135cb3eff4b9ea6d0ed1c978ec4f6^
@@ -19180,122 +20456,180 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name^=handgu3]
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_a359e4e339b34997b752f9daf928ea30^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_0279a60b40294d0597936a11e2ace06a^
 ! ——yougot15WOAH (YouGotAnyGrap3s)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=yougot15WOAH]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=yougot15WOAH]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_0b3fd5c27bbe4282b6b14941f93b9004^
 ! ——chrisishidSAD (ChrisIsHidden)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidSAD]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidSAD]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_f9beb23d3f3d494c9396367132e56b2f^
 ! ——chrisishidCLAP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidCLAP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidCLAP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_b69fbf9312874245b6e2e801f631bff3^
 ! ——chrisishidMAD——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidMAD]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidMAD]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_0e16c8c283f3498f9280974d13a223bd^
 ! ——chrisishidPRAY——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidPRAY]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidPRAY]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_35c23bc75a6d4349802c786c85ce7453^
 ! ——chrisishidHMM——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidHMM]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidHMM]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_1babe04d8f244e2f9cdef3caa99d6d99^
 ! ——chrisishidTHINK——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidTHINK]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidTHINK]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_fb0b9581e5424045a767b35dd3de6460^
 ! ——chrisishidHIGH——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidHIGH]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidHIGH]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_63cb7da1dad14a35b14da77e33cb8c9d^
 ! ——chrisishidCLOWN——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidCLOWN]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidCLOWN]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_19bb340d1fc94acf8670bf1afde30f7e^
 ! ——chrisishidSLEEP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidSLEEP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidSLEEP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_84c06a0ef25e499b82cb1eaf73cd5a60^
 ! ——chrisishidCOMFY——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidCOMFY]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidCOMFY]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_5c6e5800aca94f26842083f59a688a3b^
 ! ——chrisishidFADED——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidFADED]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidFADED]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_b5cd9c7c6fc94f20b3fd8c46452938ee^
 ! ——chrisishidP——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=chrisishidP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=chrisishidP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_c570279ca3804537b3b7b9f5b3f23739^
 ! ——woolzCLAP (KingWoolz)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=woolzCLAP]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=woolzCLAP]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_c5748cb2af1d4c86b03e23ce32fdf8f6^
 ! ——woolzNervous——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=woolzNervous]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=woolzNervous]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/307075001^
 ! ——froganLa (Frogan)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=froganLa]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=froganLa]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_68c18ce4587f4c17ba6c2b9b5232eb59^
 ! ——froganSLAyer——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=froganSLAyer]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=froganSLAyer]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_aac7ac7f5bf74d479578f4cd94de7087^
 ! alveus* (AlveusSanctuary)
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name^=alveus]
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=alveus]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_81a00eb33b9e461d9dfb9f2f8953d075^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_e77869f6fb3448e0a03341a960d70e94^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_af9ddf310fc744b39844a86dc2722f43^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_7175e4dda9d1405cad5a6270cf5114c2^
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_2271a87086b746e6beca837bd306add3^
 ! ——qtcSmoke (qtCinderella)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=qtcSmoke]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=qtcSmoke]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_f69cae9a788a46af92fb0b87b27cd530^
 ! ——qtcCookie——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=qtcCookie]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=qtcCookie]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_06d8aafded0e4a1680d1c258c2f63d38^
 ! ——qtcMate——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=qtcMate]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=qtcMate]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306916902^
 ! ——qtcStonewall——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=qtcStonewall]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=qtcStonewall]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/306916898^
 ! ——qtcCry——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=qtcCry]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=qtcCry]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/305119014^
 ! ——qtc1——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=qtc1]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=qtc1]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/307227673^
 ! ——qtcPretty——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=qtcPretty]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=qtcPretty]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/302080852^
 ! ——angeli136Hehehe (angelicatxd)——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=angeli136Hehehe]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=angeli136Hehehe]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_7059240d88d340e499bd2fda436168a0^
 ! ——angeli136Sip——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=angeli136Sip]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=angeli136Sip]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_15a38b47a79a40fbb1c1add4f6154722^
 ! ——angeli136Peek——
+!#if !env_mobile
 www.twitch.tv##.emote-button__link[name=angeli136Peek]
 www.twitch.tv##button[data-tooltip-type=emote][data-name=angeli136Peek]
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/emotesv2_23fd3b920513405fa9871b0e405fada9^
+
 ! ——|——|—— Meant for FrankerFaceZ only ——|——|——
+!#if !env_mobile
 ! ——^Feels——
 twitch.tv##.message > div > img[alt^=Feels]
 www.twitch.tv##button[data-tooltip-type=emote][data-name^=Feels]
@@ -19977,6 +21311,8 @@ www.twitch.tv##button[data-tooltip-type=emote][data-name=Happs]
 ||cdn.betterttv.net/emote/617932361f8ff7628e6b3a90^
 ! ——Looking——
 ||cdn.betterttv.net/emote/6359372eed98a03da0cdd7df^
+!#endif
+
 ! ——— Discord ———
 discord.com##.emoji[aria-label*=peepo i]
 discord.com##.emoji[aria-label*=pepe i]
@@ -20109,6 +21445,7 @@ discord.com##div[class^=reactionInner-][aria-label*=peepo i] > img
 ||cdn.discordapp.com/emojis/739211919029829742.
 ||cdn.discordapp.com/emojis/730852127408128010.
 ||cdn.discordapp.com/emojis/676041892890148868.
+
 ! ——— Slack ———
 slack.com##.c-emoji[alt*=peepo i]
 slack.com##.c-emoji[alt*=pepe i]
@@ -20143,6 +21480,7 @@ slack.com##.c-emoji[alt=":xd123:"]
 slack.com##.c-emoji[alt=":peconcuchillo:"]
 slack.com##.c-emoji[alt=":Sadge:"]
 slack.com##.c-emoji[alt=":HYPERS:"]
+
 ! ——— DLive ———
 ||images.prd.dlivecdn.com/emote/36a96ec2d00501b_300168
 ||images.prd.dlivecdn.com/emote/3f0dc17f90048ac_112112
@@ -20161,16 +21499,21 @@ slack.com##.c-emoji[alt=":HYPERS:"]
 ||images.prd.dlivecdn.com/emote/413b214590048ac_300181
 ||images.prd.dlivecdn.com/emote/431ec537c008fe2_067056
 ||images.prd.dlivecdn.com/emote/413d20f800048ac_112112
+
 ! ——— Me.me ———
+!#if !adguard
 me.me#?#.header-story,.flex-container.link,.item:has-text(Pepe)
 me.me#?#.header-story,.flex-container.link,.item:has-text(/honkler/i)
 me.me#?#.header-story,.flex-container.link,.item:has-text(/schubert/i)
 me.me#?#.header-story,.flex-container.link,.item:has-text(/groyper/i)
+!#endif
+
 ! ——— 9GAG ———
 9gag.com#?#article:has-text(Pepe)
 9gag.com#?#article:has-text(/honkler/i)
 9gag.com#?#article:has-text(/schubert/i)
 9gag.com#?#article:has-text(/groyper/i)
+
 ! ——— FunnyJunk ———
 ! Note that there's no way whatsoever to remove comment section images by tags or text.
 funnyjunk.com##.channels_bar > [href="/channel/4chan"]
@@ -20178,33 +21521,48 @@ funnyjunk.com#?#.mobCon:has-text(Pepe)
 funnyjunk.com#?#.mobCon:has-text(/honkler/i)
 funnyjunk.com#?#.mobCon:has-text(/schubert/i)
 funnyjunk.com#?#.mobCon:has-text(/groyper/i)
+
 ! ——— Kiwi Farms ———
 ! https://kiwifarms•net/threads/65126/page-61
 */emotes/*-pepe.png^$image,media
+
 ! ——— Reddit ———
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.thing,.Comment):has-text(Pepe):not(:has-text(/Pew|Madrid/))
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.thing,.Comment):has-text(Peepo)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.thing,.Comment):has-text(/honkler/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.thing,.Comment):has-text(/schubert/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#:is(.Post,.thing,.Comment):has-text(/groyper/i)
+
 ! ——— BooruORG ———
 ||pepe.booru.org^$document
+
 ! ——— Mastodon ———
 mastodon.*,mas.to##[title^=":pepe"]
 mastodon.*,mas.to##[title^=":peepo"]
+
 ! ——— Other sites ———
 ||kekpe.pe^$document
 rule34.xxx,gelbooru.com,booru.org,sankakucomplex.com,tbib.org,xbooru.com,tentaclerape.net##.thumb:has(img[title*=pepe_the_frog])
 e621.net,donmai.us,allthefallen.moe##article[data-tags*=pepe_the_frog]
+
+! ——— Other sites ———
 ! Entry suggestions on GitHub would be much appreciated.
-! Title: 👨🏾🤵 Say No to Racism on Twitch
-! Version: 12June202421-Beta
-! Expires: 7 days
-! Description: Twitch is a platform to stream videogames, everyday life, and advertisements disguised as gaming expos. But at least from a traditional standpoint, many Twitch userbase in-jokes have taken forms that would've been considered racist in many other settings, including emotes that are used to accuse black people of being terrorists, women of being whiny, or businessmen game characters of being Jewish. If you wish for a more squeaky-clean experience that simply considers humans to be humans, here's a list for you.
+!#endif
+!#endif
+!#endif
+
+
+! ===========================================================================
+! Source list: 👨🏾🤵 Say No to Racism on Twitch
+! Provided by: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! Fetched from: https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/SayNoToRacismOnTwitch.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ! To get rid of Pepe emotes, check out https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiPepeList.txt. I also maintain lists to remove Twitch Prime promotions and to mark Rickroll links in Twitch chat in strong red colours.
 twitch.tv#?#div[class$=message]:not(.tw-inline):has(img[alt$=ANELE]):has(.message:not(:has-text(/\S/)))
 twitch.tv#?#div[class$=message]:not(.tw-inline):has(img[alt$=cmonBruh]):has(.message:not(:has-text(/\S/)))
 twitch.tv#?#div[class$=message]:not(.tw-inline):has(img[alt$=HotPokket]):has(.message:not(:has-text(/\S/)))
+!#if !env_mobile
 twitch.tv##.emote-button__link[name=ANELE]
 twitch.tv##.emote-button__link[name=cmonBruh]
 twitch.tv##.emote-button__link[name=HotPokket]
@@ -20214,6 +21572,7 @@ twitch.tv##button[data-tooltip-type=emote][data-name=HotPokket]
 twitch.tv##button[data-tooltip-type=emote][data-name=HYPERBRUH]
 twitch.tv#?#div[class$=message]:not(.tw-inline):has(img[alt$=HYPERBRUH]):has(.message:not(:has-text(/\S/)))
 ||cdn.frankerfacez.com/*de02fdb9721af300ac68de088b69a5fb.PNG^
+!#endif
 ||static-cdn.jtvnw.net/emoticons/v*/357^
 ||static-cdn.jtvnw.net/emoticons/v*/3792^
 ||static-cdn.jtvnw.net/emoticons/v*/84608^
@@ -20229,8 +21588,14 @@ twitch.tv#?#div[class$=message]:not(.tw-inline):has-text(/goyim/i)
 twitch.tv#?#div[class$=message]:not(.tw-inline):has-text(/trans/i):has-text(/politic/i)
 twitch.tv#?#div[class$=message]:not(.tw-inline):has-text(/McCarthy/i):has-text(/right/i)
 twitch.tv#?#div[class$=message]:not(.tw-inline):has-text(/McCarthy/i):has-text(/another/i)
-! Title: 🍪 BadBlock - Annoyances (ABP)
-! Description: Block annoyances!
+
+
+! ===========================================================================
+! Source list: 🍪 BadBlock - Annoyances (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://badblock.celenity.dev/abp/annoyances.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 abxxx.com##+js(set-cookie, _agev, 1)
 amd.com##.open-feedback-button.btn-feedback.btn
 www.amateur8.com##+js(set-cookie, kt_agecheck, 1)
@@ -20279,11 +21644,14 @@ www.justice.gov##+js(set-cookie, justiceGovAgeVerified, true)
 vhlcentral.com##.c-zendesk-chat-widget-icon
 vhlcentral.com##.js-chat-tab
 xhamster.com##+js(set-cookie, parental-control, yes)
-! Version: 201903140000
-! Title: Clickbait Blocklist
-! Homepage: https://github.com/cpeterso/clickbait-blocklist/
-! License: http://creativecommons.org/publicdomain/zero/1.0/
-!
+
+
+! ===========================================================================
+! Source list: Clickbait Blocklist
+! Provided by: https://github.com/cpeterso/clickbait-blocklist/
+! Fetched from: https://raw.githubusercontent.com/cpeterso/clickbait-blocklist/master/clickbait-blocklist.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 2leep.com
 adblade.com
 adsnative.com
@@ -20308,8 +21676,14 @@ zergnet.com
 ##.trc_spotlight_widget
 ##.vendor-outbrain
 ##.yap-loaded
-! Title: 🗑️ BadBlock - Crap (ABP)
-! Description: Block toxic domains!
+
+
+! ===========================================================================
+! Source list: 🗑️ BadBlock - Crap (ABP)
+! Provided by: https://badblock.celenity.dev
+! Fetched from: https://codeberg.org/celenity/BadBlock/raw/branch/pages/abp/crap.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ||adblockplus.org^$denyallow=easylist-downloads.adblockplus.org|forum.adblockplus.org|help.adblockplus.org|issues.adblockplus.org|subscribe.adblockplus.org
 ||adblockplus.org^$domain=~easylist-downloads.adblockplus.org|~forum.adblockplus.org|~help.adblockplus.org|~issues.adblockplus.org|~subscribe.adblockplus.org
 ||360.cn^$document
@@ -20481,12 +21855,19 @@ zergnet.com
 ||zenmate.com^$document
 ||ziffdavis.com^$document
 ||ziffdavis.com.edgekey.net^$document
+
+
+! ===========================================================================
+! Source list: 🎬 Stop Autoplay On Video Sites
+! Provided by: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! Fetched from: https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/StopAutoplayOnYouTube.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ﻿[Adblock Plus 3.12]
-! Title: 🎬 Stop Autoplay On Video Sites
-! Version: 01December2025v1
-! Description: Are you tired of having to turn oﬀ autoplay on YouTube, Vimeo, and other video sites every time you e.g. go to incognito mode? Do you work in classrooms/courserooms and don't want to accidentally show unfitting videos to your students/coursetakers? Are you worried of having to use specific extensions just for that purpose? Then this list is for you.
 ! Special thanks to https://github.com/llacb47 for waterproofing large parts of this list.
+
 ! I oﬀer a 15€ bounty to anyone who can figure out how to automatically turn oﬀ autoplay on Dailymotion through one or more uBlock Origin entries, payable by PayPal.
+
 ! ——— YouTube ———
 ! Note: Video suggestions after the video is finished, will not be shown.
 /endscreen.js$script,domain=youtube.com|youtu.be|youtube-nocookie.com|35.190.94.206
@@ -20498,37 +21879,58 @@ m.youtube.com##.ytm-autonav-bar
 !!!||www.youtube.com/youtubei/v1/player?prettyPrint=false| (A really bad idea; https://github.com/DandelionSprout/adfilt/issues/1210)
 !#if !ext_ublock
 /endscreen.js$app=com.google.android.youtube|com.google.android.apps.youtube.vr|com.google.android.youtube.tv|com.google.android.youtube.googletv
+!#endif
+
 ! ——— Vimeo ———
 &stream_pos=0&autoplay=true$xmlhttprequest,domain=vimeo.com
 vimeo.com##.iris_progress-container
 vimeo.com##.pagination_holder
 vimeo.com##._16rrx
+!#if !ext_ublock
 ! (Has some problems due to https://github.com/AdguardTeam/FiltersCompiler/blob/master/src/main/utils/trust-levels/exclusions-high.txt)
 ! (Also breaks Vimeo's upload page entirely.)
 !!!vimeo.com#%#AG_setConstant('vimeo.clip_page_config.continuous_play_enabled', 'false');
+!#endif
+
 ! ——— Rumble ———
 ||rumble.com/embedJS/u3/?request=related$xmlhttprequest
+
 ! ——— TED ———
+!#if !ext_ublock
 ! Note: Once the outro screen is triggered and blocked, the page has to be reloaded to play the same video again. It also remains stuck on an ominously red-tinted frame when it happens.
 ||pb.tedcdn.com/bumpers/hls/video/out/$xmlhttprequest,domain=ted.com
+!#endif
+
 ! ——— BBC Reel ———
 ||bbci.co.uk/plugins/onwardJourneyHTML/*/js/onwardJourney.js^
+
 ! ——— Dailymotion ———
 ! https://github.com/DandelionSprout/adfilt/issues/1023
 ||static1.dmcdn.net/playerv5/dmp.end_screen.*.js$script
+
 ! ——— Ixigua - 西瓜视频 ———
 ! Note: Also removes video recommendations
 ||ixigua.com/api/feedv2^
+
 ! ——— Help wanted for: ———
 ! Sites using JW Player (e.g. Mediaite)
 ! Gfycat
 ! YouTube Kids
-! Title: 🎛 Reddit Trash Removal Service
-! Version: 20June2026v1-Beta
-! Expires: 3 days
-! Description: Reddit can have some good places and posts, but unfortunately 95% of it is also a large pile of echo chambers whose only equivalent is 8kun. So if you only browse Reddit for its humouristical and artistical subreddits, this list will massively help you focus on those things.
+
+
+
+! ===========================================================================
+! Source list: 🎛 Reddit Trash Removal Service
+! Provided by: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! Fetched from: https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/RedditTrashRemovalService.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ! Some categories in this list only supports New Reddit, because let's be honest: It's so much better to be able to actually see the posts' images from the timelines, instead of having to open every single thread to see if their images are noteworthy or not.
 ! Similarly, the ability for me to help out with Reddit in phone browsers is very limited due to its very frequent app demands, though the list has at least been set to work in phone browsers now (10th of March 2023).
+
+!#if !env_mv3
+!#if !ext_ubol
+!#if !adguard_ext_android_cb
 ! Removes sitewide feeds from the dropdown menu, on the assumption that they contain posts from bad subreddits
 ! Dropdown menu
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###focus-All
@@ -20545,8 +21947,10 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##ul.ho
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##ul.hover.sr-bar.flat-list > li:has(a[href*="/r/random/"])
 ! Search bar
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[id^=SearchDropdown]:has(.icon-popular)
+
 ! Removes hard-to-close cookie banners on Imgur embeds
 ||quantcast.mgr.consensu.org$domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|imgur.com
+
 ! Subreddits that have extremely messed-up criteria for what is considered to be banworthy
 ! Known to ban everyone who are not ultraconservative:
 ||reddit.com/r/conservative$document,domain=~it_is_a_racist_subreddit.*
@@ -20567,6 +21971,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[id^
 ||reddit.com/r/iamatotalpieceofshit^$document
 ||reddit.com/r/CODWarzone^$document
 ||reddit.com/r/maybemaybemaybe^$document
+
 ! Subreddits known to condone mass-murders or the notion of such to varying degrees
 ! Known to condone mass murdering of Jews:
 ||reddit.com/r/POLITIC^$document,domain=~its-a-racist-subreddit.*
@@ -20599,6 +22004,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[id^
 ||reddit.com/r/DefinitelyNOTboogaloo^$document,domain=~its-a-racist-subreddit.*
 ! Known to promote fake screenshots in order to incite violence and hanging of users of competing subreddits:
 ||reddit.com/r/WatchRedditDie^$document
+
 ! Posts whose scores are lower than a certain amount (New Reddit)
 ! The default for all subreddits is 10 points, although this can be adjusted for a handful of subreddits whose quality levels are deemed to sharply increase with a higher or lower limit.
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[class^=subredditvars-]:not(.subredditvars-r-mapswithoutnz) #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^\d$|^[A-Z]/))
@@ -20617,10 +22023,12 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.sub
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-showerthoughts #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^1?\d$|^[A-Z]/))
 ! 25 points
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.subredditvars-r-europe #AppRouter-main-content > div:not([class]) div:not([class]) > .Post:has([id^=vote-arrows-] > div:has-text(/^1?\d$|^2[0-4]$|^[A-Z]/))
+
 ! Posts that are too new to have been given a points score
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(div[style^="color:"]:has-text(•):not(:has-text(/[a-z]/i)))
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(span[data-click-id=metadata_comments]):not(:has(span[data-click-id=metadata_votes]))
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(div[style*=-postfooter-]):not(:has(span[data-click-id=metadata_votes]))
+
 ! Usernames that are 139% guaranteed to be trolls
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(a[href^="/user"]:has-text(/p[e3]p[e3]/i):has-text(/fr[o0]g/i))
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Post:has(a[href^="/user"]:has-text(/kek\istan/i))
@@ -20632,19 +22040,24 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Com
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a[href^="/user"]:has-text(/Red{2}\itAd\m\ins/i))
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a[href^="/user"]:has-text(/j[eou][owi]w?[sz]?/i):has-text(/wh\ite/i))
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a[href^="/user"]:has-text(/g[o0]y/i):has-text(/wh[i1]te/i))
+
 ! Removes the "n new posts for you" banner
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div:has(> svg[viewbox="0 0 34 16"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[class^=SubredditVars-r-] > div:has(> svg)
+
 ! Attempts to remove the "Recommended posts" feed on the bottom of almost all posts
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):has(> div[data-redditstyle])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[tabindex] > div > div:nth-of-type(2):has(> div[data-redditstyle])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[style^="max-width:"][style*="1600px"] > div > div:nth-of-type(2):has(div[data-redditstyle])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[tabindex] > div > div:nth-of-type(2):has(> div > div[data-redditstyle])
+
 ! Removes three specific types of comments that offer nothing to a thread apart from vapid far-out-of-place greetings
+!#if !adguard
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment,.entry:has-text(/Hap{2}\y\sCake\s?Day/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment,.entry:has-text(/charge\s\your\sphone/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.Comment:has(a:has-text(/^r/charge\yourphone$/))
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.entry:has(a:has-text(/^r/charge\yourphone$/))
+!#endif
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/f\irst\sgold/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/f\irst\ss\ilver/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/f\irst\splat\inum/i)
@@ -20654,28 +22067,37 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:ha
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/Thank/i):has-text(/plat\inum/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/Thank/i):has-text(/award/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#p:has-text(/^Ed\it/i):has-text(/Thank/i):has-text(/stranger/i)
+
 ! Attempts to remove the "Recommended posts" feed on the right of most posts
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[data-redditstyle=false] + div:has(> div[data-redditstyle=true])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion###right-sidebar-container > aside:not([class])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##aside[aria-label]:has(> pdp-right-rail)
+
 ! Let's give people a more free choice on whether to use New or Old Reddit, okay?
 ||styles.redditmedia.com/t5_2qimj/styles/image_widget_hosy9x86gxv11.png$image
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[data-redditstyle=false][style]:has-text(/Old\sRed{2}\it/i)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#div[data-redditstyle=false][style]:has-text(/New\sRed{2}\it/i):has-text(/Trash/i)
+
 ! Aims to prevent Imgur embeds from cutting off half the preview
 imgur.com#?#img[id=image-element][src*=imgur]:style(margin-top: 0 !important)
+
 ! If you're planning to run a background-related April Fools' joke, please don't let it run for ≥2 weeks afterwards
 ||styles.redditmedia.com/*/styles/backgroundImage_n3apip7pe9q41.jpg^
+
 ! Removes "r/all"-style posts from "More posts from the" feeds below pages
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[style^="color:"] + div div:not([class*=" "]) > div[class*="  Post "]:not([style])
+
 ! "Similar to this post"
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[style^=max-width] > div[class*=" "] > div[class*=" "] > div:nth-of-type(2):last-of-type
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[style^="height:"] > div > div[class$=" "][data-redditstyle=false]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div:not([class]) > div:only-of-type > div[class$=" "][data-redditstyle=false]
+
 ! Remove the right sidebar related posts on New New Reddit
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,~old.reddit.com,~old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.right-sidebar:has(> pdp-right-rail)
+
 ! Complete and total failings at source critique
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion,~old.reddit.com,~old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##article:has(> [author-id="t2_g2unu1x5s" i][permalink^="/r/oddlyspecific/" i])
+
 ! Removes something absolutely no one asked for: random bits of text in comments being shown as generally useless search links. (10/11/2025; https://new•reddit•com/r/softwaregore/comments/1my6np3/is_visual_studio_code_trying_to_insult_me/ ; Apparently gone by 17/04/2026)
 !!!reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker a:remove-attr(href)
 !!!reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker a:style(color:unset!important;border-bottom-style:unset!important;cursor:text!important)
@@ -20686,11 +22108,16 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##searc
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker[data-faceplate-tracking-context*=post_id] a[rpl]:remove-attr(class)
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker[data-faceplate-tracking-context*=post_id] a[rpl] > span:has(path[d^="M18.736 17.464l"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##search-telemetry-tracker[data-faceplate-tracking-context*=post_id] a[rpl]:style(color:unset!important;text-decoration-color:unset!important;text-decoration-line:none!important)
+
 ! Poor indentation on r/SubredditDrama posts on Firefox Android, where the rightmost ~5px were cut off on my Motorola Edge 30 Fusion (30/05/2026)
 !#if env_mobile
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-post-text-body div[id$=post-rtjson-content] ul:style(padding-left:8px!important;padding-right:15px!important)
+!#endif
+
 ! ————— ↓ Removes content posted by karma hoarders and bribe-taking mods ↓ —————
+
 ! Comments and Posts on New Reddit
+!#if !adguard
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/GallowBoob"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/pepsi_next"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Post:has(a[href="/user/TooShiftyForYou"])
@@ -20713,6 +22140,8 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comm
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/maxwellhill"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/bubblr"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.Comment:has(a[href="/user/PowerModerator"])
+!#endif
+
 ! Comments on Old Reddit
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/GallowBoob"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/pepsi_next"])
@@ -20725,6 +22154,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entr
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/maxwellhill"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/bubblr"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.entry:has(a[href*="/user/PowerModerator"])
+
 ! Posts on Old Reddit
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=GallowBoob]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=pepsi_next]
@@ -20737,9 +22167,17 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thi
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=maxwellhill]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=bubblr]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#.thing[data-author=PowerModerator]
-! Title: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
-! Version: 19May2026v1-Beta
-! Description: This list aims to achieve pretty broad (if not overly broad) coverage of social sharing buttons, with perhaps 1/50th~1/100th as many entries as what the biggest anti-'social button' lists out there have.
+!#endif
+!#endif
+!#endif
+
+
+! ===========================================================================
+! Source list: 🐐 Dandelion Sprout's Lightweight Anti-'Social share' List
+! Provided by: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! Fetched from: https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/SocialShareList.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ! Note: This list does not intentionally try to remove links to websites' social accounts, or to third-party logins. However, there currently will be many de facto false positives that end up removing such buttons as well.
 ###add_like_bar
 ###batchsdk-ui-alert
@@ -21228,6 +22666,7 @@ condoblues.com###milotree_box_wrap
 ##.sp_article_share_x:not(body,html,:empty)
 winstall.app##button[class*=singleApp_shareApp_]
 ||vk.com/js/api/share.js^$3p
+
 ! reutersCOM
 ##button[aria-label^="Share article on "]
 ! rawstoryCOM (21/04/2025)
@@ -21245,15 +22684,18 @@ winstall.app##button[class*=singleApp_shareApp_]
 ~threads.net##a[href^="https://threads.net/intent/post?text="]
 ! https://www•skysports•com/football/bodo-glimt-vs-manchester-city/report/548019 (16/02/2026)
 ##.sdc-site-share__link--x:not(html,body,:empty)
+
 !!!~mewe•com,~www•nrk•no##[class*=share-button i]:not(body, html) (Can't be generic due to www.nrk.no, meweCOM, stylecasterCOM)
 !!!~tidssonen•no,~mmoculture•com##div[class*=share-container] (Entry needs to be rewritten at some point)
 !!!~feedly•com,~chaturbate•com##.follow (Too many exceptions needed)
+
 ! Fairly broad entries, likely to be made non-generic after the next false positive is found
 ##[class*=socialshare i]:not(html,body,article,[class*=body i],[id*=body i])
 ##a[href*=share-tools]
 ##button[class*=SharesButton i]
 ##div[class*=sharethisbutton i]
 ~kjokkenskriveren.no##[class*=ShareButton i]:not(button,body,html,article,[class*=body i],[id*=body i])
+
 ! NOT allowed to be generic
 pastebin.com##.h_800.tweet
 vox.com##.c-social-buttons
@@ -21276,6 +22718,7 @@ midtnorskdebatt.no##.twitter
 knowyourmeme.com##.cbox-smedia
 kglakademi.dk##.social-button
 artstation.com##.s-icons
+
 ! For sites that have $generichide
 e24.no##.article-share
 ekstrabladet.dk##label[for*=ShareModal]
@@ -21290,9 +22733,11 @@ rawstory.com##.share-flipboard
 rawstory.com##.share-tw
 rawstory.com##.share-fb
 rawstory.com##.share-popup.rm-stats-tracked
+
 ! All embed feeds I've seen of it, have been broken since July 2023 anyway
 ||syndication.twitter.com/srv/timeline-profile^$third-party
 ##iframe[src*="//syndication.twitter.com/"]:has(div[data-testid=empty_state_header_text])
+
 ! Expanding the list to cover "Add as a Google preferred source" buttons.
 ! https://visualstudiomagazine•com/articles/2022/08/12/net-framework-4-8-1.aspx (06/01/2026)
 ##.PreferredSourceButtonWrapper:is(a,div)
@@ -21300,13 +22745,22 @@ rawstory.com##.share-popup.rm-stats-tracked
 ##.google-addus:is(a,div)
 ! https://www•pocketgamer•com/the-sims-2-castaway/review-9615/ (07/03/2026)
 ##.goo-pref:is(a,div)
+
+
+! ===========================================================================
+! Source list: (untitled upstream list)
+! Provided by: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! Fetched from: https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/RickrollLinkIdentifier.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ﻿! Title: 🎙 Rickroll Link Identifier
-! Version: 05June2025v1-Deprecated
-! Expires: 10 days
-! Description: So you're browsing Reddit or Twitch, and you're seeing an interesting info link? Well… about that link… this list will turn links to the biggest YouTube uploads of Rick Astley's «Never Gonna Give You Up» into a bright red colour, thus helping you steer clear of being rickrolled.
 ! Note 1: Never in my entire life have I seen anyone try to link to e.g. the Spotify uploads of «Never Gonna Give You Up» for rickrolling, so I'll skip adding entries for streaming service links for now.
 ! Note 2: I have been made aware of «Whenever You Need Somebody» having the same intro, but at the current point in time that song is considered to be out of scope for this list.
 ! Note 3: Working on the list had officially been discontinued in December 2023, but issues reports (or better yet, pull requests) are still processed for the most part.
+
+!#if !env_mv3
+!#if !ext_ubol
+!#if !adguard_ext_android_cb
 *##a[href*="/watch?v=dQw4w9WgXcQ"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=oHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=p7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
@@ -21339,6 +22793,7 @@ rawstory.com##.share-popup.rm-stats-tracked
 *##a[href*="/watch?v=LLFhKaqnWwk"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=3BFTio5296w"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=o-YBDTqX_ZU"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+
 *##a[href$="imgur.com/gallery/yed5Zfk"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="imgur.com/yed5Zfk"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="rr.noordstar.me"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
@@ -21364,6 +22819,11 @@ rawstory.com##.share-popup.rm-stats-tracked
 ||sanfransentinel.com^
 ||theraleighregister.com^
 ||rr.noordstar.me^
+
 ! Partial support for YouTube videos that aren't covered by https://rickrolldb.com/, whose list updates and submission form are both broken
 ||youtube.com/watch?v=rW7hXs-81hM^
 ||youtu.be/rW7hXs-81hM^
+!#endif
+!#endif
+!#endif
+

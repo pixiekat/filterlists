@@ -1,14 +1,16 @@
 ! Title: Pixiekat's Mega Block List (Router)
-! Version: 2026-06-03T14:40:51Z
+! Version: 2026-08-28T00:59:09Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged blocklist for AdGuard Home
+
+! ===========================================================================
+! Source list: 💸 Anti-'Insane religious preachers' List
+! Provided by: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
+! Fetched from: https://github.com/DandelionSprout/adfilt/raw/refs/heads/master/Sensitive%20lists/AntiPreacherList.txt
+! Upstream header removed on merge; all credit to the original author.
+! ===========================================================================
 ﻿[Adblock Plus 3.6]
-! Title: 💸 Anti-'Insane religious preachers' List
-! Version: 05October2024v1-Alpha
-! Expires: 6 days
-! Description: This is a dual-compatibility list for domains-list tools and uBlock Origin, which intends to target and prevent access to groups and individuals that preach things that are either very strange, very hateful, or that promote economical scams.
-! Homepage: https://github.com/DandelionSprout/adfilt/blob/master/Wiki/General-info.md#-english
 ! Note: Almost all entries were moved to https://raw.githubusercontent.com/DandelionSprout/adfilt/refs/heads/master/Sensitive%20lists/TabloidRemover.txt on 30 May 2026. I am trying to figure out what to do with the remaining few.
 
 # ——— UFOlogist insane preachers ———
@@ -16,25 +18,34 @@ connectingconsciousness.org
 simonparkes.org
 legendarytimes.com
 ufoholic.com
+
 # ——— Hindu insane preachers ———
 vhp.org
 hinduhelpline.com
 abvp.org
+
 # ——— New Age insane preachers ———
 synergisticuniverse.com
 bodysoulspiritexpo.com
 wordmagicglobal.com
+
 # ——— Jewish insane preachers ———
 tabletmag.com
 ravberland.com
+
 # ——— Islamic insane preachers ———
 islamicexorcism.wordpress.com
 divinedreams.co
+
 # ——— Holistic insane preachers ———
 naturalnews.com
+
 # ——— Buddhist insane preachers ———
 aleph.to
+
 # ——— Insane preachers for other religions ———
 # None at the moment. Help is wanted and appreciated, especially for religions that currently have no entries in this list.
 # In particular, it turned out to be far more difficult than expected to find non-state-sponsored Muslim insane preachers than I expected, even ones from the Middle East or central Asia.
+
 # ——— Entries for uBlock Origin and AdGuard ———
+
