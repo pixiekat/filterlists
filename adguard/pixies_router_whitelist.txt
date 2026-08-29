@@ -1,16 +1,15 @@
 ! Title: Pixiekat's Router White List
-! Version: 6March2026v1
+! Version: 29August2026v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom white list for adguard home
 
-! Fixes
-@@||analytics.google.com^$important
+! Fixes BBC
+@@||a1.api.bbc.co.uk^$important
+@@||activity.api.bbc.co.uk^$important
 @@||emp.bbci.co.uk^$important
 @@||r.bbci.co.uk^$important
 @@||static.bbci.co.uk^$important
-@@||statsig.anthropic.com^$important
-@@||telemetry.1passwordservices.com^$important
 
 ! Ring of Honor fixes
 @@||beacon.playback.api.brightcove.com^$important
@@ -18,6 +17,29 @@
 ! Trackers that are ok
 @@||isk.richardsw.club^$important
 @@||moonburrow.club^$important
+@@||tracker.1337x.org^$important
 @@||tracker.coppersurfer.tk^$important
+@@||tracker.dump.cl^$important
 @@||tracker.imgoingto.icu^$important
+@@||tracker.sktorrent.net^$important
+@@||tracker.supertracker.net^$important
+@@||tracker.uraniumhexafluori.de^$important
 @@||tracker1.myporn.club^$important
+@@||tracker1.t-1.org^$important
+@@||tracker3.t-1.org^$important
+@@||utracker.ghostchu-services.top^$important
+
+! Fixes streaming
+@@||collector.vhx.tv^$important
+@@||metrics.brightcove.com^$important,domain=player.stv.tv
+@@||stvdotcom.2cnt.net^$important
+@@||uie.data.cbc.ca^$important
+
+! Fixes Bluesky
+@@||events.bsky.app^$important
+
+! Fixes Google
+@@||appsgrowthpromo-pa.googleapis.com^$important
+@@||clienttracing-pa.googleapis.com^$important
+@@||federatedcompute-pa.googleapis.com^$important
+@@||ogads-pa.clients6.google.com^$important
