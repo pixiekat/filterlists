@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Router White List
-! Version: 29August2026v1
+! Version: 31August2026v1
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom white list for adguard home
@@ -31,15 +31,19 @@
 
 ! Fixes streaming
 @@||collector.vhx.tv^$important
-@@||metrics.brightcove.com^$important,domain=player.stv.tv
+@@||metrics.brightcove.com^$important
 @@||stvdotcom.2cnt.net^$important
 @@||uie.data.cbc.ca^$important
 
 ! Fixes Bluesky
 @@||events.bsky.app^$important
+@@||live-events.workers.bsky.app^$important
 
 ! Fixes Google
 @@||appsgrowthpromo-pa.googleapis.com^$important
 @@||clienttracing-pa.googleapis.com^$important
 @@||federatedcompute-pa.googleapis.com^$important
 @@||ogads-pa.clients6.google.com^$important
+
+! Unblocks Autostraddle links
+@@||ctrk.klclick1.com^$important

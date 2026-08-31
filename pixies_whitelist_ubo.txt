@@ -46,16 +46,6 @@
 ! Fixes cost breakdowns on AWS reports
 @@||ce.us-east-1.amazonaws.com^$document,all,domain=console.aws.amazon.com
 
-! Fixes Mozilla donation pages
-@@||cdn.fundraiseup.com^$document,all,domain=supporter.thunderbird.net|donor.mozilla.org
-@@||static.fundraiseup.com^$document,all,domain=supporter.thunderbird.net|donor.mozilla.org
-
-! Fixes comments
-@@||disqus.com^$document
-@@||a.disquscdn.com^$document
-@@||c.disquscdn.com^$domain=disqus.com
-@@||mediaite.disqus.com^$domain=mediaite.com
-
 ! Radio
 @@||www.siriusxm.com/player$document,all
 @@||www.wbur.org^$document,all
@@ -72,14 +62,14 @@
 @@||www.opensubtitles.org/addons/landing/page.php
 
 ! Allow analytics from Google for my personal sites
-@@||www.googletagmanager.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
-@@||www.google-analytics.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
-@@||analytics.google.com^$domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
+@@||www.googletagmanager.com^$document,xmlrequest,domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
+@@||www.google-analytics.com^$document,xmlrequest,domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
+@@||analytics.google.com^$document,xmlrequest,domain=spacecadetgrrl.me|pixiekat.net|netkitten.net|integraldata.cc
 
 ! Allow analytics for specific sites
-@@||www.google-analytics.com^$domain=www.democracynow.org|www.autostraddle.com|forthem.com
-@@||www.googletagmanager.com^$domain=www.democracynow.org|www.autostraddle.com|forthem.com
-@@||js-agent.newrelic.com^$domain=www.democracynow.org|www.autostraddle.com|forthem.com
+@@||www.google-analytics.com^$document,xmlrequest,domain=www.democracynow.org|www.autostraddle.com|forthem.com
+@@||www.googletagmanager.com^$document,xmlrequest,domain=www.democracynow.org|www.autostraddle.com|forthem.com
+@@||js-agent.newrelic.com^$document,xmlrequest,domain=www.democracynow.org|www.autostraddle.com|forthem.com
 
 ! Allow my favourite blogs and sites
 @@||autostraddle.com^$document
@@ -93,11 +83,11 @@
 
 ! Unbreaks Mozilla donor portal
 ! (but they're on the shitlist right now for running back to Twitter)
-@@||cdn.fundraiseup.com^$document,all,domain=supporter.thunderbird.net|donor.mozilla.org
-@@||static.fundraiseup.com^$document,all,domain=supporter.thunderbird.net|donor.mozilla.org
+@@||cdn.fundraiseup.com^$document,xmlhttprequest,domain=supporter.thunderbird.net|donor.mozilla.org
+@@||static.fundraiseup.com^$document,xmlhttprequest,domain=supporter.thunderbird.net|donor.mozilla.org
 
 ! Unbreaks Youtube history
-@@||https://www.youtube.com/api/stats/qoe^$important
+@@|https://www.youtube.com/api/stats/qoe^$important
 
 ! Unbreaks Autostraddle email links
 @@||ctrk.klclick1.com^$document
@@ -127,9 +117,6 @@
 @@||login.nationalgrid.com^$document
 @@||myaccount.nationalgrid.com^$document
 
-! Fixes telemetry
-@@||telemetry.mozilla.org^$domain=mozilla.org|firefox.com|mozilla.com|mozilla.net
-
 ! Deckblue
 @@||deck.blue^$document,all
 
@@ -137,34 +124,36 @@
 @@||wbru.com^$document
 @@||mercure.radio.co^$document
 
-! CNN.com live streaming
-@@||turnip.cdn.turner.com^$document
-
 ! Ok Substacks
-@@||contrarian.substack.com^$document
 @@||www.erininthemorning.com^$document
 
 ! Hasan merch
 @@||ideologie.shop^$document
 
+! Because Evil Uno fucks <3
+@@||mysterywrestling.shop^$document
+
 ! Streaming
+@@||bitmovin.com^$document,xmlhttprequest,all,domain=comettv.com|myaew.com
+@@||kiswe.com^$document,xmlhttprequest,all,domain=myaew.com
 @@||lcprd1.samsungcloudsolution.net^$document
+@@||memberful.com^$document,xmlhttprequest,domain=beacon.tv|twit.tv
 @@||pca.st^$document
 @@||player.stv.tv^$document
 @@||pocketcasts.com^$document
+@@||turnip.cdn.turner.com^$document,domain=cnn.com|turner.com
 @@||www.itv.com^$document
-
-! Fixes streaming on CometTV and MyAEW
-@@||bitmovin.com^$document,xmlhttprequest,all,domain=comettv.com|myaew.com
-@@||kiswe.com^$document,xmlhttprequest,all,domain=myaew.com
 
 ! News sites that are OK
 @@||www.404media.co^$document
 
 ! Spam TLDs that are OK
-@@||beacon.tv^$document
+@@||1337x.to^$document
 @@||ai-sucks-actually.fyi^$document
 @@||alex.party^$document
+@@||beacon.tv^$document
+@@||bookhive.buzz^$document
+@@||ext.to^$document
 @@||freedomtobuy.games^$document
 @@||freight.cargo.site^$document
 @@||hashtags.fyi^$document
@@ -179,22 +168,17 @@
 @@||peertube.wtf^$document
 @@||pghrt.diy^$document
 @@||rvncd.cfd^$document
+@@||seg6.space^$document
+@@||standard.site^$document
 @@||stream.new^$document
+@@||stream.place^$document
 @@||www.librepunk.club^$document
 @@||x1337x.cc^$document
-@@||stream.place^$document
-@@||bookhive.buzz^$document
-@@||1337x.to^$document
-@@||ext.to^$document
-@@||standard.site^$document
 @@||xprime.su^$document
-@@||seg6.space^$document
 
 ! Sourceforge overrides
 @@||sourceforge.net/projects/qbittorrent/files/latest/download^$document
 @@||sourceforge.net/projects/qbittorrent/files/qbittorrent^$document
-@@||*.dl.sourceforge.net/project/qbittorrent/^$document
-@@||downloads.sourceforge.net/project/qbittorrent^$document
 @@||downloads.sourceforge.net^$document
 @@||dl.sourceforge.net^$document
 
