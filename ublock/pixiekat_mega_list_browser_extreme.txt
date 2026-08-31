@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-08-28T00:59:18Z
+! Version: 2026-08-31T09:48:50Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -140,6 +140,13 @@ www.adobe.com##.adbmsgContentContainer:has(> .adbmsgContentIframe[src^="https://
 ! Adobe Firefly card
 www.adobe.com##.appCard.FFC_FIREFLY_1\.0
 
+! =========
+! == ADP ==
+! =========
+! -- https://www.adp.com/
+! Chatbot (can be used to contact human)
+www.adp.com###embedded-messaging
+
 ! =============
 ! == Android ==
 ! =============
@@ -219,6 +226,13 @@ docs.cribl.io##.markdown-view-toggle__container
 ! =====================
 ! AI category in navbar
 blog.cloudflare.com##.nav-item[data-tag="ai"]
+
+! ============
+! == DBCode ==
+! ============
+! -- https://dbcode.io/docs/sql/external
+! Sidebar AI article category
+dbcode.io##.dr-areaitem[data-area="AI"]
 
 ! ============
 ! == Docker ==
