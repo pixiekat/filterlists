@@ -1,0 +1,17 @@
+chrome-extension-scheme
+moz-extension-scheme
+us-east-1.console.aws.amazon.com
+calendar.google.com
+docs.google.com
+drive.google.com
+photos.google.com
+translate.google.com
+www.integraldata.cc.test
+www.pixiekat.net.test
+www.netkitten.net.test
+www.spacecadetgrrl.me.test
+deck.blue
+northskysocial.com
+autostraddle.forthem.com
+watch.dropout.tv
+www.millburylibrary.org

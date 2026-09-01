@@ -7,10 +7,11 @@ no-csp-reports: * true
 
 ! --- No cosmetic filtering (sites you want untouched) ---
 no-cosmetic-filtering: www.gocomics.com true
-no-cosmetic-filtering: www.wbur.org true
 no-cosmetic-filtering: www.msnbc.com true
+no-cosmetic-filtering: www.spacecadetgrrl.me.test true
 no-cosmetic-filtering: www.techdirt.com true
 no-cosmetic-filtering: www.theverge.com true
+no-cosmetic-filtering: www.wbur.org true
 
 ! --- No large media ---
 no-large-media: behind-the-scene false
@@ -21,10 +22,10 @@ no-large-media: behind-the-scene false
 
 ! --- Site-specific noop rules ---
 cbc.ca * noop
-www.cbc.ca * noop
 gog.com * noop
-watch.njpwworld.com onetrust.com * noop
 play.pocketcasts.com sentry.io * noop
+watch.njpwworld.com onetrust.com * noop
+www.cbc.ca * noop
 www.tumblr.com tumblr.com * noop
 www.tumblr.com www.tumblr.com * noop
 
