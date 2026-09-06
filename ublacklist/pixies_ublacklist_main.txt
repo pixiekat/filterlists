@@ -110,7 +110,9 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.twimg.com/*
 *://*.twitter.com/*
 *://*.x.com/*
-*://*.reddit.com/*
+
+# --- Shitty Gutter Trash Rags ---
+*://*.tmz.com/*
 
 # --- Spammy Sites ---
 *://*.1sixty8.ai/*
