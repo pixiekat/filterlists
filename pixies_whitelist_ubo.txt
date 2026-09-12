@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 12September2026v2
+! Version: 12September2026v3
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -44,6 +44,10 @@
 @@||youtube.com/youtubei/v1/notification/$xhr,domain=youtube.com
 @@||ytimg.com$document,xmlhttprequest,domain=youtube.com
 @@|https://www.youtube.com/api/stats/qoe^$xhr
+
+! YouTube's notification panel renders into ytd-popup-container;
+! a cosmetic rule in one of my lists hides it entirely.
+www.youtube.com#@#ytd-popup-container.ytd-app
 
 ! Fixes Google search
 @@||ogads-pa.clients6.google.com^$document,domain=google.com
@@ -221,3 +225,6 @@
 @@||support-acquia.force.com^$document
 @@||teams.microsoft.com^$document,all
 @@||us02web.zoom.us^$document
+@@||dcinetwork.org^$document,all
+@@||bidmc.org^$document,all
+@@||diabetesdefa.org^$document,all
