@@ -144,6 +144,18 @@ A quick overview of how my lists are organized:
 - [Phishing URL Blocklist](https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt)
 - [Malicious URL Blocklist (URLHaus)](https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt)
 
+## Some notes on filter syntax
+
+```text
+Short Long
+xhr xmlhttprequest
+doc document
+css stylesheet
+frame subdocument
+3p third-party
+1p first-party
+```
+
 ## Attribution
 
 All upstream lists are:
