@@ -4,6 +4,10 @@ description: Combined list of my main uBlacklist sites
 homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/pixies_ublacklist_main.txt
 ---
 
+# --- Not bad, just outdated ---
+# Wowpedia moved to wiki.gg
+*://wowpedia.fandom.com/*
+
 # --- AI Sites ---
 *://*.dev.to/*
 *://*.devset.ai/*
