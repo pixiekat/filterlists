@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 1September2026v1
+! Version: 12September2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -35,11 +35,14 @@
 @@||www.googletagmanager.com^$document,all,domain=play.google.com
 
 ! YouTube - watch history and account settings
-@@||www.youtube.com/api/stats/playback^
-@@||www.youtube.com/youtubei/v1/account/get_setting_values^
+@@||www.youtube.com/api/stats/atr$xhr,domain=youtube.com
+@@||www.youtube.com/api/stats/playback^$xmlhttprequest,domain=youtube.com
+@@||www.youtube.com/youtubei/v1/account/get_setting_values^$xmlhttprequest,domain=youtube.com
+@@||www.youtube.com/youtubei/v1/log_event$xhr,domain=youtube.com
 @@||youtube.com/api/stats/watchtime$xmlhttprequest,domain=youtube.com
-@@||www.youtube.com/youtubei/v1/log_event$document,xmlhttprequest
-@@||youtube.com/ptracking^
+@@||youtube.com/ptracking^$xmlhttprequest,domain=youtube.com
+@@||youtube.com/youtubei/v1/notification/$xhr,domain=youtube.com
+@@||ytimg.com$document,xmlhttprequest,domain=youtube.com
 
 ! Fixes Google search
 @@||ogads-pa.clients6.google.com^$document,domain=google.com
