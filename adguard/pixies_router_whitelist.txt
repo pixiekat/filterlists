@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Router White List
-! Version: 12September2026v1
+! Version: 12September2026v2
 ! Expires: 30 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom white list for adguard home
@@ -8,6 +8,7 @@
 @@||a1.api.bbc.co.uk^$important
 @@||activity.api.bbc.co.uk^$important
 @@||emp.bbci.co.uk^$important
+@@||mybbc-analytics.files.bbci.co.uk^$important
 @@||r.bbci.co.uk^$important
 @@||static.bbci.co.uk^$important
 
@@ -17,15 +18,23 @@
 ! Trackers that are ok
 @@||isk.richardsw.club^$important
 @@||moonburrow.club^$important
+@@||opentor.org^$important
 @@||tracker.1337x.org^$important
+@@||tracker.23794.top^$important
 @@||tracker.coppersurfer.tk^$important
 @@||tracker.dump.cl^$important
+@@||tracker.gcrenwp.top^$important
+@@||tracker.ghostchu-services.top^$important
 @@||tracker.imgoingto.icu^$important
+@@||tracker.netmap.top^$important
+@@||tracker.nwps.ws^$important
+@@||tracker.opentorrent.top^$important
 @@||tracker.sktorrent.net^$important
 @@||tracker.supertracker.net^$important
 @@||tracker.uraniumhexafluori.de^$important
 @@||tracker1.myporn.club^$important
 @@||tracker1.t-1.org^$important
+@@||tracker3.t-1.org^$important
 @@||tracker3.t-1.org^$important
 @@||utracker.ghostchu-services.top^$important
 
@@ -34,6 +43,7 @@
 @@||metrics.brightcove.com^$important
 @@||stvdotcom.2cnt.net^$important
 @@||uie.data.cbc.ca^$important
+@@||telegraph.prd.api.discoveryplus.com^$important
 
 ! Fixes Bluesky
 @@||events.bsky.app^$important
