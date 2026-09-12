@@ -1,6 +1,6 @@
 ! Title: Pixiekat's Router White List
-! Version: 31August2026v1
-! Expires: 7 days
+! Version: 12September2026v1
+! Expires: 30 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom white list for adguard home
 
@@ -47,3 +47,7 @@
 
 ! Unblocks Autostraddle links
 @@||ctrk.klclick1.com^$important
+
+! 2026-09 — Adobe unsubscribe link was blocked; remove once unsubscribed
+! 2026-09 - Commenting out for future reference; if you need to unsubscribe from Adobe emails, you can temporarily disable this rule to allow the unsubscribe link to work. Once you've unsubscribed, you can re-enable the rule to block Adobe tracking again.
+! @@||data.e.adobe.com^$important
