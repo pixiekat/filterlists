@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 13September2026v1
+! Version: 13September2026v2
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -42,7 +42,7 @@
 @@||youtube.com/api/stats/watchtime$xhr,domain=youtube.com
 @@||youtube.com/ptracking^$xhr,script,domain=youtube.com
 @@||youtube.com/youtubei/v1/notification/$xhr,domain=youtube.com
-@@||ytimg.com$document,xmlhttprequest,domain=youtube.com
+@@||ytimg.com$document,xhr,domain=youtube.com
 @@|https://www.youtube.com/api/stats/qoe^$xhr
 
 ! YouTube's notification panel renders into ytd-popup-container;
@@ -89,8 +89,8 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 
 ! Unbreaks Mozilla donor portal
 ! (but they're on the shitlist right now for running back to Twitter)
-@@||cdn.fundraiseup.com^$document,xmlhttprequest,domain=supporter.thunderbird.net|donor.mozilla.org
-@@||static.fundraiseup.com^$document,xmlhttprequest,domain=supporter.thunderbird.net|donor.mozilla.org
+@@||cdn.fundraiseup.com^$document,xhr,domain=supporter.thunderbird.net|donor.mozilla.org
+@@||static.fundraiseup.com^$document,xhr,domain=supporter.thunderbird.net|donor.mozilla.org
 
 ! Unbreaks Autostraddle email links
 @@||ctrk.klclick1.com^$document
@@ -137,15 +137,19 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 @@||mysterywrestling.shop^$document
 
 ! Streaming
-@@||bitmovin.com^$document,xmlhttprequest,all,domain=comettv.com|myaew.com
-@@||kiswe.com^$document,xmlhttprequest,all,domain=myaew.com
+@@||bitmovin.com^$document,xhr,all,domain=comettv.com|myaew.com
+@@||cdn.bitmovin.com^$document,script,1p,xhr,all,domain=comettv.com|myaew.com
+@@||kiswe.com^$document,xhr,all,domain=myaew.com
 @@||lcprd1.samsungcloudsolution.net^$document
-@@||memberful.com^$document,xmlhttprequest,domain=beacon.tv|twit.tv
+@@||memberful.com^$document,xhr,domain=beacon.tv|twit.tv
 @@||pca.st^$document
 @@||player.stv.tv^$document
 @@||pocketcasts.com^$document
 @@||turnip.cdn.turner.com^$document,domain=cnn.com|turner.com
 @@||www.itv.com^$document
+
+! Comet TV serves video from CloudFront; needs media + xhr + image
+@@||cloudfront.net^$xhr,media,image,from=comettv.com
 
 ! News sites that are OK
 @@||www.404media.co^$document
