@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 13September2026v2
+! Version: 13September2026v3
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -207,6 +207,10 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 
 ! Trans fucking rights; fuck Joanne Karen Rowling
 @@||jkrowlingcensoredthis.online
+
+! Unblocks stripe.com dashboard, which uses cloudflare.
+@@||cloudfront.net^$script,image,css,domain=dashboard.stripe.com
+@@||r.stripe.com^$xhr,domain=dashboard.stripe.com
 
 ! Work
 @@||acquia.com^$document,all
