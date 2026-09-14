@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 14September2026v1
+! Version: 14September2026v2
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -150,6 +150,11 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 
 ! Comet TV serves video from CloudFront; needs media + xhr + image
 @@||cloudfront.net^$xhr,media,image,from=comettv.com
+
+! disqus on mediaite — embed is inside a disqus.com iframe,
+! so the from= list needs both the host page and disqus itself
+@@||disqus.com^$xhr,script,frame,from=mediaite.com|disqus.com
+@@||disquscdn.com^$xhr,script,image,css,from=mediaite.com|disqus.com
 
 ! News sites that are OK
 @@||www.404media.co^$document
