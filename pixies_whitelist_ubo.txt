@@ -151,6 +151,9 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 ! Comet TV serves video from CloudFront; needs media + xhr + image
 @@||cloudfront.net^$xhr,media,image,from=comettv.com
 
+! General Cloudfront unblocking for sites I use
+@@||cloudfront.net^$image,script,font,css,from=acquia.com|slack.com
+
 ! disqus on mediaite — embed is inside a disqus.com iframe,
 ! so the from= list needs both the host page and disqus itself
 @@||disqus.com^$xhr,script,frame,from=mediaite.com|disqus.com
