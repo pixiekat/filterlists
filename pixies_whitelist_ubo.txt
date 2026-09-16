@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 15September2026v1
+! Version: 15September2026v2
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -147,6 +147,9 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 @@||pocketcasts.com^$document
 @@||turnip.cdn.turner.com^$document,domain=cnn.com|turner.com
 @@||www.itv.com^$document
+
+! Unfucks the Blizzard forums since they fuckin' use Cloudfront.
+@@||cloudfront.net^$image,script,font,css,xhr,from=forums.blizzard.com
 
 ! Comet TV serves video from CloudFront; needs media + xhr + image
 @@||cloudfront.net^$xhr,media,image,from=comettv.com
