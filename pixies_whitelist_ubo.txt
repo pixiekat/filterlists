@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 15September2026v2
+! Version: 15September2026v3
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -214,6 +214,7 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 ||ip.mu.social/geolocation$replace=/(?<="isAgeRestrictedGeo":)true/false/
 ||ip.mu.social/geolocation$replace=/(?<="isAgeBlockedGeo":)true/false/
 @@||bsky.network^$from=mu.social|deck.blue|blacksky.community|northsky.app
+@@||bsky.app^$media,xhr,from=mu.social|deck.blue|blacksky.community|northsky.app
 @@||cdn.bsky.app^$from=blacksky.community|deck.blue|mu.social|northsky.app
 @@||video.bsky.app^$from=blacksky.community|deck.blue|mu.social|northsky.app
 @@||video.cdn.bsky.app^$from=blacksky.community|deck.blue|mu.social|northsky.app
