@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-09-12T12:49:27Z
+! Version: 2026-09-22T00:39:08Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -232,12 +232,39 @@ docs.aws.amazon.com##.GIwN\+fnsOgfy9-QBp9lnOg\=\=:has-text(AI resources)
 ! * Seemingly only the article descriptions are AI. Should look into more targeted filter for main list.
 docs.aws.amazon.com##.t3G8h4IshJXWYCDYGqYhiA\=\=
 
+! ===========
+! == Bitly ==
+! ===========
+! -- https://app.bitly.com/integrations/discover
+! AI category chip
+app.bitly.com##.integrations-discovery-page__filter-chips > .orb-pill-button:has-text(AI)
+
+! AI integration services
+app.bitly.com##.integration-card:has([alt="Bitly Model Context Protocol (MCP) logo"])
+app.bitly.com##.integration-card:has([alt="ChatGPT logo"])
+app.bitly.com##.integration-card:has([alt="Claude logo"])
+app.bitly.com##.integration-card:has([alt="Microsoft Copilot logo"])
+app.bitly.com##.integration-card:has([alt="Notion logo"])
+app.bitly.com##.integration-card:has([alt="Perplexity logo"])
+
 ! ===============
 ! == Bitwarden ==
 ! ===============
 ! -- https://bitwarden.com/help/
 ! Footer - For agentic AI security
 bitwarden.com##li.leading-1:has(> [href="/solutions/agentic-ai-security/"])
+
+! ================
+! == Britannica ==
+! ================
+! -- https://www.britannica.com/chatbot
+||www.britannica.com/chat-api/$xhr,domain=www.britannica.com
+
+! ==========================
+! == Cambridge Dictionary ==
+! ==========================
+! -- https://dictionary.cambridge.org/assistant
+||dictionary.cambridge.org/api/assistant/$xhr,domain=dictionary.cambridge.org
 
 ! ================
 ! == Cribl Docs ==
@@ -251,6 +278,27 @@ docs.cribl.io##.markdown-view-toggle__container
 ! =====================
 ! AI category in navbar
 blog.cloudflare.com##.nav-item[data-tag="ai"]
+
+! ============
+! == CodeAI ==
+! ============
+! -- https://code.org/en-US
+! "Students already use AI" page header
+code.org##[data-test-id="contentful-container"] > .cf-33efcb1481cf5dd8badb9291766ba80a.cf-4b210d7b12374460fe9937cd64336a1f.cf-3dd61578533e7529a63589dcc03fa385:has(> h1)
+! "Code.org has become CodeAI" banner
+code.org##section:has(.fa-bullhorn):has([href="/codeai"][class*="genericButton-module__button-black___"])
+! AI cards in "New curriculum for a new standard"
+code.org##.container > div[data-component-wrapper="true"]:has(+ .contentful-container [data-testid="content-card"] [href="/curriculum/artificial-intelligence-discoveries"]):has(+ .contentful-container [href="/curriculum/artificial-intelligence-discoveries"]):has(+ .contentful-container [href^="https://studio.code.org/s/k5-ai-data"])
+code.org##.container > .contentful-container:has([data-testid="content-card"] [href="/curriculum/artificial-intelligence-discoveries"]):has([href="/curriculum/artificial-intelligence-discoveries"]):has([href^="https://studio.code.org/s/k5-ai-data"])
+
+! -- https://code.org/en-US/curriculum
+code.org##section:has(img[src*="TEACHER_DASHBOARD___MIX___MOVE_WITH_AI"]):has(img[src*="AIOceans-16x9-min_copy.jpg"]):has(img[src*="action-block-music-lab-jam-session.png"])
+
+! -- https://code.org/en-US/parents
+! "Hour of AI activities" button
+code.org##div:has(> [href="/hour-of-ai"][class^="genericButton-module__button___"])
+! "Start with the Hour of AI" section
+code.org##h2:has-text(Start with the Hour of AI):upward(section)
 
 ! ============
 ! == DBCode ==
@@ -299,6 +347,14 @@ www.dropbox.com##._mainContainer_yn2kq_11 > .dwg-hero-l3-plank__media-area.dwg-f
 www.dropbox.com###dwg_headline_plank-d494ba2353
 www.dropbox.com###dwg_multi_block_plank-e97fca73ef
 
+! ============
+! == Enikos ==
+! ============
+! -- https://www.enikos.gr/technology/eftase-i-evropaiki-diastimiki-apantisi-ston-ilon-mask-kai-legetai-spectrum-deite-vinteo/2639509/
+! Article summary
+! * Not directly stated to be AI. Auto-translation of disclaimer says "The text of each summary is checked by ENIKOS journalists"
+www.enikos.gr##[aria-labelledby="article-synopsis-heading"]
+
 ! ===========
 ! == eVero ==
 ! ===========
@@ -338,6 +394,10 @@ github.com##.prc-ActionList-ActionListItem-So4vC:has(> [href="/settings/copilot"
 ! Right sidebar - Copilot promo banner
 ||github.com/static/images/modules/dashboard/promos/copilot-$image,1p
 
+! -- https://github.com/home
+! "Accelerate your entire workflow" section
+github.com###automation > .lp-SectionTemplate > .lp-SectionBlock > .lp-SectionBlock-content > :is(.lp-SectionIntro, .lp-SectionHero)
+
 ! =================
 ! == GitHub Blog ==
 ! =================
@@ -365,6 +425,10 @@ github.dev###chat\.statusBarEntry
 docs.github.com##.SearchOverlay_footer__45kw_
 ! All Docs - GitHub Copilot section
 docs.github.com##[class^="ProductSelectionCard_cell__"]:has([title="GitHub Copilot"])
+
+! -- https://docs.github.com/en/get-started
+! Recommended - Learn to code with GitHub Copilot
+docs.github.com##[data-testid="carousel-items"] > [class^="Primer_Brand__Card-module__Card__outer___"]:has([href="/en/free-pro-team@latest/get-started/learning-to-code"])
 
 ! -- https://docs.github.com/en/get-started/using-github/hello-world
 ! Copy as Markdown button
@@ -410,10 +474,6 @@ gizmodo.com##.giz-bg-main [href="https://gizmodo.com/tech/artificial-intelligenc
 ! AI grammar suggestions
 ! * Also seemingly disables spellchecking
 ||appsgenaiserver-pa.clients6.google.com/v1/genai/$xhr,domain=mail.google.com
-! Remove "Ask Gmail" from search bar
-mail.google.com#%#//scriptlet('trusted-set-attr', '.searchboxInputFontClass[placeholder="Ask Gmail"]', 'placeholder', 'Search mail')
-mail.google.com#%#//scriptlet('trusted-set-attr', 'button[aria-label="Search mail"] > svg[viewBox="0 -960 960 960"]', 'viewBox', '0 0 24 24')
-mail.google.com#%#//scriptlet('trusted-set-attr', 'button[aria-label="Search mail"] path', 'd', 'M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z')
 
 ! ==================
 ! == Google About ==
@@ -571,6 +631,16 @@ www.humblebundle.com##.bundle:is([href*="/ai-"], [href*="-ai-"], [href*="claude-
 ! * Required for submitting tickets to a human
 central.insightsoftware.com###forethought-chat
 
+! ===============
+! == Instagram ==
+! ===============
+! Hide posts with AI content label
+! * Needs testing before it can be moved to main filters
+! * Doesn't work in AdGuard. Unsure why.
+!#if ext_ublock
+www.instagram.com##+js(json-edit, $..[?@.node..ai_label_info.gen_ai_detection_method], , propsToMatch, /graphql/query)
+!#endif
+
 ! ==================
 ! == Live Science ==
 ! ==================
@@ -716,6 +786,13 @@ support.simplifi.quicken.com##[data-testid="notification-preview-container"]:has
 ! "Copy Page" as markdown button
 docs.rackspace.com##.rm-AIDropdown
 
+! ==================
+! == Raspberry Pi ==
+! ==================
+! -- https://www.raspberrypi.com/documentation/
+! Documentation for "AI software"
+www.raspberrypi.com##.box[href="/documentation/computers/ai.html"]
+
 ! =============
 ! == Raycast ==
 ! =============
@@ -802,7 +879,7 @@ developer.salesforce.com##doc-content-action-toolbar
 ! LeapSpace carousel item.
 ! * Checks for exactly 2 slides to avoid filtering if the layout changes in the future
 www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child:nth-child(2)) > #tabpanel-0:has(> .leapSpace-banner)
-www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child:nth-child(2)) > #tabpanel-0:has(> .leapSpace-banner) + #tabpanel-1:style(display: block !important;)
+www.sciencedirect.com###bannerCarouselContent > .carousel-slides:has(:last-child:nth-child(2)) > #tabpanel-0:has(> .leapSpace-banner) + #tabpanel-1 {display: block !important}
 www.sciencedirect.com###bannerCarouselContent .carousel-indicators:has(:last-child:nth-child(2)) > li:nth-child(1):has(>[aria-label="LeapSpace slide"])
 
 ! =============
@@ -982,6 +1059,10 @@ www.youtube.com###movie_player::after:style(content:var(--new-text-2); z-index:9
 !   by asking to contact a real person.
 studio.youtube.com##ytcp-sam-chat
 
+! -- Video details
+! Automatic chapter suggestions
+studio.youtube.com###suggestion-button:has([aria-label="Chapters available"])
+
 ! ============
 ! == Zazzle ==
 ! ============
@@ -1014,6 +1095,14 @@ zoom.us##.highlight-control-bar-outer-container
 zoom.us###tab-summary
 ! Summary tab content
 zoom.us###pane-summary
+
+! ------------------------
+
+! ===========================
+! == The Porn Links (NSFW) ==
+! ===========================
+! Blog post about AI porn vs traditional porn
+thepornlinks.com##.RelatedPosts-hp > [href="https://thepornlinks.com/blog/ai-porn-generators-vs-traditional-porn-sites/"]
 
 
 ! ===========================================================================
