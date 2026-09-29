@@ -151,6 +151,10 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 ! Unfucks the Blizzard forums since they fuckin' use Cloudfront.
 @@||cloudfront.net^$image,script,font,css,xhr,from=forums.blizzard.com
 
+! Unbreaks Taylor Swift Store
+@@||cloudfront.net^$script,css,xhr,from=store.taylorswift.com
+@@||typekit.net^$css,from=store.taylorswift.com
+
 ! Comet TV serves video from CloudFront; needs media + xhr + image
 @@||cloudfront.net^$xhr,media,image,from=comettv.com
 
