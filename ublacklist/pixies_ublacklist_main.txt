@@ -190,3 +190,13 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.reformparty.org/*
 *://*.reformparty.uk/*
 *://*.restorebritain.org.uk/*
+
+# --- Sites I just don't like ---
+*://*.wwe.com/*
+*://*.youtube.com/channel/UCJ5v_MCY6GNUBTO8-D3XoAg
+*://*.youtube.com/@WWE*
+*://*.youtube.com/WWEFanNation*
+*://*.wikipedia.org/wiki/WWE
+*://*.bleacherreport.com/wwe
+*://*.bleacherreport.com/wwe/*
+*://*.cbssports.com/wwe/*
