@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 29September2026v1
+! Version: 2October2026v1
 ! Expires: 14 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -178,6 +178,7 @@ www.youtube.com##.ryd-premium-teaser
 ||doge.gov^$document,all,domain=~its-a-fascist-domain.*
 ||dol.gov^$document,all,domain=~its-a-fascist-domain.*
 ||donaldjtrump.com^$document,all,domain=~its-a-fascist-domain.*
+||energy.gov^$document,all,domain=~its-a-fascist-domain.*
 ||fbi.gov^$document,all,domain=~its-a-fascist-domain.*
 ||fcc.gov^$document,all,domain=~its-a-fascist-domain.*
 ||federalregister.gov^$document,all,domain=~its-a-fascist-domain.*
@@ -186,11 +187,14 @@ www.youtube.com##.ryd-premium-teaser
 ||hhs.gov^$document,all,domain=~its-a-fascist-domain.*
 ||justice.gov^$document,all,domain=~its-a-fascist-domain.*
 ||kennedy-center.org^$document,all,domain=~its-a-fascist-domain.*
+||nasaforce.gov^$document,all,domain=~its-a-fascist-domain.*
+||ndstudio.gov^$document,all,domain=~its-a-fascist-domain.*
 ||play.google.com/store/apps/details?id=gov.whitehouse.app^$document,all,domain=~its-a-fascist-domain.*
 ||realfood.gov^$document,all,domain=~its-a-fascist-domain.*
 ||regulations.gov^$document,all,domain=~its-a-fascist-domain.*
 ||rnc.org^$document,all,domain=~its-a-fascist-domain.*
 ||state.gov^$document,all,domain=~its-a-fascist-domain.*
+||techforce.gov^$document,all,domain=~its-a-fascist-domain.*
 ||trump.com^$document,all,domain=~its-a-fascist-domain.*
 ||trumpaccounts.gov^$document,all,domain=~its-a-fascist-domain.*
 ||trumpcard.gov^$document,all,domain=~its-a-fascist-domain.*
@@ -199,6 +203,7 @@ www.youtube.com##.ryd-premium-teaser
 ||trumprx.gov^$document,all,domain=~its-a-fascist-domain.*
 ||trumpvancetransition.com^$document,all,domain=~its-a-fascist-domain.*
 ||usa.gov^$document,all,domain=~its-a-fascist-domain.*
+||usajobs.gov^$document,all,domain=~its-a-fascist-domain.*
 ||war.gov^$document,all,domain=~its-a-fascist-domain.*
 ||waste.gov^$document,all,domain=~its-a-fascist-domain.*
 ||whitehouse.gov^$document,all,domain=~its-a-fascist-domain.*

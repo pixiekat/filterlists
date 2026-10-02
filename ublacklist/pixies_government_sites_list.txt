@@ -30,6 +30,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.doge.gov/*
 *://*.dol.gov/*
 *://*.donaldjtrump.com/*
+*://*.energy.gov/*
 *://*.fbi.gov/*
 *://*.fcc.gov/*
 *://*.federalregister.gov/*
@@ -38,11 +39,14 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.heritage.org/*
 *://*.justice.gov/*
 *://*.kennedy-center.org/*
+*://*.nasaforce.gov/*
+*://*.ndstudio.gov/*
 *://play.google.com/store/apps/details?id=gov.whitehouse.app*
 *://*.realfood.gov/*
 *://*.regulations.gov/*
 *://*.rnc.org/*
 *://*.state.gov/*
+*://*.techforce.gov/*
 *://*.trump.com/*
 *://*.trumpaccounts.gov/*
 *://*.trumpcard.gov/*
@@ -50,6 +54,8 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://*.trumprx.com/*
 *://*.trumpvancetransition.com/*
 *://*.tulsigabbard.com/*
+*://*.usajobs.gov/*
+*://*.usa.gov/*
 *://*.war.gov/*
 *://*.waste.gov/*
 *://*.whitehouse.gov/*

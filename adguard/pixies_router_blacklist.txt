@@ -1,6 +1,6 @@
 ! Title: Pixiekat's Router Block List
-! Version: 29September2026v1
-! Expires: 14 days
+! Version: 2October2026v1
+! Expires: 30 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom block list for adguard home
 
@@ -17,17 +17,22 @@
 ||doge.gov^$important
 ||dol.gov^$important
 ||donaldjtrump.com^$important
+||energy.gov^$important
 ||fbi.gov^$important
 ||fcc.gov^$important
 ||federalregister.gov^$important
+||freedom.gov^$important
 ||gop.com^$important
 ||hhs.gov^$important
 ||justice.gov^$important
 ||kennedy-center.org^$important
+||nasaforce.gov^$important
+||ndstudio.gov$important
 ||realfood.gov^$important
 ||regulations.gov^$important
 ||rnc.org^$important
 ||state.gov^$important
+||techforce.gov^$important
 ||trump.com^$important
 ||trumpaccounts.gov^$important
 ||trumpcard.gov^$important
@@ -36,6 +41,7 @@
 ||trumprx.gov^$important
 ||trumpvancetransition.com^$important
 ||usa.gov^$important
+||usajobs.gov^$important
 ||war.gov^$important
 ||waste.gov^$important
 ||whitehouse.gov^$important
