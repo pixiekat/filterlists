@@ -44,6 +44,7 @@ homepage: https://codeberg.org/pixiekat/filterlists/raw/branch/main/ublacklist/p
 *://play.google.com/store/apps/details?id=gov.whitehouse.app*
 *://*.realfood.gov/*
 *://*.regulations.gov/*
+*://*.retire.opm.​gov/*
 *://*.rnc.org/*
 *://*.state.gov/*
 *://*.techforce.gov/*

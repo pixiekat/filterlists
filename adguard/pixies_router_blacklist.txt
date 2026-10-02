@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Router Block List
-! Version: 2October2026v1
+! Version: 2October2026v2
 ! Expires: 30 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom block list for adguard home
@@ -30,6 +30,7 @@
 ||ndstudio.gov$important
 ||realfood.gov^$important
 ||regulations.gov^$important
+||retire.opm.​gov^$important
 ||rnc.org^$important
 ||state.gov^$important
 ||techforce.gov^$important
