@@ -27,7 +27,7 @@ from reading a single rule:
 **The sentinel-domain idiom.** Blocklist entries in `ublock/pixies_blacklist.txt` carry a
 negated pseudo-domain that doesn't exist, e.g.:
 
-```
+```adguard
 ||foxnews.com^$document,all,domain=~its-a-fascist-domain.*
 ```
 
@@ -47,7 +47,7 @@ subscribers, not a semantic version.
 **Geo-spoofing via `$replace=`.** Age-assurance walls are worked around by rewriting the
 JSON the site uses to locate you, rather than by blocking anything:
 
-```
+```adguard
 ||ip.bsky.app/config$replace=/(?<="countryCode":").+?(?=")/US/
 ||ip.bsky.app/config$replace=/(?<="isAgeRestrictedGeo":)true/false/
 ```
@@ -62,6 +62,14 @@ inline in the list.
 ### Tooling
 
 - `.gitignore` added (`7f4cb8a`).
+- `CHANGELOG.md` added (`1b87eba`).
+
+### Added
+
+- Added additional government sites including `nasaforce.gov`, `ndstudio.gov`, and other fascist sites (`995fd1b`).
+- WWE filtered out of search results under a new *"Sites I just don't like"* section
+  (`98b194d`): `wwe.com`, WWE's YouTube channels, its Wikipedia page, and the WWE sections
+  of Bleacher Report and CBS Sports.
 
 ### Automation
 
