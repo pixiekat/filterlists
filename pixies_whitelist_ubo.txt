@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 17September2026v1
+! Version: 3October2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -161,6 +161,15 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 ! General Cloudfront unblocking for sites I use
 @@||cloudfront.net^$image,script,font,css,from=acquia.com|slack.com|curseforge.com
 
+! Unblocks the roster images on allelitewrestling.com since they're hosted on Amazon.
+@@||cloudfront.net^$image,from=www.allelitewrestling.com
+
+! Unfucks literally everything about the Dreamhost Panel
+@@||cloudfront.net^$css,script,font,image,media,from=panel.dreamhost.com
+
+! Adobe can eat my ass honestly
+@@||cloudfront.net^$image,css,script,xhr,from=adobe.com
+
 ! disqus on mediaite — embed is inside a disqus.com iframe,
 ! so the from= list needs both the host page and disqus itself
 @@||disqus.com^$xhr,script,frame,from=mediaite.com|disqus.com
@@ -217,11 +226,22 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 ||ip.mu.social/geolocation$replace=/(?<="regionCode":").+?(?=")/WA/
 ||ip.mu.social/geolocation$replace=/(?<="isAgeRestrictedGeo":)true/false/
 ||ip.mu.social/geolocation$replace=/(?<="isAgeBlockedGeo":)true/false/
+
+! Unblocks Bsky video and media content for Bluesky alternative frontends.
 @@||bsky.network^$from=mu.social|deck.blue|blacksky.community|northsky.app
 @@||bsky.app^$media,xhr,from=mu.social|deck.blue|blacksky.community|northsky.app
 @@||cdn.bsky.app^$from=blacksky.community|deck.blue|mu.social|northsky.app
 @@||video.bsky.app^$from=blacksky.community|deck.blue|mu.social|northsky.app
 @@||video.cdn.bsky.app^$from=blacksky.community|deck.blue|mu.social|northsky.app
+
+! Also unblocks the gif picker on Bluesky alternative frontends.
+@@||bsky.app^$3p,from=northsky.app|mu.social|blacksky.community|deck.blue
+
+! Unfucks Google Photos
+@@||ogads-pa.clients6.google.com^$xhr,from=photos.google.com
+@@||peoplestackwebexperiments-pa.clients6.google.com^$xhr,from=photos.google.com
+@@||peoplestack-pa.clients6.google.com^$xhr,from=photos.google.com
+@@||play.google.com/log^$post,xhr,from=photos.google.com
 
 ! Trans fucking rights; fuck Joanne Karen Rowling
 @@||jkrowlingcensoredthis.online
