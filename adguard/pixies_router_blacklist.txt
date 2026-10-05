@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Router Block List
-! Version: 2October2026v2
+! Version: 5October2026v1
 ! Expires: 30 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's custom block list for adguard home
@@ -46,3 +46,16 @@
 ||war.gov^$important
 ||waste.gov^$important
 ||whitehouse.gov^$important
+
+! Fascist Adjacent Sites
+||breitbart.com^$important
+||dailycaller.com^$important
+||dailywire.com^$important
+||foxnews.com^$important
+||foxweather.com^$important
+||grok.com^$important
+||t.com^$important
+||thegatewaypundit.com^$important
+||thepostmillennial.com^$important
+||twitter.com^$important
+||x.com^$important
