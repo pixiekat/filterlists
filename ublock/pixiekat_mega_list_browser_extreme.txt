@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega List (Extreme Version 🥵)
-! Version: 2026-10-01T16:04:42Z
+! Version: 2026-10-07T11:00:42Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's Mega List (Extreme Version 🥵)
@@ -315,6 +315,17 @@ code.org##div:has(> [href="/hour-of-ai"][class^="genericButton-module__button___
 ! "Start with the Hour of AI" section
 code.org#?#h2:has-text(Start with the Hour of AI):upward(section)
 
+! =================
+! == Cortex Docs ==
+! =================
+! -- https://cortex-docs.paloaltonetworks.com/
+! Header on homepage (Ask button missing and there's no header)
+cortex-docs.paloaltonetworks.com##body:has(.page-no-toc) header:has(> .layout-wide\:page-no-toc\:hidden)
+
+! -- https://cortex-docs.paloaltonetworks.com/cortex-cloud-runtime-security
+! Ask button + Markdown copy menu
+cortex-docs.paloaltonetworks.com,gitbook.com##header > .float-right:has(button[aria-label="Ask"])
+
 ! ============
 ! == DBCode ==
 ! ============
@@ -384,6 +395,12 @@ www.evero.com##.giving:has([src="https://www.evero.com/wp-content/uploads/2025/1
 www.foxbusiness.com##.dropdown-item--ai
 ! Footer > Tech > AI
 www.foxbusiness.com##.nav-item--ai
+
+! =======================
+! == freemediaheckyeah ==
+! =======================
+! AI page category
+fmhy.net##.item:has(> [href="/ai"])
 
 ! ===============
 ! == Futuruism ==
@@ -609,6 +626,13 @@ www.google.*##.gTxCBd:has(> [href^="https://labs.google.com/search?"])
 ! Google Labs icon in header (mobile)
 www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 
+! ====================
+! == Google Support ==
+! ====================
+! -- https://support.google.com/
+! Support category for Gemini Apps
+support.google.com##.product-selector li:has([data-stats-id="Gemini Apps"])
+
 ! ===================
 ! == Hello Klarity ==
 ! ===================
@@ -623,6 +647,13 @@ www.google.*##.pXDBqb:has(> [href^="https://labs.google.com/search?"])
 ! -- https://hevodata.com/learn/airflow-sql-server/
 ! Article summary (Unsure if this is actually AI)
 hevodata.com##.post-summary
+
+! ================
+! == HiringCafe ==
+! ================
+! Default to classic search (trusted only)
+! * Does not work when clicking home icon
+hiringcafe.com#%#//scriptlet('trusted-click-element', '[aria-label="Search mode"] > [data-testid="search-mode-classic"]:not([aria-current="page"])')
 
 ! =================
 ! == How-To Geek ==
@@ -661,6 +692,14 @@ www.instagram.com##+js(json-edit, $..[?@.node..ai_label_info.gen_ai_detection_me
 ! ==========
 ! AI image filter options if "None" has been selected
 kagi.com##.dropdown.filter-item:has(>.dd-list[data-name="ai"] .inner-label[aria-current="true"]:not([href*="&ai="]))
+
+! ==============
+! == LinkedIn ==
+! ==============
+! -- https://www.linkedin.com/jobs/view/4384663522/
+! "Use AI to assess how you fit" on job listing
+! * Experimental filter
+www.linkedin.com##[data-testid="lazy-column"] > div > div:has(div > [data-display-contents="true"] .dj9t1.dj9xj.dj901.dj94j.dj98q.dj9abz.dj9ae8.dj9aih.dj9bg1.dj9dbj.dj97s #InitialStateHowYouFitSlot)
 
 ! ==================
 ! == Live Science ==
@@ -756,6 +795,12 @@ min.io#?#.new-section:has-text(One Foundation. Every AI Workflow.)
 ! Floating chat icon
 ! * Is also used for chatting with human support
 mixam.com###front-chat-iframe
+
+! ========================
+! == Noble Knight Games ==
+! ========================
+! Tracking script from AI company
+||services.zoovu.com/events/user-tracking-script/$script,domain=www.nobleknight.com
 
 ! ===========
 ! == Opera ==
@@ -1121,6 +1166,15 @@ www.youtube.com#?#.ytwHowThisWasMadeSectionViewModelBodyHeader:has-text("Made wi
 www.youtube.com#?#.ytwHowThisWasMadeSectionViewModelBodyHeader:has-text("Made with AI"):upward(ytd-watch-flexy):style(--new-text-2:"Disclosed in video description")
 www.youtube.com###movie_player::before:style(content:var(--new-text-1); position:absolute; top:12px; right:12px; background:#ff0033; color:#fff; padding:6px 12px 15px; border-radius:6px; font-size:40px; font-weight:700; z-index:999; box-shadow:0 2px 10px rgba(0,0,0,0.6); border:2px solid #fff;)
 www.youtube.com###movie_player::after:style(content:var(--new-text-2); z-index:99999; position:absolute; top:68px; right:65px;)
+
+! -- https://www.youtube.com/watch?v=oh5p5f5_-7A
+!#if adguard
+! Make Automatic Chapter filters work when loading video via direct URL.
+! I believe the issue is caused by YT embedding the data in a JS script, but I'm not sure how
+! this fixes that. ¯\_(ツ)_/¯
+! Source: https://github.com/AdguardTeam/AdguardFilters/commit/73b32db65769d4fa918c05517f0a438df1ae095b
+www.youtube.com#%#(()=>{let t=!1;const i={apply:(i,n,a)=>{try{!t&&window.ytInitialData&&(window.ytInitialData=JSON.parse(JSON.stringify(window.ytInitialData)),t=!0)}catch(t){}return Reflect.apply(i,n,a)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then,i)})();
+!#endif
 
 ! ====================
 ! == YouTube Studio ==

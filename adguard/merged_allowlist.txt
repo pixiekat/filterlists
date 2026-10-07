@@ -1,5 +1,5 @@
 ! Title: Pixiekat's Mega White List (Router)
-! Version: 2026-08-28T00:59:14Z
+! Version: 2026-10-07T11:00:38Z
 ! Expires: 7 days
 ! Homepage: https://codeberg.org/pixiekat/filterlists
 ! Description: Pixiekat's merged allowlist for AdGuard Home
@@ -290,6 +290,7 @@
 ! ===========================================================================
 @@|archive-01.torproject.org^
 @@|archive.torproject.org^
+@@|artifacts.celenity.dev^
 @@|artifacts.ironfoxoss.org^
 @@|assets.celenity.dev^
 @@|assets.ironfoxoss.org^
@@ -331,6 +332,7 @@
 @@|laptop-updates.brave.com^
 @@|laptop-updates.brave.software^
 @@|laptop-updates.bravesoftware.com^
+@@|librewolf.dev^
 @@|librewolf.net^
 @@|metrics.torproject.org^
 @@|nightlies.tbb.torproject.org^
@@ -347,6 +349,7 @@
 @@|tools.l.google.com^
 @@|tor.bravesoftware.com^
 @@|update.googleapis.com^
+@@|update.librewolf.net^
 @@|update.vanadium.app^
 @@|updates-cdn.brave.com^
 @@|updates-cdn.bravesoftware.com^
@@ -448,9 +451,11 @@
 @@|captive-cdn.origin-apple.com.akadns.net^
 @@|captive-cidr.origin-apple.com.akadns.net^
 @@|captive.apple.com^
+@@|captive.celenity.dev^
 @@|captive.g.aaplimg.com^
 @@|captive.gogoinflight.com^
 @@|captive.inflightinternet.com^
+@@|captive.ironfoxoss.org^
 @@|captive.o2wifi.co.uk^
 @@|captivemgr.o2wifi.net.uk^
 @@|captiveportal-login.belex.com^
@@ -498,6 +503,7 @@
 @@|cust.blueprintrf.com^
 @@|dalan.cust.blueprintrf.com^
 @@|deltawifi.com^
+@@|detectportal-fastly.firefox.com^
 @@|detectportal.firefox.com^
 @@|detectportal.prod.mozaws.net^
 @@|device-apaceast-h2.central.arubanetworks.com^
@@ -528,6 +534,7 @@
 @@|euw1.cloudguest.central.arubanetworks.com^
 @@|fedsso.yum.com^
 @@|files.aa.entertainment.viasat.com^
+@@|firefox-portal-detection.com^
 @@|fireoscaptiveportal.com^
 @@|flyfi.com^
 @@|foo.cust.blueprintrf.com^
@@ -756,6 +763,7 @@
 @@|wirelessportal2.americanexpress.com.akadns.net^
 @@|wlb1-1579773356.us-east-1.elb.amazonaws.com^
 @@|wlb1.us-east-1.sbux-portal.globalreachtech.com^
+@@|wlc02.indy.gov^
 @@|www.aainflight.com^
 @@|www.acwifi.com^
 @@|www.aerlingus-wifi.com^
@@ -3770,6 +3778,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|eu01.server.xdr.eset.systems^
 @@|eu02.protect.eset.com^
 @@|europe.analytics.controld.com^
+@@|events.cfa.sportscenter.espn.com^
 @@|federation.syd1.qualtrics.com^
 @@|feedburner.com^
 @@|forcesafesearch.google.com^
@@ -3981,6 +3990,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|paulcarroty.gitlab.io^
 @@|paybills.mynt.xyz^
 @@|paybills.mynt.xyz-v1.edgekey.net^
+@@|paywall.sports.client.dtci.technology^
 @@|pico.eset.com^
 @@|pico.gtm.eset.com^
 @@|ping.eu^
@@ -3988,6 +3998,7 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|ping.prod.colab.dev^
 @@|prestream.mov^
 @@|privacy.sexy^
+@@|promo.api.my.chick-fil-a.com^
 @@|protect.eset.com^
 @@|protonapps.com^
 @@|proxy-detection.eset.com^
@@ -4029,6 +4040,8 @@ openverse.org#@#+js(set-local-storage-item, plausible_ignore, true)
 @@|snu-dev.lge.com^
 @@|snu.lge.com^
 @@|socialize.gigya.com.edgekey.net^
+@@|sportscenter-cfa-api-cdn.espn.com^
+@@|sportscenter.fan.api.espn.com^
 @@|ssl-download.adobe.com.edgekey.net^
 @@|stat.columbia.edu^
 @@|static.growave.io^
