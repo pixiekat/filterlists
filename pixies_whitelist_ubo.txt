@@ -185,8 +185,11 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 fmhy.net#@#.item:has(> [href="/ai"])
 
 ! Beacon.tv images, script, and memberful embeds
-@@||beacon.$image,script,xhr,domain=beacon.tv
+@@||beacon.$image,css,font,inline-script,script,xhr,domain=beacon.tv
 @@||memberful.com^$3p,from=beacon.tv
+@@||/jwpsrv.js$script,from=beacon.tv
+@@||cloudfront.net^$xhr,from=beacon.tv
+@@||jwpltx.com^$image,from=beacon.tv
 
 ! Spam TLDs that are OK
 @@||1337x.to^$document
