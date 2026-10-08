@@ -186,7 +186,7 @@ fmhy.net#@#.item:has(> [href="/ai"])
 
 ! Beacon.tv images, script, and memberful embeds
 @@||beacon.$image,script,xhr,domain=beacon.tv
-@@||memberful.com^$3p,from=beavon.tv
+@@||memberful.com^$3p,from=beacon.tv
 
 ! Spam TLDs that are OK
 @@||1337x.to^$document
