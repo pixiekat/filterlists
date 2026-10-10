@@ -1,7 +1,11 @@
 as-dash-uk-live.akamaized.net
+as-dash-uk.live.cf.md.bbci.co.uk
 bbc.co.uk
 bbc.com
+bbc.map.fastly.net
 bbci.co.uk
+discoveryplus.com
+open.live.bbc.co.uk
 pub-c2-b8-eqsl-bbc.live.bidi.net.uk
 server.slsknet.org
 sounds.files.bbci.co.uk

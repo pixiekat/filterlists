@@ -12,6 +12,7 @@ lesbian8.com
 lgbtqia.space
 lgbtqiaspace.b-cdn.net
 motherless.com
+mu.social
 phncdn.com
 piefed.social
 pornhub.com
@@ -22,6 +23,10 @@ tenor.com
 tnaflix.com
 totallyacdn.com
 tumblr.com
+vimeo.com
+vimeo.com.cdn.cloudflare.net
+vimeo.map.fastly.net
+vimeocdn.com
 xhamster.com
 xhcdn.com
 xumo.com
