@@ -159,7 +159,8 @@ moviesanywhere.com
 mr-z01.tm-azurefd.net
 mriresidentconnect.com
 msauth.net
-msftauth.net 
+msftauth.net
+msftauthimages.net
 mullvad.net
 myheritage.com
 mysynchrony.com
@@ -232,11 +233,13 @@ repo.vivaldi.com
 repositories.intel.com
 repository.mullvad.net
 res.public.onecdn.static.microsoft
+s-part-0048.t-0009.t-msedge.net
 secretservercloud.com
 secure-dcr.imrworldwide.com
 secure.actblue.com
 secureinternetbank.com
 sharepoint.com
+shed.outlook.acdc.tm.svc.cloud.microsoft
 siriusxm.com
 siriusxmpreferences.com
 smtp.dreamhost.com
