@@ -1,11 +1,9 @@
 7thheaven.rocks
 aaa.com
-aadcdn.msauth.net
 abuseipdb.com
 accounts.google.com
 adpizzapub.com
 advancedmd.com
-afd-a-acdc-direct.office.com
 africancancerstars.org
 airbnb.com
 aiv-cdn.net
@@ -15,7 +13,6 @@ alb-podcast-api-production-969323618.us-east-1.elb.amazonaws.com
 alicantobidmc.org
 amazon.com
 amazonvideo.com
-amplitude.prod.getflex.com
 anthropic.com
 api.hetzner.cloud
 api.pocketcasts.com
@@ -84,12 +81,9 @@ downloads.1password.com
 downloads.vivaldi.com
 drive-api.proton.me
 drive.usercontent.google.com
-drivefrontend-pa.clients6.google.com
 dropbox.com
 dropboxexperiment.com
 dropboxstatic.com
-dualstack.reddit.map.fastly.net
-e0d67c509fb203858ebcb2fe3f88c2aa.baas.nintendo.com
 ec2-3-227-209-244.compute-1.amazonaws.com
 ec2-35-170-165-158.compute-1.amazonaws.com
 ec2-35-175-89-30.compute-1.amazonaws.com
@@ -100,12 +94,9 @@ epayment.nets.eu
 f-droid.org
 fi.google.com
 fi.telephony.goog
-flathub.org
 forthem.com
 fwupd.org
 gamestop.com
-generativelanguage.googleapis.com
-getflex.com
 getflex.com
 ghcr.io
 ghcr1production.blob.core.windows.net
@@ -128,17 +119,13 @@ hrblock.com
 htv-prod-media.s3.amazonaws.com
 imap.dreamhost.com
 imap.mail.us-east-1.awsapps.com
-instantmessaging-pa-jms-us.googleapis.com
-instantmessaging-pa.googleapis.com
 intuit.com
 iphmx.com
 itsystems.org
 izzy.zw.is
-jellyfin.org
 js.appboycdn.com
 kubrick.htvapps.com
 lifestance.com
-linuxmint.com
 login.live.com
 login.microsoft.com
 login.microsoftonline.com
@@ -175,7 +162,6 @@ nintendo.net
 nintendo.quiq-api.com
 nvidia.github.io
 office.com
-ogads-pa.clients6.google.com
 ollama.com
 onedscolprdcus17.centralus.cloudapp.azure.com
 ooklaserver.net
@@ -183,7 +169,6 @@ order.foodtecsolutions.com
 ordering-latte-cdn.foodtecsolutions.com
 outlook.cloud.microsoft
 outlook.com
-outlook.office.com
 outlook.office365.com
 packages.cloud.google.com
 packages.linuxmint.com
@@ -201,7 +186,6 @@ playerservices.streamtheworld.com
 playstation.com
 playvids.com
 podcast-api.pocketcasts.com
-portal.bidmc.org
 portal.rsmessaging.com
 ppa.launchpadcontent.net
 pphosted.com
@@ -231,7 +215,6 @@ repo.protonvpn.com
 repo.steampowered.com
 repo.vivaldi.com
 repositories.intel.com
-repository.mullvad.net
 res.public.onecdn.static.microsoft
 s-part-0048.t-0009.t-msedge.net
 secretservercloud.com
@@ -252,7 +235,6 @@ springserve.com
 ssh.devcloud.acquia-sites.com
 ssl-images-amazon.com
 static.wixstatic.com
-steamcdn-a.akamaihd.net
 steamcommunity.com
 steamcontent.com
 steampowered.com
@@ -260,7 +242,6 @@ steamserver.net
 steamstatic.com
 steamusercontent.com
 stopandshop.com
-store.akamai.steamstatic.com
 store.charlixcx.com
 strava.com
 streamable.com
