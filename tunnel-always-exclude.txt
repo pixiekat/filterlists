@@ -2,7 +2,6 @@
 35.170.165.158
 35.175.89.30
 77.42.82.236
-7thheaven.rocks
 aaa.com
 aadcdn.msauth.net
 abuseipdb.com
@@ -114,6 +113,7 @@ getflex.com
 ghcr.io
 ghcr1production.blob.core.windows.net
 github.com
+githubusercontent.com
 gitlab.com
 googleapis.com
 googleusercontent.com
@@ -143,6 +143,7 @@ kubrick.htvapps.com
 lifestance.com
 linuxmint.com
 login.live.com
+login.microsoft.com
 login.microsoftonline.com
 login.vivaldi.net
 mail.dreamhost.com
@@ -160,6 +161,8 @@ moes.com
 moviesanywhere.com
 mr-z01.tm-azurefd.net
 mriresidentconnect.com
+msauth.net
+msftauth.net 
 mullvad.net
 myheritage.com
 mysynchrony.com
@@ -188,6 +191,7 @@ packages.cloud.google.com
 packages.linuxmint.com
 packages.microsoft.com
 packages.mozilla.org
+packages.sury.org
 paloaltonetworks.com
 pangoly.com
 pdx1-shared-a1-19.dreamhost.com
@@ -212,14 +216,12 @@ publixcdn.com
 pv-cdn.net
 qcc.edu
 qdoba.com
-raw.githubusercontent.com
 reddit.com
 reddit.map.fastly.net
 redditmedia.com
 redditstatic.com
 registry.ollama.ai
 relay.dropout.tv
-release-assets.githubusercontent.com
 releases.grapheneos.org
 releases.ironfoxoss.org
 reliantmedicalgroup.org
