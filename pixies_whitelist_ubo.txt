@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 14October2026v1
+! Version: 14October2026v2
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -57,6 +57,7 @@ www.youtube.com#@#ytd-popup-container.ytd-app
 
 ! Unfucks SiriusXM player, which relies on Cloudfront css, images, fonts, scripts, and xhr.
 @@||cloudfront.net^$css,image,script,font,xhr,from=www.siriusxm.com
+@@||www.siriusxm.com/player$document
 
 ! Radio
 @@||www.wbur.org^$document,all
