@@ -1,5 +1,5 @@
 ! Title: 💞 Pixie's Whitelist
-! Version: 14October2026v2
+! Version: 15October2026v1
 ! Expires: 14 days
 ! Description: The OK websites for me!
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -258,6 +258,15 @@ fmhy.net#@#.item:has(> [href="/ai"])
 @@||peoplestackwebexperiments-pa.clients6.google.com^$xhr,from=photos.google.com
 @@||peoplestack-pa.clients6.google.com^$xhr,from=photos.google.com
 @@||play.google.com/log^$post,xhr,from=photos.google.com
+
+! This fixes the upstream 'AFNIL - Anti Fake News International List' list which
+! ended up catching things like @techdirt.com on Bluesky in the crosshairs and 
+! causing their usernames to be blanked.
+! Upstream issue is dead and will probably never be fixed, so I have to fix it here.
+! @see: https://github.com/AFNIL-AntiFakeNewsInternationalList/AFNIL/issues/4
+#@#a[href*="rt.com"]
+##a[href*="//rt.com"]
+##a[href*=".rt.com/"]
 
 ! Trans fucking rights; fuck Joanne Karen Rowling
 @@||jkrowlingcensoredthis.online
