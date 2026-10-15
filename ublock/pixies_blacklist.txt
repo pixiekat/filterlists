@@ -1,5 +1,5 @@
 ! Title: 🥶 Pixie's Blacklist
-! Version: 2October2026v2
+! Version: 15October2026v1
 ! Expires: 14 days
 ! Description: Ew, gross, get out of here! 
 ! Homepage: codeberg.org/pixiekat/filterlists
@@ -110,6 +110,8 @@ www.youtube.com##.ryd-premium-teaser
 ||tmz.com^$document,all,domain=~its-tabloid-gutter-trash.*
 
 ! Sites that contribute to evil
+||conservativebrief.com^$document,all,domain=~its-a-fascist-domain.*
+||daringfireball.net^$document,all,domain=~dines-at-the-nazi-bar.*
 ||grok.com^$document,all,domain=~its-a-fascist-domain.*
 ||grokipedia.com^$document,all,domain=~its-a-fascist-domain.*
 ||heritage.org^$document,domain=~its-a-fascist-domain.*
@@ -126,7 +128,6 @@ www.youtube.com##.ryd-premium-teaser
 ||twitter.com^$document,all,domain=~its-a-fascist-domain.*
 ||x.com^$document,all,domain=~its-a-fascist-domain.*
 ||xai.com^$document,all,domain=~its-a-fascist-domain.*
-||conservativebrief.com^$document,all,domain=~its-a-fascist-domain.*
 
 ! Spammy sites in general
 ||esspots.com^$document
@@ -192,7 +193,7 @@ www.youtube.com##.ryd-premium-teaser
 ||play.google.com/store/apps/details?id=gov.whitehouse.app^$document,all,domain=~its-a-fascist-domain.*
 ||realfood.gov^$document,all,domain=~its-a-fascist-domain.*
 ||regulations.gov^$document,all,domain=~its-a-fascist-domain.*
-||retire.opm.​gov^$document,all,domain=~its-a-fascist-domain.*
+||retire.opm.gov^$document,all,domain=~its-a-fascist-domain.*
 ||rnc.org^$document,all,domain=~its-a-fascist-domain.*
 ||state.gov^$document,all,domain=~its-a-fascist-domain.*
 ||techforce.gov^$document,all,domain=~its-a-fascist-domain.*
